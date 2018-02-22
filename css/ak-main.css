@@ -333,6 +333,7 @@ a.home_link {
     }
 
 a.home_link:hover,
+a.home_link.hover,
 a.home_link.active { 
      color: #fff;
     -moz-opacity: 1;
@@ -394,6 +395,7 @@ a.home_link.active {
         }
 
     .menu .menu_link:hover,
+    .menu .menu_link.hover,
     .menu .menu_link.active {
         -moz-opacity: 1;
         -khtml-opacity: 1;
