@@ -533,7 +533,7 @@ em {
     font-style: normal;
     }
 
-a:link {
+.content > a:link {
     color: #215493;
     text-decoration: none;
 /*    border-bottom: 1px solid #DCE4EE;*/
@@ -542,11 +542,6 @@ a:link {
 .content > a:visited {
         color: #4c2c92;
         }
-
-a:hover, a.hover {
-    color: #cd2026;
-    text-decoration: underline;
-    }
 
 .content > a:hover,
 .content > a.hover {
