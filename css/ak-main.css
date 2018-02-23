@@ -533,15 +533,15 @@ em {
     font-style: normal;
     }
 
-a {
+a:link {
     color: #215493;
     text-decoration: none;
-    -webkit-transition: all ease .2s;
-    -moz-transition: all ease .2s;
-    -o-transition: all ease .2s;
-    transition: all .2s ease;
 /*    border-bottom: 1px solid #DCE4EE;*/
     }
+
+.content > a:visited {
+        color: #4c2c92;
+        }
 
 a:hover, a.hover {
     color: #cd2026;
@@ -559,9 +559,7 @@ a:hover, a.hover {
         color: #212121;
         }
 
-.content > a:visited {
-        color: #4c2c92;
-        }
+
 
 .nav a,
 .nav a.hover,
