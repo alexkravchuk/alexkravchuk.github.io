@@ -533,24 +533,33 @@ em {
     font-style: normal;
     }
 
-.content > a:link {
+a {
     color: #215493;
     text-decoration: none;
-/*    border-bottom: 1px solid #DCE4EE;*/
     }
 
-.content > a:visited {
+a:hover, 
+a.hover {
+    color: #cd2026;
+    }
+
+.content a {
+    color: #215493;
+    text-decoration: none;
+    }
+
+.content a:visited {
         color: #4c2c92;
         }
 
-.content > a:hover,
-.content > a.hover {
+.content a:hover,
+.content a.hover {
         color: #cd2026;
         text-decoration: underline;
         }
 
-.content h3 > a:hover, 
-.content h3 > a.hover {
+.content h3 a:hover, 
+.content h3 a.hover {
         color: #212121;
         }
 
@@ -749,7 +758,8 @@ h2.no_line:before{
     text-decoration: none;
     }
 
-.copy a:hover {
+.copy a:hover,
+.copy a.hover {
     color: #fff;
     text-decoration: none;
     border-bottom: 1px solid #fff; 
