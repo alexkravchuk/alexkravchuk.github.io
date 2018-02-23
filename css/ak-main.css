@@ -549,23 +549,23 @@ a.hover {
     }
 
 .content a:visited {
-        color: #4c2c92;
-        }
+    color: #4c2c92;
+    text-decoration: none;
+    }
 
 .content a:hover,
 .content a.hover {
-        color: #cd2026;
-        text-decoration: underline;
-        }
+    color: #cd2026;
+    text-decoration: underline;
+    }
 
 .content h3 a:hover, 
 .content h3 a.hover {
-        color: #212121;
-        }
+    color: #212121;
+    }
 
 
-
-.nav a,
+.nav a:link,
 .nav a.hover,
 .nav a:hover {
     text-decoration: none;
@@ -746,8 +746,6 @@ h2.no_line:before{
     }
 
 
-
-
 .copy {
     font: normal 15px/1.4 'msc', sans-serif;
     color: #ddd;
@@ -814,18 +812,28 @@ h2.no_line:before{
     transition: all ease .3s;
     }
 
-a.button_50 {
+a.button_50:link {
     color: #fff;
     border: 1px solid #215493;
     }
 
-.button_50:hover,
-.button_50.hover {
+a.button_50:visited {
 	text-decoration: none;
 	outline: 0;
-    border: 1px solid #222;
+    border: 1px solid #4c2c92;
     color: #fff;
-	background: #222;
+	background: #4c2c92;
+    }
+
+.button_50:hover,
+.button_50.hover,
+a.button_50:hover,
+a.button_50.hover {
+	text-decoration: none;
+	outline: 0;
+    border: 1px solid #cd2026;
+    color: #fff;
+	background: #cd2026;
     }
 
 
