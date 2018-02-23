@@ -559,6 +559,10 @@ a:hover, a.hover {
         color: #212121;
         }
 
+.content > a:visited {
+        color: #4c2c92;
+        }
+
 .nav a,
 .nav a.hover,
 .nav a:hover {
