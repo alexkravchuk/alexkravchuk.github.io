@@ -543,39 +543,20 @@ a {
 /*    border-bottom: 1px solid #DCE4EE;*/
     }
 
-    .content p > a, 
-    .content li > a {
-        color: #215493;
-/*        color: #222;*/
-        text-decoration: none;
-/*        border-bottom: 1px solid #DCE4EE; */
-        }
-
-    .content h3 > a {
-/*            color: #215493;*/
-            color: #212121;
-/*            border-bottom: 1px solid #ddd;*/*/
-        }
-
-    .content h3 > a:hover, 
-    .content h3 > a.hover {
-            color: #212121;
-/*            border-bottom: 1px solid #ddd;*/
-        }
-
 a:hover, a.hover {
-    /*color: #105287;*/
-    color: #212121;
-    text-decoration: none;
-/*    border-bottom: 1px solid #ddd; */
+    color: #cd2026;
+    text-decoration: underline;
     }
 
-    .content p > a:hover, 
-    .content li > a:hover,
-    .content h3 > a:hover {
+.content > a:hover,
+.content > a.hover {
         color: #cd2026;
         text-decoration: underline;
-/*        border-bottom: 1px solid #ddd;*/
+        }
+
+.content h3 > a:hover, 
+.content h3 > a.hover {
+        color: #212121;
         }
 
 .nav a,
