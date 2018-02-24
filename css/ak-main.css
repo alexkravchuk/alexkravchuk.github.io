@@ -45,6 +45,13 @@ font-feature-settings: "ss01";
 	font-style: normal;
     }
 
+@font-face {
+	font-family: 'fab';
+	src: url('../fonts/fa-brands.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+    }
+
 ::selection {
 /*    background: #FDF623 !important;   */
     background: #112e51 !important;   
@@ -57,18 +64,28 @@ font-feature-settings: "ss01";
     color: #fff;
     }
 
+.fab {
+    font-family: 'fab', sans-serif;
+    font-weight: normal;
+	font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    }
 
 .far {
     font-family: 'far', sans-serif;
     font-weight: normal;
 	font-style: normal;
+    -webkit-font-smoothing: antialiased;
     }
 
 .fas {
     font-family: 'fas', sans-serif;
     font-weight: normal;
 	font-style: normal;
+    -webkit-font-smoothing: antialiased;
     }
+
+
 
 .fa_h3 {
     -webkit-font-smoothing: antialiased;
@@ -592,6 +609,10 @@ a[target="_blank"]:after:hover {
     text-decoration: none !important;
     }
 
+a[target="_blank"].no_arrow:after{
+    display: none;
+    }
+
 ul {
     padding: 0;
     margin: 0;
@@ -806,10 +827,10 @@ h2.no_line:before{
     border: 1px solid #215493;
     border-radius: none;
     box-shadow: none;
-    -webkit-transition: all ease .3s;
-    -moz-transition: all ease .3s;
-    -o-transition: all ease .3s;
-    transition: all ease .3s;
+    -webkit-transition: all ease .2s;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    transition: all ease .2s;
     }
 
 a.button_50:link {
@@ -820,9 +841,10 @@ a.button_50:link {
 a.button_50:visited {
 	text-decoration: none;
 	outline: 0;
-    border: 1px solid #4c2c92;
+/*    border: 1px solid #4c2c92;*/
+    border: 1px solid #215493;
     color: #fff;
-	background: #4c2c92;
+/*	background: #4c2c92;*/
     }
 
 .button_50:hover,
@@ -831,9 +853,10 @@ a.button_50:hover,
 a.button_50.hover {
 	text-decoration: none;
 	outline: 0;
-    border: 1px solid #cd2026;
+    border: 1px solid #111;
     color: #fff;
-	background: #cd2026;
+	background: #111;
+/*    padding: 0px 35px;*/
     }
 
 
