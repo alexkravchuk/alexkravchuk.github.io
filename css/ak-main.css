@@ -869,7 +869,7 @@ a.button_fluid {
     display: block;
     width: 64px;
     height: 64px;
-    border-radius: 1000px;
+    border-radius: 100%;
     text-align: center;
     text-decoration: none;
     background: #215493;
