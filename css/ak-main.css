@@ -861,8 +861,8 @@ a.button_50.hover {
 
 .button_fluid_box {
     position: fixed;
-    right: 2%;
-    bottom: 25px;
+    right: 20px;
+    bottom: 20px;
     }
 
 a.button_fluid {
