@@ -859,6 +859,54 @@ a.button_50.hover {
 /*    padding: 0px 35px;*/
     }
 
+.button_fluid_box {
+    position: fixed;
+    right: 2%;
+    bottom: 25px;
+    }
+
+a.button_fluid {
+    display: block;
+    width: 64px;
+    height: 64px;
+    border-radius: 100px;
+    text-align: center;
+    text-decoration: none;
+    background: #215493;
+    -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.2);
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.2);
+    -webkit-transition: all ease .2s;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    transition: all ease .2s;
+    cursor: pointer;
+    }
+
+a.button_fluid:hover {
+    color: #fff;
+    background: #215493;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    }
+
+a.button_fluid:after {
+    font: normal 24px/64px 'fab' !important;
+    content: '' !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: none;
+    text-decoration: none;
+    vertical-align: middle;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    }
+
+
 
 .tabs {
     text-align: center;
