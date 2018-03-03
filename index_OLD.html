@@ -42,7 +42,6 @@ $("pre").each(function(){ // показвать в виде кода
 });
 	
 $("iframe").wrap( "<div class='iframe_wrapper'></div>" );
-
 // Typograph
 	$("body").html($("body").html().replace(/\sв\s/g,' в&nbsp;'));
 	$("body").html($("body").html().replace(/\sа\s/g,' а&nbsp;'));
@@ -76,7 +75,6 @@ $("iframe").wrap( "<div class='iframe_wrapper'></div>" );
     $("body").html($("body").html().replace(/\sз\s/g,' з&nbsp;'));
         
               
-
 // Highlight Same Links
 	$("a").hover(
 	function() {$("a[href='" + $(this).attr("href") + "']").addClass("hover");}, 
@@ -161,14 +159,12 @@ $("#web_").click(function(){
     $("#more_works_button_box").hide();
     return false; 
 });     
-
 $("#ui_").click(function(){
     $(".wrk_").not(".ui_").hide(500);
     $(".ui_").show(500);
     $("#more_works_button_box").hide();
     return false; 
 });
-
 $("#ux_").click(function(){
     $(".wrk_").not(".ux_").hide(500);
     $(".ux_").show(500);
@@ -200,11 +196,9 @@ $("#print_").click(function(){
       
         
       
-
         
 // Remove Click Event   
 $("a.click_off").off("click");       
-
            
 }); // End Ready
 </script>
@@ -305,7 +299,6 @@ $(document).ready(function () {
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-55904710-1', 'auto');
   ga('send', 'pageview');
 </script>
@@ -324,7 +317,6 @@ $(document).ready(function () {
     <div class="menu ak_hide_sm ak_hide_xs">
         <ul class="menu_list">
             <li class="menu_item"><a href="#work" class="menu_link">Работы</a></li>
-            <li class="menu_item"><a href="#services" class="menu_link">Услуги</a></li>
             <li class="menu_item"><a href="#about" class="menu_link">Подход</a></li>
             <li class="menu_item"><a href="#contact" class="menu_link">Контакты</a></li>
         </ul>
@@ -337,7 +329,6 @@ $(document).ready(function () {
 <div class="menu_mob">
 <ul class="menu_mob_list">
     <li class="menu_mob_item"><a href="#work" class="menu_mob_link">Работы</a></li>
-    <li class="menu_mob_item"><a href="#services" class="menu_mob_link">Услуги</a></li>
     <li class="menu_mob_item"><a href="#about" class="menu_mob_link">Подход</a></li>
     <li class="menu_mob_item"><a href="#contact" class="menu_mob_link">Контакты</a></li>
 </ul>
@@ -363,7 +354,7 @@ $(document).ready(function () {
     
 <div class="ins">
 <h1>Александр Кравчук</h1>
-<div class="lead">Дизайнер и проектировщик, исследователь, консультант с 10-летним опытом. Выполняю работы от постановки задачи до готового решения. Сотрудничаю с компаниями и частными лицами, как независимый специалист.</div>
+<div class="lead">Дизайнер и проектировщик, исследователь, консультант с 10-летним опытом. Выполняю работы от постановки задачи до передачи готового решения разработчикам. Сотрудничаю с компаниями и частными лицами, как независимый специалист.</div>
     
 <!--
 <div class="clear_x"></div>
@@ -375,10 +366,15 @@ $(document).ready(function () {
 </div><!-- // header -->
 </div><!-- // ancor -->
 
-
+    
+    
+    
     
 <div class="clear_xxx"></div>
 
+    
+    
+    
 
 
 <!-- WORK
@@ -386,36 +382,29 @@ $(document).ready(function () {
 <div class="ancor" id="work">   
 <div class="ins emerge" data-effect="slide">
     
-<h2>Что сделал</h2>
-    
+<h2>Что сделал</h2> 
+
 <div class="ak_grid">
 <div class="ak_row ak_gap_40">
     
-<div class="ak_col_12">
-<p>В Студии Лебедева, Агентах змiн, UsabilityLab, Singlebranch, Marchenko Danevych, Nota Music Shop и на фрилансе:</p>
+<div class="ak_col_4 ak_col_4_md ak_col_12_sm ak_col_12_xs">
+<div class="fas fa_h3"></div>
+<h3>В компаниях</h3>
+<ul>  
+<li>Студия Лебедева, дизайнер и проектировщик</li>
+<li>Агенти змiн, руководитель проектов и дизайнер</li>
+<!--<li>Marchenko Danevych, консультант</li>-->
+<li>Usability Lab, UX-дизайнер</li>
+<li>Madency, веб-дизайнер</li>
+<li>Singlebranch, дизайнер</li>
+<li>Nota Music Shop, дизайнер</li>
+</ul> 
 </div>
     
-<div class="clear_xx"></div>
-    
-<div class="ak_col_6 ak_col_12_xs   dis_n" data-effect="zoom" data-origin="top left"> 
-<div class="img_box"><img src="img/about/md.png" alt="ia" class=""></div>
-<div class="caption_b">Анализ логической структуры сайта</div>
-</div><!-- // col -->
-    
-<!--<div class="clear_xxx ak_show_xs"></div>-->
-    
-<div class="ak_col_6 ak_col_12_xs   dis_n" data-effect="zoom" data-origin="top right">
-<div class="img_box"><img src="img/about/proto_03.png" alt="test" class=""></div>
-<div class="caption_b">Тестирование прототипов в полевых условиях</div>
-</div><!-- // col -->
-
-    
-<!--<div class="clear_xx"></div>  -->
-    
-<!--<div class="clear_x ak_show_sm ak_show_xs"></div>-->
+<div class="clear_x ak_show_sm ak_show_xs"></div>
       
-<div class="ak_col_6 ak_col_12_sm ak_col_12_xs">
-<!--<div class="fa fa_h3"></div>   -->
+<div class="ak_col_4 ak_col_4_md ak_col_12_sm ak_col_12_xs">
+<div class="fas fa_h3"></div>   
 <h3>Digital-проекты</h3>
 <ul>
 <li><a href="https://www.artlebedev.ru/sberbank/dasreda/" target="_blank">Деловая среда, бизнес-платформа</a></li>
@@ -432,8 +421,8 @@ $(document).ready(function () {
     
 <div class="clear_x ak_show_sm ak_show_xs"></div>
      
-<div class="ak_col_6 ak_col_12_sm ak_col_12_xs">
-<!--<div class="fa fa_h3"></div>-->
+<div class="ak_col_4 ak_col_4_md ak_col_12_sm ak_col_12_xs">
+<div class="fas fa_h3"></div>
 <h3>Городские инициативы</h3>
 <ul>
 <li><a href="http://a3.kyiv.ua/projects/bike-wayfinding-truhaniv/" target="_blank">Велонавигация на Трухановом острове</a></li>
@@ -443,9 +432,6 @@ $(document).ready(function () {
 <li>Партизанские объявления на станциях</li> 
 </ul>
 </div>
-    
-<!--<div class="clear_xx"></div>-->
-    
  
 </div>
 </div><!-- // ak_grid -->
@@ -461,146 +447,7 @@ $(document).ready(function () {
     
     
 <div class="clear_xxx"></div>
-    
-    
-    
-<!-- SERVICES 
-++++++++++++++++++ --> 
-    
-<div class="">
-<!--<div class="clear_xxx"></div>    -->
-    
-<div class="ancor" id="services">
-<div class="ins" data-effect="slide">   
-
-<div class="emerge" data-effect="slide">
-<h2>Чем полезен</h2>   
-<!--<p>Главное в работе дизайнера — это грамотно сформулировать (а чаще переформулировать) задачу и найти решение, отвечающее всем требованиям и ограничениям.</p>-->
-</div> 
-    
-<!--<div class="clear_xx"></div>-->
-
-
-<!--<div class="clear_xxx"></div>-->
- 
-    
-<div class="cells">    
-<div class="ak_grid">
-<div class="ak_row ak_gap_40">
-
-    
-<div class="ak_col_4 ak_col_6_md ak_col_12_sm ak_col_12_xs"> 
-<div class="fal fa_h3"></div>
-<h3>Постановка задачи</h3>
-<p>Изучение предметной области.</p>
-<p>Аудит текущего проекта и анализ материалов.</p>
-<p>План проекта: требования, виды работ, смета, сроки и пр.</p>
-</div><!-- // col -->
-
-    
-<div class="clear_x ak_show_sm ak_show_xs"></div>  
-
-<div class="ak_col_4 ak_col_6_md ak_col_12_sm ak_col_12_xs"> 
-<!--<div class="fal fa_h3"></div>-->
-<div class="fal fa_h3"></div>
-<h3>Исследование</h3>
-<p>Интервью с пользователями, наблюдение и пр. </p>
-<p>Описание персон, потребностей и контекста использования.</p>
-<p>Методики: user / job stories и др.</p>
-</div><!-- // col -->
-    
-<div class="clear_x ak_show_md ak_show_sm ak_show_xs"></div>
-    
-<div class="ak_col_4 ak_col_4_md ak_col_12_sm ak_col_12_xs"> 
-<div class="fal fa_h3"></div>
-<h3>Идеи и прототипы</h3>
-<p>Концепция с примерами идей.</p>
-<p>Бумажный прототип.</p>
-<p>Кликабельный прототип разной степени детализации (axure, invision).</p>
-</div><!-- // col -->
-  
-
-<div class="clear_x ak_show_sm ak_show_xs"></div>     
-<div class="clear_x ak_hide_sm ak_hide_xs"></div>  
-    
-    
-<div class="ak_col_4 ak_col_6_md ak_col_12_sm ak_col_12_xs"> 
-<div class="fal fa_h3"></div>
-<h3>Проектирование</h3>
-<p>Сценарии использования (use cases).</p>
-<p>Схема логической структуры.</p>
-<p>Диаграмма путей пользователя.</p>
-<p>Описание контента и функций.</p>
-</div><!-- // col -->
-  
-<div class="clear_x ak_show_md ak_show_sm ak_show_xs"></div>
-
-<div class="ak_col_4 ak_col_6_md ak_col_12_sm ak_col_12_xs"> 
-<div class="fal fa_h3"></div>
-<h3>Тестирование</h3>
-<p>Юзабилити тестирование.</p>
-<p>Тестирование пользовательского интерфейса.</p>
-<p>Отчеты с рекомендациями.</p>
-</div><!-- // col -->
-    
-<div class="clear_x ak_show_md ak_show_sm ak_show_xs"></div>
-    
-<div class="ak_col_4 ak_col_4_md ak_col_12_sm ak_col_12_xs"> 
-<div class="fal fa_h3"></div>
-<h3>Дизайн</h3>
-<p>Примеры визуализаций (moodboards).</p>
-<p>Дизайн-концепция (2–3 экрана).</p>
-<p>Набор готовых файлов, описание компонентов (sketch, png).</p>
-<p>Примеры анимации (principle, mp4)</p>
-</div><!-- // col -->    
-
-
-<div class="clear_x ak_show_sm ak_show_xs"></div>  
-<div class="clear_x ak_hide_sm ak_hide_xs"></div>
-
-    
-<div class="ak_col_4 ak_col_6_md ak_col_12_sm ak_col_12_xs"> 
-<div class="fal fa_h3"></div>
-<h3>Внедрение</h3>
-<p>Спецификация проекта.</p>
-<p>Размещение файлов на Zeplin.</p>
-<p>Интерактивный прототип (axure, invision, web).</p>
-</div><!-- // col -->
-    
-<div class="clear_x ak_show_md ak_show_sm ak_show_xs"></div>  
-
-<div class="ak_col_4 ak_col_6_md ak_col_12_sm ak_col_12_xs"> 
-<div class="fal fa_h3"></div>
-<h3>Быстрый старт</h3>
-<p>Создание полностью готового к испольованию сайта или презентации на платформах Tilda Publishing и Readymag.</p>
-</div><!-- // col -->
-    
-<div class="clear_x ak_show_md ak_show_sm ak_show_xs"></div>
-    
-<div class="ak_col_4 ak_col_4_md ak_col_12_sm ak_col_12_xs"> 
-<div class="fal fa_h3"></div>
-<h3>Не занимаюсь</h3>
-<p>Регистрацией доменов и хостинга.</p>
-<p>Настройкой серверов и т. п.</p>
-<p>Созданием и доработкой тем для Wordpress.</p>
-</div><!-- // col -->
-
-
-</div>
-</div><!-- // ak_grid -->
-    
-</div><!-- // cells -->  
-    
-    
-</div><!-- // ins --> 
-</div><!-- // ancor -->  
-
-<!--<div class="clear_xxx"></div>-->
-    
-</div><!-- // bg -->  
-    
-    
-<div class="clear_xxx"></div>
+        
     
 
 <!-- ABOUT 
@@ -613,23 +460,52 @@ $(document).ready(function () {
 </div> 
     
 
+    
+    
+<div class="ak_grid emerge" data-effect="slide">
+<div class="ak_row ak_gap_40">  
+    
+<div class="ak_col_6 ak_col_12_xs " data-effect="zoom" data-origin="top left"> 
+<div class="img_box"><img src="img/about/md.png" alt="ia" class=""></div>
+<div class="caption_b">Анализ информационной архитектуры сайта</div>
+</div><!-- // col -->
+    
+<div class="clear_xxx ak_show_xs"></div>
+    
+<div class="ak_col_6 ak_col_12_xs " data-effect="zoom" data-origin="top right">
+<div class="img_box"><img src="img/about/proto_03.png" alt="test" class=""></div>
+<div class="caption_b">Тестирование прототипов в полевых условиях</div>
+</div><!-- // col -->
+    
+</div>
+</div><!-- // ak_grid --> 
+  
+    
+    
+    
+    
+
+<div class="clear_xx"></div>
+
+
+    
+    
 <div class="ak_grid emerge" data-effect="slide">
 <div class="ak_row ak_gap_40">
     
-<div class="ak_col_6 ak_col_12_sm ak_col_12_xs emerge" data-effect="slide" data-origin="top right">
+<div class="ak_col_6 ak_col_12_xs emerge" data-effect="slide" data-origin="top right">
 <h3>Дизайн-принципы</h3>
 <ul>
-<li>Простота</li>
-<li>Доступность</li>
-<li>Полезность</li>
-<li>Целостность</li>
-<li>Гибкость</li>
+<li>Дизайн должен быть простым</li>
+<li>Задачи решаются системно</li>
+<li>Сначала контент, затем оформление</li>
+<li>Ограничения — это хорошо</li>
 </ul>
 </div><!-- // col -->
     
-<div class="clear_x ak_show_sm ak_show_xs"></div>
+<div class="clear_x ak_show_xs"></div>
     
-<div class="ak_col_6 ak_col_12_sm ak_col_12_xs emerge" data-effect="slide" data-origin="top left">
+<div class="ak_col_6 ak_col_12_xs emerge" data-effect="slide" data-origin="top left">
 <h3>Типичный процесс</h3>
 <ol>   
 <li>Постановка задачи</li>
@@ -643,11 +519,15 @@ $(document).ready(function () {
 </div>
 </div><!-- // ak_grid -->
     
+  
     
-<!--<div class="clear_xx"></div>-->
- 
     
-<div class="ak_grid dis_n">
+    
+<div class="clear_xxx"></div>
+
+    
+    
+<div class="ak_grid">
 <div class="ak_row ak_gap_40">
     
 <div class="ak_col_4 ak_col_6_md ak_col_12_sm ak_col_12_xs ak_hide_sm ak_hide_xs emerge" data-effect="slide">
@@ -666,10 +546,10 @@ $(document).ready(function () {
 </div><!-- // ak_grid -->
 
 
-<!--<div class="clear_x"></div> -->
+<div class="clear_x"></div> 
 
 
-<div class="emerge dis_n" data-effect="slide">     
+<div class="emerge" data-effect="slide">     
 <h3>Повышение квалификации</h3> 
 <p>Регулярно прохожу профильные курсы на ведущих образовательных площадках.</p>
 </div><!-- // emg -->
@@ -685,7 +565,8 @@ $(document).ready(function () {
 <!-- Контакты   
 ++++++++++++++++++ -->
 
-<div class="ancor" id="contact">
+<div class="ancor bg_light" id="contact">
+<div class="clear_xxx"></div>
     
 <div class="ins emerge" data-effect="slide">      
 <h2>Контакты</h2>
@@ -770,4 +651,3 @@ $(document).ready(function () {
     
 </body>
 </html>
- 
