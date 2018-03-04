@@ -122,8 +122,8 @@ body {
 .fa_h3 {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 46px;
-    margin-bottom: 5px;
+    font-size: 44px;
+/*    margin-bottom: 5px;*/
     color:  #e31c3d; 
 /*    color:  #5b616b; */
 /*    color:  #323a45; */
