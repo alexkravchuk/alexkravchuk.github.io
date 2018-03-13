@@ -120,15 +120,19 @@ body {
 
 
 .fa_h3 {
+    position: relative;
+    top: .1em;
+    display: inline;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 44px;
-/*    margin-bottom: 5px;*/
+    font-size: 28px;
+    padding-right: .4em;
     color:  #e31c3d; 
 /*    color:  #5b616b; */
 /*    color:  #323a45; */
 /*    color:  #02bfe7; */
 /*    color:  #00a6d2; */
+/*    color:  #111; */
     }
 
 .header {
