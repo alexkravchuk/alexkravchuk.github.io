@@ -570,8 +570,8 @@ ul {
     ul li {
     /*    list-style: disc outside;*/
         list-style: none outside;
-        padding: 0 0 0 1.1em;
-        text-indent: -1.1em;
+        padding: 0 0 0 1.4em;
+        text-indent: -1.3em;
         }
 
     ul li:before{
