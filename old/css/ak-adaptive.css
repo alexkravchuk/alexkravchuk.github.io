@@ -4,23 +4,23 @@
 /* xs - mob */
 @media (max-width: 767px) {
     
-    html, body, p, li, .footer p, .footer h3 {
-    font-size: 15px;
+    html, body, p, li {
+    font-size: 17px;
     }
     
     h1 {
-    font-size: 36px;
+    font-size: 38px;
     line-height: 1.2;
     padding: 0;
-    margin: 0 0 .5em;
+    margin: 0 0 15px;
     }
     
     .lead {
-    font-size: 18px;
+    font-size: 17px;
     }
     
     h2, h2 a {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: .5em;
     }
     
@@ -31,12 +31,12 @@
         }
     
     h3 {
-    font-size: 17px;
+    font-size: 19px;
     margin-bottom: .5em;
     }
     
     h4 {
-/*    font-size: 19px;*/
+    font-size: 19px;
     }
     
     .show_mob {
@@ -63,8 +63,6 @@
         padding-right: 0;
         margin: 0;
     }
-    
-    
     
     .tx_l_xs {
         text-align: left;
@@ -142,12 +140,9 @@
     
     .home, .copy * { 
         font-size: 15px;
-       
         } 
     
     a.home_link {
-        width: 50px;
-        height: 50px;
 /*
     color: #fff;
     -moz-opacity: .8;
@@ -174,17 +169,15 @@ a.home_link:hover {
         }
     
 .fa_h3 {
-        font-size: 28px;
+        font-size: 36px;
 /*        display: inline;*/
 /*        position: relative;*/
 /*        top: .1em;*/
         }
     
-.pd_x {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 20px transparent solid;
+.button_fluid_box {
+    right: 15px;
+    bottom: 15px;
     }
 
 }

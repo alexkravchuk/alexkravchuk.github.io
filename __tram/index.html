@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="">
+
+    
+
+
+
+<!-- OG -->  
+<meta property="og:url" content="http://alexkravchuk.com/tram" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Cкоростной трамвай" />
+<meta property="og:description" content="Концепт обозначения внеуличной транспортной системы Киева" />
+<meta property="og:image" content="http://alexkravchuk.com/tram/img/tram_cover.png" />
+
+<!-- Title -->   
+<title>Знак скоростного трамвая :: Александр Кравчук</title>
+<meta name="description" content="Концепт знака внеуличной транспортной системы Киева">
+<link rel="icon" type="image/png" href="../favicon.png" />
+
+<script src="../js/jquery-1.11.0.min.js"></script>
+    
+<!-- AK Styles -->
+<link rel="stylesheet" href="../css/ak-normalize.css" type="text/css">
+<link rel="stylesheet" href="../css/ak-main.css" type="text/css">
+<link rel="stylesheet" href="../css/ak-quick.css" type="text/css">
+
+<link rel="stylesheet" href="../css/ak-grid.css" type="text/css">
+<link rel="stylesheet" href="../css/ak-clear.css" type="text/css">
+<link rel="stylesheet" href="../css/ak-visibility.css" type="text/css">
+<link rel="stylesheet" href="../css/ak-adaptive.css" type="text/css">
+    
+
+<!-- JS Ready -->
+<script type="text/javascript">
+	$(document).ready(function(){
+	
+// Show as html
+$("pre").each(function(){ // показвать в виде кода
+		$(this).text($(this).html());
+});
+	
+$("iframe").wrap( "<div class='iframe_wrapper'></div>" );
+
+// Typograph
+	$("body").html($("body").html().replace(/\sв\s/g,' в&nbsp;'));
+	$("body").html($("body").html().replace(/\sа\s/g,' а&nbsp;'));
+	$("body").html($("body").html().replace(/\sу\s/g,' у&nbsp;'));
+	$("body").html($("body").html().replace(/\sс\s/g,' с&nbsp;'));
+	$("body").html($("body").html().replace(/\sо\s/g,' о&nbsp;'));
+	$("body").html($("body").html().replace(/\sк\s/g,' к&nbsp;'));
+	$("body").html($("body").html().replace(/\sи\s/g,' и&nbsp;'));
+	$("body").html($("body").html().replace(/\sя\s/g,' я&nbsp;'));
+	
+	$("body").html($("body").html().replace(/\s—\s/g,'&nbsp;— '));
+	$("body").html($("body").html().replace(/\s→\s/g,'&nbsp;→ '));
+    $("body").html($("body").html().replace(/\s-\s/g,'&nbsp;— '));
+	
+	$("body").html($("body").html().replace(/\sВ\s/g,' В&nbsp;'));
+	$("body").html($("body").html().replace(/\sА\s/g,' А&nbsp;'));
+	$("body").html($("body").html().replace(/\sУ\s/g,' У&nbsp;'));
+	$("body").html($("body").html().replace(/\sС\s/g,' С&nbsp;'));
+	$("body").html($("body").html().replace(/\sО\s/g,' О&nbsp;'));
+	$("body").html($("body").html().replace(/\sК\s/g,' К&nbsp;'));
+	$("body").html($("body").html().replace(/\sИ\s/g,' И&nbsp;'));
+	$("body").html($("body").html().replace(/\sЯ\s/g,' Я&nbsp;'));
+        
+    $("body").html($("body").html().replace(/\sна\s/g,' на&nbsp;'));
+    $("body").html($("body").html().replace(/\sот\s/g,' от&nbsp;'));
+    $("body").html($("body").html().replace(/\sпо\s/g,' по&nbsp;'));
+        
+    $("body").html($("body").html().replace(/\sі\s/g,' і&nbsp;'));
+    $("body").html($("body").html().replace(/\sта\s/g,' та&nbsp;'));
+    $("body").html($("body").html().replace(/\sз\s/g,' з&nbsp;'));
+        
+
+// Highlight Same Links
+	$("a").hover(
+	function() {$("a[href='" + $(this).attr("href") + "']").addClass("hover");}, 
+	function() {$("a[href='" + $(this).attr("href") + "']").removeClass("hover");}
+	);
+        
+// Show More Works        
+$("#more_works_button").click(function(){
+    $("#more_works_button_box").hide();
+//  $("#block_more_works").slideToggle(400);
+    //(".more_works_item").show(220);
+    $(".more_works_item").slideToggle(250);
+    
+});
+        
+// Current menu item      
+$(".nav a").click(function(){
+    $(".nav a").removeClass("menu_item_current");
+    $(this).addClass("menu_item_current");
+});
+        
+//$(window).scroll(function() {    
+//    var scroll = $(window).scrollTop();
+//    if (scroll == 0) {
+//        $(".home_link").addClass("menu_item_current");
+//    } else {
+//        $(".home_link").removeClass("menu_item_current");
+//    }
+//}); 
+//      
+   
+   
+// Mobile Menu Functions
+$(".menu_button").click(function(){
+    $(".menu_mob").slideToggle(100);
+    $(".content").toggleClass("trans");
+    $(".menu_button").toggleClass("active");
+    $(".menu_button_icon").toggleClass("active");
+    return false; 
+});
+        
+$(".home_link").click(function(){
+    $(".menu_mob").hide(100);
+    $(".menu_button").removeClass("active");
+    $(".menu_button_icon").removeClass("active");
+    return false; 
+});
+        
+$(".menu_link").click(function(){
+    $(".menu_mob").hide(100);
+    $(".menu_button").removeClass("active");
+    $(".menu_button_icon").removeClass("active");
+    return false; 
+});
+        
+$(".menu_mob_link").click(function(){
+    $(".menu_mob").hide(100);
+    $(".menu_button").removeClass("active");
+    $(".menu_button_icon").removeClass("active");
+    return false; 
+});
+        
+// Remove Click Event   
+$("a.click_off").off("click"); 
+
+
+           
+}); // End Ready
+</script>
+    
+<!-- Scroll Animate -->
+<script type="text/javascript">
+$(function(){
+   $('a[href^="#"]').click(function(){
+        var target = $(this).attr('href');
+        $('html, body').animate({scrollTop: $(target).offset().top}, 500);
+        return false; 
+   }); 
+});
+    
+    
+  
+</script>
+
+<!-- Emerge -->
+<script src="../js/emerge.min.js" type="text/javascript"></script>
+    
+<!-- Likely Social Buttons -->
+<script src="../js/likely.js"></script>
+<link rel="stylesheet" href="../css/likely.css">
+ 
+<!-- Current Year -->
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#year").html(new Date().getFullYear());
+});
+</script>
+
+<!-- Zoom images -->
+<link href="../js/simplelightbox.css" rel="stylesheet" type="text/css">  
+<script type="text/javascript" src="../js/simplelightbox.js"></script>
+<script>
+	$(function(){
+		var $gallery = $('a.zoom').simpleLightbox();
+	});
+</script>
+
+<!-- Remove from mobile -->
+<script type="text/javascript">
+if( /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+    $(document).ready(function(){
+        $("a.zoom").removeAttr("href");
+    });
+}
+</script>
+
+<!-- Google Analytics 
+++++++++++++++++++++++++++++++ -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55904710-1', 'auto');
+  ga('send', 'pageview');
+</script>   
+</head>
+
+<body>  
+    
+
+<!-- NAV
+++++++++++++++++++ -->    
+<div class="nav  emerge" data-effect="relax">
+<div class="nav_ins">
+    <div class="home">
+        <a href="http://alexkravchuk.com" class="home_link click_off">Александр Кравчук</a>
+    </div>
+
+    <div class="menu ak_hide_sm ak_hide_xs">
+<ul class="menu_list">
+<li class="menu_item"><a href="/#work" class="menu_link click_off active">Работы</a></li>
+<li class="menu_item"><a href="/#about" class="menu_link click_off">Подход</a></li>
+<li class="menu_item"><a href="/#contact" class="menu_link click_off">Контакты</a></li>
+</ul>
+    </div> 
+ 
+    <a href="#" class="menu_button ak_show_sm ak_show_xs"><span class="menu_button_icon"></span></a>
+</div><!-- // ins -->  
+</div><!-- // nav -->
+  
+<div class="menu_mob">
+<ul class="menu_mob_list">
+<li class="menu_mob_item"><a href="/#work" class="menu_mob_link click_off active">Работы</a></li>    
+<li class="menu_mob_item"><a href="/#about" class="menu_mob_link click_off">Подход</a></li>
+<li class="menu_mob_item"><a href="/#contact" class="menu_mob_link click_off">Контакты</a></li>
+</ul>
+</div><!-- // menu_mob -->
+    
+<div class="clear"></div>
+    
+<div class="content">
+
+<!-- HEADER
+++++++++++++++++++ -->
+<div class="header emerge" data-effect="relax">
+<div class="clear_xxx"></div>  
+
+<div class="ins">
+<h1>Скоростной трамвай</h1>
+<div class="lead">Концепт единого обозначения внеуличной транспортной системы <nobr>г. Киева</nobr>.</div>
+<div class="clear_x"></div>  
+<a class="ak_button_norm button_50" href="//src.alexkravchuk.com/tram_logo.eps">Скачать знак, .EPS</a>
+</div><!-- // ins -->
+</div><!-- // header -->
+    
+    
+<div class="clear_xxx"></div>
+
+    
+<!-- PROBLEM
+++++++++++++++++++ -->
+<div class="emerge" data-effect="slide">
+<div class="ins">
+<h2>Проблема</h2>
+
+<div class="ak_grid">
+<div class="ak_row ak_gap_40">  
+  
+<div class="ak_col_8 ak_col_12_xs emerge" data-effect="zoom" data-origin="top left">
+<p>С момента открытия в 1978 году, у скоростного трамвая не было знака. Чтобы отличать от троллейбуса использовались первые буквы Т/Тр, которые по смыслу легко спутать.</p>
+<p>Сегодня каждый придумывает варианты обозначения на свой вкус. Это усложняет навигацию и создает неудобства для пассажиров.</p>
+</div><!-- // col -->
+
+<div class="clear_x ak_show_xs"></div>
+    
+<div class="ak_col_2 ak_col_3_sm ak_col_6_xs emerge" data-effect="zoom" data-origin="top right">   
+<div class="tx_r tx_c_xs"><img src="img/ticket_ussr.png" alt="ticket_ussr" width="120" class=""></div>
+</div><!-- // col -->
+    
+<div class="ak_col_2 ak_col_3_sm ak_col_6_xs emerge" data-effect="zoom" data-origin="top right">   
+<div class="caption_r">Проездной билет на три вида транспорта, 1988&nbsp;г.</div>
+</div><!-- // col -->
+    
+</div>
+</div><!-- // ak_grid --> 
+</div><!-- // ins -->
+
+<div class="clear_xxx"></div> 
+    
+</div><!-- // emg -->
+    
+<div class="tx_c over_250_xs emerge" data-effect="slide"><img src="img/tram_signs.png" alt="tram_signs"></div>
+    
+<div class="clear_xxx"></div>      
+    
+<div class="ins"> 
+
+<div class="ak_grid">
+<div class="ak_row ak_gap_40">
+
+<div class="ak_col_6 ak_col_12_xs emerge" data-effect="zoom" data-origin="top left">
+<div class="tx_c_xs"><img src="img/tram_old.png" alt="tram"></div>
+<div class="caption_b">Вариант на остановках скучен и невыразителен</div>
+</div><!-- // col -->
+    
+<div class="clear_xx ak_show_xs"></div>
+    
+<div class="ak_col_6 ak_col_12_xs emerge" data-effect="zoom" data-origin="top right">
+<div class="tx_c_xs"><img src="img/icons_blur.png" alt="tram_signs"></div>
+<div class="caption_b">Пиктограммы перегружены и слабо различимы</div>
+</div><!-- // col -->
+
+</div>
+</div><!-- // ak_grid --> 
+
+</div><!-- // ins -->
+    
+    
+<div class="clear_xxx"></div>
+      
+    
+<!-- SOLUTON
+++++++++++++++++++ -->
+<div class="bg_tram_red bg_fixed emerge" data-effect="slide">
+    
+<div class="clear_xxx"></div>  
+    
+<div class="ins">
+<h2>Решение</h2> 
+    
+<div class="ak_grid">
+<div class="ak_row ak_gap_40">
+<div class="ak_col_12 ak_col_12_xs emerge" data-effect="slide">
+ 
+<p>Новый знак — простой, современный и узнаваемый символ развивающейся транспортной системы.</p>
+    
+</div><!-- // col -->
+</div>
+</div><!-- // ak_grid --> 
+    
+<div class="clear_xx"></div>
+    
+<div class="tx_c emerge" data-effect="zoom" data-origin="top top"><img src="img/logo_main.png" alt="colors" width="" class=""></div>
+<div class="clear_x"></div> 
+    
+<div class="caption">В знаке — буква «Т», стрелка, движение и штанга на крыше трамвая. Подходит для иностранцев: «t» — tram</div>
+</div><!-- // ins -->
+   
+<div class="clear_xxx"></div> 
+    
+</div><!-- //  red emg -->
+  
+
+<div class="clear_xxx"></div>  
+
+<div class="ins">
+    
+<div class="ak_grid">
+<div class="ak_row ak_gap_40">
+    
+<div class="ak_col_6 ak_col_12_xs emerge" data-effect="zoom" data-origin="top left">
+<div class="img_radius"><img src="img/logo_set.png" alt="colors" class=""></div>
+<div class="caption_b">Форма хорошо сочетается с действующими знаками метро и городской электрички</div>
+</div><!-- // col --> 
+    
+<div class="clear_xx ak_show_xs"></div>
+    
+<div class="ak_col_6 ak_col_12_xs emerge" data-effect="zoom" data-origin="top right">
+<div class="img_radius"><img src="img/logo_grid.png" alt="logo_grid" class=""></div>
+<div class="caption_b">Соотношение сторон, близкое «золотому сечению», выглядит чисто и гармонично</div>
+</div><!-- // col --> 
+
+</div>
+</div><!-- // ak_grid -->  
+    
+</div><!-- // ins -->   
+    
+
+<div class="clear_xxx"></div>
+    
+<div class="tx_c over_250_xs emerge" data-effect="slide"><img src="img/map.png" alt="map"></div>
+    
+<div class="ins emerge" data-effect="slide">
+
+<div class="clear_x"></div>
+
+<div class="caption">Толщина линий и просветов остается четкой в мелком размере на схемах и указателях</div>
+    
+<div class="clear_xxx"></div>
+    
+<div class="tx_c img_radius"><img src="img/logo_wall.png" width="760" alt="logo_wall"></div>
+<div class="caption">Разные материалы и способы нанесения — не проблема</div>
+    
+</div><!-- // ins -->  
+
+<div class="clear_xxx"></div>  
+    
+<!-- SOON
+++++++++++++++++++ -->
+ 
+<div class="emerge" data-effect="slide"> 
+<div class="ins">
+<div class="ak_grid">
+<div class="ak_row ak_gap_40">
+
+<div class="ak_col_12 emerge" data-effect="slide">
+<!--<h2>Что дальше?</h2>-->
+</div><!-- // col -->   
+
+ <div class="ak_col_6 ak_col_12_xs emerge" data-effect="zoom" data-origin="top left">
+<!--<h3>Работа продолжается</h3> -->
+<p>Знак предлагается использовать на линиях скоростного трамвая, включая реконструируемый участок «Гната Юры — Михайловская Борщаговка». А также для свободного распространения и применения в городских проектах.</p>
+     
+<div class="clear_x"></div>  
+<a class="ak_button_norm button_50" href="//src.alexkravchuk.com/tram_logo.eps">Скачать знак, .EPS</a>
+</div><!-- // col -->
+    
+<div class="clear_xx ak_show_xs"></div>
+  
+<div class="ak_col_6 ak_col_12_xs emerge" data-effect="zoom" data-origin="top right">
+<h3>Области применения</h3>
+<ul>
+<li>навигация</li>
+<li>билеты и проездные</li>
+<li>униформа</li>
+<li>брендирование станций и составов</li>
+<li>одежда и сувениры</li>
+</ul>
+
+</div><!-- // col -->
+
+</div>
+</div><!-- // ak_grid --> 
+</div><!-- // ins -->
+</div><!-- // emg -->
+    
+<div class="clear_xxx"></div>  
+
+<!-- THANKS
+++++++++++++++++++ -->
+    
+    
+<div class="ins">
+<div class="ak_grid">
+<div class="ak_row ak_gap_40">
+
+<div class="ak_col_12 emerge" data-effect="slide">
+<h2>Благодарности</h2>
+</div><!-- // col -->
+    
+ <div class="ak_col_6 ak_col_12_xs emerge" data-effect="zoom" data-origin="top left">
+<p>Дизайнерам-консультантам:</p>
+
+<ul>
+<li>Николаю Коваленко</li>
+<li>Александру Колодько</li>
+<li>Владиславу Кулик</li>
+<li>Елене Мышанской</li>    
+<li>Антону Шнайдеру</li>
+</ul>
+    
+<p>А также всем советчикам за помощь в работе над проектом.</p>
+</div><!-- // col -->
+    
+<div class="clear_xx ak_show_xs"></div>
+    
+<div class="ak_col_6 ak_col_12_xs emerge" data-effect="zoom" data-origin="top right">
+<p>Обсуждение проекта на Фейсбуке:</p>
+<ul>
+<li><a href="https://www.facebook.com/akrvchk/posts/1039472646199017" target="_blank">Часть первая</a></li>
+<li><a href="https://www.facebook.com/akrvchk/posts/1045821192230829" target="_blank">Часть вторая</a></li>
+</ul>
+    
+</div><!-- // col -->
+    
+
+</div>
+</div><!-- // ak_grid --> 
+</div><!-- // ins -->
+   
+<div class="clear_xxx"></div>
+    
+<!-- FOOTER
+++++++++++++++++++ -->
+
+<!-- Контакты   
+++++++++++++++++++ -->
+<div class="" id="">
+    
+<!-- SOCIAL & COPY
+++++++++++++++++++ -->
+
+<div class="bg_dark emerge" data-effect="slide">  
+<div class="ins">
+
+<div class="clear_xx"></div> 
+    
+<div class="likely likely-light">
+<div class="twitter">Твитнуть</div>
+<div class="facebook">Поделиться</div>
+<!--<div class="vkontakte ak_hide_xs">Поделиться</div>-->
+<div class="telegram ak_hide_xs">Отправить</div>
+<div class="linkedin ak_hide_xs">Линкануть</div>
+</div>
+</div>
+    
+<div class="clear_30"></div>
+
+<div class="copy">
+<div class="ins">      
+    
+<div class="ak_grid">
+<div class="ak_row ak_gap_20">
+    <div class="ak_col_12">&copy;&nbsp;Александр Кравчук, <span id="year"></span></div>
+</div>
+</div><!-- // ak_grid -->
+    
+</div><!-- // ins -->
+</div>
+    
+<div class="clear_xx"></div>
+
+</div><!-- // bg emg -->  
+</div><!-- // ancor --> 
+
+<!-- // FOOTER ++++++++++++++++++ -->  
+
+</div><!-- // content -->
+
+</body>
+</html>
+ 

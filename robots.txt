@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: 
+Disallow: /css
+Disallow: /js
+Disallow: /fonts
+Disallow: /fotorama
+Disallow: /game
+Disallow: /app
+Disallow: /audit1
+Disallow: /audit2
+Disallow: /edu2017
+Sitemap: http://alexkravchuk.com/sitemap.xml
