@@ -76,7 +76,14 @@ html, body {
 	padding:0;
 	height: 100%;
     background: #f0f0f0;
+    
 	}
+
+body.fixed {
+    overflow: hidden;
+    background: #00a6d2;
+    position: fixed;
+    }
 
 .header {
     position: relative;
