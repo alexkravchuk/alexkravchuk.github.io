@@ -780,7 +780,7 @@ a[target="_blank"]:after:hover {
 
 .footer h3 {
     font: normal 16px/1.4 'mb', sans-serif;
-    color: #666;
+/*    color: #222;*/
     text-align: left;
     padding: 0;
     max-width: 100%;
@@ -789,7 +789,7 @@ a[target="_blank"]:after:hover {
 
 .footer p {
     font: normal 16px/1.4 'mr', sans-serif;
-    color: #666;
+/*    color: #222;*/
 /*    text-align: left;*/
     padding: 0;
     max-width: 100%;
