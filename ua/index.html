@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +7,27 @@
 <!-- OG -->  
 <meta property="og:url" content="//alexkravchuk.com/" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Alex Kravchuk" />
-<meta property="og:description" content="UX/UI Designer" />
+<meta property="og:title" content="Олександр Кравчук" />
+<meta property="og:description" content="UX/UI дизайнер" />
 <meta property="og:image" content="//alexkravchuk.com/img/ak_cover_koval.png" />
 
 <!-- Meta -->   
-<title>Alex Kravchuk</title>
-<meta name="description" content="UX/UI Designer">
-<meta name="keywords" content="UX, UI, Design">
-<link rel="icon" type="image/png" href="favicon.png" />
+<title>Олександр Кравчук</title>
+<meta name="description" content="UX/UI дизайнер">
+<meta name="keywords" content="UX, UI, дизайн">
+<link rel="icon" type="image/png" href="../favicon.png" />
 
-<script src="js/jquery-1.11.0.min.js"></script>
+<script src="../js/jquery-1.11.0.min.js"></script>
     
 <!-- AK Styles -->
-<link rel="stylesheet" href="css/ak-normalize.css" type="text/css">
-<link rel="stylesheet" href="css/ak-main.css" type="text/css">
-<link rel="stylesheet" href="css/ak-quick.css" type="text/css">
+<link rel="stylesheet" href="../css/ak-normalize.css" type="text/css">
+<link rel="stylesheet" href="../css/ak-main.css" type="text/css">
+<link rel="stylesheet" href="../css/ak-quick.css" type="text/css">
 
-<link rel="stylesheet" href="css/ak-grid.css" type="text/css">
-<link rel="stylesheet" href="css/ak-clear.css" type="text/css">
-<link rel="stylesheet" href="css/ak-visibility.css" type="text/css">
-<link rel="stylesheet" href="css/ak-adaptive.css" type="text/css">
+<link rel="stylesheet" href="../css/ak-grid.css" type="text/css">
+<link rel="stylesheet" href="../css/ak-clear.css" type="text/css">
+<link rel="stylesheet" href="../css/ak-visibility.css" type="text/css">
+<link rel="stylesheet" href="../css/ak-adaptive.css" type="text/css">
     
 
 <!-- JS Ready -->
@@ -68,7 +68,6 @@ $("iframe").wrap( "<div class='iframe_wrapper'></div>" );
     $("body").html($("body").html().replace(/\sне\s/g,' не&nbsp;'));
     $("body").html($("body").html().replace(/\sот\s/g,' от&nbsp;'));
     $("body").html($("body").html().replace(/\sпо\s/g,' по&nbsp;'));
-        
     $("body").html($("body").html().replace(/\sі\s/g,' і&nbsp;'));
     $("body").html($("body").html().replace(/\sта\s/g,' та&nbsp;'));
     $("body").html($("body").html().replace(/\sз\s/g,' з&nbsp;')); 
@@ -76,6 +75,7 @@ $("iframe").wrap( "<div class='iframe_wrapper'></div>" );
     $("body").html($("body").html().replace(/\sa\s/g,' a&nbsp;'));
     $("body").html($("body").html().replace(/\sA\s/g,' A&nbsp;'));
     $("body").html($("body").html().replace(/\san\s/g,' an&nbsp;'));
+    $("body").html($("body").html().replace(/\sAn\s/g,' An&nbsp;'));
     $("body").html($("body").html().replace(/\son\s/g,' on&nbsp;'));
     $("body").html($("body").html().replace(/\sof\s/g,' of&nbsp;'));
     $("body").html($("body").html().replace(/\sto\s/g,' to&nbsp;'));
@@ -132,12 +132,12 @@ $("a.click_off").off("click");
 </script>
 
 <!-- Emerge -->
-<script src="js/emerge.min.js" type="text/javascript"></script>
+<script src="../js/emerge.min.js" type="text/javascript"></script>
     
 <!-- Likely Social Buttons -->
 <!--
-<script src="js/likely.js"></script>
-<link rel="stylesheet" href="css/likely.css">
+<script src="../js/likely.js"></script>
+<link rel="stylesheet" href="../css/likely.css">
 -->
  
 <!-- Current Year -->
@@ -148,8 +148,8 @@ $(document).ready(function(){
 </script>
 
 <!-- Zoom images -->
-<link href="js/simplelightbox.css" rel="stylesheet" type="text/css">  
-<script type="text/javascript" src="js/simplelightbox.js"></script>
+<link href="../js/simplelightbox.css" rel="stylesheet" type="text/css">  
+<script type="text/javascript" src="../js/simplelightbox.js"></script>
 <script>
 	$(function(){
 		var $gallery = $('a.zoom').simpleLightbox();
@@ -202,11 +202,7 @@ $(document).ready(function () {
             window.location;
             $(document).on("scroll", onScroll); 
         });
-  
     });
-    
-    
- 
 });
 </script>
   
@@ -230,16 +226,17 @@ $(document).ready(function () {
 <div class="nav">
 <div class="nav_ins">
     <div class="home">
-        <a href="http://alexkravchuk.com" class="home_link click_off"></a>
+        <a href="http://alexkravchuk.com/ua" class="home_link click_off"></a>
     </div>
 
     <div class="menu ak_hide_sm ak_hide_xs">
         <ul class="menu_list">
-            <li class="menu_item"><a href="#work" class="menu_link">Work</a></li>
-            <li class="menu_item"><a href="#services" class="menu_link">Services</a></li>
-            <li class="menu_item"><a href="#approach" class="menu_link">Approach</a></li>
-            <li class="menu_item"><a href="#contact" class="menu_link">Contact</a></li>
-            <li class="menu_item"><a href="http://alexkravchuk.com/ua" class="menu_link click_off">Українська</a></li>
+            <li class="menu_item"><a href="#work" class="menu_link">Роботи</a></li>
+            <li class="menu_item"><a href="#services" class="menu_link">Послуги</a></li>
+            <li class="menu_item"><a href="#approach" class="menu_link">Підхід</a></li>
+            <li class="menu_item"><a href="#contact" class="menu_link">Контакти</a></li>
+            <li class="menu_item"><a href="http://alexkravchuk.com/" class="menu_link click_off">English</a></li>
+            <li class="clear"></li>
         </ul>
     </div> 
     
@@ -249,16 +246,13 @@ $(document).ready(function () {
   
 <div class="menu_mob">
 <ul class="menu_mob_list">
-    <li class="menu_mob_item"><a href="#work" class="menu_mob_link">Work</a></li>
-    <li class="menu_mob_item"><a href="#services" class="menu_mob_link">Services</a></li>
-    <li class="menu_mob_item"><a href="#approach" class="menu_mob_link">Approach</a></li>
-    <li class="menu_mob_item"><a href="#contact" class="menu_mob_link">Contact</a></li>
-    <li class="menu_mob_item"><a href="http://alexkravchuk.com/ua" class="menu_mob_link click_off">Українська</a></li>
-    
+    <li class="menu_mob_item"><a href="#work" class="menu_mob_link">Роботи</a></li>
+    <li class="menu_mob_item"><a href="#services" class="menu_mob_link">Послуги</a></li>
+    <li class="menu_mob_item"><a href="#approach" class="menu_mob_link">Підхід</a></li>
+    <li class="menu_mob_item"><a href="#contact" class="menu_mob_link">Контакти</a></li>
+    <li class="menu_mob_item"><a href="http://alexkravchuk.com/" class="menu_mob_link click_off">English</a></li>
 </ul>
 </div><!-- // menu_mob -->
-    
-    
   
     
 
@@ -269,15 +263,14 @@ $(document).ready(function () {
 ++++++++++++++++++ -->
 <div class="ancor" id="top">
 <div class="header">
-         
-    
+           
 <div class="card_yyy bg_sky">
 <div class="clear_xx"></div>
   
 <div class="ins_x emerge" data-effect="relax">
-<h4><span class="h4 bg_sky">Hey there</span></h4>
-<h1>I’m Alex, a UX/UI Designer</h1>
-<div class="lead">For 10 years I've been helping companies, startups and individuals create products and services as a designer, researcher and strategist. Let’s start a project together!</div>
+<h4><span class="h4 bg_sky">Вітаю всіх</span></h4>
+<h1>Я Олександр, UX/UI designer</h1>
+<div class="lead">Понад 10 років допомагаю компаніям, стартапам та приватним особам створювати продукти та послуги як дизайнер, дослідник і стратег. Почнімо проект разом!</div>
 </div><!-- // ins_x -->     
 
 <div class="clear_xxx"></div>
@@ -285,12 +278,11 @@ $(document).ready(function () {
 
 
 <div class="card_yy">
-    
 <div class="card_y">  
 <div class="card_y_12 bg_sky"></div>
 
 <div class="card_y_over tx_c emerge" data-effect="slide">
-<div><a class="ak_button_norm button_50" href="#contact">Get in Touch</a></div>
+<div><a class="ak_button_norm button_50" href="#contact">Зв'язатись</a></div>
 </div><!-- // card_y_over -->
 </div><!-- // card_y -->
     
@@ -312,14 +304,13 @@ $(document).ready(function () {
 <div class="ancor" id="work">   
 <div class="emerge" data-effect="slide">
  
-
 <div class="card_yy bg_night">
 <div class="clear_xxx"></div>
     
 <div class="ins_x">
-<h4><span class="h4 bg_night">Work</span></h4>
-<h2>My Selected Projects</h2>
-<div class="lead">At Art. Lebedev Studio, Agenty Zmin, Usabilitylab, Singlebranch, Marchenko Danevych, Nota Online Store and as a freelancer:</div>
+<h4><span class="h4 bg_night">Роботи</span></h4>
+<h2>Мої обрані проекти</h2>
+<div class="lead">В Art. Lebedev Studio, Агентах Змін, Usabilitylab, Singlebranch, Marchenko Danevych, Nota Online Store та як фрілансер:</div>
 </div><!-- // ins_x -->
     
 <div class="clear_xxx"></div> 
@@ -334,21 +325,21 @@ $(document).ready(function () {
 <div class="ak_row ak_gap_0">
     
 <div class="ak_col_6 ak_col_12_md ak_col_12_sm ak_col_12_xs emerge" data-effect="slide">
-<img src="img/work_01.png" alt="work 01" class="">
+<img src="../img/work_01.png" alt="work 01" class="">
 </div><!-- // col -->
     
 <div class="ak_col_6 ak_col_6_md ak_col_12_sm ak_col_12_xs emerge" data-effect="slide">
 <div class="pd_x"> 
-<h3>Digital Projects</h3>
+<h3>Digital проекти</h3>
 <ul>
-<li><a href="https://www.artlebedev.com/sberbank/dasreda/" target="_blank">Delovaya Sreda educational platform</a></li>
-<li><a href="https://www.artlebedev.com/mkb/site/" target="_blank">CBM commercial bank site</a></li>
-<li><a href="old/alextalanov">Alex Talanov music arranger site</a></li>
-<li>Stylet comparison shopping engine</li>
-<li>Podomu contractor search service</li>
-<li>Mediloco medical web portal</li>
-<li>Interdom tourist web portal</li>
-<li>Nota online store</li>
+<li><a href="https://www.artlebedev.com/sberbank/dasreda/" target="_blank">Ділове середовище, освітня платформа</a></li>
+<li><a href="https://www.artlebedev.com/mkb/site/" target="_blank">МКБ, сайт комерційного банку</a></li>
+<li><a href="../old/alextalanov">Олексій Таланов, сайт аранжувальника</a></li>
+<li>Stylet, агрегатор онлайн-магазинів</li>
+<li>Podomu, сервіс пошуку підрядників</li>
+<li>Mediloco, медичний портал</li>
+<li>Interdom, туристичний портал</li>
+<li>Nota, онлайн-магазин</li>
 </ul>
 </div><!-- // pd_x --> 
 </div><!-- // col -->
@@ -357,20 +348,20 @@ $(document).ready(function () {
     
 <div class="ak_col_6 ak_col_6_md ak_col_12_sm ak_col_12_xs emerge" data-effect="slide">
 <div class="pd_x"> 
-<h3>Urban Initiatives</h3>
+<h3>Міські ініціативи</h3>
 <ul>
-<li><a href="http://a3.kyiv.ua/projects/bike-wayfinding-truhaniv/" target="_blank">Bike navigation at Trukhaniv Island in Kyiv</a></li>
-<li><a href="http://metro.a3.kyiv.ua/" target="_blank">Kyiv metro navigation</a></li>
-<li><a href="old/tram">The concept of rapid tram logo</a></li> 
-<li><a href="https://www.facebook.com/photo.php?fbid=1029950050484610" target="_blank">Communication at rapid tram stations</a></li>    
-<li>Interface of the displays in metro train cars (Kyiv)</li>
+<li><a href="http://a3.kyiv.ua/projects/bike-wayfinding-truhaniv/" target="_blank">Велонавігація на Трухановому острові Києва</a></li>
+<li><a href="http://metro.a3.kyiv.ua/" target="_blank">Навігація у київському метро</a></li>
+<li><a href="../old/tram">Знак системи швидкісного трамваю</a></li> 
+<li><a href="https://www.facebook.com/photo.php?fbid=1029950050484610" target="_blank">Комунікація на станціях швидкісного трамваю</a></li>    
+<li>Інтерфейс дисплеїв у вагонах метро</li>
 </ul>
 </div><!-- // pd_x --> 
 </div><!-- // col -->
     
 
 <div class="ak_col_6 ak_col_12_md ak_col_12_sm ak_col_12_xs emerge" data-effect="slide">
-<img src="img/work_02.png" alt="2" class="">
+<img src="../img/work_02.png" alt="2" class="">
 </div><!-- // col -->
   
 </div>
@@ -398,9 +389,9 @@ $(document).ready(function () {
 <div class="clear_xxx"></div>
     
 <div class="ins_x emerge" data-effect="slide">
-<h4><span class="h4 bg_gold">Services</span></h4>
-<h2>What I Can Do for You</h2>
-<div class="lead">Here is my typical workflow which gets customized in every individual case. You get a specific product at the end of each stage.</div>
+<h4><span class="h4 bg_gold">Послуги</span></h4>
+<h2>Чим можу бути корисний</h2>
+<div class="lead">Це мій типовий робочий процес, що налаштовується в кожному окремому випадку. Ви отримуєте конкретний результат наприкінці кожного етапу.</div>
 
 </div><!-- // ins_x -->
 
@@ -419,86 +410,85 @@ $(document).ready(function () {
 <div class="ak_grid">
 <div class="ak_row ak_gap_40">
     
-
 <div class="ak_col_4 ak_col_6_md ak_col_12_sm ak_col_12_xs emerge" data-effect="slide">
-<h3><span class="fal fa_h3"></span>Strategy</h3>
-<p>Problem statement & consulting.</p>
-<p>Project audit and analysis.</p>
-<p>A brief and a work plan.</p>
+<h3><span class="fal fa_h3"></span>Стратегія</h3>
+<p>Консультація та постановка задачі.</p>
+<p>Аудит і аналіз проекту.</p>
+<p>Тех. завдання та план роботи.</p>
 </div><!-- // col -->
  
 <div class="clear_x ak_show_sm ak_show_xs"></div>
 
 <div class="ak_col_4 ak_col_6_md ak_col_12_sm ak_col_12_xs emerge" data-effect="slide"> 
-<h3><span class="fal fa_h3"></span>Research</h3>
-<p>User interviewing & observation.</p>
-<p>Context of use analysis.</p>
-<p>Personas, user stories etc.</p>
+<h3><span class="fal fa_h3"></span>Дослідження</h3>
+<p>Опитування юзерів та спостереження.</p>
+<p>Аналіз контексту використання.</p>
+<p>Персони, історії юзерів тощо.</p>
 </div><!-- // col -->
     
 <div class="clear_x ak_show_md ak_show_sm ak_show_xs"></div>
     
 <div class="ak_col_4 ak_col_6_md ak_col_12_sm ak_col_12_xs emerge" data-effect="slide">
-<h3><span class="fal fa_h3"></span>Interaction</h3>
-<p>Information architecture.</p>
-<p>Use cases & user flows.</p>
-<p>Content and functions description.</p>
+<h3><span class="fal fa_h3"></span>Взаємодія</h3>
+<p>Інформаційна структура.</p>
+<p>Сценарії взаємодії та навігація.</p>
+<p>Опис контенту та функцій.</p>
 </div><!-- // col -->
  
 <div class="clear_x ak_hide_md"></div>  
   
 <div class="ak_col_4 ak_col_6_md ak_col_12_sm ak_col_12_xs emerge" data-effect="slide"> 
-<h3><span class="fal fa_h3"></span>Prototyping</h3>
-<p>Presentation with features and ideas.</p>
-<p>Paper prototype.</p>
-<p>An interactive prototype.</p>
+<h3><span class="fal fa_h3"></span>Макетування</h3>
+<p>Презентація рішень та ідей.</p>
+<p>Паперовий прототип.</p>
+<p>Інтерактивний прототип.</p>
 </div><!-- // col -->
   
 <div class="clear_x ak_show_md ak_show_sm ak_show_xs"></div>
     
 <div class="ak_col_4 ak_col_6_md ak_col_12_sm ak_col_12_xs emerge" data-effect="slide"> 
 
-<h3><span class="fal fa_h3"></span>Testing</h3>
-<p>Usability testing with prototypes.</p>
-<p>Interface evaluation and improvement tips.</p>
+<h3><span class="fal fa_h3"></span>Тестування</h3>
+<p>Usability тестування на прототипах.</p>
+<p>Оцінка та поради щодо вдосконалення інтерфейсу.</p>
 </div><!-- // col -->
      
 <div class="clear_x ak_show_sm ak_show_xs"></div>
     
 <div class="ak_col_4 ak_col_6_md ak_col_12_sm ak_col_12_xs emerge" data-effect="slide"> 
 
-<h3><span class="fal fa_h3"></span>UI Design</h3>
-<p>Design concept of key screens.</p>
-<p>Ready-to-use files, an UI style guide.</p>
-<p>Animation examples.</p>
-</div><!-- // col -->    
+<h3><span class="fal fa_h3"></span>Дизайн інтерфейсу</h3>
+<p>Концепція дизайну ключових екранів.</p>
+<p>Готові файли, опис компонентів.</p>
+<p>Приклади анімації.</p>
+</div><!-- // col -->
 
 <div class="clear_x "></div>  
     
 <div class="ak_col_4 ak_col_6_md ak_col_12_sm ak_col_12_xs emerge" data-effect="slide"> 
 
-<h3><span class="fal fa_h3"></span>Implementation</h3>
-<p>Specification of the project.</p>
-<p>An interactive prototype.</p>
-<p>Importing files to Zeplin.</p>
+<h3><span class="fal fa_h3"></span>Впровадження</h3>
+<p>Специфікація проекту.</p>
+<p>Інтерактивний прототип.</p>
+<p>Імпортування файлів на Zeplin.</p>
 </div><!-- // col -->
-    
+ 
 <div class="clear_x ak_show_sm ak_show_xs"></div>  
 
 <div class="ak_col_4 ak_col_6_md ak_col_12_sm ak_col_12_xs emerge" data-effect="slide"> 
 
-<h3><span class="fal fa_h3"></span>Quick Start</h3>
-<p>A site or an online presentation on Readymag or Tilda.</p>
-<p>A solution without programming for small projects.</p>
+<h3><span class="fal fa_h3"></span>Швидкий початок</h3>
+<p>Рішення без програмування для невеликих проектів.</p>
+<p>Сайт або онлайн-презентація на Readymag або Tilda.</p>
 </div><!-- // col -->
     
 <div class="clear_x ak_show_md ak_show_sm ak_show_xs"></div>
     
 <div class="ak_col_4 ak_col_6_md ak_col_12_sm ak_col_12_xs emerge" data-effect="slide"> 
 
-<h3><span class="fal fa_h3"></span>Sorry, I Don’t Do</h3>
-<p>Wordpress themes.</p>
-<p>Domain registration & hosting services, server configuration etc. </p>
+<h3><span class="fal fa_h3"></span>Чого не роблю</h3>
+<p>Теми для Wordpress.</p>
+<p>Реєстрація доменів, хостингу, налаштування серверів тощо.</p>
 </div><!-- // col -->
 
 </div>
@@ -521,14 +511,14 @@ $(document).ready(function () {
 <div class="clear_xx"></div>
 
 <div class="ins_x emerge" data-effect="slide">   
-<h4><span class="h4 bg_light">Approach</span></h4>   
-<h2>How I Work</h2>
+<h4><span class="h4 bg_light">Підхід</span></h4>   
+<h2>Як працюю</h2>
 
 <div class="tx_c">
-<h3>My Design Principles</h3>
-<div class="tx_c">Simplicity •&nbsp;Accessibility •&nbsp;Usability •&nbsp;Integrity •&nbsp;Flexibility</div>
+<h3>Мої дизайн-принципи</h3>
+<div class="tx_c">Простота •&nbsp;Доступність •&nbsp;Юзабельність •&nbsp;Цілісність •&nbsp;Гнучкість</div>
 </div>
-</div><!-- // ins_x -->   
+</div><!-- // ins_x -->
     
 <div class="clear_xx"></div>
 
@@ -538,15 +528,15 @@ $(document).ready(function () {
 <div class="ak_row ak_gap_0">
     
 <div class="ak_col_4 ak_col_6_md ak_col_12_sm ak_col_12_xs ak_hide_sm ak_hide_xs">
-<div class=""><img src="img/edu_03.jpg" alt="team" class=""></div>
+<div class=""><img src="../img/edu_03.jpg" alt="team" class=""></div>
 </div><!-- // col -->
 
 <div class="ak_col_4 ak_col_12_xs ak_hide_md ak_hide_sm ak_hide_xs">
-<div class=""><img src="img/edu_02.jpg" alt="workshop" class=""></div>
+<div class=""><img src="../img/edu_02.jpg" alt="workshop" class=""></div>
 </div><!-- // col -->
      
 <div class="ak_col_4 ak_col_6_md ak_col_12_sm ak_col_12_xs">
-<div class=""><img src="img/edu_01.png" alt="lecture" class=""></div>
+<div class=""><img src="../img/edu_01.png" alt="lecture" class=""></div>
 </div><!-- // col -->
 
 </div>
@@ -556,7 +546,7 @@ $(document).ready(function () {
 
 <div class="card_z_over pd_x bg_white emerge" data-effect="slide">
 <h3>Level Up</h3> 
-<p class="tx_l">Growth is my passion. I continuously improve my qualifications by attending professional courses and workshops.</p>
+<p class="tx_l">Розвиток — моя пристрасть. Я постійно вдосконалюю свою кваліфікацію, відвідуючи професійні курси та майстер-класи.</p>
 </div><!-- // card_z_over -->
 
 </div><!-- // card_zz -->   
@@ -576,10 +566,10 @@ $(document).ready(function () {
 <div class="clear_xxx"></div>
  
 <div class="ins_x">
-<h4><span class="h4 bg_leaf">Contact</span></h4>
-<h2>Get In Touch</h2>
-<div class="lead">Say <a class="" href="mailto:hello.alexkravchuk@gmail.com">hello.alexkravchuk@gmail.com</a></div>
-<div class="lead">Stay in the loop!</div>
+<h4><span class="h4 bg_leaf">Контакти</span></h4>
+<h2>Будемо на зв'язку</h2>
+<div class="lead"><a class="" href="mailto:hello.alexkravchuk@gmail.com">hello.alexkravchuk@gmail.com</a></div>
+<div class="lead">Слідкуйте за новинами!</div>
  </div><!-- // ins_x -->
     
 <div class="clear_xx"></div>
@@ -633,7 +623,7 @@ $(document).ready(function () {
 <!--<div class="clear_x ak_show_sm ak_show_xs"></div>-->
 
 <div class="ak_col_6 ak_col_12_md ak_col_12_sm ak_col_12_xs">
-<h3>Need Support?</h3>
+<h3>Є запитання?</h3>
     <p><a href="mailto:hello.alexkravchuk@gmail.com">hello.alexkravchuk@gmail.com</a></p>
     <p><a href="https://m.me/akrvchk"><span class="fa fab"></span> FB Messenger</a></p>
 </div><!-- // col -->
@@ -641,14 +631,14 @@ $(document).ready(function () {
 <div class="clear_x ak_show_md ak_show_sm ak_show_xs"></div>
     
 <div class="ak_col_2 ak_col_4_md ak_col_6_sm ak_col_6_xs">
-<h3>Quick Links</h3> 
-    <p><a href="#work">Work</a></p>
-    <p><a href="#services">Services</a></p>
-    <p><a href="#approach">Approach</a></p>
+<h3>Про головне</h3> 
+    <p><a href="#work">Роботи</a></p>
+    <p><a href="#services">Послуги</a></p>
+    <p><a href="#approach">Підхід</a></p>
 </div><!-- // col -->
 
 <div class="ak_col_2 ak_col_4_md ak_col_6_sm ak_col_6_xs">
-<h3>Follow Me</h3>
+<h3>Приєднуйтесь</h3>
     <p><a href="https://www.facebook.com/akrvchk/" target="_blank">Facebook</a></p>
     <p><a href="https://www.linkedin.com/in/akrvchk" target="_blank">LinkedIn</a></p>
     <p><a href="https://instagram.com/akr.kyiv" target="_blank">Instagram</a></p>  
@@ -657,7 +647,7 @@ $(document).ready(function () {
 <div class="clear_x ak_show_sm ak_show_xs"></div>
 
 <div class="ak_col_2 ak_col_4_md ak_col_12_sm ak_col_12_xs">
-    <p class=""><a href="#top">Back to top <span class="fa fas"></span></a></p>
+    <p class=""><a href="#top">Нагору <span class="fa fas"></span></a></p>
 </div><!-- // col -->
     
 
