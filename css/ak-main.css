@@ -652,15 +652,18 @@ a {
 /*    border-bottom: 1px solid #DCE4EE;*/
     }
 
-a:hover, a.hover {
+a:hover, 
+a.hover {
     /*color: #105287;*/
     color: #212121;
     text-decoration: none;
 /*    border-bottom: 1px solid #ddd; */
     }
 
-    .content p > a:hover, 
+    .content p > a:hover,
+    .content p > a.hover, 
     .content li > a:hover,
+    .content li > a.hover,
     .content h3 > a:hover {
         color: #cd2026;
         text-decoration: underline;
@@ -678,22 +681,26 @@ a:hover, a.hover {
 
     .content h3 > a {
 /*            color: #215493;*/
-            color: #212121;
+            color: #222;
 /*            border-bottom: 1px solid #ddd;*/*/
         }
 
     .content h3 > a:hover, 
     .content h3 > a.hover {
-            color: #212121;
+            color: #222;
 /*            border-bottom: 1px solid #ddd;*/
         }
 
-.nav a,
-.nav a.hover,
-.nav a:hover {
-    text-decoration: none;
-    border: none;
-    }
+    .bg_sky a:hover, 
+    .bg_sky a.hover,
+    .bg_night a:hover, 
+    .bg_night a.hover,
+    .bg_leaf a:hover, 
+    .bg_leaf a.hover {
+        border-bottom: 1px solid #fff; 
+        }
+
+
 
 a[target="_blank"] {
 /*
@@ -831,9 +838,19 @@ a[target="_blank"]:after:hover {
 */ 
     }
 
+
+.nav a,
+.nav a.hover,
+.nav a:hover {
+/*
+    text-decoration: none;
+    border: none;
+*/
+    }
+
 .home {
     float: left;
-    font: normal 16px/49px 'mr', sans-serif;
+/*    font: normal 16px/49px 'mr', sans-serif;*/
 /*
     text-transform: uppercase;
     letter-spacing: .05em;
@@ -841,7 +858,8 @@ a[target="_blank"]:after:hover {
     
     }
 
-a.home_link {
+a.home_link,
+span.home_link {
     display: block;
     width: 100px;
     height: 100px;
@@ -908,12 +926,15 @@ a.home_link.active {
         }
 
     .menu .menu_link:hover,
+    .menu .menu_link.hover,
     .menu .menu_link.active {
+/*
         -moz-opacity: 1;
         -khtml-opacity: 1;
         opacity: 1;
+*/
         color: #fff;
-/*        border-bottom: 1px #fff solid;*/
+        border-bottom: 1px #fff solid;
 /*        position: relative;*/
         }
 
