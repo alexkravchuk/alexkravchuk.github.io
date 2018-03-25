@@ -174,7 +174,7 @@ function onScroll(){
         var hash = $(this).attr("href");
         var target = $(hash);
         if (target.position().top - 0 <= scroll_top && target.position().top + target.outerHeight() > scroll_top) {
-            $(menu_selector + " a").removeClass("active");
+            $(menu_selector + " a.active").removeClass("active");
             $(this).addClass("active");
         } else {
             $(this).removeClass("active");
@@ -268,8 +268,9 @@ $(document).ready(function () {
 <!-- HOME 
 ++++++++++++++++++ -->
 <div class="ancor" id="top">
+<div class="clear_xxxx"></div>
+
 <div class="header">
-         
     
 <div class="card_yyy bg_sky">
 <div class="clear_xx"></div>
@@ -298,20 +299,14 @@ $(document).ready(function () {
 
 </div><!-- // header -->
 </div><!-- // ancor -->
-    
-    
-    
-    
-<!--<div class="clear_x"></div>-->
-<!--<div class="clear_xx"></div>-->
-
 
 
 <!-- WORK
 ++++++++++++++++++ -->
-<div class="ancor" id="work">   
+<div class="ancor" id="work"> 
+<div class="clear_xxxx"></div>
+    
 <div class="emerge" data-effect="slide">
- 
 
 <div class="card_yy bg_night">
 <div class="clear_xxx"></div>
@@ -384,15 +379,12 @@ $(document).ready(function () {
 </div><!-- // emg -->
 </div><!-- // ancor -->
 
-   
-<!--<div class="clear_x"></div>-->
-<!--<div class="clear_xx"></div>-->
 
-    
     
 <!-- SERVICES 
 ++++++++++++++++++ -->
-<div class="ancor" id="services"> 
+<div class="ancor" id="services">
+<div class="clear_xxxx"></div>
 
 <div class="card_yy bg_gold">
 <div class="clear_xxx"></div>
@@ -511,14 +503,13 @@ $(document).ready(function () {
 </div><!-- // card_yy -->   
 </div><!-- // ancor -->
     
-    
-<!--<div class="clear_x"></div>-->
-    
 
 <!-- APPROACH 
 ++++++++++++++++++ -->
 <div class="ancor" id="approach">
-<div class="clear_x"></div>
+<div class="clear_xxxx back_xxxx"></div>
+<div class="clear_xxxx"></div>
+
 
 <div class="ins_x emerge" data-effect="slide">   
 <h4><span class="h4 bg_light">Approach</span></h4>   
@@ -562,14 +553,13 @@ $(document).ready(function () {
 </div><!-- // card_zz -->   
 </div><!-- // ancor --> 
 
- 
-<!--<div class="clear_xx"></div>-->
-<!--<div class="clear_x"></div>-->
     
     
 <!-- CONTACT   
 ++++++++++++++++++ -->
 <div class="ancor" id="contact">
+<div class="clear_xxxx"></div>
+
 <div class="emerge" data-effect="slide">
 
 <div class="card_yy bg_leaf tx_c">

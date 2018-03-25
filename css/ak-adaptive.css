@@ -61,7 +61,7 @@
         }
     
     .ancor {
-        padding-top: 49px;
+/*        padding-top: 50px;*/
         }
     
     .ins_x {
@@ -126,6 +126,10 @@
 
     .clear_xxx {
         height: 40px;
+        }    
+    
+    .clear_xxxx {
+        height: 50px;
         }
     
     .clear_xxx_border {
@@ -133,8 +137,8 @@
         height: 40px;
         }
     
-    .user_desc {
-        text-align: left;
+    .back_xxxx {
+        margin-top: -50px;
         }
     
 /*

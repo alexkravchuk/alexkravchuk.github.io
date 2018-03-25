@@ -820,6 +820,8 @@ a[target="_blank"]:after:hover {
     left: 0;
     right: 0;
 /*    letter-spacing: .03em;*/
+    
+/*    opacity: .6;*/
     }
 
 .nav_ins {
@@ -833,8 +835,20 @@ a[target="_blank"]:after:hover {
     }
 
 .ancor {
-    padding-top: 99px;
+/*    padding-top: 100px;*/
+/*    border-top: 1px solid red;*/
     }
+
+/*
+    .ancor:before {
+        content: '';
+        display: block;
+        height: 99px;
+        background: pink;
+        }
+*/
+
+
 
 
 .nav a,
@@ -1062,15 +1076,12 @@ a.home_link.active {
 
 .clear_x,
 .clear_xx,
-.clear_xxx {
+.clear_xxx
+.clear_xxxx, {
     clear: both;
     display: block;
     font-size: 1px;
     line-height: 0;
-    }
-
-.clear_xz {
-    height: 50px;
     }
 
 .clear_x {
@@ -1083,6 +1094,10 @@ a.home_link.active {
 
 .clear_xxx {
     height: 80px;
+    }
+
+.clear_xxxx {
+    height: 100px;
     }
 
 .clear_x_border {
@@ -1125,6 +1140,9 @@ a.home_link.active {
     border-top: 1px #ebebeb solid;
     }
 
+.back_xxxx {
+    margin-top: -100px;
+    }
 
 
 /* OTHRS 
