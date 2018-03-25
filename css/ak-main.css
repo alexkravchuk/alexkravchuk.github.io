@@ -103,13 +103,7 @@ img {
         }
 
 
-.ancor {
-/*
-    border: 2px red dashed;
-    box-sizing: border-box;
-    margin: 2px;
-*/
-}
+
 
 
 /* CARDS ----------------------------- */
@@ -818,7 +812,7 @@ a[target="_blank"]:after:hover {
 
 .nav {
     background: #00a6d2;
-/*    position: fixed;*/
+    position: fixed;
     height: 100px;
     padding: 0;
     z-index: 33;
@@ -836,6 +830,10 @@ a[target="_blank"]:after:hover {
     padding-left: 4%;
     padding-right: 4%;
 */ 
+    }
+
+.ancor {
+    padding-top: 99px;
     }
 
 
@@ -944,7 +942,7 @@ a.home_link.active {
     float: right;
     width: 20px;
     height: 20px;
-    padding: 15px;
+    padding: 15px 20px;
     }
 
 .menu_button_icon {

@@ -174,7 +174,7 @@ function onScroll(){
         var hash = $(this).attr("href");
         var target = $(hash);
         if (target.position().top - 0 <= scroll_top && target.position().top + target.outerHeight() > scroll_top) {
-            $(menu_selector + " a.active").removeClass("active");
+            $(menu_selector + " a").removeClass("active");
             $(this).addClass("active");
         } else {
             $(this).removeClass("active");
@@ -197,7 +197,7 @@ $(document).ready(function () {
         var target = $(hash);
  
         $("html, body").animate({
-            scrollTop: target.offset().top - 0
+            scrollTop: target.offset().top - -1
         }, 500, function(){
             window.location;
             $(document).on("scroll", onScroll); 
@@ -230,7 +230,7 @@ $(document).ready(function () {
 <div class="nav">
 <div class="nav_ins">
     <div class="home">
-        <a href="http://alexkravchuk.com" class="home_link click_off"></a>
+        <a href="#top" class="home_link"></a>
     </div>
 
     <div class="menu ak_hide_sm ak_hide_xs">
