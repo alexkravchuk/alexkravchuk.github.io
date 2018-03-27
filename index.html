@@ -122,8 +122,7 @@ $(".menu_mob_link").click(function(){
     $(".menu_button_icon").removeClass("active");
     return false; 
 });
-        
-     
+
 // Remove Click Event   
 $("a.click_off").off("click");       
 
@@ -165,7 +164,7 @@ if( /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) ) {
 }
 </script>
     
-<script>
+<script type="text/javascript">
 // Current menu item 
 var menu_selector = ".menu_list"; // Переменная должна содержать название класса или идентификатора, обертки нашего меню. 
 function onScroll(){
@@ -181,15 +180,14 @@ function onScroll(){
         }
     });
 }
+    
  
 // Scroll Animate
 $(document).ready(function () {
- 
     $(document).on("scroll", onScroll);
- 
+    
     $("a[href^=#]").click(function(e){
         e.preventDefault();
- 
         $(document).off("scroll");
         $(menu_selector + " a.active").removeClass("active");
         $(this).addClass("active");
@@ -202,12 +200,50 @@ $(document).ready(function () {
             window.location;
             $(document).on("scroll", onScroll); 
         });
-  
     });
-    
-    
- 
 });
+  
+    
+// Change Bg Logo Offset
+$(document).ready(function() {
+  
+var anchor3 = $("#services");
+	$(window).scroll(function() {
+		var window_pos = $(window).scrollTop();
+		if (window_pos >= anchor3.position().top & window_pos < anchor3.position().top + anchor3.outerHeight()) {
+            $(".home_link").removeClass("bg_leaf");
+			$(".home_link").addClass("bg_gold");
+		} else {
+			$(".home_link").removeClass("bg_gold");
+		} 
+	});
+    
+var anchor4 = $("#approach");
+	$(window).scroll(function() {
+		var window_pos = $(window).scrollTop();
+		if (window_pos >= anchor4.position().top & window_pos < anchor4.position().top + anchor4.outerHeight()) {
+//			$(".home_link").addClass("bg_violet");
+            $(".home_link").removeClass("bg_gold");
+		} else {
+//			$(".home_link").removeClass("bg_gold");
+		} 
+	});
+    
+var anchor5 = $("#contact");
+	$(window).scroll(function() {
+		var window_pos = $(window).scrollTop();
+		if (window_pos >= anchor5.position().top & window_pos < anchor5.position().top + anchor5.outerHeight()) {
+			$(".home_link").removeClass("bg_gold");
+            $(".home_link").addClass("bg_leaf"); 
+		} else {
+			$(".home_link").removeClass("bg_leaf");	
+		} 
+	});
+
+//$(".home_link").text($(".header ").outerHeight());
+}); // end ready
+    
+   
 </script>
   
 <!-- Google Analytics 
@@ -230,7 +266,7 @@ $(document).ready(function () {
 <div class="nav">
 <div class="nav_ins">
     <div class="home">
-        <a href="#top" class="home_link"></a>
+        <a href="#top" class="home_link bg_red"></a>
     </div>
 
     <div class="menu ak_hide_sm ak_hide_xs">
