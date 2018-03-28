@@ -80,8 +80,10 @@ html, body {
 	}
 
 body.fixed {
+/*
     overflow: hidden;
     background: #00a6d2;
+*/
 /*    position: fixed;*/
     }
 
@@ -902,8 +904,10 @@ a.home_link.active {
     z-index: 33;
     top: 50px;
     left: 0;
-    right: 0;
-    bottom: 0;
+/*    right: 0;*/
+/*    bottom: 0;*/
+    width: 100%;
+    height: 100vh;
     overflow: hidden;
     }
 
@@ -1339,10 +1343,12 @@ a.zoom {
     }
 
 .trans{
+/*
     -moz-opacity: 0;
     -khtml-opacity: 0;
     opacity: 0;
     overflow-y: hidden;
+*/
     }
 
 .likely {
