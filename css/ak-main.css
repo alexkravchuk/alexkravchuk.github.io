@@ -82,7 +82,7 @@ html, body {
 body.fixed {
     overflow: hidden;
     background: #00a6d2;
-    position: fixed;
+/*    position: fixed;*/
     }
 
 .header {
@@ -896,14 +896,14 @@ a.home_link.active {
 
 .menu_mob {
     display: none;
-    background: #fff;
+    background: #00a6d2;
     position: fixed;
     padding: 0;
     z-index: 33;
     top: 50px;
     left: 0;
     right: 0;
-/*    bottom: 0;*/
+    bottom: 0;
     overflow: hidden;
     }
 
