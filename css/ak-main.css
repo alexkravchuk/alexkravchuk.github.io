@@ -557,14 +557,32 @@ h2.no_line:before{
 
 
 a {
-    color: #215493;
+/*    color: #215493;*/
+    color: #333;
     text-decoration: none;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    
     -webkit-transition: all ease .2s;
     -moz-transition: all ease .2s;
     -o-transition: all ease .2s;
     transition: all .2s ease;
-/*    border-bottom: 1px solid #DCE4EE;*/
     }
+
+    .content p > a, 
+    .content li > a {
+/*        color: #215493;*/
+        color: #333;
+        text-decoration: none;
+        border-bottom-style: dotted;
+        border-bottom-width: 1px;
+        }
+
+    .content h3 > a {
+/*            color: #215493;*/
+            color: #222;
+/*            border-bottom: 1px solid #ddd;*/*/
+        }
 
 a:hover, 
 a.hover {
@@ -579,25 +597,15 @@ a.hover {
     .content li > a:hover,
     .content li > a.hover,
     .content h3 > a:hover {
-        color: #cd2026;
-        text-decoration: underline;
-/*        border-bottom: 1px solid #ddd;*/
-        }
-
-
-    .content p > a, 
-    .content li > a {
-        color: #215493;
-/*        color: #222;*/
+/*        color: #cd2026;*/
+        color: #111;
         text-decoration: none;
-/*        border-bottom: 1px solid #DCE4EE; */
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
         }
 
-    .content h3 > a {
-/*            color: #215493;*/
-            color: #222;
-/*            border-bottom: 1px solid #ddd;*/*/
-        }
+
+
 
     .content h3 > a:hover, 
     .content h3 > a.hover {
@@ -629,7 +637,7 @@ a[target="_blank"]:after {
     font-family: 'fas';
     content: '\00a0\00a0';
     vertical-align: middle;
-    font-size: .66em;
+    font-size: .6em;
     position: relative;
     bottom: 1px;
     }
@@ -855,6 +863,7 @@ a.home_link.active {
         -khtml-opacity: .8;
         opacity: .8;
 */
+        border: none;
         }
 
     .menu .menu_link:hover,
