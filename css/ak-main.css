@@ -341,7 +341,7 @@ p {
 .content p, 
 .content ul, 
 .content ol {
-    max-width: 40em;
+    max-width: 37em;
 /*    letter-spacing: .02em;*/
     }
 
@@ -455,7 +455,7 @@ h3 {
     }
 
 .cells p + p {
-    margin: .5em 0 0;
+    margin: .3em 0 0;
     }
 
 
