@@ -8,21 +8,28 @@
 
 @font-face {
 	font-family: 'mr';
-	src: url('../fonts/m/mr.woff') format('woff');
+	src: url('../fonts/sans/mr.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
     }
 
 @font-face {
 	font-family: 'mb';
-	src: url('../fonts/m/mb.woff') format('woff');
+	src: url('../fonts/sans/mb.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
     }
 
 @font-face {
 	font-family: 'mx';
-	src: url('../fonts/m/mx.woff') format('woff');
+	src: url('../fonts/sans/mx.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+    }
+
+@font-face {
+	font-family: 'mw';
+	src: url('../fonts/serif/mw.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
     }
@@ -299,14 +306,11 @@ a.button_50 {
 
 
 body {
-	font: normal 16px/1.6 'mr', sans-serif;
-    color: #323a45;
-/*    color: #222;*/
+	font: normal 16px/1.6 'mw', serif;
+/*    color: #323a45;*/
+    color: #333;
 	}
 
-p, .lead, .nav {
-/*   letter-spacing: .01em; */
-    }
 
 p {
     margin: 0;
@@ -317,6 +321,7 @@ p {
 .content ul, 
 .content ol {
     max-width: 40em;
+/*    letter-spacing: .02em;*/
     }
 
 h1, h2, h3, h4 {
