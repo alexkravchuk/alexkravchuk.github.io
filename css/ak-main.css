@@ -28,6 +28,13 @@
     }
 
 @font-face {
+	font-family: 'ms';
+	src: url('../fonts/sans/ms.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+    }
+
+@font-face {
 	font-family: 'mw';
 	src: url('../fonts/serif/mw.woff') format('woff');
 	font-weight: normal;
@@ -270,9 +277,9 @@ a.button_social:visited {
 	}
 
 .button_50 {
-    font: normal 16px/47px 'mr', sans-serif;
+    font: normal 18px/47px 'mb', sans-serif;
 /*    text-transform: uppercase;*/
-/*    letter-spacing: .1em;*/
+    letter-spacing: .02em;
     height: 50px;
     padding: 0px 30px;
     background: #215493;
@@ -306,9 +313,9 @@ a.button_50 {
 
 
 body {
-	font: normal 16px/1.6 'mw', serif;
+	font: normal 16px/1.5 'mw', serif;
 /*    color: #323a45;*/
-    color: #333;
+    color: #222;
 	}
 
 
@@ -370,7 +377,7 @@ h4 {
 
 
 h1 {
-    font: normal 52px/1.1 'mx', sans-serif;
+    font: normal 52px/1.1 'ms', sans-serif;
     color: #222;
     margin: 0 auto .7em;
     padding: 0;
@@ -400,7 +407,7 @@ h1 + .lead {
     }
 
 h2 {
-    font: normal 40px/1.1 'mx', sans-serif;
+    font: normal 40px/1.1 'ms', sans-serif;
     color: #222;
     margin: 0 auto .7em;
     text-align: center;
@@ -423,8 +430,8 @@ h2 + .lead {
 
 h3 {
     color: #222;
-    font: normal 18px/1.4 'mb', sans-serif;
-    margin: 0 0 .5em;
+    font: normal 18px/1.4 'mx', sans-serif;
+    margin: 0 0 .75em;
     }
 
 
