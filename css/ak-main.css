@@ -327,7 +327,7 @@ a.button_50 {
 
 
 body {
-	font: normal 19px/1.4 'ar', serif;
+	font: normal 16px/1.6 'mr', serif;
 /*    color: #323a45;*/
     color: #333;
 	}
@@ -341,7 +341,7 @@ p {
 .content p, 
 .content ul, 
 .content ol {
-    max-width: 37em;
+    max-width: 40em;
 /*    letter-spacing: .02em;*/
     }
 
@@ -413,9 +413,9 @@ h1 + .lead {
 */
 
 .lead {
-    font: normal 27px/1.4 'ar', sans-serif;
+    font: normal 21px/1.8 'mr', sans-serif;
     color: #222;
-    max-width: 37em;
+    max-width: 44em;
     margin: 0 auto;
     text-align: center;
     }
@@ -445,7 +445,7 @@ h2 + .lead {
 h3 {
     color: #222;
     font: normal 18px/1.4 'mb', sans-serif;
-    margin: 0 0 1em;
+    margin: 0 0 .7em;
     }
 
 
@@ -558,7 +558,7 @@ h2.no_line:before{
 
 a {
 /*    color: #215493;*/
-    color: #046b99;
+    color: #0096BF;
     text-decoration: none;
 /*    border-bottom-style: dotted;*/
 /*    border-bottom-width: 1px;*/
