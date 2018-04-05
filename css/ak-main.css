@@ -291,7 +291,7 @@ a.button_social:visited {
 	}
 
 .button_50 {
-    font: normal 18px/47px 'mb', sans-serif;
+    font: normal 16px/47px 'mr', sans-serif;
 /*    text-transform: uppercase;*/
     letter-spacing: .02em;
     height: 50px;
@@ -413,9 +413,9 @@ h1 + .lead {
 */
 
 .lead {
-    font: normal 21px/1.8 'mr', sans-serif;
+    font: normal 27px/1.4 'ar', sans-serif;
     color: #222;
-    max-width: 44em;
+    max-width: 37em;
     margin: 0 auto;
     text-align: center;
     }
