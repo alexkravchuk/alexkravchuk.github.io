@@ -3,10 +3,13 @@
 
 /* xs - mob */
 @media (max-width: 767px) {
-    
-    html, body, 
+ 
+    body, 
     p, 
-    li, 
+    li {
+        font-size: 18px;
+        }    
+  
     .footer p, 
     .footer h3 {
         font-size: 15px;
