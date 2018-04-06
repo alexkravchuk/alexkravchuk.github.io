@@ -4,11 +4,10 @@
 /* xs - mob */
 @media (max-width: 767px) {
     
-    html, 
     body, 
     p, 
     li {
-        font-size: 18px;
+        font-size: 15px;
         }    
   
     .footer p, 
@@ -24,7 +23,7 @@
         }
     
     .lead {
-        font-size: 21px;
+        font-size: 18px;
         }
     
     h2, h2 a {
