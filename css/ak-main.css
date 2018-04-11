@@ -380,7 +380,7 @@ h4 {
 h1 {
     font: normal 54px/1.1 'nhb', sans-serif;
     color: #222;
-    margin: 0 auto 45px;
+    margin: 0 auto 40px;
     padding: 0;
     max-width: 17em;
 
@@ -412,7 +412,7 @@ h1 + .lead {
 h2 {
     font: normal 42px/1.1 'nhb', sans-serif;
     color: #222;
-    margin: 0 auto 45px;
+    margin: 0 auto 40px;
     text-align: center;
     padding: 0;
     max-width: 22em;
