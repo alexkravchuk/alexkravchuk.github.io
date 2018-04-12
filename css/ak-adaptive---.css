@@ -4,65 +4,50 @@
 /* xs - mob */
 @media (max-width: 767px) {
     
-    html, body {
+    body, 
+    p, 
+    li {
         font-size: 15px;
         }    
   
     .footer p, 
     .footer h3 {
-/*        font-size: 15px;*/
+        font-size: 15px;
         }
     
     h1 {
-        font-size: 2.5rem;
+        font-size: 30px;
+        line-height: 1.2;
+/*        padding: 0;*/
+        margin: 0 0 25px;
         }
     
-        h1 + * {
-            margin-top: 2.5rem;
-            }
-
         h4 + h1 {
-            margin-top: 1.25rem;   
-            }
-
-    
-    
-    h2 {
-        font-size: 2rem;
-        } 
-    
-        h2 + * {
-            margin-top: 2.5rem;
-            }
-
-        h4 + h2 {
-            margin-top: 1.25rem; 
-            }
-    
-    
+        margin-top: 20px;
+        }
     
     .lead {
-        font-size: 1.25rem;
+        font-size: 17px;
         }
     
-        h1 + .lead {
-            margin-top: 1.25rem; 
-            }
-
-        h2 + .lead {
-            margin-top: 1.25rem; 
-            }
+    h2 {
+        font-size: 22px;
+        margin-bottom: 25px;
+        }
     
+        h4 + h2 {
+        margin-top: 20px;
+        }
     
-
     h3 {
-        font-size: 1rem;
+        font-size: 16px;
+        margin-bottom: 15px;
         }
     
     h4 {
-        font-size: 1.15rem;
-        }
-
+    font-size: 16px;
+    }
+    
 
     
     .show_mob {
@@ -110,7 +95,7 @@
         }
     
     [class*="caption"] {
-/*        font-size: 15px;*/
+        font-size: 15px;
         }
     
     .over_200_xs,
@@ -135,38 +120,38 @@
         }
     
     .clear_x {
-        height: 1.5rem;
+        height: 20px;
         }
     
     .clear_x_border {
-        margin-top: 1.5rem;
-        height: 1.5rem;
+        margin-top: 20px;
+        height: 20px;
         }
 
     .clear_xx {
-        height: 2rem;
+        height: 30px;
         }
 
     .clear_xx_border {
-        margin-top: 2rem;
-        height: 2rem;
+        margin-top: 30px;
+        height: 30px;
         }
 
     .clear_xxx {
-        height: 2.5rem;
-        }   
-    
-    .clear_xxx_border {
-        margin-top: 2.5rem;
-        height: 2.5rem;
-        }
+        height: 40px;
+        }    
     
     .clear_xxxx {
-        height: 3rem;
+        height: 50px;
+        }
+    
+    .clear_xxx_border {
+        margin-top: 40px;
+        height: 40px;
         }
     
     .back_xxxx {
-        margin-top: -3rem;
+        margin-top: -50px;
         }
     
 /*
@@ -186,7 +171,7 @@
         }
 
     .button_50 {
-        font-size: 1rem;
+        font-size: 15px;
         line-height: 36px;
         padding: 0px 20px;
         height: 40px;
@@ -205,7 +190,10 @@
     
     .fa_h3 {
             font-size: 26px;
-            line-height: 1;
+    /*        display: inline;*/
+    /*        position: relative;*/
+    /*        top: .1em;*/
+        line-height: 1;
             }
     
     .pd_x {
