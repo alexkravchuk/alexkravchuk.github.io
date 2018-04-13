@@ -799,9 +799,8 @@ span.home_link:before {
     background-size: cover;
     }
 
-a.home_link:after,
-span.home_link:after {
-/*
+a.home_link:hover:after,
+span.home_link:hover:after {
     content: '';
     position: absolute;
     top: 0;
@@ -810,8 +809,7 @@ span.home_link:after {
     left: 0;
     z-index: 1;
     background: #000;
-    opacity: .3;   
-*/
+    opacity: .1;   
     }
 
 
