@@ -210,14 +210,25 @@ $(document).ready(function () {
 // Change Bg Logo Offset
 $(document).ready(function() {
   
+var anchor2 = $("#work");
+	$(window).scroll(function() {
+		var window_pos = $(window).scrollTop();
+		if (window_pos >= anchor2.position().top & window_pos < anchor2.position().top + anchor2.outerHeight()) {
+            $(".home_link").removeClass("bg_04");
+			$(".home_link").addClass("bg_02");
+		} else {
+			$(".home_link").removeClass("bg_02");
+		} 
+	});
+  
 var anchor3 = $("#services");
 	$(window).scroll(function() {
 		var window_pos = $(window).scrollTop();
 		if (window_pos >= anchor3.position().top & window_pos < anchor3.position().top + anchor3.outerHeight()) {
-            $(".home_link").removeClass("bg_leaf");
-			$(".home_link").addClass("bg_gold");
+            $(".home_link").removeClass("bg_04");
+			$(".home_link").addClass("bg_03");
 		} else {
-			$(".home_link").removeClass("bg_gold");
+			$(".home_link").removeClass("bg_03");
 		} 
 	});
     
@@ -225,10 +236,10 @@ var anchor4 = $("#approach");
 	$(window).scroll(function() {
 		var window_pos = $(window).scrollTop();
 		if (window_pos >= anchor4.position().top & window_pos < anchor4.position().top + anchor4.outerHeight()) {
-//			$(".home_link").addClass("bg_violet");
-            $(".home_link").removeClass("bg_gold");
+            $(".home_link").removeClass("bg_03");
+            $(".home_link").removeClass("bg_04");
 		} else {
-//			$(".home_link").removeClass("bg_gold");
+//			$(".home_link").removeClass("bg_03");
 		} 
 	});
     
@@ -236,10 +247,10 @@ var anchor5 = $("#contact");
 	$(window).scroll(function() {
 		var window_pos = $(window).scrollTop();
 		if (window_pos >= anchor5.position().top & window_pos < anchor5.position().top + anchor5.outerHeight()) {
-			$(".home_link").removeClass("bg_gold");
-            $(".home_link").addClass("bg_leaf"); 
+			$(".home_link").removeClass("bg_03");
+            $(".home_link").addClass("bg_04"); 
 		} else {
-			$(".home_link").removeClass("bg_leaf");	
+			$(".home_link").removeClass("bg_04");	
 		} 
 	});
 
@@ -309,11 +320,11 @@ var anchor5 = $("#contact");
     
 <div class="header">
            
-<div class="card_yyy bg_sky">
+<div class="card_yyy bg_01 tx_light">
 <div class="clear_xx"></div>
   
 <div class="ins_x emerge" data-effect="relax">
-<h4><span class="h4 bg_sky">Вітаю</span></h4>
+<h4><span class="h4 bg_01">Вітаю</span></h4>
 <h1>Олександр Кравчук</h1>
 <div class="lead">Понад 10 років допомагаю компаніям, стартапам і незалежним особам створювати продукти й послуги як дизайнер, дослідник, стратег. Почнімо проект разом!</div>
 </div><!-- // ins_x -->     
@@ -324,7 +335,7 @@ var anchor5 = $("#contact");
 
 <div class="card_yy">
 <div class="card_y">  
-<div class="card_y_12 bg_sky"></div>
+<div class="card_y_12 bg_01"></div>
 
 <div class="card_y_over tx_c emerge" data-effect="slide">
 <div><a class="ak_button_norm button_50" href="#contact">Зв’язатися зі мною</a></div>
@@ -344,11 +355,11 @@ var anchor5 = $("#contact");
     
 <div class="emerge" data-effect="slide">
 
-<div class="card_yy bg_night">
+<div class="card_yy bg_02 tx_light">
 <div class="clear_xxx"></div>
     
 <div class="ins_x">
-<h4><span class="h4 bg_night">Роботи</span></h4>
+<h4><span class="h4 bg_02">Роботи</span></h4>
 <h2>Мої обрані проекти</h2>
 <div class="lead">В Art. Lebedev Studio, Агентах Змін, Usabilitylab, Singlebranch, Marchenko Danevych, Nota Online Store, а також як фрілансер:</div>
 </div><!-- // ins_x -->
@@ -358,7 +369,7 @@ var anchor5 = $("#contact");
     
 <div class="card_yy">
 <div class="card_y"> 
-<div class="card_y_14 bg_night"></div>
+<div class="card_y_14 bg_02"></div>
 <div class="card_y_over bg_white">
     
 <div class="ak_grid">
@@ -421,11 +432,11 @@ var anchor5 = $("#contact");
 <div class="ancor" id="services">
 <div class="clear_xxxx"></div>
 
-<div class="card_yy bg_gold">
+<div class="card_yy bg_03 tx_light">
 <div class="clear_xxx"></div>
     
 <div class="ins_x emerge" data-effect="slide">
-<h4><span class="h4 bg_gold">Послуги</span></h4>
+<h4><span class="h4 bg_03">Послуги</span></h4>
 <h2>Чим можу стати у пригоді</h2>
 <div class="lead">Це мій типовий робочий процес, що налаштовується індивідуально. Ви отримуєте конкретний результат наприкінці кожного етапу.</div>
 
@@ -436,7 +447,7 @@ var anchor5 = $("#contact");
 
 <div class="card_yy">
 <div class="card_y"> 
-<div class="card_y_13 bg_gold"></div>
+<div class="card_y_13 bg_03"></div>
     
 <div class="card_y_over bg_white pd_x">
 
@@ -593,11 +604,11 @@ var anchor5 = $("#contact");
     
 <div class="emerge" data-effect="slide">
 
-<div class="card_yy bg_leaf tx_c">
+<div class="card_yy bg_04 tx_c tx_light">
 <div class="clear_xxx"></div>
  
 <div class="ins_x">
-<h4><span class="h4 bg_leaf">Контакти</span></h4>
+<h4><span class="h4 bg_04">Контакти</span></h4>
 <h2>Зв’язатися зі мною</h2>
 <div class="lead"><a class="" href="mailto:hello.alexkravchuk@gmail.com">hello.alexkravchuk@gmail.com</a></div>
 <div class="lead">Будьте в курсі:</div>
@@ -611,7 +622,7 @@ var anchor5 = $("#contact");
 <div class="card_yy">
     
 <div class="card_y">
-<div class="card_y_12 bg_leaf"></div>
+<div class="card_y_12 bg_04"></div>
 
 <div class="card_y_over tx_c">
 <div class="buttons_social">

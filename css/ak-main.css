@@ -73,7 +73,8 @@ html, body {
 	margin:0;
 	padding:0;
 	height: 100%;
-    background: #f0f0f0;
+/*    background: #f0f0f0;*/
+    background: #f4f7f6;
     
 	}
 
@@ -652,7 +653,7 @@ a[target="_blank"]:after:hover {
 
 .fa_h3 {
     position: relative;
-    top: .07em;
+    top: .075em;
     display: inline;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -665,6 +666,7 @@ a[target="_blank"]:after:hover {
 /*    color:  #00a6d2; */
 /*    color:  #111; */
     color:  #FDB81E; 
+    color:  #B0A684; 
     }
 
 .footer h3 {
@@ -706,9 +708,9 @@ a[target="_blank"]:after:hover {
     }
 
 .nav {
-    background: #00a6d2;
-/*    background: #640ecd;*/
-/*    background: #645394;*/
+/*    background: #00a6d2;*/
+/*    background: #00a6d2;*/
+    background: #8584B4;
     position: fixed;
     height: 100px;
     padding: 0;
@@ -768,18 +770,52 @@ a[target="_blank"]:after:hover {
 
 a.home_link,
 span.home_link {
+    position: relative;
     display: block;
     width: 100px;
     height: 100px;
-    background-image: url(../img/ak_logo.svg);
-    background-color: #323A45;
-    background-size: cover;
+    
+/*    background-color: #323A45;*/
+/*    background-color: #8584B4;*/
+    background-color: #5D5C7E;
+    
 /*
     -moz-opacity: .9;
     -khtml-opacity: .9;
     opacity: .9;
 */
     }
+
+a.home_link:before,
+span.home_link:before {
+    content: '';
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../img/ak_logo.svg);
+    background-size: cover;
+    }
+
+a.home_link:after,
+span.home_link:after {
+/*
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background: #000;
+    opacity: .3;   
+*/
+    }
+
+
+
 
 a.home_link:hover,
 a.home_link.active { 
@@ -1048,7 +1084,50 @@ a.home_link.active {
 
 /* BACKGROUNDS ----------------------------- */
 
+.bg_01,
+.home_link.bg_01 {
+/*    background-color: #00a6d2;*/
+    background-color: #8584B4;
+    }
 
+.bg_02,
+.home_link.bg_02 {
+/*    background-color: #323A45;*/
+    background-color: #66BA99;
+    }
+
+.bg_03,
+.home_link.bg_03 {
+/*    background-color: #F9C642;*/
+    background-color: #BAB08C;
+    }
+
+.bg_04,
+.home_link.bg_04 {
+/*    background-color: #2e8540;*/
+    background-color: #4EAAB0;
+    }
+
+.bg_05,
+.home_link.bg_05 {
+    background-color: #CA9C67;
+    }
+
+div[class*="bg_0"].tx_light * {
+    color: #fff !important;
+    }
+
+div[class*="bg_0"].tx_light h4:after {
+    content: '';
+    background: #fff;
+    }
+
+div[class*="bg_0"].tx_light a:hover,
+div[class*="bg_0"].tx_light a.hover {
+    border-bottom: 1px solid #fff; 
+    }
+
+/* -- old -- */
 
 .bg_night,
 .home_link.bg_night {
@@ -1108,7 +1187,7 @@ a.home_link.active {
 
 .bg_light {
 /*    background: #f2f4f5;*/
-    background: #f1f1f1;
+    background: #f4f7f6;
     }
 
 .bg_light2 {
