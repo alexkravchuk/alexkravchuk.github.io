@@ -659,14 +659,10 @@ a[target="_blank"]:after:hover {
     -moz-osx-font-smoothing: grayscale;
     font-size: 26px;
     padding-right: .4em;
-/*    color:  #e31c3d; */
-/*    color:  #5b616b; */
-/*    color:  #323a45; */
-/*    color:  #02bfe7; */
-/*    color:  #00a6d2; */
-/*    color:  #111; */
-    color:  #FDB81E; 
-    color:  #B0A684; 
+/*    color:  #FDB81E; */
+/*    color:  #B0A684; */
+/*    color:  #BA80B6; */
+    color:  #C98D95; 
     }
 
 .footer h3 {
@@ -1097,13 +1093,14 @@ a.home_link.active {
 .bg_03,
 .home_link.bg_03 {
 /*    background-color: #F9C642;*/
-    background-color: #BAB08C;
+/*    background-color: #BAB08C;*/
+    background-color: #E3A1AA;
     }
 
 .bg_04,
 .home_link.bg_04 {
 /*    background-color: #2e8540;*/
-    background-color: #4EAAB0;
+    background-color: #56B3BA;
     }
 
 .bg_05,
