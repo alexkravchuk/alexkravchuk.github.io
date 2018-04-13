@@ -662,7 +662,8 @@ a[target="_blank"]:after:hover {
 /*    color:  #FDB81E; */
 /*    color:  #B0A684; */
 /*    color:  #BA80B6; */
-    color:  #D698A0; 
+/*    color:  #CC87C7; */
+    color:  #E89887; 
     }
 
 .footer h3 {
@@ -1103,7 +1104,9 @@ a.home_link.active {
 .home_link.bg_03 {
 /*    background-color: #F9C642;*/
 /*    background-color: #BAB08C;*/
-    background-color: #E3A1AA;
+/*    background-color: #E3A1AA;*/
+/*    background-color: #CF93CB;*/
+    background-color: #F0A392;
     }
 
 .bg_04,
