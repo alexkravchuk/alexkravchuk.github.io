@@ -182,7 +182,7 @@ function onScroll(){
 $(document).ready(function () {
     $(document).on("scroll", onScroll);
     
-    $(".menu_list a[href^=#]").click(function(e){
+    $("a[href^=#]").click(function(e){
         e.preventDefault();
         $(document).off("scroll");
         $(menu_selector + " a.active").removeClass("active");
@@ -283,7 +283,7 @@ var anchor5 = $("#contact");
             <li class="menu_item"><a href="#services" class="menu_link">Services</a></li>
             <li class="menu_item"><a href="#approach" class="menu_link">Approach</a></li>
             <li class="menu_item"><a href="#contact" class="menu_link">Contact</a></li>
-<!--            <li class="menu_item"><a href="http://alexkravchuk.com/ua" class="menu_link click_off">Українська</a></li>-->
+<!--            <li class="menu_item"><a href="http://alexkravchuk.com/ua" class="menu_link click_off">Укр</a></li>-->
             <li class="menu_item"><span class="menu_link" style="opacity: .7;">Укр</span></li>
         </ul>
     </div> 
