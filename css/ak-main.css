@@ -881,53 +881,87 @@ a.home_link.active {
 
 
 .menu_button {
+    position: relative;
     display: block;
     float: right;
-    width: 20px;
-    height: 20px;
-    padding: 15px 20px;
+    width: 50px;
+    height: 50px;
+/*    padding: 15px 20px;*/
+    margin-right: 20px;
+/*    background: pink;*/
+
+    
     }
 
-.menu_button_icon {
-    display: block;
-    width: 20px;
-    height: 20px;
-    background: 0 0 no-repeat url(../img/menu_default_white.svg);
-    background-size: cover;
-    -webkit-transition: all ease .2s;
-    -moz-transition: all ease .2s;
-    -o-transition: all ease .2s;
-    transition: all .2s ease;
+    .menu_button:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 15px;
+        right: 0px;
+        top: 15px;
+        height: 2px;
+        background: #fff;
+        
+        -webkit-transition: all ease .2s;
+        -moz-transition: all ease .2s;
+        -o-transition: all ease .2s;
+        transition: all .2s ease;
+        
+        transform: none;
+        
 /*
-    -moz-opacity: .8;
-    -khtml-opacity: .8;
-    opacity: .8;
+        transform: rotate(-135deg);
+        transform-origin: center;
 */
-    }
+        }
 
-.menu_button_icon.active {
-    display: block;
-    width: 20px;
-    height: 20px;
-    background: 0 0 no-repeat url(../img/menu_active_white.svg);
-    background-size: cover;
-    -webkit-transition: all ease .2s;
-    -moz-transition: all ease .2s;
-    -o-transition: all ease .2s;
-    transition: all .2s ease;
-    -ms-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    -moz-opacity: 1;
-    -khtml-opacity: 1;
-    opacity: 1;
-    }
+     .menu_button.open:before {
+        content: '';
+        top: 23px;
+        left: 15px;
+        right: -5px;
+        bottom: auto;
 
-.menu_button:hover .menu_button_icon {
-    -moz-opacity: 1;
-    -khtml-opacity: 1;
-    opacity: 1;
-    }
+        transform: rotate(-135deg);
+        transform-origin: center;
+        }
+
+    .menu_button:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 15px;
+        right: 0px;
+        bottom: 15px;
+        height: 2px;
+        background: #fff;
+        
+        -webkit-transition: all ease .2s;
+        -moz-transition: all ease .2s;
+        -o-transition: all ease .2s;
+        transition: all .2s ease;
+        
+        transform: none;
+        
+/*
+        transform: rotate(-45deg);
+        transform-origin: center;
+*/
+        }
+
+     .menu_button.open:after {
+        content: '';
+        top: 23px;
+        left: 15px;
+        right: -5px;
+        bottom: auto;
+         
+        transform: rotate(-45deg);
+        transform-origin: center;
+        }
+
+
 
 /* -- memu mob -- */
 
