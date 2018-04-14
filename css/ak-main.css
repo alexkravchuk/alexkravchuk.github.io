@@ -756,13 +756,7 @@ a[target="_blank"]:after:hover {
     }
 
 .home {
-    float: left;
-/*    font: normal 16px/49px 'mr', sans-serif;*/
-/*
-    text-transform: uppercase;
-    letter-spacing: .05em;
-*/
-    
+    float: left;  
     }
 
 a.home_link,
@@ -771,7 +765,7 @@ span.home_link {
     display: block;
     width: 100px;
     height: 100px;
-    
+
 /*    background-color: #323A45;*/
 /*    background-color: #8584B4;*/
     background-color: #5D5C7E;
@@ -808,8 +802,6 @@ span.home_link:hover:after {
     background: #000;
     opacity: .1;   
     }
-
-
 
 
 a.home_link:hover,
@@ -887,19 +879,17 @@ a.home_link.active {
     width: 50px;
     height: 50px;
 /*    padding: 15px 20px;*/
-    margin-right: 20px;
+    margin-right: 5px;
 /*    background: pink;*/
-
-    
     }
 
     .menu_button:before {
         content: '';
         display: block;
         position: absolute;
-        left: 20px;
-        right: 0px;
-        top: 17px;
+        left: 15px;
+        right: 15px;
+        top: 18px;
         height: 2px;
         background: #fff;
         
@@ -919,8 +909,8 @@ a.home_link.active {
      .menu_button.open:before {
         content: '';
         top: 24px;
-        left: 21px;
-        right: -5px;
+        left: 13px;
+        right: 13px;
         bottom: auto;
 
         transform: rotate(-135deg);
@@ -931,9 +921,9 @@ a.home_link.active {
         content: '';
         display: block;
         position: absolute;
-        left: 20px;
-        right: 0px;
-        bottom: 17px;
+        left: 15px;
+        right: 15px;
+        bottom: 18px;
         height: 2px;
         background: #fff;
         
@@ -953,8 +943,8 @@ a.home_link.active {
      .menu_button.open:after {
         content: '';
         top: 24px;
-        left: 21px;
-        right: -5px;
+        left: 13px;
+        right: 13px;
         bottom: auto;
          
         transform: rotate(-45deg);
