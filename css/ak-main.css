@@ -272,31 +272,18 @@ a.button_social:visited {
     border: 2px solid #222;
     border-radius: none;
     box-shadow: none;
-    -webkit-transition: all ease .3s;
-    -moz-transition: all ease .3s;
-    -o-transition: all ease .3s;
-    transition: all ease .3s;
+    
+    -webkit-transition: all ease-out .3s;
+    -moz-transition: all ease-out .3s;
+    -o-transition: all ease-out .3s;
+    transition: all ease-out .3s;
     }
 
 a.button_50 {
     color: #222;
     border: 2px solid #222;
-    position: relative
+    position: relative;
     }
-
-    a.button_50:after {
-        content: '';
-        position: absolute;
-        z-index: -1;
-        display: block;
-        background: none;
-        width: 100%;
-        height: 50px;
-        top: 3px;
-        left: 6px;
-        border-bottom: 2px solid #222;
-        border-right: 2px solid #222;
-        }
 
 .button_50:hover,
 .button_50.hover {
@@ -305,8 +292,63 @@ a.button_50 {
     border: 2px solid #222;
     color: #fff;
 	background: #222;
+/*	background: none;*/
     padding: 0px 40px;
     }
+
+    a.button_50:before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        display: block;
+        background: none;
+        width: 100%;
+        height: 48px;
+        top: 6px;
+        left: 6px;
+        border-bottom: 2px solid #222;
+        border-right: 2px solid #222;
+        -webkit-transition: all ease-out .3s;
+        -moz-transition: all ease-out .3s;
+        -o-transition: all ease-out .3s;
+        transition: all ease-out .3s;
+        }
+
+        .button_50:hover:before,
+        .button_50.hover:before {
+            width: 100%;
+            height: 46px;
+            top: 0px;
+            left: 0px;
+            }
+
+    a.button_50:after   {
+        font-family: 'fas';
+        content: '';
+        position: absolute;
+        display: inline;
+        top: 0;
+        right: 10px;
+        color: #999;
+        -webkit-transition: all ease-out .3s;
+        -moz-transition: all ease-out .3s;
+        -o-transition: all ease-out .3s;
+        transition: all ease-out .3s;
+        -moz-opacity: 0;
+        -khtml-opacity: 0;
+        opacity: 0;
+/*        padding-left: .5em;*/
+        }
+
+        .button_50:hover:after,
+        .button_50.hover:after {
+            top: 0;
+            right: -1.5em;
+            color: #111;
+            -moz-opacity: 1;
+            -khtml-opacity: 1;
+            opacity: 1;
+            }
 
 
 
