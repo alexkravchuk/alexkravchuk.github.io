@@ -871,6 +871,7 @@ a.home_link.active {
 /*        position: relative;*/
         }
 
+/* -- menu btn -- */
 
 .menu_button {
     position: relative;
@@ -878,7 +879,6 @@ a.home_link.active {
     float: right;
     width: 50px;
     height: 50px;
-/*    padding: 15px 20px;*/
     margin-right: 5px;
 /*    background: pink;*/
     }
@@ -897,9 +897,6 @@ a.home_link.active {
         -moz-transition: all ease .2s;
         -o-transition: all ease .2s;
         transition: all .2s ease;
-        
-        transform: none;
-        
 /*
         transform: rotate(-135deg);
         transform-origin: center;
@@ -913,7 +910,16 @@ a.home_link.active {
         right: 13px;
         bottom: auto;
 
+        -webkit-transform: rotate(-135deg);  
+        -moz-transform: rotate(-135deg);  
+        -o-transform: rotate(-135deg);  
+        -ms-transform: rotate(-135deg);
         transform: rotate(-135deg);
+
+        -webkit-transform-origin: center;
+        -moz-transform-origin: center;
+        -o-transform-origin: center;
+        -ms-transform-origin: center;
         transform-origin: center;
         }
 
@@ -930,10 +936,7 @@ a.home_link.active {
         -webkit-transition: all ease .2s;
         -moz-transition: all ease .2s;
         -o-transition: all ease .2s;
-        transition: all .2s ease;
-        
-        transform: none;
-        
+        transition: all .2s ease;     
 /*
         transform: rotate(-45deg);
         transform-origin: center;
@@ -947,13 +950,21 @@ a.home_link.active {
         right: 13px;
         bottom: auto;
          
+        -webkit-transform: rotate(-45deg);  
+        -moz-transform: rotate(-45deg);  
+        -o-transform: rotate(-45deg);  
+        -ms-transform: rotate(-45deg);
         transform: rotate(-45deg);
+        
+        -webkit-transform-origin: center;
+        -moz-transform-origin: center;
+        -o-transform-origin: center;
+        -ms-transform-origin: center;
         transform-origin: center;
         }
 
 
-
-/* -- memu mob -- */
+/* -- menu mob -- */
 
 .menu_mob {
     display: none;
