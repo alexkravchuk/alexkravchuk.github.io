@@ -88,11 +88,10 @@ $("iframe").wrap( "<div class='iframe_wrapper'></div>" );
         
 // Mobile Menu Functions
 $(".menu_button").click(function(){
-    $(".menu_mob").slideToggle(100);
+    $(".menu_mob").slideToggle(400);
     $("body").toggleClass("fixed");
     $(".content").toggleClass("trans");
     $(".menu_button").toggleClass("open");
-//    $(".menu_button_icon").toggleClass("active");
     return false; 
 });
         
@@ -101,7 +100,6 @@ $(".home_link").click(function(){
     $(".content").removeClass("trans");
     $("body").removeClass("fixed");
     $(".menu_button").removeClass("open");
-//    $(".menu_button_icon").removeClass("active");
     return false; 
 });
         
@@ -110,7 +108,6 @@ $(".menu_link").click(function(){
     $(".content").removeClass("trans");
     $("body").removeClass("fixed");
     $(".menu_button").removeClass("open");
-//    $(".menu_button_icon").removeClass("active");
     return false; 
 });
         
@@ -119,7 +116,6 @@ $(".menu_mob_link").click(function(){
     $(".content").removeClass("trans");
     $("body").removeClass("fixed");
     $(".menu_button").removeClass("open");
-//    $(".menu_button_icon").removeClass("active");
     return false; 
 });
         
