@@ -893,10 +893,10 @@ a.home_link.active {
         height: 2px;
         background: #fff;
         
-        -webkit-transition: all ease .2s;
-        -moz-transition: all ease .2s;
-        -o-transition: all ease .2s;
-        transition: all .2s ease;
+        -webkit-transition: all .4s ease-out;
+        -moz-transition: all .4s ease-out;
+        -o-transition: all .4s ease-out;
+        transition: all .4s ease-out;
 /*
         transform: rotate(-135deg);
         transform-origin: center;
@@ -933,10 +933,10 @@ a.home_link.active {
         height: 2px;
         background: #fff;
         
-        -webkit-transition: all ease .2s;
-        -moz-transition: all ease .2s;
-        -o-transition: all ease .2s;
-        transition: all .2s ease;     
+        -webkit-transition: all .4s ease-out;
+        -moz-transition: all .4s ease-out;
+        -o-transition: all .4s ease-out;
+        transition: all .4s ease-out;     
 /*
         transform: rotate(-45deg);
         transform-origin: center;
