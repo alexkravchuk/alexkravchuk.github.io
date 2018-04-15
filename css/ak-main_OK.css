@@ -925,33 +925,39 @@ a.home_link.active {
 /*    background: pink;*/
     }
 
-/* -- line 01 -- */
-    .menu_button .button_line_01 {
+    .menu_button:before {
         content: '';
         display: block;
         position: absolute;
-        top: 17px;
         left: 15px;
         right: 15px;
+        top: 19px;
         height: 2px;
         background: #fff;
+        
         -webkit-transition: all .3s ease-out;
         -moz-transition: all .3s ease-out;
         -o-transition: all .3s ease-out;
         transition: all .3s ease-out;
+/*
+        transform: rotate(-135deg);
+        transform-origin: center;
+*/
         }
 
-     .menu_button.open .button_line_01 {
+     .menu_button.open:before {
         content: '';
         top: 24px;
         left: 13px;
         right: 13px;
         bottom: auto;
+
         -webkit-transform: rotate(-135deg);  
         -moz-transform: rotate(-135deg);  
         -o-transform: rotate(-135deg);  
         -ms-transform: rotate(-135deg);
         transform: rotate(-135deg);
+
         -webkit-transform-origin: center;
         -moz-transform-origin: center;
         -o-transform-origin: center;
@@ -959,82 +965,45 @@ a.home_link.active {
         transform-origin: center;
         }
 
-/* -- line 02 -- */
-    .menu_button .button_line_02 {
+    .menu_button:after {
         content: '';
         display: block;
         position: absolute;
-        top: 24px;
         left: 15px;
         right: 15px;
+        bottom: 19px;
         height: 2px;
         background: #fff;
+        
         -webkit-transition: all .3s ease-out;
         -moz-transition: all .3s ease-out;
         -o-transition: all .3s ease-out;
         transition: all .3s ease-out;     
-        }
-
-     .menu_button.open .button_line_02 {
-        content: '';
-        top: 24px;
-        left: 25px;
-        right: 25px;
-        bottom: auto;
-        -webkit-transform: rotate(-45deg);  
-        -moz-transform: rotate(-45deg);  
-        -o-transform: rotate(-45deg);  
-        -ms-transform: rotate(-45deg);
+/*
         transform: rotate(-45deg);
-        -webkit-transform-origin: center;
-        -moz-transform-origin: center;
-        -o-transform-origin: center;
-        -ms-transform-origin: center;
         transform-origin: center;
+*/
         }
 
-/* -- line 03 -- */
-    .menu_button .button_line_03 {
-        content: '';
-        display: block;
-        position: absolute;
-        left: 25px;
-        right: 15px;
-        bottom: 17px;
-        height: 2px;
-        background: #fff;
-        -webkit-transition: all .3s ease-out;
-        -moz-transition: all .3s ease-out;
-        -o-transition: all .3s ease-out;
-        transition: all .3s ease-out;     
-        }
-
-     .menu_button.open .button_line_03 {
+     .menu_button.open:after {
         content: '';
         top: 24px;
         left: 13px;
         right: 13px;
         bottom: auto;
+         
         -webkit-transform: rotate(-45deg);  
         -moz-transform: rotate(-45deg);  
         -o-transform: rotate(-45deg);  
         -ms-transform: rotate(-45deg);
         transform: rotate(-45deg);
+        
         -webkit-transform-origin: center;
         -moz-transform-origin: center;
         -o-transform-origin: center;
         -ms-transform-origin: center;
         transform-origin: center;
         }
-
-
-
-
-
-
-
-
-
 
 
 /* -- menu mob -- */
