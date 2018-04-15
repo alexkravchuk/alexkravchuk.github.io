@@ -103,30 +103,43 @@
         border: none;
         }
 
-    .button_50 {
+/* -- btns -- */
+
+    .button_50,
+    .button_50:hover {
         font-size: 1rem;
         line-height: 36px;
         padding: 0px 20px;
         height: 40px;
+        color: #222;
+        background: #fff;
         }
     
-    a.button_50:before {
-        content: '';
-        width: 100%;
-        height: 37px;
-        }
+        .button_50:active {
+            padding: 0px 25px;
+            color: #fff;
+            background: #222;
+            }
     
-    .button_50:hover:before,
-    .button_50.hover:before {
-        width: 100%;
-        height: 35px;
-        top: 0px;
-        left: 0px;
-        }
+        a.button_50:before,
+        a.button_50:hover:before {
+            content: '';
+            top: 6px;
+            left: 6px;
+            width: 100%;
+            height: 37px;
+            }
     
-    .ancor {
-/*        padding-top: 50px;*/
-        }
+        a.button_50:active:before {
+            width: 100%;
+            height: 35px;
+            top: 0px;
+            left: 0px;
+            }
+
+        a.button_50:after {
+            display: none;
+            }
     
 /* -- app -- */
     

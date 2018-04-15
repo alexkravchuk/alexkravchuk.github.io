@@ -171,6 +171,7 @@ function onScroll(){
         if (target.position().top - 0 <= scroll_top && target.position().top + target.outerHeight() > scroll_top) {
             $(menu_selector + " a.active").removeClass("active");
             $(this).addClass("active");
+//            $("a.ak_button_norm").removeClass("active");
         } else {
             $(this).removeClass("active");
         }
