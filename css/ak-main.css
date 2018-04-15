@@ -1008,20 +1008,20 @@ a.home_link.active {
 
      .menu_button.open .button_line_03 {
         content: '';
-        top: 24px;
-        left: 13px;
-        right: 13px;
+        top: 32px;
+        left: 17px;
+        right: 9px;
         bottom: auto;
         -webkit-transform: rotate(-45deg);  
         -moz-transform: rotate(-45deg);  
         -o-transform: rotate(-45deg);  
         -ms-transform: rotate(-45deg);
         transform: rotate(-45deg);
-        -webkit-transform-origin: center;
+        -webkit-transform-origin: left bottom;
         -moz-transform-origin: center;
         -o-transform-origin: center;
         -ms-transform-origin: center;
-        transform-origin: center;
+        transform-origin: left bottom;
         }
 
 
