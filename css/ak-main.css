@@ -919,17 +919,19 @@ a.home_link.active {
     width: 50px;
     height: 50px;
     margin-right: 5px;
-/*    background: pink;*/
+/*    border: 15px pink solid;*/
+    border: 15px transparent solid;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box; 
     }
 
 /* -- line 01 -- */
     .menu_button .button_line_01 {
-        content: '';
         display: block;
-        position: absolute;
-        top: 17px;
-        left: 15px;
-        right: 15px;
+        margin-top: 2px;
+        width: 20px;
         height: 2px;
         background: #fff;
         -webkit-transition: all .3s ease-out;
@@ -939,32 +941,27 @@ a.home_link.active {
         }
 
      .menu_button.open .button_line_01 {
-        content: '';
-        top: 24px;
-        left: 13px;
-        right: 13px;
-        bottom: auto;
-        -webkit-transform: rotate(-45deg);  
-        -moz-transform: rotate(-45deg);  
-        -o-transform: rotate(-45deg);  
-        -ms-transform: rotate(-45deg);
-        transform: rotate(-45deg);
+        width: 26px;
+         
+        -webkit-transform: rotate(-45deg) translateX(-7px) translateY(3px);
+        -moz-transform: rotate(-45deg) translateX(-7px) translateY(3px);
+        -ms-transform: rotate(-45deg) translateX(-7px) translateY(3px);
+        -o-transform: rotate(-45deg) translateX(-7px) translateY(3px);
+        transform: rotate(-45deg) translateX(-7px) translateY(3px);
+        
         -webkit-transform-origin: center;
         -moz-transform-origin: center;
-        -o-transform-origin: center;
         -ms-transform-origin: center;
+        -o-transform-origin: center;
         transform-origin: center;
         }
 
 /* -- line 02 -- */
     .menu_button .button_line_02 {
-        content: '';
         display: block;
-        position: absolute;
-        top: 24px;
-        left: 15px;
-        right: 15px;
+        width: 20px;
         height: 2px;
+        margin-top: 5px;
         background: #fff;
         -webkit-transition: all .3s ease-out;
         -moz-transition: all .3s ease-out;
@@ -973,16 +970,14 @@ a.home_link.active {
         }
 
      .menu_button.open .button_line_02 {
-        content: '';
-        top: 24px;
-        left: 25px;
-        right: 25px;
-        bottom: auto;
-        -webkit-transform: rotate(-45deg);  
-        -moz-transform: rotate(-45deg);  
-        -o-transform: rotate(-45deg);  
-        -ms-transform: rotate(-45deg);
-        transform: rotate(-45deg);
+        width: 0px;
+
+        -webkit-transform: rotate(-45deg) translateX(7px) translateY(7px);
+        -moz-transform: rotate(-45deg) translateX(7px) translateY(7px);
+        -ms-transform: rotate(-45deg) translateX(7px) translateY(7px);
+        -o-transform: rotate(-45deg) translateX(7px) translateY(7px);
+        transform: rotate(-45deg) translateX(7px) translateY(7px);
+         
         -webkit-transform-origin: center;
         -moz-transform-origin: center;
         -o-transform-origin: center;
@@ -992,13 +987,11 @@ a.home_link.active {
 
 /* -- line 03 -- */
     .menu_button .button_line_03 {
-        content: '';
         display: block;
-        position: absolute;
-        left: 25px;
-        right: 15px;
-        bottom: 17px;
+        margin-top: 5px;
+        width: 10px;
         height: 2px;
+        float: right;
         background: #fff;
         -webkit-transition: all .3s ease-out;
         -moz-transition: all .3s ease-out;
@@ -1007,26 +1000,20 @@ a.home_link.active {
         }
 
      .menu_button.open .button_line_03 {
-        content: '';
-        top: 24px;
-        left: 13px;
-        right: 13px;
-        bottom: auto;
-        -webkit-transform: rotate(-135deg);  
-        -moz-transform: rotate(-135deg);  
-        -o-transform: rotate(-135deg);  
-        -ms-transform: rotate(-135deg);
-        transform: rotate(-135deg);
+         width: 25px;
+    
+        -webkit-transform: rotate(-135deg) translateX(3px) translateY(7px);
+        -moz-transform: rotate(-135deg) translateX(3px) translateY(7px);
+        -ms-transform: rotate(-135deg) translateX(3px) translateY(7px);
+        -o-transform: rotate(-135deg) translateX(3px) translateY(7px);
+        transform: rotate(-135deg) translateX(3px) translateY(7px);
+         
         -webkit-transform-origin: center;
         -moz-transform-origin: center;
-        -o-transform-origin: center;
         -ms-transform-origin: center;
+        -o-transform-origin: center;
         transform-origin: center;
         }
-
-
-
-
 
 
 /* -- menu mob -- */
