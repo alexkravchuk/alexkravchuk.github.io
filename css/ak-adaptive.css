@@ -99,13 +99,21 @@
 /*        border: 15px pink solid;*/
         border: 15px transparent solid;
         }
+
+        a.home_link:before,
+        span.home_link:before {
+            background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4gICAgICAgIDx0aXRsZT5ob21lX2xvZ29fMjB4MjA8L3RpdGxlPiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4gICAgPGRlZnM+PC9kZWZzPiAgICA8ZyBpZD0iaG9tZV9sb2dvXzIweDIwIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4gICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUtNiIgZmlsbD0iI0ZGRkZGRiIgeD0iMCIgeT0iMCIgd2lkdGg9IjIiIGhlaWdodD0iMjAiPjwvcmVjdD4gICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUtNi1Db3B5IiBmaWxsPSIjRkZGRkZGIiB4PSIxOCIgeT0iMCIgd2lkdGg9IjIiIGhlaWdodD0iMjAiPjwvcmVjdD4gICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUtNyIgZmlsbD0iI0ZGRkZGRiIgeD0iMCIgeT0iMCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIiPjwvcmVjdD4gICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUtNy1Db3B5IiBmaWxsPSIjRkZGRkZGIiB4PSIwIiB5PSIxOCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIiPjwvcmVjdD4gICAgICAgIDxwYXRoIGQ9Ik0xMSwyIEwxOCwxOCIgaWQ9IkxpbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIj48L3BhdGg+ICAgICAgICA8cGF0aCBkPSJNOSwyIEwyLDE4IiBpZD0iTGluZS1Db3B5IiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSI+PC9wYXRoPiAgICAgICAgPHBhdGggZD0iTTIsMTggTDE4LDIiIGlkPSJMaW5lLTIiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIj48L3BhdGg+ICAgIDwvZz48L3N2Zz4=) 0 0 no-repeat;
+            }
     
+/*
     .logo_rec_01 {
         width: 20px;
         height: 20px;
         border: 2px #fff solid; 
         }    
+*/
 
+/*
     .logo_rec_02 {
             left: 2px;
             bottom: 1px;
@@ -117,7 +125,9 @@
             -o-transform: rotate(-65deg);
             transform: rotate(-65deg);
             }
+*/
 
+/*
     .logo_rec_03 {
             right: 2px;
             bottom: 1px;
@@ -129,13 +139,16 @@
             -o-transform: rotate(65deg);
             transform: rotate(65deg);
             }
+*/
 
+/*
     .logo_rec_04 {
             left: 2px;
             bottom: 1px;
             width: 24px;
             height: 2px;
             }
+*/
 
 /* -- btns -- */
 
