@@ -181,6 +181,18 @@ img {
             bottom: 75%;
             }
 
+        .card_y_40 {
+            position: absolute;
+            top: -1px;
+            left: -20px;
+            right: -20px;
+            } 
+
+        .card_y_40 {
+            bottom: auto;
+            height: 41px;
+            }
+
 
 
 .card_zz {
@@ -804,8 +816,7 @@ a[target="_blank"]:after:hover {
 
 /* - home btn - */
 
-a.home_link,
-span.home_link {
+.home_link {
     position: relative;
     display: block;
     overflow: hidden;
@@ -816,8 +827,7 @@ span.home_link {
     border: 30px transparent solid;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-	box-sizing: border-box; 
-            
+	box-sizing: border-box;    
     background-color: #5D5C7E;
     }
 
@@ -1291,20 +1301,18 @@ a.home_link.active {
 
 /* BACKGROUNDS ----------------------------- */
 
-.bg_01,
-.home_link.bg_01 {
+.bg_01
+ {
 /*    background-color: #00a6d2;*/
     background-color: #8584B4;
     }
 
-.bg_02,
-.home_link.bg_02 {
+.bg_02 {
 /*    background-color: #323A45;*/
     background-color: #66BA99;
     }
 
-.bg_03,
-.home_link.bg_03 {
+.bg_03 {
 /*    background-color: #F9C642;*/
 /*    background-color: #BAB08C;*/
 /*    background-color: #E3A1AA;*/
@@ -1312,29 +1320,41 @@ a.home_link.active {
     background-color: #F0A392;
     }
 
-.bg_04,
-.home_link.bg_04 {
+.bg_04 {
 /*    background-color: #2e8540;*/
     background-color: #56B3BA;
     }
 
-.bg_05,
-.home_link.bg_05 {
+.bg_05 {
     background-color: #CA9C67;
     }
 
-div[class*="bg_0"].tx_light * {
+
+div[class*="bg_"].tx_light * {
     color: #fff !important;
     }
 
-div[class*="bg_0"].tx_light h4:after {
+div[class*="bg_"].tx_light h4:after {
     content: '';
     background: #fff;
     }
 
-div[class*="bg_0"].tx_light a:hover,
-div[class*="bg_0"].tx_light a.hover {
+div[class*="bg_"].tx_light a:hover,
+div[class*="bg_"].tx_light a.hover {
     border-bottom: 1px solid #fff; 
+    }
+
+
+.bg_at_smoky {
+    background-color: #92A5B2;
+    }
+
+.bg_at_orange {
+    background-color: #FF3900;
+    }
+
+.bg_at_slate {
+    background-color: #575a60;
     }
 
 /* -- old -- */
