@@ -282,13 +282,13 @@ a.button_social:visited {
     background: #fff;
     color: #222;
     border: 2px solid #222;
-    border-radius: none;
+    border-radius: 0;
     box-shadow: none;
     
-    -webkit-transition: all ease-out .3s;
-    -moz-transition: all ease-out .3s;
-    -o-transition: all ease-out .3s;
-    transition: all ease-out .3s;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    transition: all ease .3s;
     }
 
 a.button_50 {
@@ -320,10 +320,10 @@ a.button_50 {
         left: 6px;
         border-bottom: 2px solid #222;
         border-right: 2px solid #222;
-        -webkit-transition: all ease-out .2s;
-        -moz-transition: all ease-out .2s;
-        -o-transition: all ease-out .2s;
-        transition: all ease-out .2s;
+        -webkit-transition: all ease .3s;
+        -moz-transition: all ease .3s;
+        -o-transition: all ease .3s;
+        transition: all ease .3s;
         }
 
         .button_50:hover:before,
@@ -332,6 +332,9 @@ a.button_50 {
             height: 46px;
             top: 0px;
             left: 0px;
+            -moz-opacity: 0;
+            -khtml-opacity: 0;
+            opacity: 0;
             }
 
 /*
