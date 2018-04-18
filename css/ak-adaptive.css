@@ -70,7 +70,7 @@
         line-height: 1;
         }
     
-/* -- cmps -- */
+/* -- comps -- */
 
 /*    .card_y_12,*/
     .card_y_13,
@@ -78,6 +78,10 @@
         top: 0;
         bottom: auto;
         height: 40px
+        }
+    
+    .card_zz_over {
+        margin: 0 20px -40px;
         }
     
 /* -- nav -- */
