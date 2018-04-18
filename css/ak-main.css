@@ -1069,10 +1069,10 @@ a.home_link.active {
         width: 20px;
         height: 2px;
         background: #fff;
-        -webkit-transition: all .3s ease-out;
-        -moz-transition: all .3s ease-out;
-        -o-transition: all .3s ease-out;
-        transition: all .3s ease-out;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
         }
 
      .menu_button.open .button_line_01 {
@@ -1098,10 +1098,10 @@ a.home_link.active {
         height: 2px;
         margin-top: 5px;
         background: #fff;
-        -webkit-transition: all .3s ease-out;
-        -moz-transition: all .3s ease-out;
-        -o-transition: all .3s ease-out;
-        transition: all .3s ease-out;     
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;     
         }
 
      .menu_button.open .button_line_02 {
@@ -1128,10 +1128,10 @@ a.home_link.active {
         height: 2px;
         float: right;
         background: #fff;
-        -webkit-transition: all .3s ease-out;
-        -moz-transition: all .3s ease-out;
-        -o-transition: all .3s ease-out;
-        transition: all .3s ease-out;     
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;     
         }
 
      .menu_button.open .button_line_03 {
