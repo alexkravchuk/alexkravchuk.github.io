@@ -330,6 +330,9 @@ a.button_50 {
         -moz-transition: all ease .25s;
         -o-transition: all ease .25s;
         transition: all ease .25s;
+        -moz-opacity: 1;
+        -khtml-opacity: 1;
+        opacity: 1;
         }
 
         .button_50:hover:before,
