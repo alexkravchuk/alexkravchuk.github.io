@@ -86,10 +86,9 @@ $("iframe").wrap( "<div class='iframe_wrapper'></div>" );
 	function() {$("a[href='" + $(this).attr("href") + "']").removeClass("hover");}
 	);      
         
-// Mobile Menu Functions
+// Mobile Menu Functions      
 $(".menu_button").click(function(){
     $(".menu_mob").slideToggle(300);
-    
     $("body").toggleClass("fixed");
     $(".content").toggleClass("trans");
     $(".menu_button").toggleClass("open");
@@ -97,16 +96,14 @@ $(".menu_button").click(function(){
     // fade Items
     $('.menu_mob_item').each(function(i) {
         if($(this).is(':hidden')){
-        $(this).delay((i++) * 100).fadeTo(200, 1); 
+        $(this).delay((i++) * 120).fadeTo(200, 1); 
         }
         else {
         $(this).fadeOut("fast");
         };  
     })
-
-return false; 
+    return false; 
 });
-
         
 $(".home_link").click(function(){
     $(".menu_mob").slideUp(300);
