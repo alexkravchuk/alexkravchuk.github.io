@@ -93,16 +93,17 @@ $(".menu_button").click(function(){
     $("body").toggleClass("fixed");
     $(".content").toggleClass("trans");
     $(".menu_button").toggleClass("open");
+    $(".menu_mob_item").fadeIn("fast");
         
     // fade Items
-    $('.menu_mob_item').each(function(i) {
-        if($(this).is(':hidden')){
-        $(this).delay((i++) * 100).fadeTo(200, 1); 
-        }
-        else {
-        $(this).fadeOut("fast");
-        };  
-    })
+//    $('.menu_mob_item').each(function(i) {
+//        if($(this).is(':hidden')){
+//        $(this).delay((i++) * 100).fadeTo(200, 1); 
+//        }
+//        else {
+//        $(this).fadeOut("fast");
+//        };  
+//    })
     return false; 
 });
         
