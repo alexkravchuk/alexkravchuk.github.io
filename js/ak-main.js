@@ -156,7 +156,7 @@ $("a.click_off").off("click");
 // Current year 
 $("#year").html(new Date().getFullYear());
 
-}); // End Ready -------------------------------------------- *
+}); // End Ready
 
 
 
@@ -191,7 +191,7 @@ $(document).ready(function () {
  
         $("html, body").animate({
             scrollTop: target.offset().top - -1
-        }, 500, function(){
+        }, 600, "easeInOutQuad", function(){ // use jquery easing plugin
             window.location;
             $(document).on("scroll", onScroll); 
         });
