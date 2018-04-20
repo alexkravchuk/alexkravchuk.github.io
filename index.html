@@ -18,6 +18,8 @@
 <link rel="icon" type="image/png" href="favicon.png" />
 
 <script src="js/jquery-1.11.0.min.js"></script>
+<!--<script src="js/jquery.easing.compatibility.js"></script>-->
+<script src="js/jquery.easing.1.3.js"></script>
     
 <!-- AK Styles -->
 <link rel="stylesheet" href="css/ak-normalize.css" type="text/css">
@@ -88,38 +90,53 @@ $("iframe").wrap( "<div class='iframe_wrapper'></div>" );
         
 // Mobile Menu Functions
 $(".menu_button").click(function(){
-    $(".menu_mob").slideToggle(400); 
+//    $(".menu_mob").slideToggle(400); 
+    
+//    $(".menu_mob").slideToggle({duration: 1000, easing: "easeInQuad"});
+ $(".menu_mob").slideToggle({duration: 500, easing: "easeInOutQuint"});
+    
+    
+    
+//    $('.menu_mob').each(function() {
+//        if($(this).is(':hidden')){
+//            $(".menu_mob").slideToggle({duration: 400, easing: "easeInOutCubic"});
+//        }
+//        else {
+//            $(".menu_mob").slideToggle({duration: 400, easing: "easeInCubic"});
+//        };  
+//    })
+    
+    
     $("body").toggleClass("fixed");
     $(".content").toggleClass("trans");
     $(".menu_button").toggleClass("open");
-//    $(".menu_mob_item").fadeIn("fast");
-    return false; 
+    return false;
 });
         
 $(".home_link").click(function(){
-    $(".menu_mob").slideUp(400);
+//    $(".menu_mob").slideUp(400);
+    $(".menu_mob").slideUp({duration: 500, easing: "easeInOutQuint"});
     $(".content").removeClass("trans");
     $("body").removeClass("fixed");
     $(".menu_button").removeClass("open");
-//    $(".menu_mob_item").fadeOut("fast");
     return false; 
 });
         
 $(".menu_link").click(function(){
-    $(".menu_mob").slideUp(400);
+//    $(".menu_mob").slideUp(400);
+    $(".menu_mob").slideUp({duration: 500, easing: "easeInOutQuint"});
     $(".content").removeClass("trans");
     $("body").removeClass("fixed");
     $(".menu_button").removeClass("open");
-//    $(".menu_mob_item").fadeOut("fast");
     return false; 
 });
         
 $(".menu_mob_link").click(function(){
-    $(".menu_mob").slideUp(400);
+//    $(".menu_mob").slideUp(400);
+    $(".menu_mob").slideUp({duration: 500, easing: "easeInOutQuint"});
     $(".content").removeClass("trans");
     $("body").removeClass("fixed");
     $(".menu_button").removeClass("open");
-//    $(".menu_mob_item").fadeOut("fast");
     return false; 
 });
 
