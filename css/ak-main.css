@@ -1217,16 +1217,6 @@ a.home_link.active {
 /*    background: #00a6d2;*/
     background: #8584B4;
     }
-
-    .menu_mob.show__in {
-        display: block;
-/*
-        -webkit-transition: all .7s ease-in;
-        -moz-transition: all .7s ease-in;
-        -o-transition: all .7s ease-in;
-        transition: all .7s ease-in;   
-*/
-        }
     
 
     .menu_mob .menu_mob_list {
@@ -1237,7 +1227,7 @@ a.home_link.active {
         }
 
     .menu_mob .menu_mob_item {
-        display: none;
+/*        display: none;*/
         text-indent: 0;
         list-style-type: none;
         margin: 0;
