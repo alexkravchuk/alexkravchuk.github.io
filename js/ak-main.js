@@ -190,7 +190,7 @@ $(document).ready(function () {
         var target = $(hash);
  
         $("html, body").animate({
-            scrollTop: target.offset().top - -1
+            scrollTop: target.offset().top + 1
         }, 600, "easeInOutQuad", function(){ // use jquery easing plugin
             window.location;
             $(document).on("scroll", onScroll); 
