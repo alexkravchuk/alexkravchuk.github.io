@@ -347,10 +347,10 @@ a.button_50 {
     text-align: center;
     }
 
+/*
 a.button_social,
 a.button_social:visited {
     display: inline-block;
-/*    float: left;*/
     width: 40px;
     height: 40px;
     color: #fff;
@@ -359,7 +359,6 @@ a.button_social:visited {
     text-align: center;
     margin: 0 5px;
     padding: 0;
-/*    border-radius: 100%;*/
     text-decoration: none;
     border: none;
     background: #215493;
@@ -377,24 +376,23 @@ a.button_social:visited {
         text-decoration: none;
         border: none;
         }
+*/
 
 
 a.button_square,
 a.button_square:visited {
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    line-height: 36px;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
+    line-height: 2.25rem;
     text-align: center;
     margin: 0 5px;
     padding: 0;
     border: 2px #222 solid;
-    
     text-decoration: none;
     color: #222;
     background: #fff;
-    
     -webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -1365,7 +1363,60 @@ a.home_link.active {
     border-top: 1px #ebebeb solid;
     }
 
+/* FEATURES ----------------------------- */
 
+.features {
+    text-align: center;
+    }
+
+.features_icon {
+    position: relative;
+    margin: 0 auto;
+    width: 3rem;
+    height: 3rem;
+
+    }
+
+    .features_icon:before {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        -moz-opacity: .1;
+        -khtml-opacity: .1;
+        opacity: .1;
+    /* start triangle css */
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 3rem 3rem 0 0;
+        border-color: #000 transparent transparent transparent;
+        }
+
+    .features_icon i {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        font: normal 1.3rem/3.125rem 'fal';
+        font-style: normal;
+        color: #fff;
+        }
+
+.features_title {
+    color: #222;
+    font: normal 1.25rem/1.3 'nhb', sans-serif;
+    }
+
+    .features_icon + .features_title {
+        margin-top: 1rem;
+        } 
 
 /* BACKGROUNDS ----------------------------- */
 
