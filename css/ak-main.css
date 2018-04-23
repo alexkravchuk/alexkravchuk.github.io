@@ -251,8 +251,8 @@ img {
     height: 50px;
     padding: 0px 30px;
     background: #fff;
-    color: #222;
-    border: 2px solid #222;
+    color: #000;
+    border: 2px solid #000;
     border-radius: 0;
     box-shadow: none;
     
@@ -263,8 +263,8 @@ img {
     }
 
 a.button_50 {
-    color: #222;
-    border: 2px solid #222;
+    color: #000;
+    border: 2px solid #000;
     position: relative;
     }
 
@@ -272,9 +272,9 @@ a.button_50 {
 .button_50.hover {
 	text-decoration: none;
 	outline: 0;
-    border: 2px solid #222;
+    border: 2px solid #000;
     color: #fff;
-	background: #222;
+	background: #000;
 /*	background: none;*/
     padding: 0px 35px;
     }
@@ -289,8 +289,8 @@ a.button_50 {
         height: 48px;
         top: 6px;
         left: 6px;
-        border-bottom: 2px solid #222;
-        border-right: 2px solid #222;
+        border-bottom: 2px solid #000;
+        border-right: 2px solid #000;
         -webkit-transition: all ease .25s;
         -moz-transition: all ease .25s;
         -o-transition: all ease .25s;
@@ -371,7 +371,7 @@ a.button_social:visited {
 
     a.button_social:hover,
     a.button_social.hover {
-        background: #222;
+        background: #000;
         color: #fff;
         text-decoration: none;
         border: none;
@@ -389,9 +389,9 @@ a.button_square:visited {
     text-align: center;
     margin: 0 5px;
     padding: 0;
-    border: 2px #222 solid;
+    border: 2px #000 solid;
     text-decoration: none;
-    color: #222;
+    color: #000;
     background: #fff;
     -webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -405,7 +405,7 @@ a.button_square:visited {
 
     a.button_square:hover,
     a.button_square.hover {
-        background: #222;
+        background: #000;
         color: #fff;
         }
 
@@ -417,8 +417,8 @@ a.button_square:visited {
 
 html, body {
 	font: normal 16px/1.6 'nht', sans-serif;
-    color: #323a45;
-/*    color: #222;*/
+/*    color: #323a45;*/
+    color: #000;
 	}
 
 p {
@@ -447,7 +447,7 @@ h4 {
     text-align: center;
     margin: 0 auto;
     max-width: 400px;
-    color: #222;
+    color: #000;
     }
 
     h4:after {
@@ -470,7 +470,7 @@ h4 {
 
 h1 {
     font: normal 3.5rem/1 'nhb', sans-serif;
-    color: #222;
+    color: #000;
     margin: 0 auto;
     padding: 0;
     max-width: 17em;
@@ -488,7 +488,7 @@ h1 {
 
 h2 {
     font: normal 2.5rem/1 'nhb', sans-serif;
-    color: #222;
+    color: #000;
     margin: 0 auto;
     text-align: center;
     padding: 0;
@@ -505,7 +505,7 @@ h2 {
 
 .lead {
     font: normal 1.5rem/1.5 'nhr', sans-serif;
-    color: #222;
+    color: #000;
     max-width: 35em;
     margin: 0 auto;
     text-align: center;
@@ -521,7 +521,7 @@ h2 {
 
 
 h3 {
-    color: #222;
+    color: #000;
     font: normal 1.25rem/1.3 'nhb', sans-serif;
     margin-bottom: 1rem;
     }
@@ -644,14 +644,14 @@ a {
     .content p > a, 
     .content li > a {
 /*        color: #215493;*/
-        color: #222;
+        color: #000;
         text-decoration: none;
         border-bottom: 2px solid #ddd;
         }
 
     .content h3 > a {
 /*            color: #215493;*/
-            color: #222;
+            color: #000;
 /*            border-bottom: 1px solid #ddd;*/*/
         }
 
@@ -671,7 +671,7 @@ a.hover {
 /*        color: #cd2026;*/
         color: #111;
         text-decoration: none;
-        border-bottom: 2px solid #222;
+        border-bottom: 2px solid #000;
         }
 
 
@@ -679,7 +679,7 @@ a.hover {
 
     .content h3 > a:hover, 
     .content h3 > a.hover {
-            color: #222;
+            color: #000;
 /*            border-bottom: 1px solid #ddd;*/
         }
 
@@ -765,12 +765,13 @@ a[target="_blank"]:after:hover {
 /*    color:  #B0A684; */
 /*    color:  #BA80B6; */
 /*    color:  #CC87C7; */
-    color:  #ED9C8A; 
+/*    color:  #ED9C8A; */
+    color:  #EDA291; 
     }
 
 .footer h3 {
     font: normal 1.25rem/1.4 'nhb', sans-serif;
-/*    color: #222;*/
+/*    color: #000;*/
     text-align: left;
     padding: 0;
     max-width: 100%;
@@ -779,7 +780,7 @@ a[target="_blank"]:after:hover {
 
 .footer p {
     font: normal 1rem/1.5 'nhr', sans-serif;
-/*    color: #222;*/
+/*    color: #000;*/
 /*    text-align: left;*/
     padding: 0;
     max-width: 100%;
@@ -1410,7 +1411,7 @@ a.home_link.active {
         }
 
 .features_title {
-    color: #222;
+    color: #000;
     font: normal 1.25rem/1.3 'nhb', sans-serif;
     }
 
@@ -1523,7 +1524,7 @@ div[class*="bg_"].tx_light a.hover {
 
     h4:after {
         content: '';
-        background: #222;
+        background: #000;
         }
 
     .bg_night h4:after,
@@ -1546,7 +1547,7 @@ div[class*="bg_"].tx_light a.hover {
 
 .bg_dark {
 /*    background: #20384c;*/
-    background: #222;
+    background: #000;
     }
 
 .bg_dark h2,
