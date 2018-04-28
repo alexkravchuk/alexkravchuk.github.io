@@ -4,10 +4,40 @@
 -moz-osx-font-smoothing: grayscale;
 }
 
+/* nh */
+
 @font-face {
-	font-family: 'nhr';
+	font-family: 'nh';
 	src: url('../fonts/nhur.woff') format('woff');
-	font-weight: normal;
+	font-weight: 300;
+	font-style: normal;
+    }
+
+@font-face {
+	font-family: 'nh';
+	src: url('../fonts/nhur.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+    }
+
+@font-face {
+	font-family: 'nh';
+	src: url('../fonts/nhur.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+    }
+
+@font-face {
+	font-family: 'nh';
+	src: url('../fonts/nhub.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+    }
+
+@font-face {
+	font-family: 'nh';
+	src: url('../fonts/nhub.woff') format('woff');
+	font-weight: 700;
 	font-style: normal;
     }
 
@@ -18,12 +48,7 @@
 	font-style: normal;
     }
 
-@font-face {
-	font-family: 'nhb';
-	src: url('../fonts/nhub.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-    }
+/* fa */
 
 @font-face {
 	font-family: 'fal';
@@ -253,7 +278,7 @@ img {
 	}
 
 .button_50 {
-    font: normal 1rem/46px 'nhb', sans-serif;
+    font: 600 1rem/46px 'nh', sans-serif;
 /*    text-transform: uppercase;*/
 /*    letter-spacing: .02em;*/
     height: 50px;
@@ -424,7 +449,7 @@ a.button_square:visited {
 
 
 html, body {
-	font: normal 16px/1.6 'nht', sans-serif;
+	font: 400 16px/1.6 'nht', sans-serif;
 /*    color: #323a45;*/
     color: #000;
 	}
@@ -450,7 +475,7 @@ h1, h2, h3, h4 {
 
 
 h4 {
-    font: normal 1.25rem/1 'nhr', sans-serif;
+    font: 400 1.25rem/1 'nh', sans-serif;
     position: relative;
     text-align: center;
     margin: 0 auto;
@@ -477,7 +502,7 @@ h4 {
         }
 
 h1 {
-    font: normal 3.5rem/1 'nhb', sans-serif;
+    font: 600 3.5rem/1 'nh', sans-serif;
     color: #000;
     margin: 0 auto;
     padding: 0;
@@ -495,7 +520,7 @@ h1 {
 
 
 h2 {
-    font: normal 2.5rem/1 'nhb', sans-serif;
+    font: 600 2.5rem/1 'nh', sans-serif;
     color: #000;
     margin: 0 auto;
     text-align: center;
@@ -512,7 +537,7 @@ h2 {
         }
 
 .lead {
-    font: normal 1.5rem/1.5 'nhr', sans-serif;
+    font: 400 1.5rem/1.5 'nh', sans-serif;
     color: #000;
     max-width: 35em;
     margin: 0 auto;
@@ -530,7 +555,7 @@ h2 {
 
 h3 {
     color: #000;
-    font: normal 1.25rem/1.3 'nhb', sans-serif;
+    font: 600 1.25rem/1.3 'nh', sans-serif;
     margin-bottom: 1rem;
     }
 
@@ -778,7 +803,7 @@ a[target="_blank"]:after:hover {
     }
 
 .footer h3 {
-    font: normal 1.25rem/1.4 'nhb', sans-serif;
+    font: 600 1.25rem/1.4 'nh', sans-serif;
 /*    color: #000;*/
     text-align: left;
     padding: 0;
@@ -787,7 +812,7 @@ a[target="_blank"]:after:hover {
     }
 
 .footer p {
-    font: normal 1rem/1.5 'nhr', sans-serif;
+    font: 400 1rem/1.5 'nh', sans-serif;
 /*    color: #000;*/
 /*    text-align: left;*/
     padding: 0;
@@ -1050,7 +1075,7 @@ a.home_link.active {
     }
 
     .menu .menu_list {
-        font: normal 1rem/100px 'nhr', sans-serif;
+        font: 400 1rem/100px 'nh', sans-serif;
         list-style-type: none;
         list-style-position: outside;
         margin: 0;
@@ -1239,7 +1264,7 @@ a.home_link.active {
         list-style-type: none;
         margin: 0;
         padding: 0 0 0 20px;
-        font: normal 16px/1.3 'nhr', sans-serif;
+        font: 400 16px/1.3 'nh', sans-serif;
 /*        background: #00a6d2;*/
 /*        background: #8584B4;*/
         
@@ -1420,7 +1445,7 @@ a.home_link.active {
 
 .features_title {
     color: #000;
-    font: normal 1.25rem/1.3 'nhb', sans-serif;
+    font: 600 1.25rem/1.3 'nh', sans-serif;
     }
 
     .features_icon + .features_title {
