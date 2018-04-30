@@ -142,6 +142,12 @@ $(".menu_mob_link").click(function(){
     $(".menu_button").removeClass("open");
     return false; 
 });
+    
+    
+// $(".menu_mob_link").attr("href", "#contact").click(function(){
+//    $(".nav_title").html("Contact");
+//    return false; 
+//    });
 
         
 // Remove Click Event   
@@ -202,14 +208,26 @@ $(document).ready(function () {
 // Change Bg Logo Offset
 $(document).ready(function() {
     
+var anchor1 = $("#top");
+	$(window).scroll(function() {
+		var window_pos = $(window).scrollTop();
+		if (window_pos >= anchor1.position().top & window_pos < anchor1.position().top + anchor1.outerHeight()) {
+            $(".nav_title").empty();
+		} else {
+//          $(".nav_title").empty();
+		} 
+	});
+
 var anchor2 = $("#work");
 	$(window).scroll(function() {
 		var window_pos = $(window).scrollTop();
 		if (window_pos >= anchor2.position().top & window_pos < anchor2.position().top + anchor2.outerHeight()) {
             $(".home_link").removeClass("bg_04");
 			$(".home_link").addClass("bg_02");
+            $(".nav_title").html("Work");
 		} else {
 			$(".home_link").removeClass("bg_02");
+//            $(".nav_title").empty();
 		} 
 	});
   
@@ -219,8 +237,10 @@ var anchor3 = $("#services");
 		if (window_pos >= anchor3.position().top & window_pos < anchor3.position().top + anchor3.outerHeight()) {
             $(".home_link").removeClass("bg_04");
 			$(".home_link").addClass("bg_03");
+            $(".nav_title").html("Services");
 		} else {
 			$(".home_link").removeClass("bg_03");
+//            $(".nav_title").empty();
 		} 
 	});
     
@@ -231,8 +251,10 @@ var anchor4 = $("#approach");
 //			$(".home_link").addClass("bg_violet");
             $(".home_link").removeClass("bg_03");
             $(".home_link").removeClass("bg_04");
+            $(".nav_title").html("Approach");
 		} else {
 //			$(".home_link").removeClass("bg_gold");
+//            $(".nav_title").empty();
 		} 
 	});
     
@@ -242,10 +264,12 @@ var anchor5 = $("#contact");
 		if (window_pos >= anchor5.position().top & window_pos < anchor5.position().top + anchor5.outerHeight()) {
 			$(".home_link").removeClass("bg_03");
             $(".home_link").addClass("bg_04"); 
+            $(".nav_title").html("Contact");
 		} else {
 			$(".home_link").removeClass("bg_04");	
 		} 
 	});
+ 
 
 }); // -- End ready
 

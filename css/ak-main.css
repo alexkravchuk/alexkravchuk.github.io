@@ -1067,6 +1067,20 @@ a.home_link.active {
     }
 */
 
+.nav_title {
+    font: 400 1rem/50px 'nh', sans-serif;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 80px;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+/*    background: red;*/
+    }
+
 .menu  {
 /*    float: right;*/
 /*    padding-left: 4%;*/
