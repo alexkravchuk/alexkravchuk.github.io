@@ -142,6 +142,14 @@ $(".menu_mob_link").click(function(){
     $(".menu_button").removeClass("open");
     return false; 
 });
+
+$(".nav_title").click(function(){
+    $(".menu_mob").slideUp({duration: 500, easing: "easeInOutQuint"}); // use jquery easing plugin
+    $(".content").removeClass("trans");
+    $("body").removeClass("fixed");
+    $(".menu_button").removeClass("open");
+    return false; 
+});
     
     
 // $(".menu_mob_link").attr("href", "#contact").click(function(){
