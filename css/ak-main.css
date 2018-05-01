@@ -1068,7 +1068,7 @@ a.home_link.active {
 */
 
 .nav_title {
-    font: 400 1rem/50px 'nh', sans-serif;
+    font: 400 1rem/48px 'nh', sans-serif;
     display: block;
     position: absolute;
     top: 0;
@@ -1824,8 +1824,22 @@ a.zoom {
     -moz-opacity: 0;
     -khtml-opacity: 0;
     opacity: 0;
-    overflow-y: hidden;
 */
+/*    overflow-y: hidden;*/
+    }
+
+.moveup{
+    -webkit-transform: translate(0, -50px);
+    -moz-transform: translate(0, -50px);
+    transform: translate(0, -50px);
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s;
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    overflow: hidden;
     }
 
 .likely {
