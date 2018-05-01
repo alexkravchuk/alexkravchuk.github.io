@@ -183,8 +183,81 @@ function onScroll(){
     });
 }
 
+
+
+
+// Change Bg Logo Offset
+$(document).ready(function() {
+    
+var anchor1 = $("#top");
+	$(window).scroll(function() {
+		var window_pos = $(window).scrollTop();
+		if (window_pos >= anchor1.position().top & window_pos < anchor1.position().top + anchor1.outerHeight()) {
+            $(".nav_title").empty().attr('href', '#top');
+		} else {
+//          $(".nav_title").empty();
+		} 
+	});
+
+var anchor2 = $("#work");
+	$(window).scroll(function() {
+		var window_pos = $(window).scrollTop();
+		if (window_pos >= anchor2.position().top & window_pos < anchor2.position().top + anchor2.outerHeight()) {
+            $(".home_link").removeClass("bg_04");
+			$(".home_link").addClass("bg_02");
+            $(".nav_title").html('Work').attr('href', '#work');
+		} else {
+			$(".home_link").removeClass("bg_02");
+//            $(".nav_title").empty();
+		} 
+	});
+  
+var anchor3 = $("#services");
+	$(window).scroll(function() {
+		var window_pos = $(window).scrollTop();
+		if (window_pos >= anchor3.position().top & window_pos < anchor3.position().top + anchor3.outerHeight()) {
+            $(".home_link").removeClass("bg_04");
+			$(".home_link").addClass("bg_03");
+            $(".nav_title").html("Services").attr('href', '#services');
+		} else {
+			$(".home_link").removeClass("bg_03");
+//            $(".nav_title").empty();
+		} 
+	});
+    
+var anchor4 = $("#approach");
+	$(window).scroll(function() {
+		var window_pos = $(window).scrollTop();
+		if (window_pos >= anchor4.position().top & window_pos < anchor4.position().top + anchor4.outerHeight()) {
+//			$(".home_link").addClass("bg_violet");
+            $(".home_link").removeClass("bg_03");
+            $(".home_link").removeClass("bg_04");
+            $(".nav_title").html("Approach").attr('href', '#approach');
+		} else {
+//			$(".home_link").removeClass("bg_gold");
+//            $(".nav_title").empty();
+		} 
+	});
+    
+var anchor5 = $("#contact");
+	$(window).scroll(function() {
+		var window_pos = $(window).scrollTop();
+		if (window_pos >= anchor5.position().top & window_pos < anchor5.position().top + anchor5.outerHeight()) {
+			$(".home_link").removeClass("bg_03");
+            $(".home_link").addClass("bg_04"); 
+            $(".nav_title").html("Contact").attr('href', '#contact');
+		} else {
+			$(".home_link").removeClass("bg_04");	
+		} 
+	});
+ 
+
+}); // -- End ready
+
+
+
 // Scroll Animate
-$(document).ready(function () {
+$(document).ready(function() {
     $(document).on("scroll", onScroll);
     
     $("a[href^=#]").click(function(e){
@@ -203,75 +276,3 @@ $(document).ready(function () {
         });
     });
 }); // -- End ready
-
-
-// Change Bg Logo Offset
-$(document).ready(function() {
-    
-var anchor1 = $("#top");
-	$(window).scroll(function() {
-		var window_pos = $(window).scrollTop();
-		if (window_pos >= anchor1.position().top & window_pos < anchor1.position().top + anchor1.outerHeight()) {
-            $(".nav_title").empty();
-		} else {
-//          $(".nav_title").empty();
-		} 
-	});
-
-var anchor2 = $("#work");
-	$(window).scroll(function() {
-		var window_pos = $(window).scrollTop();
-		if (window_pos >= anchor2.position().top & window_pos < anchor2.position().top + anchor2.outerHeight()) {
-            $(".home_link").removeClass("bg_04");
-			$(".home_link").addClass("bg_02");
-            $(".nav_title").html("Work");
-		} else {
-			$(".home_link").removeClass("bg_02");
-//            $(".nav_title").empty();
-		} 
-	});
-  
-var anchor3 = $("#services");
-	$(window).scroll(function() {
-		var window_pos = $(window).scrollTop();
-		if (window_pos >= anchor3.position().top & window_pos < anchor3.position().top + anchor3.outerHeight()) {
-            $(".home_link").removeClass("bg_04");
-			$(".home_link").addClass("bg_03");
-            $(".nav_title").html("Services");
-		} else {
-			$(".home_link").removeClass("bg_03");
-//            $(".nav_title").empty();
-		} 
-	});
-    
-var anchor4 = $("#approach");
-	$(window).scroll(function() {
-		var window_pos = $(window).scrollTop();
-		if (window_pos >= anchor4.position().top & window_pos < anchor4.position().top + anchor4.outerHeight()) {
-//			$(".home_link").addClass("bg_violet");
-            $(".home_link").removeClass("bg_03");
-            $(".home_link").removeClass("bg_04");
-            $(".nav_title").html("Approach");
-		} else {
-//			$(".home_link").removeClass("bg_gold");
-//            $(".nav_title").empty();
-		} 
-	});
-    
-var anchor5 = $("#contact");
-	$(window).scroll(function() {
-		var window_pos = $(window).scrollTop();
-		if (window_pos >= anchor5.position().top & window_pos < anchor5.position().top + anchor5.outerHeight()) {
-			$(".home_link").removeClass("bg_03");
-            $(".home_link").addClass("bg_04"); 
-            $(".nav_title").html("Contact");
-		} else {
-			$(".home_link").removeClass("bg_04");	
-		} 
-	});
- 
-
-}); // -- End ready
-
-
-

@@ -1069,17 +1069,28 @@ a.home_link.active {
 
 .nav_title {
     font: 400 1rem/50px 'nh', sans-serif;
+    display: block;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    margin: 0 80px;
+    margin: 0 90px;
     text-align: center;
     white-space: nowrap;
     color: #fff;
 /*    background: red;*/
     }
+
+    .nav_title:link,
+    .nav_title:hover,
+    .nav_title:focus,
+    .nav_title:active {
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        }
+
 
 .menu  {
 /*    float: right;*/
