@@ -1079,7 +1079,10 @@ a.home_link.active {
     text-align: center;
     white-space: nowrap;
     color: #fff;
-/*    background: red;*/
+    -webkit-transition: all ease-in-out .4s;
+    -moz-transition: all ease-in-out .4s;
+    -o-transition: all ease-in-out .4s;
+    transition: all ease-in-out .4s;
     }
 
     .nav_title:link,
@@ -1828,16 +1831,22 @@ a.zoom {
 /*    overflow-y: hidden;*/
     }
 
-.moveup{
+.moveup {
     -webkit-transform: translate(0, -50px);
     -moz-transform: translate(0, -50px);
     transform: translate(0, -50px);
-    -webkit-transition: all ease-in-out .3s;
-    -moz-transition: all ease-in-out .3s;
-    -o-transition: all ease-in-out .3s;
-    transition: all ease-in-out .3s;
-    -moz-opacity: 0;
     -khtml-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+    overflow: hidden;
+    }
+
+.movedown {
+    -webkit-transform: translate(0, 50px);
+    -moz-transform: translate(0, 50px);
+    transform: translate(0, 50px);
+    -khtml-opacity: 0;
+    -moz-opacity: 0;
     opacity: 0;
     overflow: hidden;
     }
