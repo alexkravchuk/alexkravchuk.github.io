@@ -185,7 +185,7 @@ function onScroll(){
 
 
 
-// Change Bg Logo Offset
+// Offset functions
 $(document).ready(function() {
     
 var anchor1 = $("#top");
@@ -249,7 +249,6 @@ var anchor5 = $("#contact");
 			$(".home_link").removeClass("bg_04");	
 		} 
 	});
- 
 
 }); // -- End ready
 

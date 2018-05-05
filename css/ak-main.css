@@ -1303,8 +1303,6 @@ a.home_link.active {
         display: block;
         } 
 
-
-
     .menu_mob ul li.menu_mob_item:before {
         content: none;
         }
@@ -1340,11 +1338,13 @@ a.home_link.active {
         opacity: 1;
         }
 
+/*
 .menu_item_current {
     -moz-opacity: 1 !important;
     -khtml-opacity: 1 !important;
     opacity: 1 !important;
     }
+*/
 
     .menu_mob ul {
         max-width: 100%;
