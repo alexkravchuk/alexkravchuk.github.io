@@ -204,7 +204,8 @@ var anchor2 = $("#work");
 		if (window_pos >= anchor2.position().top & window_pos < anchor2.position().top + anchor2.outerHeight()) {
             $(".home_link").removeClass("bg_04");
 			$(".home_link").addClass("bg_02");
-            $(".nav_title").html('Work').attr('href', '#work');
+            $(":lang(en) .nav_title").html('Work').attr('href', '#work');
+            $(":lang(ua) .nav_title").html('Роботи').attr('href', '#work');
 		} else {
 			$(".home_link").removeClass("bg_02");
 //            $(".nav_title").empty();
@@ -217,7 +218,8 @@ var anchor3 = $("#services");
 		if (window_pos >= anchor3.position().top & window_pos < anchor3.position().top + anchor3.outerHeight()) {
             $(".home_link").removeClass("bg_04");
 			$(".home_link").addClass("bg_03");
-            $(".nav_title").html("Services").attr('href', '#services');
+            $(":lang(en) .nav_title").html("Services").attr('href', '#services');
+            $(":lang(ua) .nav_title").html("Послуги").attr('href', '#services');
 		} else {
 			$(".home_link").removeClass("bg_03");
 //            $(".nav_title").empty();
@@ -231,7 +233,8 @@ var anchor4 = $("#approach");
 //			$(".home_link").addClass("bg_violet");
             $(".home_link").removeClass("bg_03");
             $(".home_link").removeClass("bg_04");
-            $(".nav_title").html("Approach").attr('href', '#approach');
+            $(":lang(en) .nav_title").html("Approach").attr('href', '#approach');
+            $(":lang(ua) .nav_title").html("Підхід").attr('href', '#approach');
 		} else {
 //			$(".home_link").removeClass("bg_gold");
 //            $(".nav_title").empty();
@@ -244,7 +247,8 @@ var anchor5 = $("#contact");
 		if (window_pos >= anchor5.position().top & window_pos < anchor5.position().top + anchor5.outerHeight()) {
 			$(".home_link").removeClass("bg_03");
             $(".home_link").addClass("bg_04"); 
-            $(".nav_title").html("Contact").attr('href', '#contact');
+            $(":lang(en) .nav_title").html("Contact").attr('href', '#contact');
+            $(":lang(ua) .nav_title").html("Контакти").attr('href', '#contact');
 		} else {
 			$(".home_link").removeClass("bg_04");	
 		} 
