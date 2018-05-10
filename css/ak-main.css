@@ -278,17 +278,16 @@ img {
 	}
 
 .button_50 {
-    font: 600 1rem/46px 'nh', sans-serif;
+    font: 600 1rem/3rem 'nh', sans-serif;
 /*    text-transform: uppercase;*/
 /*    letter-spacing: .02em;*/
-    height: 50px;
+    height: 3.125rem;
     padding: 0px 30px;
     background: #fff;
     color: #000;
     border: 2px solid #000;
     border-radius: 0;
     box-shadow: none;
-    
     -webkit-transition: all ease .25s;
     -moz-transition: all ease .25s;
     -o-transition: all ease .25s;
