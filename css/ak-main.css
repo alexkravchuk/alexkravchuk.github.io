@@ -1077,8 +1077,10 @@ a.home_link.active {
     left: 0;
     margin: 0 90px;
     text-align: center;
-    white-space: nowrap;
     color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     -webkit-transition: all ease-in-out .4s;
     -moz-transition: all ease-in-out .4s;
     -o-transition: all ease-in-out .4s;
