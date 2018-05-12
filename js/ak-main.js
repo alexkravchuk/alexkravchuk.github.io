@@ -2,14 +2,14 @@
 $("html").easeScroll({
   frameRate: 60,
   animationTime: 700,
-  stepSize: 100,
+  stepSize: 50,
   pulseAlgorithm: 1,
   pulseScale: 7,
   pulseNormalize: 1,
   accelerationDelta: 20,
   accelerationMax: 1,
   keyboardSupport: true,
-  arrowScroll: 100,
+  arrowScroll: 50,
   touchpadSupport: true,
   fixedBackground: true
 });
