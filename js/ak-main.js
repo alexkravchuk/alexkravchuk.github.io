@@ -1,4 +1,20 @@
+// EaseScroll Plugin Sets
+$("html").easeScroll({
+  frameRate: 60,
+  animationTime: 700,
+  stepSize: 100,
+  pulseAlgorithm: 1,
+  pulseScale: 7,
+  pulseNormalize: 1,
+  accelerationDelta: 20,
+  accelerationMax: 1,
+  keyboardSupport: true,
+  arrowScroll: 100,
+  touchpadSupport: true,
+  fixedBackground: true
+});
 
+// Ready start
 $(document).ready(function(){
 	
 // Show as html
