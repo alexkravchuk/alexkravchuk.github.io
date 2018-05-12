@@ -2,15 +2,15 @@
 $("html").easeScroll({
   frameRate: 60,
   animationTime: 700,
-  stepSize: 50,
+  stepSize: 100,
   pulseAlgorithm: 1,
   pulseScale: 7,
   pulseNormalize: 1,
   accelerationDelta: 20,
   accelerationMax: 1,
   keyboardSupport: true,
-  arrowScroll: 50,
-  touchpadSupport: true,
+  arrowScroll: 100,
+  touchpadSupport: false,
   fixedBackground: true
 });
 
