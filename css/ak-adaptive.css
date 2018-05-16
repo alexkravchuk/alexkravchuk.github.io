@@ -5,7 +5,7 @@
 @media (max-width: 767px) {
     
     html, body {
-        font-size: 15px;
+        font-size: 16px;
         }    
   
     .footer p, 
@@ -14,43 +14,24 @@
         }
     
     h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
         }
     
-        h1 + * {
+        h1 + h3 {
             margin-top: 2.5rem;
-            }
-
-        h4 + h1 {
-            margin-top: 1.25rem;   
             }
 
     h2 {
         font-size: 2rem;
+        padding-bottom: 2rem;
         } 
     
-        h2 + * {
-            margin-top: 2.5rem;
-            }
-
-        h4 + h2 {
-            margin-top: 1.25rem; 
-            }
-    
-    .lead {
-        font-size: 1.25rem;
-        }
-    
-        h1 + .lead {
-            margin-top: 1.25rem; 
-            }
-
-        h2 + .lead {
-            margin-top: 1.25rem; 
+        h2 + p {
+/*            margin-top: 2.5rem;*/
             }
 
     h3 {
-        font-size: 1.25rem;
+        font-size: 1rem;
         }
     
     h4 {
@@ -60,99 +41,7 @@
     .caption {
         margin: 15px 0 0;
         }
-    
-    [class*="caption"] {
-/*        font-size: 15px;*/
-        }
-    
-    .fa_h3 {
-        font-size: 26px;
-        line-height: 1;
-        }
-    
-/* -- comps -- */
-
-/*    .card_y_12,*/
-    .card_y_13,
-    .card_y_14 {
-        top: 0;
-        bottom: auto;
-        height: 40px
-        }
-    
-    .card_zz_over {
-        margin: 0 20px -40px;
-        }
-    
-/* -- nav -- */
-    
-    .nav {
-        height: 50px;
-        }
-    
-        .nav_ins {
-            max-width: 100%;
-            padding-left: 20px;
-            padding-right: 0;
-            margin: 0;
-            }
-    
-    a.home_link {
-        width: 50px;
-        height: 50px;
-/*        border: 15px pink solid;*/
-        border: 15px transparent solid;
-        }
-
-        a.home_link:before,
-        span.home_link:before {
-            background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4gICAgICAgIDx0aXRsZT5ob21lX2xvZ29fMjB4MjA8L3RpdGxlPiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4gICAgPGRlZnM+PC9kZWZzPiAgICA8ZyBpZD0iaG9tZV9sb2dvXzIweDIwIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4gICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUtNiIgZmlsbD0iI0ZGRkZGRiIgeD0iMCIgeT0iMCIgd2lkdGg9IjIiIGhlaWdodD0iMjAiPjwvcmVjdD4gICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUtNi1Db3B5IiBmaWxsPSIjRkZGRkZGIiB4PSIxOCIgeT0iMCIgd2lkdGg9IjIiIGhlaWdodD0iMjAiPjwvcmVjdD4gICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUtNyIgZmlsbD0iI0ZGRkZGRiIgeD0iMCIgeT0iMCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIiPjwvcmVjdD4gICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUtNy1Db3B5IiBmaWxsPSIjRkZGRkZGIiB4PSIwIiB5PSIxOCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIiPjwvcmVjdD4gICAgICAgIDxwYXRoIGQ9Ik0xMSwyIEwxOCwxOCIgaWQ9IkxpbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIj48L3BhdGg+ICAgICAgICA8cGF0aCBkPSJNOSwyIEwyLDE4IiBpZD0iTGluZS1Db3B5IiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSI+PC9wYXRoPiAgICAgICAgPHBhdGggZD0iTTIsMTggTDE4LDIiIGlkPSJMaW5lLTIiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIj48L3BhdGg+ICAgIDwvZz48L3N2Zz4=) 0 0 no-repeat;
-            }
-    
-/*
-    .logo_rec_01 {
-        width: 20px;
-        height: 20px;
-        border: 2px #fff solid; 
-        }    
-*/
-
-/*
-    .logo_rec_02 {
-            left: 2px;
-            bottom: 1px;
-            width: 20px;
-            height: 2px;
-            -webkit-transform: rotate(-65deg);
-            -moz-transform: rotate(-65deg);
-            -ms-transform: rotate(-65deg);
-            -o-transform: rotate(-65deg);
-            transform: rotate(-65deg);
-            }
-*/
-
-/*
-    .logo_rec_03 {
-            right: 2px;
-            bottom: 1px;
-            width: 20px;
-            height: 2px;
-            -webkit-transform: rotate(65deg);
-            -moz-transform: rotate(65deg);
-            -ms-transform: rotate(65deg);
-            -o-transform: rotate(65deg);
-            transform: rotate(65deg);
-            }
-*/
-
-/*
-    .logo_rec_04 {
-            left: 2px;
-            bottom: 1px;
-            width: 24px;
-            height: 2px;
-            }
-*/
+   
 
 /* -- btns -- */
 
@@ -256,12 +145,12 @@
 /* -- clear -- */
     
     .clear_x {
-        height: 1.5rem;
+        height: 1rem;
         }
     
     .clear_x_border {
-        margin-top: 1.5rem;
-        height: 1.5rem;
+        margin-top: 1rem;
+        height: 1rem;
         }
 
     .clear_xx {
@@ -274,7 +163,7 @@
         }
 
     .clear_xxx {
-        height: 2.5rem;
+        height: 3rem;
         }   
     
     .clear_xxx_border {
@@ -283,13 +172,12 @@
         }
     
     .clear_xxxx {
-        height: 3rem;
+        height: 4rem;
         }
     
     .back_xxxx {
-        margin-top: -3rem;
+        margin-top: -4rem;
         }
-
 }
 
 /* sm - phones landscape */

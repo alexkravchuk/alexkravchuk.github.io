@@ -1,19 +1,3 @@
-// EaseScroll Plugin Sets
-$("html").easeScroll({
-  frameRate: 60,
-  animationTime: 700,
-  stepSize: 100,
-  pulseAlgorithm: 1,
-  pulseScale: 5,
-  pulseNormalize: 1,
-  accelerationDelta: 20,
-  accelerationMax: 1,
-  keyboardSupport: true,
-  arrowScroll: 100,
-  touchpadSupport: false,
-  fixedBackground: true
-});
-
 // Ready start
 $(document).ready(function(){
 	
@@ -21,8 +5,6 @@ $(document).ready(function(){
 $("pre").each(function(){ // показвать в виде кода
 		$(this).text($(this).html());
 });
-	
-$("iframe").wrap( "<div class='iframe_wrapper'></div>" );
 
 // Typograph
 //symb
@@ -108,71 +90,7 @@ $("iframe").wrap( "<div class='iframe_wrapper'></div>" );
 	$("a").hover(
 	function() {$("a[href='" + $(this).attr("href") + "']").addClass("hover");}, 
 	function() {$("a[href='" + $(this).attr("href") + "']").removeClass("hover");}
-	);      
-        
-// Mobile Menu Functions
-$(".menu_button").click(function(){
-//    $(".menu_mob").slideToggle(400); 
-    
-//    $(".menu_mob").slideToggle({duration: 1000, easing: "easeInQuad"});
- $(".menu_mob").slideToggle({duration: 500, easing: "easeInOutQuint"}); // use jquery easing plugin
-
-//    $('.menu_mob').each(function() {
-//        if($(this).is(':hidden')){
-//            $(".menu_mob").slideToggle({duration: 400, easing: "easeInOutCubic"});
-//        }
-//        else {
-//            $(".menu_mob").slideToggle({duration: 400, easing: "easeInCubic"});
-//        };  
-//    })
-
-    $("body").toggleClass("fixed");
-    $(".menu_button").toggleClass("open");
-    $(".nav_title").toggleClass("movedown");
-    return false;
-});
-        
-$(".home_link").click(function(){
-//    $(".menu_mob").slideUp(400);
-    $(".menu_mob").slideUp({duration: 500, easing: "easeInOutQuint"}); // use jquery easing plugin
-    $("body").removeClass("fixed");
-    $(".menu_button").removeClass("open");
-    $(".nav_title").removeClass("movedown");
-    return false; 
-});
-        
-$(".menu_link").click(function(){
-//    $(".menu_mob").slideUp(400);
-    $(".menu_mob").slideUp({duration: 500, easing: "easeInOutQuint"}); // use jquery easing plugin
-    $("body").removeClass("fixed");
-    $(".menu_button").removeClass("open");
-    $(".nav_title").removeClass("movedown");
-    return false; 
-});
-        
-$(".menu_mob_link").click(function(){
-//    $(".menu_mob").slideUp(400);
-    $(".menu_mob").slideUp({duration: 500, easing: "easeInOutQuint"}); // use jquery easing plugin
-    $("body").removeClass("fixed");
-    $(".menu_button").removeClass("open");
-    $(".nav_title").removeClass("movedown");
-    return false; 
-});  
-    
-// $(".menu_mob_link").attr("href", "#contact").click(function(){
-//    $(".nav_title").html("Contact");
-//    return false; 
-//    });
-
-        
-// Remove Click Event   
-$("a.click_off").off("click");       
-
-   
-//$(function() {
-//      $('#fds img').each(function(i) {
-//    $(this).delay((i++) * 500).fadeTo(1000, 1); })
-//});
+	);
 
 // Current year 
 $("#year").html(new Date().getFullYear());
@@ -181,116 +99,5 @@ $("#year").html(new Date().getFullYear());
 
 
 
-// Current menu item 
-var menu_selector = ".menu_list"; // Переменная должна содержать название класса или идентификатора, обертки нашего меню. 
-function onScroll(){
-    var scroll_top = $(document).scrollTop();
-    $(menu_selector + " a").each(function(){
-        var hash = $(this).attr("href");
-        var target = $(hash);
-        if (target.position().top - 0 <= scroll_top && target.position().top + target.outerHeight() > scroll_top) {
-            $(menu_selector + " a.active").removeClass("active");
-            $(this).addClass("active");
-//            $("a.ak_button_norm").removeClass("active");
-        } else {
-            $(this).removeClass("active");
-        }
-    });
-}
 
 
-
-
-// Offset functions
-$(document).ready(function() {
-    
-var anchor1 = $("#top");
-	$(window).scroll(function() {
-		var window_pos = $(window).scrollTop();
-		if (window_pos >= anchor1.position().top & window_pos < anchor1.position().top + anchor1.outerHeight()) {
-            $(".nav_title").empty().attr('href', '#top');
-		} else {
-//          $(".nav_title").empty();
-		} 
-	});
-
-var anchor2 = $("#work");
-	$(window).scroll(function() {
-		var window_pos = $(window).scrollTop();
-		if (window_pos >= anchor2.position().top & window_pos < anchor2.position().top + anchor2.outerHeight()) {
-            $(".home_link").removeClass("bg_04");
-			$(".home_link").addClass("bg_02");
-            $(":lang(en) .nav_title").html('Work').attr('href', '#work');
-            $(":lang(ua) .nav_title").html('Роботи').attr('href', '#work');
-		} else {
-			$(".home_link").removeClass("bg_02");
-//            $(".nav_title").empty();
-		} 
-	});
-  
-var anchor3 = $("#services");
-	$(window).scroll(function() {
-		var window_pos = $(window).scrollTop();
-		if (window_pos >= anchor3.position().top & window_pos < anchor3.position().top + anchor3.outerHeight()) {
-            $(".home_link").removeClass("bg_04");
-			$(".home_link").addClass("bg_03");
-            $(":lang(en) .nav_title").html("Services").attr('href', '#services');
-            $(":lang(ua) .nav_title").html("Послуги").attr('href', '#services');
-		} else {
-			$(".home_link").removeClass("bg_03");
-//            $(".nav_title").empty();
-		} 
-	});
-    
-var anchor4 = $("#approach");
-	$(window).scroll(function() {
-		var window_pos = $(window).scrollTop();
-		if (window_pos >= anchor4.position().top & window_pos < anchor4.position().top + anchor4.outerHeight()) {
-//			$(".home_link").addClass("bg_violet");
-            $(".home_link").removeClass("bg_03");
-            $(".home_link").removeClass("bg_04");
-            $(":lang(en) .nav_title").html("Approach").attr('href', '#approach');
-            $(":lang(ua) .nav_title").html("Підхід").attr('href', '#approach');
-		} else {
-//			$(".home_link").removeClass("bg_gold");
-//            $(".nav_title").empty();
-		} 
-	});
-    
-var anchor5 = $("#contact");
-	$(window).scroll(function() {
-		var window_pos = $(window).scrollTop();
-		if (window_pos >= anchor5.position().top & window_pos < anchor5.position().top + anchor5.outerHeight()) {
-			$(".home_link").removeClass("bg_03");
-            $(".home_link").addClass("bg_04"); 
-            $(":lang(en) .nav_title").html("Contact").attr('href', '#contact');
-            $(":lang(ua) .nav_title").html("Контакти").attr('href', '#contact');
-		} else {
-			$(".home_link").removeClass("bg_04");	
-		} 
-	});
-
-}); // -- End ready
-
-
-
-// Scroll Animate
-$(document).ready(function() {
-    $(document).on("scroll", onScroll);
-    
-    $("a[href^=#]").click(function(e){
-        e.preventDefault();
-        $(document).off("scroll");
-        $(menu_selector + " a.active").removeClass("active");
-        $(this).addClass("active");
-        var hash = $(this).attr("href");
-        var target = $(hash);
- 
-        $("html, body").animate({
-            scrollTop: target.offset().top + 1
-        }, 600, "easeInOutQuad", function(){ // use jquery easing plugin
-            window.location;
-            $(document).on("scroll", onScroll); 
-        });
-    });
-}); // -- End ready
