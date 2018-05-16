@@ -519,26 +519,42 @@ a.button_50 {
 
 .buttons_social { 
 /*    text-align: center;*/
+    overflow: hidden;
     }
 
 
 a.button_square,
 a.button_square:visited {
-    display: inline-block;
+    display: block;
+    float: left;
     width: 2.5rem;
     height: 2.5rem;
     font-size: 1.25rem;
     line-height: 2.25rem;
     text-align: center;
-    margin: 0 5px;
+    margin: 0;
     padding: 0;
     border: 2px #000 solid;
+    border-right: none;
     text-decoration: none;
     color: #000;
     background: #fff;
     -webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+    }
+
+.buttons_social a.button_square:first-child {
+    border-radius: 1.25rem 0 0 1.25rem;
+    padding-left: .3rem;
+    width: 3rem;
+    }
+
+.buttons_social a.button_square:last-child {
+    border-radius: 0 1.25rem 1.25rem 0;
+    border-right: 2px #000 solid;
+    padding-right: .3rem;
+    width: 3rem;
     }
 
     a.button_square:after {
@@ -551,10 +567,6 @@ a.button_square:visited {
         background: #000;
         color: #fff;
         }
-
-
-
-
 
 
 /* OTHRS 
