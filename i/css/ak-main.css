@@ -519,12 +519,13 @@ a.button_50 {
 
 .buttons_social { 
 /*    text-align: center;*/
+    display: inline-block;
     overflow: hidden;
     }
 
 
-a.button_square,
-a.button_square:visited {
+a.button_social,
+a.button_social:visited {
     display: block;
     float: left;
     width: 2.5rem;
@@ -534,8 +535,10 @@ a.button_square:visited {
     text-align: center;
     margin: 0;
     padding: 0;
-    border: 2px #000 solid;
-    border-right: none;
+    border-top: 2px #ccc solid;
+    border-bottom: 2px #ccc solid;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
     text-decoration: none;
     color: #000;
     background: #fff;
@@ -544,28 +547,30 @@ a.button_square:visited {
 	box-sizing: border-box;
     }
 
-.buttons_social a.button_square:first-child {
+a.button_social:first-child {
     border-radius: 1.25rem 0 0 1.25rem;
+    border-left: 2px #ccc solid;
     padding-left: .3rem;
     width: 3rem;
     }
 
-.buttons_social a.button_square:last-child {
+a.button_social:last-child {
     border-radius: 0 1.25rem 1.25rem 0;
-    border-right: 2px #000 solid;
+    border-right: 2px #ccc solid;
     padding-right: .3rem;
     width: 3rem;
     }
 
-    a.button_square:after {
+    a.button_social:after {
         content: '' !important;
         display: none !important;
         }
 
-    a.button_square:hover,
-    a.button_square.hover {
+    a.button_social:hover, 
+    a.button_social:active {
         background: #000;
         color: #fff;
+        border-color: #000 !important;
         }
 
 
