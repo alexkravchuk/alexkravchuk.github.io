@@ -123,11 +123,11 @@ img {
 
 
 .ins {
-    max-width: 1200px;
+    max-width: 980px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 22px;
+    padding-right: 22px;
 /*    background: #f5f5ee;*/
     }
 
