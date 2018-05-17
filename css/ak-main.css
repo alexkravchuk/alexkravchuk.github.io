@@ -4,16 +4,6 @@
 -moz-osx-font-smoothing: grayscale;
 }
 
-/* retina only */
-@media only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
-    .emoji_01 {
-        background: 100% 0 no-repeat url('../img/mantech_160.png');
-        } 
-}
-
 /* nh */
 
 @font-face {
@@ -188,6 +178,17 @@ h1 {
     background-size: 72px 72px;
     vertical-align: baseline;
     }
+
+/* retina only */
+@media 
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .emoji_01 {
+        background: 100% 0 no-repeat url('../img/mantech_160.png');
+        background-size: 72px 72px;
+        }
+}
+
 
     h1 + * {
 /*        margin-top: 4rem;*/
