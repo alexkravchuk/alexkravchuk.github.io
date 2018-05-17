@@ -201,8 +201,8 @@ ul {
     ul li {
     /*    list-style: disc outside;*/
         list-style: none outside;
-        padding: 0 0 0 1.2em;
-        text-indent: -1.1em;
+        padding: 0 0 0 1em;
+        text-indent: -1em;
         }
 
     ul li:before{
