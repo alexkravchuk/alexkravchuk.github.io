@@ -169,8 +169,6 @@ h1 {
     }
 
 .emoji_01 {
-    position: relative;
-    bottom: 0;
     display: inline-block;
     width: 72px;
     height: 72px;
@@ -275,6 +273,8 @@ p + h3 {
     }
 
 
+
+
 /* links --- */
 
 
@@ -300,18 +300,6 @@ a.hover {
     text-decoration: none;
     border-bottom: 2px solid #000;
     }
-
-/*
-    .content p > a:hover,
-    .content p > a.hover, 
-    .content li > a:hover,
-    .content li > a.hover,
-    .content h3 > a:hover {
-        color: #111;
-     
-        }
-*/
-
 
 a[target="_blank"] {
 /*
@@ -601,6 +589,9 @@ a.button_social:last-child {
 ---------------------------------- 
 */
 
+nobr {
+    white-space: nowrap;
+    }
 
 .overx_h {
     overflow-x: hidden;
@@ -626,62 +617,6 @@ p.short {
     max-width: 940px;
     margin: 0;
     padding: 0;
-    }
-
-.tiles {
-/*    box-shadow: 0 0 20px 0 rgba(0,0,0,0.20);*/
-    }
-
-.tiles img {
-/*    box-sizing: border-box;*/
-    display: block;
-    }
-
-/*
-.reg {
-    font-family: 'ssp', sans-serif;
-    font-weight: normal;
-    }
-*/
-
-.img_box {
-    display: block;
-    position: relative;
-    overflow: hidden;
-/*
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-*/
-    }
-
-.img_box + h3,
-.img_box + p {
-    margin-top: 1em;
-    }
-
-.img_box img {
-    -webkit-transition: all ease .2s;
-    -moz-transition: all ease .2s;
-    -o-transition: all ease .2s;
-    transition: all ease .2s;
-    display: block;
-    }
-
-a.img_box:hover img, 
-a.img_box.hover img {
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    }
-
-.txt_box {
-    padding: 1.5em 4%;
-    }
-
-.beta {
-    text-transform: none;
-    color: #a2a7ac;
     }
 
 .hide {
@@ -775,5 +710,3 @@ a.zoom {
 .likely {
     letter-spacing: 0;
     }
-
-
