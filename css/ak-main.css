@@ -317,11 +317,28 @@ a[target="_blank"]:after {
     font-size: .6em;
     position: relative;
     bottom: 1px;
+    color: #aaa;
+    font-weight: normal;
+    font-style: normal;
+    
+    -webkit-transition: all ease .2s;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    transition: all .2s ease;
     }
 
-a[target="_blank"]:after:hover {
+a[target="_blank"]:after:hover,
+a[target="_blank"]:after:focus {
     text-decoration: none !important;
+    font-weight: normal;
+    font-style: normal;
     }
+
+a:hover[target="_blank"]:after,
+a:focus[target="_blank"]:after {
+    color: #000;
+    }
+
 
 
 
