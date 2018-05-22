@@ -285,7 +285,6 @@ a {
     border-bottom: 2px solid #ccc;
 /*    border-bottom-style: dotted;*/
 /*    border-bottom-width: 1px;*/
-    
     -webkit-transition: all ease .2s;
     -moz-transition: all ease .2s;
     -o-transition: all ease .2s;
@@ -310,36 +309,32 @@ a[target="_blank"] {
     }
 
 a[target="_blank"]:after {
-    -webkit-font-smoothing: antialiased; 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     font-family: 'fas';
     content: '\00a0\00a0';
     vertical-align: middle;
     font-size: .6em;
     position: relative;
     bottom: 1px;
-    color: #aaa;
+    color: #999;
     font-weight: normal;
     font-style: normal;
-    
     -webkit-transition: all ease .2s;
     -moz-transition: all ease .2s;
     -o-transition: all ease .2s;
     transition: all .2s ease;
     }
 
-a[target="_blank"]:after:hover,
-a[target="_blank"]:after:focus {
+a[target="_blank"]:after:hover {
     text-decoration: none !important;
     font-weight: normal;
     font-style: normal;
     }
 
-a:hover[target="_blank"]:after,
-a:focus[target="_blank"]:after {
+a:hover[target="_blank"]:after {
     color: #000;
     }
-
-
 
 
 .fal {
@@ -349,7 +344,6 @@ a:focus[target="_blank"]:after {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     }
-
 
 .fab {
     font-family: 'fab', sans-serif;
