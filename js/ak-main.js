@@ -1,3 +1,66 @@
+
+//
+//	$(document).ready(function() {
+//		var classes = [ 'emoji_01', 'emoji_02', 'emoji_03' ]; // the classes you want to add
+//		$('.emoji_main').each(function(i) { // the element(s) you want to add the class to.
+//			$(this).addClass(classes[ Math.floor( Math.random()*classes.length ) ] );
+//		});
+//	});
+
+
+//$(document).ready(function() {
+//    var classes = [ 'emoji_01', 'emoji_01', 'emoji_03', 'emoji_04', 'emoji_05']; // the classes you want to add
+//    $('.emoji_main').each(function(i) { // the element(s) you want to add the class to.
+//        $(this).addClass(classes[ Math.floor( Math.random()*classes.length ) ] );
+//    });
+//});
+
+
+
+
+
+$(document).ready(function(){
+    var classes = ["emoji_01", "emoji_02", "emoji_03", "emoji_04", "emoji_05", "emoji_06"];
+    $(".emoji_main").each(function(){
+        $(this).addClass( classes.splice( ~~(Math.random()*classes.length), 3 )[0] );
+    });
+});
+
+
+
+
+
+//var classes = ["emoji_01", "emoji_02", "emoji_03"];
+//var classesCopy = classes.slice();
+
+
+//$('.emoji_main').click(function() {
+//  if (!classesCopy.length) {
+//    classesCopy = classes.slice();
+//  } // once alls classes used up it starts from beginning 
+
+//  var classToAdd = classesCopy.splice(Math.floor(Math.random() * classesCopy.length), 1);
+
+//  $('.current-class').text('current class: ' + classToAdd);
+//  $('.emoji_main').removeClass().addClass(classToAdd+'');
+//});
+
+
+
+
+//$(document).ready(function(){
+//    var classes = ["emoji_01", "emoji_01", "emoji_03"];
+//
+//    $(".emoji_main").each(function(){
+//        $(this).addClass(classes[~~(Math.random()*classes.length)]);
+//    });
+
+
+//});
+
+
+
+
 // Ready start
 $(document).ready(function(){
 	

@@ -16,13 +16,7 @@
     h1 {
         font-size: 3rem;
         }
-    
-    .emoji_01 {
-        width: 48px;
-        height: 48px;
-        background: 100% 0 no-repeat url('../img/mantech_160.png');
-        background-size: 48px 48px;
-        }
+
     
         h1 + h3 {
             margin-top: 2.5rem;
@@ -185,7 +179,52 @@
     .back_xxxx {
         margin-top: -4rem;
         }
-}
+    
+/* -- emoji -- */
+    
+    .emoji_main,
+    .emoji_main:hover,
+    .emoji_main:focus {
+        width: 48px;
+        height: 48px;
+        background: 100% 0 no-repeat url('../img/man_160.png');
+        background-size: 48px 48px;
+        }
+    
+    .emoji_01 {
+        background: 100% 0 no-repeat url('../img/singer_160.png');
+        background-size: 48px 48px;
+        }
+
+    .emoji_02 {
+        background: 100% 0 no-repeat url('../img/worker_160.png');
+        background-size: 48px 48px;
+        }
+
+    .emoji_03 {
+        background: 100% 0 no-repeat url('../img/artist_160.png');
+        background-size: 48px 48px;
+        }
+
+    .emoji_04 {
+        background: 100% 0 no-repeat url('../img/master_160.png');
+        background-size: 48px 48px;
+        }
+
+    .emoji_05 {
+        background: 100% 0 no-repeat url('../img/astronaut_160.png');
+        background-size: 48px 48px;
+        }
+
+    .emoji_06 {
+        background: 100% 0 no-repeat url('../img/man_160.png');
+        background-size: 48px 48px;
+        }
+    
+    
+} /* -- end mob -- */
+
+
 
 /* sm - phones landscape */
 /* 
