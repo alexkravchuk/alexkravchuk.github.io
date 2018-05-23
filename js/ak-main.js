@@ -20,9 +20,9 @@
 
 
 $(document).ready(function(){
-    var classes = ["emoji_01", "emoji_02", "emoji_03", "emoji_04", "emoji_05", "emoji_06"];
+    var classes = ["emoji_01", "emoji_02", "emoji_03", "emoji_04", "emoji_05"];
     $(".emoji_main").each(function(){
-        $(this).addClass( classes.splice( ~~(Math.random()*classes.length), 3 )[0] );
+        $(this).addClass( classes.splice( ~~(Math.random()*classes.length), 1 )[0] );
     });
 });
 
