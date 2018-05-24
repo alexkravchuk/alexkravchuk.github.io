@@ -2,10 +2,20 @@
 $(document).ready(function(){
 
 // Add random class
+// add as many classes as u want
+//var classes = ['emoji_01','emoji_02', 'emoji_03', 'emoji_04', 'emoji_05']; 
+//var randomName = Math.floor(Math.random() * classes.length);
+//$('.emoji_main').addClass(classes[randomName]);
+ 
+// = = = = = = = = = = = = = = =    
+    
 var classes = ["emoji_01", "emoji_02", "emoji_03", "emoji_04", "emoji_05"];
     $(".emoji_main").each(function(){
-    $(this).addClass( classes.splice( ~~(Math.random()*classes.length), 3 )[0] );
+    $(this).addClass(classes.splice((Math.random() * classes.length), 1) [0]);
 });  
+    
+// = = = = = = = = = = = = = = =     
+
   	
 // Show as html
 $("pre").each(function(){ // показвать в виде кода
