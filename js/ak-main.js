@@ -15,7 +15,7 @@ setInterval(function() {
             $(this).removeClass(classes.join(" "));
             $(this).addClass(classes[Math.floor(Math.random() * classes.length)]);
         }); //each
-    }, 1500); //setInterval
+    }, 2000); //setInterval
 
 // Show as html
 $("pre").each(function(){ // показвать в виде кода

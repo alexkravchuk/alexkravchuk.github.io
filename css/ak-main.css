@@ -198,59 +198,74 @@ h1 {
     transition: all ease .4s;
     }
 
-.emoji_01,
-[name="emoji_01"] {
-    background: 100% 0 no-repeat url('../img/astronaut_160.png');
+.emoji_01 {
+    background: 100% 0 no-repeat url('../img/astronaut_72.png');
     background-size: 72px 72px;
     }
 
-.emoji_02,
-[name="emoji_02"] {
-    background: 100% 0 no-repeat url('../img/singer_160.png');
+.emoji_02 {
+    background: 100% 0 no-repeat url('../img/singer_72.png');
     background-size: 72px 72px;
     }
 
-.emoji_03, 
-[name="emoji_03"] {
-    background: 100% 0 no-repeat url('../img/artist_160.png');
+.emoji_03 {
+    background: 100% 0 no-repeat url('../img/artist_72.png');
     background-size: 72px 72px;
     }
 
-.emoji_04,
-[name="emoji_04"] {
-    background: 100% 0 no-repeat url('../img/worker_160.png');
+.emoji_04 {
+    background: 100% 0 no-repeat url('../img/worker_72.png');
     background-size: 72px 72px;
     }
 
-.emoji_05,
-[name="emoji_05"] {
-    background: 100% 0 no-repeat url('../img/master_160.png');
+.emoji_05 {
+    background: 100% 0 no-repeat url('../img/master_72.png');
     background-size: 72px 72px;
     }
 
-.emoji_05,
-[name="emoji_05"] {
-    background: 100% 0 no-repeat url('../img/man_160.png');
+.emoji_06 {
+    background: 100% 0 no-repeat url('../img/man_72.png');
     background-size: 72px 72px;
     }
 
 /* -- retina only --  */
-/*
 @media 
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
     .emoji_01 {
-        background: 100% 0 no-repeat url('../img/mantech_160.png');
+        background: 100% 0 no-repeat url('../img/astronaut_160.png');
         background-size: 72px 72px;
         }
-} 
-*/
-/* -- end retina --  */
+
+    .emoji_02 {
+        background: 100% 0 no-repeat url('../img/singer_160.png');
+        background-size: 72px 72px;
+        }
+
+    .emoji_03 {
+        background: 100% 0 no-repeat url('../img/artist_160.png');
+        background-size: 72px 72px;
+        }
+
+    .emoji_04 {
+        background: 100% 0 no-repeat url('../img/worker_160.png');
+        background-size: 72px 72px;
+        }
+
+    .emoji_05 {
+        background: 100% 0 no-repeat url('../img/master_160.png');
+        background-size: 72px 72px;
+        }
+
+    .emoji_06 {
+        background: 100% 0 no-repeat url('../img/man_160.png');
+        background-size: 72px 72px;
+        }  
+} /* -- end retina --  */
 
     h1 + * {
 /*        margin-top: 4rem;*/
         }
-
 
 h2 {
     font: 600 2rem/1 'nh', sans-serif;
