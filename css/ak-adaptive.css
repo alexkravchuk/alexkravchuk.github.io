@@ -219,6 +219,12 @@
     [name="emoji_05"] {
         background: 100% 0 no-repeat url('../img/master_160.png');
         background-size: 48px 48px;
+        }    
+    
+    .emoji_06,
+    [name="emoji_06"] {
+        background: 100% 0 no-repeat url('../img/man_160.png');
+        background-size: 48px 48px;
         }
     
     

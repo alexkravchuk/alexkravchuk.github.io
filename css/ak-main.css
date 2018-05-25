@@ -191,6 +191,11 @@ h1 {
     vertical-align: baseline;
     border: none;
     text-decoration: none;
+    
+    -webkit-transition: all ease .4s;
+    -moz-transition: all ease .4s;
+    -o-transition: all ease .4s;
+    transition: all ease .4s;
     }
 
 .emoji_01,
@@ -220,6 +225,12 @@ h1 {
 .emoji_05,
 [name="emoji_05"] {
     background: 100% 0 no-repeat url('../img/master_160.png');
+    background-size: 72px 72px;
+    }
+
+.emoji_05,
+[name="emoji_05"] {
+    background: 100% 0 no-repeat url('../img/man_160.png');
     background-size: 72px 72px;
     }
 
