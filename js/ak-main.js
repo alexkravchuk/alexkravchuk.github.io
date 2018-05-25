@@ -1,3 +1,4 @@
+/*
 // Random attribute with cookie
 function loadNextImage() {
 //get image object
@@ -12,8 +13,9 @@ theImages[3] = "emoji_04";
 theImages[4] = "emoji_05";
 
 //get current cookie value
-var currentIndex = parseInt(getCookie());
-myImg.name = theImages[currentIndex]; // a random attribute
+var currentIndex = parseInt(getCookie()); 
+// a random attribute    
+//myImg.name = theImages[currentIndex]; 
 
 //set next cookie index
 currentIndex += 1;
@@ -45,28 +47,28 @@ if(document.cookie.length > 0) {
     }
 }
 return output;
-}			
+}
+*/
 
 
 // Ready start
 $(document).ready(function(){
     
-// pseudo random v1
-//var items = [
-//    'emoji_01',
-//    'emoji_02', 
-//    'emoji_03', 
-//    'emoji_04', 
-//    'emoji_05'
-//    ];
-//var item = items[Math.floor(Math.random() * items.length)]; 
-//$(".emoji_main").addClass(item);
-
-// pseudo random v2 
-//var items = ['emoji_01','emoji_02', 'emoji_03', 'emoji_04', 'emoji_05']; 
-//var item = items[Math.floor(Math.random() * items.length)]; 
-//$(".emoji_main").addClass(item);
-
+// Random pseudo
+var items = [
+    'emoji_01',
+    'emoji_02', 
+    'emoji_03', 
+    'emoji_04', 
+    'emoji_05',    
+    'emoji_01',
+    'emoji_02', 
+    'emoji_03', 
+    'emoji_04', 
+    'emoji_05'
+    ];
+var item = items[Math.floor(Math.random() * items.length)]; 
+$(".emoji_main").addClass(item);
 
 // Show as html
 $("pre").each(function(){ // показвать в виде кода
