@@ -350,18 +350,36 @@ a:hover[target="_blank"]:after {
 
 /* EMOJI ----------------------------- */
 
-.emoji_main,
-.emoji_main:hover {
+.emoji_main {
     display: inline-block;
     width: 72px;
     height: 72px;
+/*
     background: -360px 0 no-repeat url('../img/emoji_72.png');
     background-size: 432px 72px;
+*/
+    
+    background: 0 0 no-repeat url('../img/emoji_72.gif');
+    background-size: 72px 72px;
     vertical-align: baseline;
     border: none;
     text-decoration: none;
     }
 
+
+.emoji_main:hover {
+    background: 0 0 no-repeat url('../img/man_72.png');
+    background-size: 72px 72px;
+    border: none;
+    text-decoration: none;
+    }
+
+
+
+
+
+
+/*
 .emoji_01 {
     background: -360px 0 no-repeat url('../img/emoji_72.png');
     background-size: 432px 72px;
@@ -391,18 +409,24 @@ a:hover[target="_blank"]:after {
     background: 0 0 no-repeat url('../img/emoji_72.png');
     background-size: 432px 72px;
     }
+*/
 
 /* -- retina only --  */
 @media 
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
     
-    .emoji_main,
+    .emoji_main {
+        background: 0 0 no-repeat url('../img/emoji_160.gif');
+        background-size: 72px 72px;
+        }    
+    
     .emoji_main:hover {
-        background: -360px 0 no-repeat url('../img/emoji_160.png');
-        background-size: 432px 72px;
+        background: 0 0 no-repeat url('../img/man_160.png');
+        background-size: 72px 72px;
         }
         
+/*
     .emoji_01 {
         background: -360px 0 no-repeat url('../img/emoji_160.png');
         background-size: 432px 72px;
@@ -432,6 +456,7 @@ a:hover[target="_blank"]:after {
         background: 0 0 no-repeat url('../img/emoji_160.png');
         background-size: 432px 72px;
         } 
+*/
 } 
 /* -- end retina --  */
 
