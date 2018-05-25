@@ -1,22 +1,15 @@
 // Ready start
 $(document).ready(function(){
 
-// Add random class
-// add as many classes as u want
-//var classes = ['emoji_01','emoji_02', 'emoji_03', 'emoji_04', 'emoji_05']; 
-//var randomName = Math.floor(Math.random() * classes.length);
-//$('.emoji_main').addClass(classes[randomName]);
- 
-// = = = = = = = = = = = = = = =    
-    
-var classes = ["emoji_01", "emoji_02", "emoji_03", "emoji_04", "emoji_05"];
-    $(".emoji_main").each(function(){
-    $(this).addClass(classes.splice((Math.random() * classes.length), 1) [0]);
-});  
-    
-// = = = = = = = = = = = = = = =     
+//var classesList = ['emoji_01', 'emoji_02', 'emoji_03', 'emoji_04', 'emoji_05'];
+//var randomClass = Math.floor(Math.random() * classesList.length);
+//$(".emoji_main").addClass(classesList[randomClass]);
 
-  	
+var items = ['emoji_01','emoji_02', 'emoji_03', 'emoji_04', 'emoji_05']; 
+var item = items[Math.floor(Math.random() * items.length)]; 
+$(".emoji_main").addClass(item);
+
+
 // Show as html
 $("pre").each(function(){ // показвать в виде кода
 		$(this).text($(this).html());
