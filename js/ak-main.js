@@ -1,13 +1,71 @@
+// Random attribute with cookie
+function loadNextImage() {
+//get image object
+var myImg = document.getElementById('emoji_main');
+
+//declare image directory path and image array
+var theImages = new Array();
+theImages[0] = "emoji_01";
+theImages[1] = "emoji_02";
+theImages[2] = "emoji_03";
+theImages[3] = "emoji_04";
+theImages[4] = "emoji_05";
+
+//get current cookie value
+var currentIndex = parseInt(getCookie());
+myImg.name = theImages[currentIndex]; // a random attribute
+
+//set next cookie index
+currentIndex += 1;
+if(currentIndex > (theImages.length - 1)) {
+    currentIndex = 0;
+}
+setCookie(currentIndex);
+}
+
+function setCookie(someint) {
+var now = new Date();
+var addDays = now.getDate() + 7
+now.setDate(addDays); // cookie expires in 7 days
+var theString = 'imgID=' + escape(someint) + ';expires=' + now.toUTCString();
+document.cookie = theString;
+}
+
+function getCookie() {
+var output = "0";
+if(document.cookie.length > 0) {
+    var temp = unescape(document.cookie);
+    temp = temp.split(';');
+    for(var i = 0; i < temp.length; i++) {
+        if(temp[i].indexOf('imgID') != -1) {
+            temp = temp[i].split('=');
+            output = temp.pop();
+            break;
+        }
+    }
+}
+return output;
+}			
+
+
 // Ready start
 $(document).ready(function(){
+    
+// pseudo random v1
+//var items = [
+//    'emoji_01',
+//    'emoji_02', 
+//    'emoji_03', 
+//    'emoji_04', 
+//    'emoji_05'
+//    ];
+//var item = items[Math.floor(Math.random() * items.length)]; 
+//$(".emoji_main").addClass(item);
 
-//var classesList = ['emoji_01', 'emoji_02', 'emoji_03', 'emoji_04', 'emoji_05'];
-//var randomClass = Math.floor(Math.random() * classesList.length);
-//$(".emoji_main").addClass(classesList[randomClass]);
-
-var items = ['emoji_01','emoji_02', 'emoji_03', 'emoji_04', 'emoji_05']; 
-var item = items[Math.floor(Math.random() * items.length)]; 
-$(".emoji_main").addClass(item);
+// pseudo random v2 
+//var items = ['emoji_01','emoji_02', 'emoji_03', 'emoji_04', 'emoji_05']; 
+//var item = items[Math.floor(Math.random() * items.length)]; 
+//$(".emoji_main").addClass(item);
 
 
 // Show as html

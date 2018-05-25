@@ -193,37 +193,35 @@ h1 {
     text-decoration: none;
     }
 
-.emoji_01 {
-    background: 100% 0 no-repeat url('../img/singer_160.png');
-    background-size: 72px 72px;
-    }
-
-.emoji_02 {
-    background: 100% 0 no-repeat url('../img/worker_160.png');
-    background-size: 72px 72px;
-    }
-
-.emoji_03 {
-    background: 100% 0 no-repeat url('../img/artist_160.png');
-    background-size: 72px 72px;
-    }
-
-.emoji_04 {
-    background: 100% 0 no-repeat url('../img/master_160.png');
-    background-size: 72px 72px;
-    }
-
-.emoji_05 {
+.emoji_01,
+[name="emoji_01"] {
     background: 100% 0 no-repeat url('../img/astronaut_160.png');
     background-size: 72px 72px;
     }
 
-/*
-.emoji_06 {
-    background: 100% 0 no-repeat url('../img/man_160.png');
+.emoji_02,
+[name="emoji_02"] {
+    background: 100% 0 no-repeat url('../img/singer_160.png');
     background-size: 72px 72px;
     }
-*/
+
+.emoji_03, 
+[name="emoji_03"] {
+    background: 100% 0 no-repeat url('../img/artist_160.png');
+    background-size: 72px 72px;
+    }
+
+.emoji_04,
+[name="emoji_04"] {
+    background: 100% 0 no-repeat url('../img/worker_160.png');
+    background-size: 72px 72px;
+    }
+
+.emoji_05,
+[name="emoji_05"] {
+    background: 100% 0 no-repeat url('../img/master_160.png');
+    background-size: 72px 72px;
+    }
 
 /* -- retina only --  */
 /*
