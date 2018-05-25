@@ -1,6 +1,5 @@
-// Ready start
-$(document).ready(function(){
-
+// +++++ Load start
+$(window).load(function() {
 // Auto Random Class
 var classes = [
     "emoji_01",
@@ -16,7 +15,12 @@ setInterval(function() {
             $(this).addClass(classes[Math.floor(Math.random() * classes.length)]);
         }); //each
     }, 2000); //setInterval
+});
 
+
+// +++++ Ready start
+$(document).ready(function(){
+  
 // Show as html
 $("pre").each(function(){ // показвать в виде кода
 		$(this).text($(this).html());
