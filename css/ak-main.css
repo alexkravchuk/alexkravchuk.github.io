@@ -180,13 +180,11 @@ h1 {
     }
 */
 
-.emoji_main,
-.emoji_main:hover,
-.emoji_main:focus {
+.emoji_main {
     display: inline-block;
     width: 72px;
     height: 72px;
-    background: 100% 0 no-repeat url('../img/man_160.png');
+    background: 100% 0 no-repeat url('../img/man_72.png');
     background-size: 72px 72px;
     vertical-align: baseline;
     border: none;
@@ -232,6 +230,13 @@ h1 {
 @media 
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
+    
+    .emoji_main {
+        background: 100% 0 no-repeat url('../img/man_160.png');
+        background-size: 72px 72px;
+        }
+        
+        
     .emoji_01 {
         background: 100% 0 no-repeat url('../img/astronaut_160.png');
         background-size: 72px 72px;
