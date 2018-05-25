@@ -168,106 +168,6 @@ h1 {
     max-width: 17em;
     }
 
-/*
-.emoji_01 {
-    display: inline-block;
-    width: 72px;
-    height: 72px;
-    background: 100% 0 no-repeat url('../img/mantech_72.png');
-    background: 100% 0 no-repeat url('../img/worker_160.png');
-    background-size: 72px 72px;
-    vertical-align: baseline;
-    }
-*/
-
-.emoji_main {
-    display: inline-block;
-    width: 72px;
-    height: 72px;
-    background: 100% 0 no-repeat url('../img/man_72.png');
-    background-size: 72px 72px;
-    vertical-align: baseline;
-    border: none;
-    text-decoration: none;
-    
-    -webkit-transition: all ease .4s;
-    -moz-transition: all ease .4s;
-    -o-transition: all ease .4s;
-    transition: all ease .4s;
-    }
-
-.emoji_01 {
-    background: 100% 0 no-repeat url('../img/astronaut_72.png');
-    background-size: 72px 72px;
-    }
-
-.emoji_02 {
-    background: 100% 0 no-repeat url('../img/singer_72.png');
-    background-size: 72px 72px;
-    }
-
-.emoji_03 {
-    background: 100% 0 no-repeat url('../img/artist_72.png');
-    background-size: 72px 72px;
-    }
-
-.emoji_04 {
-    background: 100% 0 no-repeat url('../img/worker_72.png');
-    background-size: 72px 72px;
-    }
-
-.emoji_05 {
-    background: 100% 0 no-repeat url('../img/master_72.png');
-    background-size: 72px 72px;
-    }
-
-.emoji_06 {
-    background: 100% 0 no-repeat url('../img/man_72.png');
-    background-size: 72px 72px;
-    }
-
-/* -- retina only --  */
-@media 
-(-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) {
-    
-    .emoji_main {
-        background: 100% 0 no-repeat url('../img/man_160.png');
-        background-size: 72px 72px;
-        }
-        
-        
-    .emoji_01 {
-        background: 100% 0 no-repeat url('../img/astronaut_160.png');
-        background-size: 72px 72px;
-        }
-
-    .emoji_02 {
-        background: 100% 0 no-repeat url('../img/singer_160.png');
-        background-size: 72px 72px;
-        }
-
-    .emoji_03 {
-        background: 100% 0 no-repeat url('../img/artist_160.png');
-        background-size: 72px 72px;
-        }
-
-    .emoji_04 {
-        background: 100% 0 no-repeat url('../img/worker_160.png');
-        background-size: 72px 72px;
-        }
-
-    .emoji_05 {
-        background: 100% 0 no-repeat url('../img/master_160.png');
-        background-size: 72px 72px;
-        }
-
-    .emoji_06 {
-        background: 100% 0 no-repeat url('../img/man_160.png');
-        background-size: 72px 72px;
-        }  
-} /* -- end retina --  */
-
     h1 + * {
 /*        margin-top: 4rem;*/
         }
@@ -447,6 +347,93 @@ a:hover[target="_blank"]:after {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     }
+
+/* EMOJI ----------------------------- */
+
+.emoji_main,
+.emoji_main:hover {
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    background: -360px 0 no-repeat url('../img/emoji_72.png');
+    background-size: 432px 72px;
+    vertical-align: baseline;
+    border: none;
+    text-decoration: none;
+    }
+
+.emoji_01 {
+    background: -360px 0 no-repeat url('../img/emoji_72.png');
+    background-size: 432px 72px;
+    }
+
+.emoji_02 {
+    background: -288px 0 no-repeat url('../img/emoji_72.png');
+    background-size: 432px 72px;
+    }
+
+.emoji_03 {
+    background: -216px 0 no-repeat url('../img/emoji_72.png');
+    background-size: 432px 72px;
+    }
+
+.emoji_04 {
+    background: -144px 0 no-repeat url('../img/emoji_72.png');
+    background-size: 432px 72px;
+    }
+
+.emoji_05 {
+    background: -72px 0 no-repeat url('../img/emoji_72.png');
+    background-size: 432px 72px;
+    }
+
+.emoji_06 {
+    background: 0 0 no-repeat url('../img/emoji_72.png');
+    background-size: 432px 72px;
+    }
+
+/* -- retina only --  */
+@media 
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    
+    .emoji_main,
+    .emoji_main:hover {
+        background: -360px 0 no-repeat url('../img/emoji_160.png');
+        background-size: 432px 72px;
+        }
+        
+    .emoji_01 {
+        background: -360px 0 no-repeat url('../img/emoji_160.png');
+        background-size: 432px 72px;
+        }
+
+    .emoji_02 {
+        background: -288px 0 no-repeat url('../img/emoji_160.png');
+        background-size: 432px 72px;
+        }
+
+    .emoji_03 {
+        background: -216px 0 no-repeat url('../img/emoji_160.png');
+        background-size: 432px 72px;
+        }
+
+    .emoji_04 {
+        background: -144px 0 no-repeat url('../img/emoji_160.png');
+        background-size: 432px 72px;
+        }
+
+    .emoji_05 {
+        background: -72px 0 no-repeat url('../img/emoji_160.png');
+        background-size: 432px 72px;
+        }
+
+    .emoji_06 {
+        background: 0 0 no-repeat url('../img/emoji_160.png');
+        background-size: 432px 72px;
+        } 
+} 
+/* -- end retina --  */
 
 
 /* CLEARS ----------------------------- */

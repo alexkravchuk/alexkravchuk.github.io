@@ -1,4 +1,4 @@
-// +++++ Load start
+// Load start
 $(window).load(function() {
 // Auto Random Class
 var classes = [
