@@ -366,18 +366,14 @@ a:hover[target="_blank"]:after {
     text-decoration: none;
     }
 
-
+/*
 .emoji_main:hover {
     background: 0 0 no-repeat url('../img/man_72.png');
     background-size: 72px 72px;
     border: none;
     text-decoration: none;
     }
-
-
-
-
-
+*/
 
 /*
 .emoji_01 {
@@ -421,10 +417,12 @@ a:hover[target="_blank"]:after {
         background-size: 72px 72px;
         }    
     
+/*
     .emoji_main:hover {
         background: 0 0 no-repeat url('../img/man_160.png');
         background-size: 72px 72px;
         }
+*/
         
 /*
     .emoji_01 {

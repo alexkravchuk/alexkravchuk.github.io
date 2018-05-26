@@ -1,4 +1,5 @@
 // Load start
+/*
 $(window).load(function() {
 // Auto Random Class
 var classes = [
@@ -16,7 +17,7 @@ setInterval(function() {
         }); //each
     }, 2000); //setInterval
 });
-
+*/
 
 // +++++ Ready start
 $(document).ready(function(){

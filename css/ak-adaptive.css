@@ -186,10 +186,15 @@
     .emoji_main:hover {
         width: 48px;
         height: 48px;
+/*
         background: -240px 0 no-repeat url('../img/emoji_160.png');
-        background-size: 288px 48px;
+        background-size: 288px 48px;    
+*/
+        background: 0 0 no-repeat url('../img/emoji_160.gif');
+        background-size: 48px 48px;
         }
         
+/*
     .emoji_01 {
         background: -240px 0 no-repeat url('../img/emoji_160.png');
         background-size: 288px 48px;
@@ -219,6 +224,7 @@
         background: 0 0 no-repeat url('../img/emoji_160.png');
         background-size: 288px 48px;
         } 
+*/
     
     
     
