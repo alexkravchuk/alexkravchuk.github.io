@@ -296,7 +296,7 @@ a[target="_blank"]:after {
     font-size: .6em;
     position: relative;
     bottom: 1px;
-    color: #999;
+    color: #bbb;
     font-weight: normal;
     font-style: normal;
     -webkit-transition: all ease .2s;

@@ -19,7 +19,7 @@ setInterval(function() {
 });
 */
 
-// +++++ Ready start
+// Ready start
 $(document).ready(function(){
   
 // Show as html
