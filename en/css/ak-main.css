@@ -1479,7 +1479,13 @@ a.home_link.active {
 
     .features_icon + .features_title {
         margin-top: 1rem;
+        }     
+
+    .features_title + p {
+        margin-top: 1rem;
         } 
+
+
 
 /* BACKGROUNDS ----------------------------- */
 
