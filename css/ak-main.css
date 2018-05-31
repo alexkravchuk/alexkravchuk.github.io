@@ -280,25 +280,27 @@ a.hover {
     }
 
 a[target="_blank"] {
-/*
+
     position: relative;
-    padding-right: 1em;
-    background: #999;
-*/
+    margin-right: 1.3rem;
     }
 
 a[target="_blank"]:after {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    position: absolute;
+    right: -1rem;
+    bottom: .2rem;
     font-family: 'fas';
     content: '\00a0\00a0';
     vertical-align: middle;
     font-size: .6em;
-    position: relative;
-    bottom: 1px;
     color: #bbb;
     font-weight: normal;
     font-style: normal;
+    
+
     -webkit-transition: all ease .2s;
     -moz-transition: all ease .2s;
     -o-transition: all ease .2s;
