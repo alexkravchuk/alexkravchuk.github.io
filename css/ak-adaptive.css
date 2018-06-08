@@ -1,0 +1,226 @@
+/* xs - phones portrait */
+/*@media (max-width: 480px) {*/
+
+/* xs - mob */
+@media (max-width: 767px) {
+    
+    html, body {
+        font-size: 16px;
+        } 
+    
+    .grid,
+    .grid_list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem 1rem;
+        }
+    
+    .col_2 {
+        grid-column: 1 / 2;
+/*        grid-row: 2;*/
+        }
+  
+    .footer p, 
+    .footer h3 {
+/*        font-size: 15px;*/
+        }
+    
+    .title_row {
+        padding-bottom: 2rem;
+        } 
+    
+    h1 {
+        font-size: 3rem;
+        }
+
+        h1 + h3 {
+            margin-top: 2.5rem;
+            }
+
+    h2 {
+        font-size: 2rem;
+/*        padding-bottom: 2rem;*/
+        } 
+    
+        h2 + p {
+/*            margin-top: 2.5rem;*/
+            }
+
+    h3 {
+        font-size: 1rem;
+        }
+    
+    h4 {
+        font-size: 1.15rem;
+        }
+    
+    .caption {
+        margin: 15px 0 0;
+        }
+   
+
+/* -- btns -- */
+
+    .button_50,
+    .button_50:hover,
+    .button_50.hover {
+        font-size: 1rem;
+        line-height: 36px;
+        padding: 0px 20px;
+        height: 40px;
+        color: #222;
+        background: #fff;
+        }
+    
+        .button_50:active {
+            padding: 0px 25px;
+            color: #fff;
+            background: #222;
+            }
+    
+        a.button_50:before,
+        a.button_50:hover:before,
+        a.button_50.hover:before {
+            content: '';
+            top: 6px;
+            left: 6px;
+            width: 100%;
+            height: 36px;
+            -moz-opacity: 1;
+            -khtml-opacity: 1;
+            opacity: 1;
+            }
+    
+        a.button_50:active:before {
+            width: 100%;
+            height: 36px;
+            top: 0px;
+            left: 0px;
+            -moz-opacity: 0;
+            -khtml-opacity: 0;
+            opacity: 0;
+            }
+    
+/* -- app -- */
+    
+    .show_mob {
+        display: block;
+        }
+    
+    .hide_mob {
+        display: none;
+        }
+    
+    .tx_l_mob {
+        text-align: left;
+        }
+    
+    .ins_x {
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+    
+    .tx_l_xs {
+        text-align: left;
+        }
+    
+    .tx_c_xs {
+        text-align: center;
+        }
+    
+    .pd_x {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 20px transparent solid;
+        }
+    
+/* -- over -- */
+    
+    .over_200_xs,
+    .over_250_xs,
+    .over_300_xs{
+        overflow-x: auto;
+        }
+    
+    .over_200_xs img {
+        width: 200%;
+        max-width: 200%;
+        }
+    
+    .over_250_xs img {
+        width: 250%;
+        max-width: 250%;
+        }
+    
+    .over_300_xs img {
+        width: 300%;
+        max-width: 300%;
+        }
+    
+/* -- clear -- */
+    
+    .clear_x {
+        height: 1rem;
+        }
+    
+    .clear_x_border {
+        margin-top: 1rem;
+        height: 1rem;
+        }
+
+    .clear_xx {
+        height: 2rem;
+        }
+
+    .clear_xx_border {
+        margin-top: 2rem;
+        height: 2rem;
+        }
+
+    .clear_xxx {
+        height: 3rem;
+        }   
+    
+    .clear_xxx_border {
+        margin-top: 2.5rem;
+        height: 2.5rem;
+        }
+    
+    .clear_xxxx {
+        height: 4rem;
+        }
+    
+    .back_xxxx {
+        margin-top: -4rem;
+        }
+    
+/* -- emoji -- */
+    
+    .emoji_main,
+    .emoji_main:hover {
+        width: 48px;
+        height: 48px;
+        background: 0 0 no-repeat url('../img/emoji_160.gif');
+        background-size: 48px 48px;
+        }
+        
+} /* -- end mob -- */
+
+/* sm - phones landscape */
+/* 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+}
+*/
+
+/* md - tablets portrait */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+/* lg - desktops & tablets landscape */
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+}
+
+/* xl - large desktops */
+@media screen and (min-width: 1200px) {
+}
