@@ -182,7 +182,7 @@ img {
 
 
 html, body {
-	font: 400 20px/1.6 'nh', sans-serif;
+	font: 400 18px/1.6 'nh', sans-serif;
     color: #000;
 	}
 
@@ -196,6 +196,7 @@ ul,
 ol {
     max-width: 38em;
 /*    letter-spacing: .02em;*/
+/*    color: #333;*/
     }
 
 h1, h2, h3, h4 {
@@ -250,15 +251,15 @@ ul {
     ul li {
     /*    list-style: disc outside;*/
         list-style: none outside;
-        padding: 0 0 0 1em;
-        text-indent: -1em;
+        padding: 0 0 0 .7em;
+        text-indent: -.7em;
         }
 
     ul li:before{
 /*        content: '\2014\0020';*/
-        content: '+\0020';
-    /*    content: '\25A0\0020';*/
-    /*    color: #e31c3d;*/
+/*        content: '+\0020';*/
+        content: '\2022\0020';
+/*        color: #333;*/
         }
 
 ol {
@@ -309,7 +310,7 @@ a {
 /*    color: #215493;*/
     color: #000;
     text-decoration: none;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #ddd;
 /*    border-bottom-style: dotted;*/
 /*    border-bottom-width: 1px;*/
     -webkit-transition: all ease .2s;
@@ -607,10 +608,10 @@ a.button_social:visited {
     text-align: center;
     margin: 0;
     padding: 0;
-    border-top: 2px #ccc solid;
-    border-bottom: 2px #ccc solid;
-    border-left: 1px #ccc solid;
-    border-right: 1px #ccc solid;
+    border-top: 2px #ddd solid;
+    border-bottom: 2px #ddd solid;
+    border-left: 1px #ddd solid;
+    border-right: 1px #ddd solid;
     text-decoration: none;
     color: #000;
     background: #fff;
