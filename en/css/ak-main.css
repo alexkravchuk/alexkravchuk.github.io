@@ -382,10 +382,12 @@ a.button_50 {
 */
 
 
+/*
 
 .buttons_social { 
     text-align: center;
     }
+*/
 
 /*
 a.button_social,
@@ -419,6 +421,7 @@ a.button_social:visited {
 */
 
 
+/*
 a.button_square,
 a.button_square:visited {
     display: inline-block;
@@ -447,6 +450,90 @@ a.button_square:visited {
     a.button_square.hover {
         background: #000;
         color: #fff;
+        }
+*/
+
+
+
+.buttons_social { 
+/*    text-align: center;*/
+    display: inline-block;
+/*    overflow: hidden;*/
+/*    background: pink;*/
+    vertical-align: middle;
+    position: relative;
+    }
+
+    .buttons_social:before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        display: block;
+        background: none;
+        width: 100%;
+        height: 3rem;
+        top: 5px;
+        left: 4px;
+        border-bottom: 2px solid #000;
+        border-right: 2px solid #000;
+        -webkit-transition: all ease .25s;
+        -moz-transition: all ease .25s;
+        -o-transition: all ease .25s;
+        transition: all ease .25s;
+        -moz-opacity: 1;
+        -khtml-opacity: 1;
+        opacity: 1;
+        }
+
+
+
+a.button_social,
+a.button_social:visited {
+    display: block;
+    float: left;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.4rem;
+    line-height: 2.75rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-top: 2px #000 solid;
+    border-bottom: 2px #000 solid;
+/*    border-left: 1px #000 solid;*/
+/*    border-right: 1px #000 solid;*/
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    }
+
+a.button_social:first-child {
+/*    border-radius: 1.25rem 0 0 1.25rem;*/
+    border-left: 2px #000 solid;
+/*    padding-left: .2rem;*/
+/*    width: 3rem;*/
+    }
+
+a.button_social:last-child {
+/*    border-radius: 0 1.25rem 1.25rem 0;*/
+    border-right: 2px #000 solid;
+/*    padding-right: .2rem;*/
+/*    width: 3rem;*/
+    }
+
+    a.button_social:after {
+        content: '' !important;
+        display: none !important;
+        }
+
+    a.button_social:hover, 
+    a.button_social:active {
+        background: #000;
+        color: #fff;
+        border-color: #000 !important;
         }
 
 
