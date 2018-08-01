@@ -1,4 +1,5 @@
 // EaseScroll Plugin Sets
+/*
 $("html").easeScroll({
   frameRate: 60,
   animationTime: 700,
@@ -13,6 +14,7 @@ $("html").easeScroll({
   touchpadSupport: false,
   fixedBackground: true
 });
+*/
 
 // Ready start
 $(document).ready(function(){
