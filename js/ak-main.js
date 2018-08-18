@@ -1,24 +1,3 @@
-// Load start
-/*
-$(window).load(function() {
-// Auto Random Class
-var classes = [
-    "emoji_01",
-    "emoji_02",
-    "emoji_03",
-    "emoji_04",
-    "emoji_05"
-    ];
-
-setInterval(function() {
-        $(".emoji_main").each(function(index){
-            $(this).removeClass(classes.join(" "));
-            $(this).addClass(classes[Math.floor(Math.random() * classes.length)]);
-        }); //each
-    }, 2000); //setInterval
-});
-*/
-
 // Ready start
 $(document).ready(function(){
   

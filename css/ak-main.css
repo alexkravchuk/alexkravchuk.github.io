@@ -169,7 +169,7 @@ img {
 
 
 .ins {
-    max-width: 980px;
+    max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 22px;
@@ -182,8 +182,10 @@ img {
 
 
 html, body {
-	font: 400 18px/1.6 'nh', sans-serif;
+	font: 400 18px/2 'nh', sans-serif;
     color: #000;
+    text-transform: uppercase;
+    letter-spacing: .03rem;
 	}
 
 p {
@@ -194,7 +196,7 @@ p {
 p, 
 ul, 
 ol {
-    max-width: 38em;
+    max-width: 44em;
 /*    letter-spacing: .02em;*/
 /*    color: #333;*/
     }
@@ -213,6 +215,7 @@ h1 {
     margin: 0;
     padding: 0;
     max-width: 17em;
+    letter-spacing: .4rem;
     }
 
     h1 + * {
@@ -222,8 +225,8 @@ h1 {
 h2 {
     font: 600 2rem/1 'nh', sans-serif;
     margin: 0;
-/*    padding-bottom: 2.5rem;*/
     max-width: 22em;
+    letter-spacing: .4rem;
     }
 
     h2 + p {
@@ -251,14 +254,16 @@ ul {
     ul li {
     /*    list-style: disc outside;*/
         list-style: none outside;
-        padding: 0 0 0 .7em;
-        text-indent: -.7em;
+/*        padding: 0 0 0 .7em;*/
+        padding: 0;
+/*        text-indent: -.7em;*/
+        text-indent: 0;
         }
 
     ul li:before{
 /*        content: '\2014\0020';*/
 /*        content: '+\0020';*/
-        content: '\2022\0020';
+/*        content: '\2022\0020';*/
 /*        color: #333;*/
         }
 
@@ -310,7 +315,7 @@ a {
 /*    color: #215493;*/
     color: #000;
     text-decoration: none;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 1px solid #000;
 /*    border-bottom-style: dotted;*/
 /*    border-bottom-width: 1px;*/
     -webkit-transition: all ease .2s;
@@ -331,7 +336,7 @@ a.hover {
 a[target="_blank"] {
 
     position: relative;
-    margin-right: 1.3rem;
+    margin-right: 1.4rem;
     }
 
 a[target="_blank"]:after {
@@ -339,13 +344,13 @@ a[target="_blank"]:after {
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
     position: absolute;
-    right: -1rem;
-    bottom: .2rem;
+    right: -1.1rem;
+    bottom: .1rem;
     font-family: 'fas';
     content: '\00a0\00a0';
     vertical-align: middle;
-    font-size: .6em;
-    color: #bbb;
+    font-size: .7em;
+    color: #000;
     font-weight: normal;
     font-style: normal;
     
@@ -594,6 +599,7 @@ a.button_50 {
     overflow: hidden;
 /*    background: pink;*/
     vertical-align: middle;
+    margin: -.2rem 0 0;
     }
 
 
@@ -601,25 +607,30 @@ a.button_social,
 a.button_social:visited {
     display: block;
     float: left;
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 1.25rem;
-    line-height: 2.25rem;
+    width: 2.75rem;
+    height: 2.75rem;
+    font-size: 1.5rem;
+    line-height: 2.75rem;
     text-align: center;
-    margin: 0;
+    margin: 0 .2rem 0 0;
     padding: 0;
-    border-top: 2px #ddd solid;
+/*    border: 1px #000 solid;*/
+/*
     border-bottom: 2px #ddd solid;
     border-left: 1px #ddd solid;
     border-right: 1px #ddd solid;
+*/
     text-decoration: none;
     color: #000;
     background: #fff;
     -webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+    border-radius: 1.5rem;
+    border: none;
     }
 
+/*
 a.button_social:first-child {
     border-radius: 1.25rem 0 0 1.25rem;
     border-left: 2px #ccc solid;
@@ -633,6 +644,7 @@ a.button_social:last-child {
     padding-right: .3rem;
     width: 3rem;
     }
+*/
 
     a.button_social:after {
         content: '' !important;
@@ -644,6 +656,8 @@ a.button_social:last-child {
         background: #000;
         color: #fff;
         border-color: #000 !important;
+        
+         border-radius: 1.5rem;
         }
 
 
