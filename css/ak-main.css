@@ -215,7 +215,7 @@ h1 {
     margin: 0;
     padding: 0;
     max-width: 17em;
-    letter-spacing: .4rem;
+    letter-spacing: .1em;
     }
 
     h1 + * {
@@ -226,7 +226,7 @@ h2 {
     font: 600 2rem/1 'nh', sans-serif;
     margin: 0;
     max-width: 22em;
-    letter-spacing: .4rem;
+    letter-spacing: .1em;
     }
 
     h2 + p {
