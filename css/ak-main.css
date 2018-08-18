@@ -345,12 +345,12 @@ a[target="_blank"]:after {
     display: inline-block;
     position: absolute;
     right: -1.1rem;
-    bottom: .1rem;
+    bottom: .05rem;
     font-family: 'fas';
     content: '\00a0\00a0';
     vertical-align: middle;
     font-size: .7em;
-    color: #000;
+    color: #333;
     font-weight: normal;
     font-style: normal;
     
@@ -630,21 +630,6 @@ a.button_social:visited {
     border: none;
     }
 
-/*
-a.button_social:first-child {
-    border-radius: 1.25rem 0 0 1.25rem;
-    border-left: 2px #ccc solid;
-    padding-left: .3rem;
-    width: 3rem;
-    }
-
-a.button_social:last-child {
-    border-radius: 0 1.25rem 1.25rem 0;
-    border-right: 2px #ccc solid;
-    padding-right: .3rem;
-    width: 3rem;
-    }
-*/
 
     a.button_social:after {
         content: '' !important;
