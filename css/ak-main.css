@@ -185,7 +185,7 @@ html, body {
 	font: 400 18px/2 'nh', sans-serif;
     color: #000;
     text-transform: uppercase;
-    letter-spacing: .03rem;
+    letter-spacing: .04rem;
 	}
 
 p {
@@ -215,7 +215,7 @@ h1 {
     margin: 0;
     padding: 0;
     max-width: 17em;
-    letter-spacing: .1em;
+    letter-spacing: .04em;
     }
 
     h1 + * {
@@ -226,7 +226,7 @@ h2 {
     font: 600 2rem/1 'nh', sans-serif;
     margin: 0;
     max-width: 22em;
-    letter-spacing: .1em;
+    letter-spacing: .04em;
     }
 
     h2 + p {
@@ -238,6 +238,7 @@ h3 {
     font: 600 1rem/2 'nh', sans-serif;
 /*    margin-bottom: 1rem;*/
     max-width: 37em;
+    letter-spacing: .04em;
     }
 
     h3 + p {
