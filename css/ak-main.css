@@ -1,7 +1,9 @@
 * {
-/*-webkit-font-smoothing: subpixel-antialiased; */
+-webkit-font-smoothing: subpixel-antialiased; 
+/*
 -webkit-font-smoothing: antialiased; 
 -moz-osx-font-smoothing: grayscale;
+*/
 }
 
 /* nh */
@@ -46,6 +48,20 @@
 	src: url('../fonts/nhut.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
+    }
+
+@font-face {
+	font-family: 'lc';
+	src: url('../fonts/lr.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+    }
+
+@font-face {
+	font-family: 'lc';
+	src: url('../fonts/li.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
     }
 
 /* fa */
@@ -182,10 +198,9 @@ img {
 
 
 html, body {
-	font: 400 18px/2 'nh', sans-serif;
+	font: 400 19px/1.8 'lc', sans-serif;
     color: #000;
-    text-transform: uppercase;
-    letter-spacing: .04rem;
+    letter-spacing: .04em;
 	}
 
 p {
@@ -196,7 +211,7 @@ p {
 p, 
 ul, 
 ol {
-    max-width: 44em;
+    max-width: 37em;
 /*    letter-spacing: .02em;*/
 /*    color: #333;*/
     }
@@ -211,11 +226,12 @@ h1, h2, h3, h4 {
 
 
 h1 {
-    font: 600 4rem/1 'nh', sans-serif;
+    font: 600 3.5rem/1 'nh', sans-serif;
     margin: 0;
     padding: 0;
     max-width: 17em;
-    letter-spacing: .04em;
+    text-transform: uppercase;
+    letter-spacing: .07em;
     }
 
     h1 + * {
@@ -226,7 +242,8 @@ h2 {
     font: 600 2rem/1 'nh', sans-serif;
     margin: 0;
     max-width: 22em;
-    letter-spacing: .04em;
+    text-transform: uppercase;
+    letter-spacing: .07em;
     }
 
     h2 + p {
@@ -235,7 +252,7 @@ h2 {
 
 
 h3 {
-    font: 600 1rem/2 'nh', sans-serif;
+    font: 600 1rem/1.8 'nh', sans-serif;
 /*    margin-bottom: 1rem;*/
     max-width: 37em;
     letter-spacing: .04em;
@@ -337,7 +354,7 @@ a.hover {
 a[target="_blank"] {
 
     position: relative;
-    margin-right: 1.4rem;
+    margin-right: 1.3rem;
     }
 
 a[target="_blank"]:after {
@@ -345,12 +362,12 @@ a[target="_blank"]:after {
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
     position: absolute;
-    right: -1.1rem;
+    right: -1rem;
     bottom: .05rem;
     font-family: 'fas';
     content: '\00a0\00a0';
     vertical-align: middle;
-    font-size: .7em;
+    font-size: .6em;
     color: #333;
     font-weight: normal;
     font-style: normal;
@@ -600,7 +617,7 @@ a.button_50 {
     overflow: hidden;
 /*    background: pink;*/
     vertical-align: middle;
-    margin: -.2rem 0 0;
+    margin: -.2rem 0 0 -.3rem;
     }
 
 
@@ -610,7 +627,7 @@ a.button_social:visited {
     float: left;
     width: 2.75rem;
     height: 2.75rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     line-height: 2.75rem;
     text-align: center;
     margin: 0 .2rem 0 0;
