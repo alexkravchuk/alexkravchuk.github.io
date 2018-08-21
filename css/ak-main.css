@@ -262,7 +262,8 @@ h3 {
     font: 600 1rem/1.8 'nh', sans-serif;
 /*    margin-bottom: 1rem;*/
     max-width: 37em;
-    letter-spacing: .04em;
+    text-transform: uppercase;
+    letter-spacing: .07em;
     }
 
     h3 + p {
