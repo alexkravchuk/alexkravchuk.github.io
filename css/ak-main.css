@@ -501,19 +501,19 @@ a:hover[target="_blank"]:after {
     }
 
 .clear_xx {
-    height: 2rem;
+    height: 2.5rem;
     }
 
 .clear_xxx {
-    height: 4rem;
-    }
-
-.clear_xxxx {
     height: 5rem;
     }
 
+.clear_xxxx {
+    height: 8rem;
+    }
+
 .back_xxxx {
-    margin-top: -5rem;
+    margin-top: -8rem;
     }
 
 .clear_x_border {
