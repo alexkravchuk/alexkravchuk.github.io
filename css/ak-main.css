@@ -305,6 +305,33 @@ ol {
         text-indent: 0.1em;
         }
 
+[class*="caption"] {
+    font-style: italic;
+    max-width: 37em;
+/*    line-height: 1.3;*/
+    }
+
+.caption_c {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+/*
+
+* + .caption_t {
+        text-align: left;
+        margin-top: .5rem;
+        }
+
+* + .caption_tc {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: .5rem;
+        }
+*/
+
+
 p + p {
     margin: 1rem 0 0;
     }
@@ -351,6 +378,9 @@ a {
     }
 
 
+
+
+
 a:hover, 
 a.hover {
     /*color: #105287;*/
@@ -360,7 +390,6 @@ a.hover {
     }
 
 a[target="_blank"] {
-
     position: relative;
     margin-right: 1.3rem;
     }
@@ -554,8 +583,8 @@ a:hover[target="_blank"]:after {
 
 .button_50 {
     font: 600 1rem/3rem 'nh', sans-serif;
-/*    text-transform: uppercase;*/
-/*    letter-spacing: .02em;*/
+    text-transform: uppercase;
+    letter-spacing: .07em;
     height: 3.125rem;
     padding: 0px 30px;
     background: #fff;
@@ -585,6 +614,7 @@ a.button_50 {
 /*	background: none;*/
     padding: 0px 35px;
     }
+/*
 
     a.button_50:before {
         content: '';
@@ -617,6 +647,7 @@ a.button_50 {
             -khtml-opacity: 0;
             opacity: 0;
             }
+*/
 
 
 .buttons_social { 
@@ -797,4 +828,16 @@ a.zoom {
 
 .likely {
     letter-spacing: 0;
+    }
+
+.bg_tram_red {
+    background: 50% 50% repeat #FF5128 url(../tram/img/romb.svg);
+    }
+
+    .bg_tram_red * {
+        color: #fff;
+        }
+
+.bg_fixed {
+    background-attachment: fixed !important;
     }
