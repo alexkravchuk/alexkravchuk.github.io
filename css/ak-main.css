@@ -582,9 +582,9 @@ a:hover[target="_blank"]:after {
 	}
 
 .button_50 {
-    font: 600 1rem/3rem 'nh', sans-serif;
+    font: 600 .8rem/3rem 'nh', sans-serif;
     text-transform: uppercase;
-    letter-spacing: .07em;
+    letter-spacing: .1em;
     height: 3.125rem;
     padding: 0px 30px;
     background: #fff;
