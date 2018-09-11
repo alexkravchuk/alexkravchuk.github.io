@@ -129,6 +129,12 @@ img {
     height: auto;
     }
 
+video {
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+    }
+
     a img {
         text-decoration: none;
         border: none;
@@ -268,6 +274,10 @@ h3 {
 
     h3 + p {
         margin-top: 1rem;
+        }
+
+    h3 + ul {
+        margin-top: .5rem;
         }
 
 
@@ -836,6 +846,58 @@ a.zoom {
 
     .bg_tram_red * {
         color: #fff;
+        }
+
+/* -- displays frame -- */
+
+.frame_ins {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-top: 1px #eee solid;
+    padding: 40px 40px 80px 40px;
+    position: relative;
+    }
+
+.frame_r {
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    }
+
+    .frame_r1 {
+        position: absolute;
+        z-index: -1;
+        top: -20px;
+        right: -20px;
+        bottom: -20px;
+        left: -20px;
+        background: #f0f0f0;
+        }
+
+    .frame_r2 {
+        position: absolute;
+        z-index: -2;
+        top: -40px;
+        right: -40px;
+        bottom: -40px;
+        left: -40px;
+        background: #fff;
+        border: 1px #eee solid;
+        }
+
+    .frame_r3 {
+        position: absolute;
+        z-index: 1;
+        top: 100%;
+        left: -40px;
+        right: -40px;
+        margin-top: 39px;
+        border-top: 40px solid #f0f0f0;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        height: 0;
         }
 
 .bg_fixed {

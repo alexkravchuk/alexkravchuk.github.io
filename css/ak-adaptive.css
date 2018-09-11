@@ -186,6 +186,45 @@
         background: 0 0 no-repeat url('../img/emoji_160.gif');
         background-size: 48px 48px;
         }
+    
+/* -- displays frame -- */
+    
+.frame_ins {
+    padding: 20px 40px 40px 40px;
+    position: relative;
+    }
+
+.frame_l {
+    display: none;
+    }
+
+    .frame_r1 {
+        top: -10px;
+        right: -10px;
+        bottom: -10px;
+        left: -10px;
+        }
+
+    .frame_r2 {
+        position: absolute;
+        z-index: -2;
+        top: -20px;
+        right: -20px;
+        bottom: -20px;
+        left: -20px;
+        background: #fff;
+        border: 1px #eee solid;
+        }
+
+    .frame_r3 {
+        left: -20px;
+        right: -20px;
+        margin-top: 19px;
+        border-top: 20px solid #f0f0f0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        height: 0;
+        }
         
     
 } /* -- end mob -- */
