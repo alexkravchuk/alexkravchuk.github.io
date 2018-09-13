@@ -59,7 +59,8 @@
         font-size: 1.15rem;
         }
     
-    .caption {
+    [class*="caption"] {
+        font-size: 1rem;
         }
    
 
