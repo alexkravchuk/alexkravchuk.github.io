@@ -868,13 +868,13 @@ a.zoom {
 
     .dsp_status_l {
         position: absolute;
-        left: 1rem;
+        left: .5rem;
         display: inline-block;
         }
 
     .dsp_status_r {
         position: absolute;
-        right: 1rem;
+        right: .5rem;
         }
 
 /* -- displays frame -- */
