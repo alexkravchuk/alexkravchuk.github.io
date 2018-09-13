@@ -119,10 +119,16 @@
     
 /* -- over -- */
     
+    .over_100_xs,
     .over_200_xs,
     .over_250_xs,
     .over_300_xs{
         overflow-x: auto;
+        }    
+
+    .over_100_xs img {
+        width: 100%;
+        max-width: 100%;
         }
     
     .over_200_xs img {
@@ -187,7 +193,13 @@
         background-size: 48px 48px;
         }
     
-/* -- displays frame -- */
+/* -- displays -- */
+    
+.dsp_status_over {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    }
     
 .frame_ins {
     padding: 20px 40px 40px 40px;

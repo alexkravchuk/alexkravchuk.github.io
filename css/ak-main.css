@@ -848,6 +848,35 @@ a.zoom {
         color: #fff;
         }
 
+/* -- displays statusbar -- */
+
+.dsp_status_over {
+    width: 100%;
+    max-width: 100%;
+    }
+
+.dsp_status_bar {
+    position: relative;
+    min-width: 460px;
+    height: 30px;
+    background: #111E36;
+    }
+
+    .dsp_status_bar img {
+        height: 30px;
+        }
+
+    .dsp_status_l {
+        position: absolute;
+        left: 1rem;
+        display: inline-block;
+        }
+
+    .dsp_status_r {
+        position: absolute;
+        right: 1rem;
+        }
+
 /* -- displays frame -- */
 
 .frame_ins {
