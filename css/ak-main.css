@@ -807,38 +807,12 @@ a.zoom {
     line-height: 50px;
     }
 
-.trans{
-/*
-    -moz-opacity: 0;
-    -khtml-opacity: 0;
-    opacity: 0;
-*/
-/*    overflow-y: hidden;*/
+
+.bg_fixed {
+    background-attachment: fixed !important;
     }
 
-.moveup {
-    -webkit-transform: translate(0, -50px);
-    -moz-transform: translate(0, -50px);
-    transform: translate(0, -50px);
-    -khtml-opacity: 0;
-    -moz-opacity: 0;
-    opacity: 0;
-    overflow: hidden;
-    }
-
-.movedown {
-    -webkit-transform: translate(0, 50px);
-    -moz-transform: translate(0, 50px);
-    transform: translate(0, 50px);
-    -khtml-opacity: 0;
-    -moz-opacity: 0;
-    opacity: 0;
-    overflow: hidden;
-    }
-
-.likely {
-    letter-spacing: 0;
-    }
+/* -- tram -- */
 
 .bg_tram_red {
     background: 50% 50% repeat #FF5128 url(../tram/img/romb.svg);
@@ -927,6 +901,47 @@ a.zoom {
         height: 0;
         }
 
-.bg_fixed {
-    background-attachment: fixed !important;
+
+.dsp_lines {
+/*    overflow: hidden;*/
+/*    height: 2rem;*/
     }
+
+    [class*="dsp_lines_l"] {
+        position: relative;
+        float: left;
+        width: 25%;
+        height: .8rem;
+        }    
+
+    [class*="dsp_lines_s"] {
+        position: absolute;
+        left: 50%;
+        bottom: 99%;
+        margin-left: -.4rem;
+        width: .8rem;
+        height: .8rem;
+        }
+
+    .dsp_lines_l1,
+    .dsp_lines_s1 {
+        background: #FF5722;
+        }      
+
+    .dsp_lines_l2, 
+    .dsp_lines_s2 {
+        background: #00BCD4;
+        }    
+
+    .dsp_lines_l3, 
+    .dsp_lines_s3 {
+        background: #CDDC39;
+        }    
+
+    .dsp_lines_l4,
+    .dsp_lines_s4 {
+        background: #7E57C2;
+/*        background: #AB47BC;*/
+        }
+
+
