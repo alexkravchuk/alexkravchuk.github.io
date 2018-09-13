@@ -205,6 +205,10 @@
     padding: 20px 40px 40px 40px;
     position: relative;
     }
+    
+.dsp_frame_h {
+    top: 20px; 
+    }
 
 .dsp_frame_l {
     display: none;
