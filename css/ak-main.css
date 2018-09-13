@@ -848,7 +848,7 @@ a.zoom {
         color: #fff;
         }
 
-/* -- displays statusbar -- */
+/* -- displays -- */
 
 .dsp_status_over {
     width: 100%;
@@ -877,9 +877,7 @@ a.zoom {
         right: .5rem;
         }
 
-/* -- displays frame -- */
-
-.frame_ins {
+.dsp_frame_ins {
     max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
@@ -889,13 +887,13 @@ a.zoom {
     position: relative;
     }
 
-.frame_r {
+.dsp_frame_r {
     display: inline-block;
     position: relative;
     top: -1px;
     }
 
-    .frame_r1 {
+    .dsp_frame_r1 {
         position: absolute;
         z-index: -1;
         top: -20px;
@@ -905,7 +903,7 @@ a.zoom {
         background: #f0f0f0;
         }
 
-    .frame_r2 {
+    .dsp_frame_r2 {
         position: absolute;
         z-index: -2;
         top: -40px;
@@ -916,7 +914,7 @@ a.zoom {
         border: 1px #eee solid;
         }
 
-    .frame_r3 {
+    .dsp_frame_r3 {
         position: absolute;
         z-index: 1;
         top: 100%;
