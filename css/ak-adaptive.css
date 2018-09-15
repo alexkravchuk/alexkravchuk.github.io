@@ -117,35 +117,70 @@
         border: 20px transparent solid;
         }
     
-/* -- over -- */
+/* -- img size -- */
     
-    .over_100_xs,
-    .over_200_xs,
-    .over_250_xs,
-    .over_300_xs{
-        overflow-x: auto;
-        }    
-
-    .over_100_xs img {
+    .img_100_mob {
         width: 100%;
         max-width: 100%;
-        }
+        }    
     
-    .over_200_xs img {
+    .img_200_mob {
         width: 200%;
         max-width: 200%;
-        }
+        }    
     
-    .over_250_xs img {
-        width: 250%;
-        max-width: 250%;
-        }
-    
-    .over_300_xs img {
+    .img_300_mob {
         width: 300%;
         max-width: 300%;
         }
     
+/* -- over -- */
+
+    .over_mob {
+        position: relative;
+        } 
+
+    .over_mob:before {
+        content: "";
+        position: absolute;
+        z-index: 5;
+        display: block;
+        width: 20px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        }
+    
+    .over_mob:after {
+        position: absolute;
+        z-index: 5;
+        content: "";
+        display: block;
+        width: 20px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        }
+    
+    .over_auto_mob {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: auto;
+        }      
+    
+    .over_this_mob {
+        display: block;
+        border-left: 20px #fff solid;
+        border-right: 20px transparent solid;
+        box-sizing: border-box;
+        }    
+  
 /* -- clear -- */
     
     .clear_x {
@@ -196,9 +231,11 @@
 /* -- displays -- */
     
 .dsp_status_over {
+/*
     width: 100%;
     max-width: 100%;
     overflow-x: auto;
+*/
     }
     
 .dsp_frame_ins {
