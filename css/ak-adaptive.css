@@ -145,7 +145,7 @@
         position: absolute;
         z-index: 5;
         display: block;
-        width: 20px;
+        width: 22px;
         top: 0;
         bottom: 0;
         left: 0;
@@ -159,7 +159,7 @@
         z-index: 5;
         content: "";
         display: block;
-        width: 20px;
+        width: 22px;
         top: 0;
         bottom: 0;
         right: 0;
@@ -176,8 +176,8 @@
     
     .over_this_mob {
         display: block;
-        border-left: 20px #fff solid;
-        border-right: 20px transparent solid;
+        border-left: 22px #fff solid;
+        border-right: 22px transparent solid;
         box-sizing: border-box;
         }    
   
