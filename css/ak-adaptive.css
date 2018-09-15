@@ -139,6 +139,10 @@
     .over_mob {
         position: relative;
         } 
+    
+    .over_mob.ins {
+        padding: 0;
+        } 
 
     .over_mob:before {
         content: "";
