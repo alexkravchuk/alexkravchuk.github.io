@@ -102,16 +102,14 @@
 
 ::-moz-selection {
 /*    background: #FDF623; !important;  */
-    background: #112e51; !important; 
+    background: #112e51 !important; 
     color: #fff;
     }
 
 
-/* MAIN 
-++++++++++++++++++++++++++++++++++ */
+/* MAIN ----------------------------- */
 
-html,
-body {
+html, body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
