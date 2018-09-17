@@ -110,9 +110,10 @@
 /* MAIN ----------------------------- */
 
 
-html, body {
-	margin:0;
-	padding:0;
+html,
+body {
+	margin: 0;
+	padding: 0;
 	height: 100%;
     background: #fff;
 	}
@@ -140,7 +141,7 @@ video {
         border: none;
         }
 
-/* -- GRID ----------------------------- */
+/* GRID ----------------------------- */
 
 .grid {
     display: grid;
