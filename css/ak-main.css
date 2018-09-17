@@ -502,7 +502,7 @@ a:hover[target="_blank"]:after {
 
 .clear_x,
 .clear_xx,
-.clear_xxx
+.clear_xxx,
 .clear_xxxx, {
     clear: both;
     display: block;
