@@ -132,6 +132,11 @@
     .img_300_mob {
         width: 300%;
         max-width: 300%;
+        }    
+    
+    .img_full_mob {
+        width: auto;
+        max-width: none;
         }
     
 /* -- over -- */
