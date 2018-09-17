@@ -107,8 +107,8 @@
     }
 
 
-/* MAIN ----------------------------- */
-
+/* MAIN 
+++++++++++++++++++++++++++++++++++ */
 
 html,
 body {
@@ -204,8 +204,7 @@ video {
 
 /* TYPOGRAPHY ----------------------------- */
 
-
-html, body {
+body {
 	font: 400 18px/1.8 'lc', sans-serif;
     color: #000;
     letter-spacing: .04em;
