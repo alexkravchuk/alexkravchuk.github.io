@@ -1,6 +1,5 @@
 User-agent: *
 Disallow: 
-Disallow: /fonts
 Disallow: /edu
 Disallow: /tools
 Disallow: /audit1
