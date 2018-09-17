@@ -191,7 +191,8 @@ video {
 
 
 .ins {
-    max-width: 1080px;
+/*    max-width: 1080px;*/
+    max-width: 980px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 22px;
@@ -665,18 +666,23 @@ a.button_50 {
 
 .buttons_social { 
 /*    text-align: center;*/
-    display: inline-block;
+/*    display: inline-block;*/
     overflow: hidden;
 /*    background: pink;*/
     vertical-align: middle;
-    margin: -.2rem 0 0 -.3rem;
+/*    margin: -.2rem 0 0 -.3rem;*/
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 99;
+    padding: .5rem;
     }
 
 
 a.button_social,
 a.button_social:visited {
     display: block;
-    float: left;
+/*    float: left;*/
     width: 2.75rem;
     height: 2.75rem;
     font-size: 1.25rem;
@@ -692,7 +698,7 @@ a.button_social:visited {
 */
     text-decoration: none;
     color: #000;
-    background: #fff;
+    background: none;
     -webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;

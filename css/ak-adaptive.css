@@ -62,7 +62,6 @@
     [class*="caption"] {
 /*        font-size: 1rem;*/
         }
-   
 
 /* -- btns -- */
 
@@ -83,6 +82,16 @@
             background: #222;
             }
     
+    .buttons_social { 
+        right: 0;
+        background: #fff;
+        }
+
+        a.button_social {
+            float: left;
+            }
+    
+
 /* -- app -- */
     
     .show_mob {
@@ -188,7 +197,11 @@
         border-left: 22px #fff solid;
         border-right: 22px transparent solid;
         box-sizing: border-box;
-        }    
+        }
+    
+    
+
+    
   
 /* -- clear -- */
     
@@ -225,6 +238,12 @@
     
     .back_xxxx {
         margin-top: -4rem;
+        }
+    
+    .nav_clear {
+        clear: both;
+        height: 2.5rem;
+        line-height: 0;
         }
     
 /* -- emoji -- */
@@ -287,22 +306,29 @@
         border-right: 20px solid transparent;
         height: 0;
         }
-        
+     
     
 } /* -- end mob -- */
 
 /* sm - phones landscape */
 /* 
 @media screen and (min-width: 480px) and (max-width: 767px) {
+    
 }
 */
 
 /* md - tablets portrait */
 @media screen and (min-width: 768px) and (max-width: 959px) {
+    a.button_social {
+        float: left;
+        }
 }
 
 /* lg - desktops & tablets landscape */
 @media screen and (min-width: 960px) and (max-width: 1199px) {
+     a.button_social {
+        float: left;
+        }   
 }
 
 /* xl - large desktops */
