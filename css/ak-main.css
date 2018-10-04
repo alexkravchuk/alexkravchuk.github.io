@@ -206,7 +206,7 @@ a img {
 body {
     font: 400 18px/1.8 'lc', sans-serif;
     color: #000;
-    letter-spacing: .03em;
+    letter-spacing: .04em;
     }
 
 p {
@@ -719,6 +719,10 @@ a.button_social:visited {
 a.button_social:after {
     content: '' !important;
     display: none !important;
+    }
+
+a.button_social.current {
+    background: #ececec;
     }
 
 a.button_social:hover,
