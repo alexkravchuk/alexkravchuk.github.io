@@ -12,7 +12,7 @@
     .grid_list {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 1.5rem 1.5rem;
+        grid-gap: 1rem 2rem;
         }
     
     .col_2 {
@@ -28,7 +28,7 @@
         }
     
     .col_x_mob {
-/*        margin-top: 1rem;*/
+        margin-top: 1rem;
 /*        background: red;*/
 /*        background: cyan;*/
         }
@@ -228,7 +228,7 @@
         }
 
     .clear_xx {
-        height: 1.5rem;
+        height: 2rem;
         }
 
     .clear_xx_border {
@@ -237,7 +237,7 @@
         }
 
     .clear_xxx {
-        height: 2rem;
+        height: 3rem;
         }   
     
     .clear_xxx_border {
@@ -246,7 +246,7 @@
         }
     
     .clear_xxxx {
-        height: 3rem;
+        height: 4rem;
         }
     
     .back_xxxx {
@@ -255,7 +255,7 @@
     
     .nav_clear {
         clear: both;
-        height: 2.5rem;
+        height: 3rem;
         line-height: 0;
         }
     

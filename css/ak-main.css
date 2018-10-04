@@ -284,7 +284,7 @@ h3 + p {
     }
 
 h3 + ul {
-    margin-top: .5rem;
+    margin-top: 1rem;
     }
 
 
@@ -397,9 +397,6 @@ a {
     -o-transition: all ease .2s;
     transition: all .2s ease;
     }
-
-
-
 
 
 a:hover,
