@@ -94,7 +94,24 @@ $("pre").each(function(){ // показвать в виде кода
 
 // Current year 
 $("#year").html(new Date().getFullYear());
+    
+    
+$("#about_a").click(function(){
+    $(".segmented_item").removeClass("current");
+    $("#projects_box").hide();
+    $("#about_box").show();
+    $("#about_a").addClass("current");
+    return false; 
+    });  
 
+$("#projects_a").click(function(){
+    $(".segmented_item").removeClass("current");
+    $("#about_box").hide();
+    $("#projects_box").show();
+    $("#projects_a").addClass("current");
+    return false; 
+    });
+    
 }); // End Ready
 
 
