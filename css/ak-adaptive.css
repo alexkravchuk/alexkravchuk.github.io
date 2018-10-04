@@ -99,6 +99,11 @@
             float: left;
             }
     
+    a.segmented_item,
+    a.segmented_item:hover {
+        padding: 0px 30px;
+        }
+    
 
 /* -- app -- */
     

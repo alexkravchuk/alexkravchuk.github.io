@@ -758,7 +758,7 @@ a.segmented_item {
     a.segmented_item:hover{
         text-decoration: none;
         border-width: 1px;
-/*        padding: 0px 35px;*/
+        padding: 0px 35px;
         }
 
     a.segmented_item.current,
@@ -766,7 +766,7 @@ a.segmented_item {
         background: #000;
         color: #fff;
         cursor: default;
-/*        padding: 0px 30px;*/
+        padding: 0px 30px;
         }
 
 /*
