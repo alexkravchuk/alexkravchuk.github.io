@@ -12,7 +12,7 @@
     .grid_list {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-/*        grid-gap: 1rem 1rem;*/
+        grid-gap: 1.5rem 1.5rem;
         }
     
     .col_2 {
@@ -228,29 +228,29 @@
         }
 
     .clear_xx {
-        height: 2rem;
+        height: 1.5rem;
         }
 
     .clear_xx_border {
-        margin-top: 2rem;
-        height: 2rem;
+        margin-top: 1.5rem;
+        height: 1.5rem;
         }
 
     .clear_xxx {
-        height: 3rem;
+        height: 2rem;
         }   
     
     .clear_xxx_border {
-        margin-top: 2.5rem;
-        height: 2.5rem;
+        margin-top: 2rem;
+        height: 2rem;
         }
     
     .clear_xxxx {
-        height: 4rem;
+        height: 3rem;
         }
     
     .back_xxxx {
-        margin-top: -4rem;
+        margin-top: -3rem;
         }
     
     .nav_clear {
