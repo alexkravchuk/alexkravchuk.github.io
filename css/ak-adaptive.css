@@ -117,6 +117,14 @@
         padding: 0px 30px;
         }
     
+    .segmented_12_m a.segmented_item {
+        width: 50%;
+        }    
+    
+    .segmented_13_m a.segmented_item {
+        width: 33.3333333%;
+        }
+    
 
 /* -- app -- */
     
