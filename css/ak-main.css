@@ -250,8 +250,9 @@ h1 + * {
     }
 
 .lead {
-    font-size: 1.2rem;
+    font: 400 1.5rem/1.7 'lc', serif;
     max-width: 34em;
+    font-style: italic;
     }
 
 h2 {
