@@ -237,7 +237,7 @@ h4 {
 
 
 h1 {
-    font: 600 3.5rem/1 'nh', sans-serif;
+    font: 600 3rem/1 'nh', sans-serif;
     margin: 0;
     padding: 0;
     max-width: 12em;
@@ -245,9 +245,9 @@ h1 {
     letter-spacing: .02em;
     }
 
-h1 + * {
-    /*        margin-top: 4rem;*/
-    }
+    h1 + p {
+        margin-top: 1.5rem;
+        }
 
 .lead {
 /*
@@ -258,7 +258,7 @@ h1 + * {
     }
 
 h2 {
-    font: 600 2.25rem/1 'nh', sans-serif;
+    font: 600 2rem/1 'nh', sans-serif;
     margin: 0;
     max-width: 22em;
 /*    text-transform: uppercase;*/
@@ -523,19 +523,19 @@ a:hover[target="_blank"]:after {
     }
 
 .clear_xx {
-    height: 2.5rem;
+    height: 2rem;
     }
 
 .clear_xxx {
-    height: 5rem;
+    height: 4rem;
     }
 
 .clear_xxxx {
-    height: 8rem;
+    height: 7rem;
     }
 
 .back_xxxx {
-    margin-top: -8rem;
+    margin-top: -7rem;
     }
 
 .clear_x_border {
