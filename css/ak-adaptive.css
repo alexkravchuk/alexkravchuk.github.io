@@ -258,8 +258,8 @@
         }
 
     .clear_xx_border {
-        margin-top: 1.5rem;
-        height: 1.5rem;
+        margin-top: 2rem;
+        height: 2rem;
         }
 
     .clear_xxx {
@@ -267,8 +267,8 @@
         }   
     
     .clear_xxx_border {
-        margin-top: 2rem;
-        height: 2rem;
+        margin-top: 3rem;
+        height: 3rem;
         }
     
     .clear_xxxx {
@@ -276,12 +276,12 @@
         }
     
     .back_xxxx {
-        margin-top: -3rem;
+        margin-top: -4rem;
         }
     
     .nav_clear {
         clear: both;
-        height: 3rem;
+        height: 2rem;
         line-height: 0;
         }
     
