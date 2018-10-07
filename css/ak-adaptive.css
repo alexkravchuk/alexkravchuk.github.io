@@ -27,10 +27,10 @@
 /*        background: violet;*/
         }
     
-    .grid_xx_odd .col:nth-child(odd) {
-        padding-top: 1rem;
-/*        background: lime;*/
-        }
+        .grid_xx_odd .col:nth-child(odd) {
+            padding-top: 1rem;
+    /*        background: lime;*/
+            }
     
         .grid_xx_odd .col:first-child {
             padding-top: 0;
@@ -123,6 +123,10 @@
         a.button_social {
             float: left;
             }
+    
+    .segmented {
+        display: block;
+        }
     
     a.segmented_item,
     a.segmented_item:hover {
