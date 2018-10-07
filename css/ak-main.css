@@ -767,7 +767,8 @@ a.segmented_item {
 
     a.segmented_item.current,
     a.segmented_item.current:hover {
-        letter-spacing: .025em;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
         background: #000;
         color: #fff;
         cursor: default;
