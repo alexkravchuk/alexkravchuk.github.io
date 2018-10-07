@@ -718,10 +718,10 @@ a.button_social:active {
 
 a.segmented_item {
     float: left;
-    font: 600 1rem/2.4rem 'nh', sans-serif;
+    font: 600 1rem/1.9rem 'nh', sans-serif;
 /*    text-transform: uppercase;*/
     letter-spacing: .025em;
-    height: 2.5rem;
+    height: 2rem;
     padding: 0px 30px;
     background: #fff;
     color: #000;
