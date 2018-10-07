@@ -14,29 +14,29 @@
         grid-gap: 2rem 2rem;
         }
 
-    .grid_list {
+    .grid_x {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 1rem 1rem;
         }
     
-    .grid_odd_m .col:nth-child(odd) {
+    .grid_xx_odd .col:nth-child(odd) {
         padding-top: 1rem;
 /*        background: lime;*/
         }
     
-        .grid_odd_m .col:first-child {
+        .grid_xx_odd .col:first-child {
             padding-top: 0;
             }
     
  
     .grid_ins_m .col {
-        padding-top: 1rem;
+/*        padding-top: 1rem;*/
 /*        background: violet;*/
         }
     
         .grid_ins_m .col:first-child {
-            padding-top: 0;
+/*            padding-top: 0;*/
             }
 
     
