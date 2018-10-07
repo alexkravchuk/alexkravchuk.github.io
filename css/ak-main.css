@@ -391,30 +391,25 @@ a.hover {
     }
 
 a[target="_blank"] {
-    position: relative;
-    margin-right: 1.3rem;
     }
 
 a[target="_blank"]:after {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    display: inline-block;
-    position: absolute;
-    right: -1rem;
-    bottom: .15rem;
-    font-family: 'fas';
     content: '\00a0\00a0';
-    vertical-align: middle;
+    position: relative;
+    bottom: .07rem;
+    white-space: nowrap;
+    font-family: 'fas';
     font-size: .6em;
+    vertical-align: middle;
     color: #111;
     font-weight: normal;
     font-style: normal;
-
-
     -webkit-transition: all ease .2s;
     -moz-transition: all ease .2s;
     -o-transition: all ease .2s;
     transition: all .2s ease;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     }
 
 a[target="_blank"]:after:hover {
@@ -426,7 +421,6 @@ a[target="_blank"]:after:hover {
 a:hover[target="_blank"]:after {
     color: #000;
     }
-
 
 .fal {
     font-family: 'fal', sans-serif;

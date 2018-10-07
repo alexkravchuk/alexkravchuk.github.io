@@ -20,6 +20,13 @@
         grid-gap: 1rem 1rem;
         }
     
+    .grid_xx_odd {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem 1rem;
+        background: violet;
+        }
+    
     .grid_xx_odd .col:nth-child(odd) {
         padding-top: 1rem;
 /*        background: lime;*/
