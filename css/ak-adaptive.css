@@ -8,7 +8,12 @@
         font-size: 16px;
         } 
     
-    .grid,
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem 2rem;
+        }
+
     .grid_list {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -69,7 +74,7 @@
     
         h2 + p,        
         h2 + ul {
-            margin-top: 1rem;
+/*            margin-top: 1rem;*/
             }
 
     h3 {
