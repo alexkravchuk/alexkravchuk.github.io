@@ -274,12 +274,12 @@ h3 + ul {
 
 ul {
     padding: 0;
-    margin: 0 0 0 1.3rem;
+    margin: 0;
     }
 
 ul li {
-        list-style: disc outside;
-/*    list-style: none outside;*/
+/*        list-style: disc outside;*/
+    list-style: none outside;
     /*        padding: 0 0 0 .7em;*/
     padding: 0;
     /*        text-indent: -.7em;*/
