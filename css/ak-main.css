@@ -64,6 +64,13 @@
     font-style: italic;
     }
 
+@font-face {
+    font-family: 'wc';
+    src: url('../fonts/wr.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
 /* fa */
 
 @font-face {
@@ -111,7 +118,8 @@
 
 html,
 body {
-    font: 400 17px/1.8 'nh', sans-serif;
+    font: 400 17px/1.7 'nh', sans-serif;
+    letter-spacing: .015em;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -186,7 +194,7 @@ a img {
 
 body {
     color: #000;
-    letter-spacing: .015em;
+   
     }
 
 p {
