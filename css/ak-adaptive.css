@@ -296,6 +296,11 @@
         line-height: 0;
         }
     
+    .typical [class*="clear_x"] {
+        background: 50% 0 repeat-y url('../img/bg_16.svg');
+        background-size: auto;
+        }
+    
 /* -- emoji -- */
     
     .emoji_main,
