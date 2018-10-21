@@ -183,6 +183,19 @@ a img {
         /*     background: lightblue; */
         }
 
+    .grid_r {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        grid-auto-rows: minmax(1px, auto);
+        grid-gap: 2rem 2rem;
+        }
+
+        .grid_r .col {
+        /*  background: lightgreen;*/
+            padding-left: 50%;
+            border-left: 1rem solid transparent;
+            }        
+
 
 /* INS ----------------------------- */
 

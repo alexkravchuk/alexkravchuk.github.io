@@ -36,6 +36,12 @@
             padding-top: 0;
             }
     
+        .grid_r .col {
+        /*  background: lightgreen;*/
+            padding-left: 0;
+            border-left: none;
+            }    
+    
  
     .grid_ins_m .col {
 /*        padding-top: 1rem;*/
