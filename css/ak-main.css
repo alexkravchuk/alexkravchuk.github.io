@@ -1,14 +1,10 @@
 * {
 -webkit-font-smoothing: subpixel-antialiased;
-    /*
+    
+/*
 -webkit-font-smoothing: antialiased; 
 -moz-osx-font-smoothing: grayscale;
 */
-    
-font-variant-ligatures: no-contextual;
--moz-font-feature-settings: "calt" 1;
--webkit-font-feature-settings: "calt" 1;
-font-feature-settings: "calt" 1;
     }
 
 /* nh */
