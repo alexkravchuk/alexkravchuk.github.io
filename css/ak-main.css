@@ -286,7 +286,8 @@ h2 {
     letter-spacing: .02em;
     }
 
-h2 + p {
+h2 + p,
+h2 + ul {
     margin-top: 2rem;
     }
 
