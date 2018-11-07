@@ -178,7 +178,7 @@ a img {
     }
 
     .grid .col {
-/*            background: lightgreen; */
+    /*        background: lightgreen; */
         }
 
 .grid_x {
@@ -210,23 +210,14 @@ a img {
 /* INS ----------------------------- */
 
 
-.ins,
-.ins_r,
-.ins_o {
-/*        max-width: 1080px;*/
+.ins {
+    /*    max-width: 1080px;*/
     max-width: 980px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 22px;
     padding-right: 22px;
-/*        background: #f5f5ee;*/
-    }
-
-.ins_r p {
-    margin-left: 50%;
-    padding-left: 1rem;
-/*    border-left:  1rem solid red;*/
-/*    background: pink;*/
+    /*    background: #f5f5ee;*/
     }
 
 

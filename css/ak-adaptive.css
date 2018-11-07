@@ -205,6 +205,29 @@
         max-height: 284px;
         }
     
+    
+ /* -- ins -- */
+    
+    .ins_r p  {
+        margin-left: 0;
+        padding-left: 0;
+        }
+    
+    .ins_o {
+        padding: 0;
+        overflow-x: auto;
+        }
+
+        .ins_o img {
+            display: block;
+            width: auto;
+            max-width: none;
+            max-height: 284px;
+            border-left: 22px transparent solid;
+            border-right: 22px transparent solid;
+            box-sizing: border-box;
+            }
+    
 /* -- over -- */
 
     .over_mob {
