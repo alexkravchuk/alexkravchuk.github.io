@@ -228,6 +228,22 @@
             box-sizing: border-box;
             }
     
+    
+    .full_o {
+        padding: 0;
+        overflow-x: auto;
+        }
+    
+        .full_o img {
+            display: block;
+            width: auto;
+            max-width: none;
+            max-height: 284px;
+            border-left: 22px transparent solid;
+            border-right: 22px transparent solid;
+            box-sizing: border-box;
+            }
+    
 /* -- over -- */
 
     .over_mob {
