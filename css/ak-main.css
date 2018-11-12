@@ -222,7 +222,8 @@ a img {
 /*        background: #f5f5ee;*/
     }
 
-.ins_r p {
+.ins_r p,
+.ins_r ul {
     margin-left: 50%;
     padding-left: 1rem;
 /*    border-left:  1rem solid red;*/

@@ -208,7 +208,8 @@
     
  /* -- ins -- */
     
-    .ins_r p  {
+    .ins_r p,
+    .ins_r ul  {
         margin-left: 0;
         padding-left: 0;
         }
