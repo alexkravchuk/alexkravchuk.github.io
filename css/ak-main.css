@@ -822,6 +822,26 @@ a.segmented_item {
 ---------------------------------- 
 */
 
+
+.status_y,
+.status_n {
+    font-weight: 400;
+    white-space: nowrap;
+    letter-spacing: .02rem;
+    }
+
+.status_y { color: #2D803A; }
+.status_n { color: #EB462D; }
+
+.status_y:before,
+.status_n:before {
+    content: "⬤\0020";  
+    }
+
+.status_y:before { color: #3CAB4E; }
+.status_n:before { color: #FF4C30; }
+
+
 nobr {
     white-space: nowrap;
     }
