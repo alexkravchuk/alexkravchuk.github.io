@@ -823,24 +823,15 @@ a.segmented_item {
 */
 
 
-.status_y,
-.status_n {
+[class*="status_"] {
     font-weight: 400;
     white-space: nowrap;
-/*    letter-spacing: .02rem;*/
     }
 
-/*
-.status_y { color: #2D803A; }
-.status_n { color: #EB462D; }
-*/
-
-    .status_y:before,
-    .status_n:before {
+    [class*="status_"]:before{
         font-family: 'fas', sans-serif;
         font-weight: normal;
         font-style: normal;
-/*        font-size: .8rem;*/
         position: relative;
         top: .05rem;
         }
@@ -848,13 +839,29 @@ a.segmented_item {
     .status_y:before { 
         content: "\0020";
         color: #3CAB4E; 
+        }    
+
+    .status_y:after { 
+        content: "готов к работе";
+        }   
+ 
+    .status_s:before {
+        content: "\0020";
+        color: #F0C107; 
+        }
+
+    .status_s:after { 
+        content: "отдыхаю";
         }
 
     .status_n:before {
         content: "\0020";
         color: #FF4C30; 
-    }
+        }
 
+    .status_n:after { 
+        content: "занят";
+        }
 
 nobr {
     white-space: nowrap;

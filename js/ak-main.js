@@ -1,6 +1,18 @@
 // Ready start
+
+var date = new Date(); // Current date time 
+var h = date.getHours(); // Current time
+//document.write(h);
+
 $(document).ready(function(){
-  
+
+// Time status
+if (h > 22 || h < 9) {
+    $(".status").removeClass("status_y");
+    $(".status").addClass("status_s");
+//    $(".status").remove();
+}
+
 // Show as html
 $("pre").each(function(){ // показвать в виде кода
 		$(this).text($(this).html());
