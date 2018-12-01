@@ -7,11 +7,11 @@ var h = date.getHours(); // Current time
 $(document).ready(function(){
 
 // Time status
-if (h > 22 || h < 9) {
-    $(".status").removeClass("status_y");
-    $(".status").addClass("status_s");
+//if (h > 22 || h < 9) {
+//    $(".status").removeClass("status_y");
+//    $(".status").addClass("status_s");
 //    $(".status").remove();
-}
+//}
 
 // Show as html
 $("pre").each(function(){ // показвать в виде кода
