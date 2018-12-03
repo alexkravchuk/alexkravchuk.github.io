@@ -347,8 +347,8 @@ ol {
 ol li {
     list-style: decimal;
     padding: 0;
-    margin: 0 0 0 1.2em;
-    text-indent: 0.1em;
+    margin: 0 0 0 1.1em;
+    text-indent: 0em;
     }
 
 [class*="caption"] {
