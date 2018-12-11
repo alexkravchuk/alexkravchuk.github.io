@@ -251,6 +251,11 @@ ol {
     /*    color: #333;*/
     }
 
+.ak_tag {
+    padding: .2rem;
+    background: #eee;
+    }
+
 
 
 h1,
@@ -365,6 +370,27 @@ ol li {
     margin-left: auto;
     margin-right: auto;
     }
+
+ul.ak_tags {
+    list-style: none;
+    line-height: 2rem;
+    }
+
+ul.ak_tags li {
+    display: inline;
+    list-style: none;
+    text-indent: 0;
+    margin: 0;
+    padding: .2rem .5rem;
+    background: #ececec;
+    border-radius: .2rem;
+    white-space: nowrap;
+    }
+
+ul.ak_tags li:before {
+    content: "#";
+    color: #ccc;
+}
 
 /*
 
