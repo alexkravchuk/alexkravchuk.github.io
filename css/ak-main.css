@@ -915,15 +915,6 @@ a.segmented_item {
 
     .status_y:after { 
         content: "готов к работе";
-        }   
- 
-    .status_s:before {
-        content: "\0020";
-        color: #F0C107; 
-        }
-
-    .status_s:after { 
-        content: "отдыхаю";
         }
 
     .status_n:before {
