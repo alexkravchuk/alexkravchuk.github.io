@@ -911,10 +911,6 @@ a.segmented_item {
     .status_y:before { 
         content: "\0020";
         color: #3CAB4E; 
-        }    
-
-    .status_y:after { 
-        content: "готов к работе";
         }
 
     .status_n:before {
@@ -922,8 +918,9 @@ a.segmented_item {
         color: #FF4C30; 
         }
 
-    .status_n:after { 
-        content: "занят";
+    .status_ny:before {
+        content: "\0020";
+        color: #03d; 
         }
 
 nobr {
