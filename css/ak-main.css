@@ -5,6 +5,10 @@
 -webkit-font-smoothing: antialiased; 
 -moz-osx-font-smoothing: grayscale;
 */
+    
+-moz-font-feature-settings: "ss03";
+-webkit-font-feature-settings: "ss03";
+font-feature-settings: "ss03";
     }
 
 /* m */
@@ -264,7 +268,7 @@ h1 {
     }
 
     h1 + p {
-        margin-top: 1rem;
+/*        margin-top: 1rem;*/
         }
 
 .lead {
