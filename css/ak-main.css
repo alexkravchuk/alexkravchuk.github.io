@@ -11,6 +11,10 @@
 font-feature-settings: "ss03";
     }
 
+
+
+
+
 /* m */
 
 @font-face {
@@ -59,14 +63,16 @@ font-feature-settings: "ss03";
     }
 
 ::selection {
-    /*    background: #FDF623 !important;   */
-    background: #112e51 !important;
+/*    background: #FDF623 !important;   */
+/*    background: #112e51 !important;   */
+    background: #03d !important;
     color: #fff;
     }
 
 ::-moz-selection {
-    /*    background: #FDF623 !important;  */
-    background: #112e51 !important;
+/*    background: #FDF623 !important;  */
+/*    background: #112e51 !important;  */
+    background: #03d !important;
     color: #fff;
     }
 
@@ -265,11 +271,19 @@ h1 {
 /*    max-width: 21em;*/
     text-transform: uppercase;
     letter-spacing: .1em;
+/*    text-shadow: -1px 0 #000, 0 2px #000, 2px 0 #000, 0 -1px #000;*/
+/*    color: #fff;*/
     }
 
     h1 + p {
 /*        margin-top: 1rem;*/
         }
+
+/*
+    h1:first-letter {
+       font-feature-settings: "swsh";
+        }
+*/
 
 .lead {
     font-size: 1.3rem;
@@ -864,7 +878,8 @@ a.segmented_item {
 
     .status_ny:before {
         content: "\0020";
-        color: #03d; 
+/*        color: #03d; */
+        color: #EE4E42; 
         }
 
 nobr {
