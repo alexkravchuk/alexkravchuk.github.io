@@ -849,7 +849,7 @@ a.segmented_item {
         font-weight: normal;
         font-style: normal;
         position: relative;
-        top: .05rem;
+        top: .1rem;
         }
 
     .status_y:before { 
