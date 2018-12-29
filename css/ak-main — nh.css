@@ -7,22 +7,84 @@
 */
     }
 
-/* m */
+/* nh */
 
 @font-face {
-    font-family: 'm';
-    src: url('../fonts/m/mr.woff') format('woff');
+    font-family: 'nh';
+    src: url('../fonts/nhur.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'nh';
+    src: url('../fonts/nhur.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     }
 
 @font-face {
-    font-family: 'm';
-    src: url('../fonts/m/mb.woff') format('woff');
+    font-family: 'nh';
+    src: url('../fonts/nhur.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'nh';
+    src: url('../fonts/nhub.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'nh';
+    src: url('../fonts/nhub.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     }
 
+@font-face {
+    font-family: 'nht';
+    src: url('../fonts/nhut.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'lc';
+    src: url('../fonts/lr.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'lc';
+    src: url('../fonts/li.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    }
+
+@font-face {
+    font-family: 'wc';
+    src: url('../fonts/wt-r.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'wc';
+    src: url('../fonts/wt-i.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    }
+
+@font-face {
+    font-family: 'wc';
+    src: url('../fonts/wt-b.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    }
 
 /* fa */
 
@@ -71,8 +133,9 @@
 
 html,
 body {
-    font: 400 18px/1.5 'm', sans-serif;
-    letter-spacing: .02em;
+/*    font: 400 20px/1.5 'wc', serif;*/
+    font: 400 17px/1.7 'nh', sans-serif;
+    letter-spacing: .015em;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -254,13 +317,12 @@ h4 {
 
 
 h1 {
-    font: 400 2.5rem/1.1 'm', sans-serif;
+    font: 600 3rem/1.2 'nh', sans-serif;
     margin: 0;
     padding: 0;
-    max-width: 15em;
-/*    max-width: 21em;*/
-    text-transform: uppercase;
-    letter-spacing: .1em;
+    max-width: 14em;
+/*    text-transform: uppercase;*/
+    letter-spacing: .02em;
     }
 
     h1 + p {
@@ -269,16 +331,16 @@ h1 {
 
 .lead {
     font-size: 1.3rem;
-    max-width: 31em;
+    max-width: 34em;
 /*    font-style: italic;*/
     }
 
 h2 {
-    font: 400 1.5rem/1.1 'm', sans-serif;
+    font: 600 2rem/1.2 'nh', sans-serif;
     margin: 0;
     max-width: 22em;
-    text-transform: uppercase;
-    letter-spacing: .1em;
+/*    text-transform: uppercase;*/
+    letter-spacing: .02em;
     }
 
 h2 + p,
@@ -288,11 +350,11 @@ h2 + ul {
 
 
 h3 {
-    font: 400 1rem/1.5 'm', sans-serif;
+    font: 600 1rem/1.5 'nh', sans-serif;
     /*    margin-bottom: 1rem;*/
     max-width: 37em;
-    text-transform: uppercase;
-    letter-spacing: .1em;
+/*    text-transform: uppercase;*/
+    letter-spacing: .025em;
     }
 
     h3 a {
@@ -640,9 +702,9 @@ a:hover[target="_blank"]:after {
     }
 
 .button_50 {
-    font: 400 1rem/2.8rem 'm', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: .1em;
+    font: 600 1rem/2.8rem 'nh', sans-serif;
+/*    text-transform: uppercase;*/
+    letter-spacing: .025em;
     height: 3rem;
     padding: 0px 30px;
     background: #fff;
@@ -780,7 +842,7 @@ a.button_social:active {
 
 a.segmented_item {
     float: left;
-    font: 600 1rem/1.9rem 'cp', sans-serif;
+    font: 600 1rem/1.9rem 'nh', sans-serif;
 /*    text-transform: uppercase;*/
     letter-spacing: .025em;
     height: 2rem;
@@ -836,8 +898,6 @@ a.segmented_item {
 [class*="status_"] {
     font-weight: 400;
     white-space: nowrap;
-    text-transform: none;
-    letter-spacing: .02rem;
     }
 
     [class*="status_"]:before{
