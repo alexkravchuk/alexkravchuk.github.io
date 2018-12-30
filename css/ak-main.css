@@ -276,7 +276,7 @@ h1 {
     }
 
     h1 + p {
-/*        margin-top: 1rem;*/
+        margin-top: .7rem;
         }
 
 /*
@@ -864,6 +864,8 @@ a.segmented_item {
         font-style: normal;
         position: relative;
         top: .1rem;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
         }
 
     .status_y:before { 
