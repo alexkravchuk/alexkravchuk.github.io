@@ -15,16 +15,30 @@ font-feature-settings: "ss03";
 /* m */
 
 @font-face {
-    font-family: 'm';
+    font-family: 'mt';
     src: url('../fonts/m/mr.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     }
 
 @font-face {
-    font-family: 'm';
+    font-family: 'mt';
+    src: url('../fonts/m/mm.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'mt';
     src: url('../fonts/m/mb.woff') format('woff');
     font-weight: 700;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'ms';
+    src: url('../fonts/m/ms.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
     }
 
@@ -78,14 +92,12 @@ font-feature-settings: "ss03";
 
 html,
 body {
-    font: 400 18px/1.5 'm', sans-serif;
+    font: 400 18px/1.5 'mt', sans-serif;
     letter-spacing: .02em;
     margin: 0;
     padding: 0;
     height: 100%;
     background: #fff;
-    
-
     }
 
 .header {
@@ -261,7 +273,7 @@ h4 {
 
 
 h1 {
-    font: 700 2.5rem/1.1 'm', sans-serif;
+    font: 700 2.5rem/1.1 'mt', sans-serif;
     margin: 0;
     padding: 0;
     max-width: 15em;
@@ -289,7 +301,7 @@ h1 {
     }
 
 h2 {
-    font: 700 1.5rem/1.1 'm', sans-serif;
+    font: 700 1.5rem/1.1 'mt', sans-serif;
     margin: 0;
     max-width: 22em;
 /*    text-transform: uppercase;*/
@@ -303,7 +315,7 @@ h2 + ul {
 
 
 h3 {
-    font: 700 1rem/1.5 'm', sans-serif;
+    font: 700 1rem/1.5 'mt', sans-serif;
     /*    margin-bottom: 1rem;*/
     max-width: 37em;
 /*    text-transform: uppercase;*/
@@ -525,6 +537,14 @@ a:hover[target="_blank"]:after {
     -moz-osx-font-smoothing: grayscale;
     }
 
+.ms {
+    font-family: 'ms', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    }
+
 /* EMOJI ----------------------------- */
 
 .emoji_main {
@@ -655,7 +675,7 @@ a:hover[target="_blank"]:after {
     }
 
 .button_50 {
-    font: 700 1rem/2.7rem 'm', sans-serif;
+    font: 700 1rem/2.8rem 'mt', sans-serif;
 /*    text-transform: uppercase;*/
 /*    letter-spacing: .1em;*/
     height: 3rem;
