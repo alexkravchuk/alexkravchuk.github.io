@@ -315,7 +315,7 @@ h2 + ul {
 
 
 h3 {
-    font: 700 1rem/1.5 'mt', sans-serif;
+    font: 500 1rem/1.5 'mt', sans-serif;
     /*    margin-bottom: 1rem;*/
     max-width: 37em;
 /*    text-transform: uppercase;*/
@@ -675,7 +675,7 @@ a:hover[target="_blank"]:after {
     }
 
 .button_50 {
-    font: 700 1rem/2.8rem 'mt', sans-serif;
+    font: 500 1rem/2.8rem 'mt', sans-serif;
 /*    text-transform: uppercase;*/
 /*    letter-spacing: .1em;*/
     height: 3rem;
