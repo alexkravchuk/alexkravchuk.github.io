@@ -93,7 +93,7 @@ font-feature-settings: "ss03";
 html,
 body {
     font: 400 18px/1.5 'mt', sans-serif;
-    letter-spacing: .02em;
+    letter-spacing: .017em;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -273,10 +273,10 @@ h4 {
 
 
 h1 {
-    font: 700 2.5rem/1.1 'mt', sans-serif;
+    font: 500 3rem/1.1 'mt', sans-serif;
     margin: 0;
     padding: 0;
-    max-width: 15em;
+    max-width: 12em;
 /*    max-width: 21em;*/
 /*    text-transform: uppercase;*/
 /*    letter-spacing: .1em;*/
@@ -301,7 +301,7 @@ h1 {
     }
 
 h2 {
-    font: 700 1.5rem/1.1 'mt', sans-serif;
+    font: 500 2rem/1.1 'mt', sans-serif;
     margin: 0;
     max-width: 22em;
 /*    text-transform: uppercase;*/
