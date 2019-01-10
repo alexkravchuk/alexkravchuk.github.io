@@ -683,7 +683,7 @@ a:hover[target="_blank"]:after {
     background: #fff;
     color: #000;
     border: 2px solid #000;
-    border-radius: 0;
+    border-radius: 3rem;
     box-shadow: none;
     -webkit-transition: all ease .25s;
     -moz-transition: all ease .25s;
