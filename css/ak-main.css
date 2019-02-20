@@ -323,7 +323,7 @@ h3 {
     }
 
     h3 a {
-        border-bottom: none;
+/*        border-bottom: none;*/
         }
 
 h3 + p {
@@ -868,6 +868,7 @@ a.segmented_item {
 */
 
 
+
 [class*="status_"] {
     font-weight: 400;
     white-space: nowrap;
@@ -900,6 +901,28 @@ a.segmented_item {
 /*        color: #03d; */
         color: #EE4E42; 
         }
+
+   .status_ha:before{
+       content: "";
+       font-family: sans-serif;
+        background: 0 50% no-repeat url(../img/ha.svg);
+       width: 18px;
+       height: 14px;
+       display: inline-block;
+        padding-right: 0.2rem;
+        font-weight: normal;
+        font-style: normal;
+        position: relative;
+        top: .08rem;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        }
+
+h3 .status_ha a:link {
+/*    border-bottom: 1px solid #000;*/
+}
+
+
 
 nobr {
     white-space: nowrap;
