@@ -905,15 +905,15 @@ a.segmented_item {
    .status_ha:before{
        content: "";
        font-family: sans-serif;
-        background: 0 50% no-repeat url(../img/ha.svg);
-       width: 18px;
-       height: 14px;
+        background: 0 50% no-repeat url(../img/ha3.svg);
+       width: 16px;
+       height: 16px;
        display: inline-block;
         padding-right: 0.2rem;
         font-weight: normal;
         font-style: normal;
         position: relative;
-        top: .08rem;
+        top: .12rem;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         }
