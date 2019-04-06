@@ -38,10 +38,18 @@ font-feature-settings: "ss03";
 @font-face {
     font-family: 'ms';
     src: url('../fonts/m/ms.woff') format('woff');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     }
 
+/* e */
+
+@font-face {
+    font-family: 'eh';
+    src: url('../fonts/e/eh.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    }
 
 /* fa */
 
@@ -207,7 +215,7 @@ a img {
 .ins_r,
 .ins_o {
 /*        max-width: 1080px;*/
-    max-width: 980px;
+    max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 22px;
@@ -273,13 +281,15 @@ h4 {
 
 
 h1 {
-    font: 500 3rem/1.1 'mt', sans-serif;
+/*    font: 500 3rem/1.1 'mt', sans-serif;*/
+    font: 400 3rem/1 'eh', sans-serif;
     margin: 0;
     padding: 0;
     max-width: 12em;
 /*    max-width: 21em;*/
 /*    text-transform: uppercase;*/
 /*    letter-spacing: .1em;*/
+    letter-spacing:  normal;
 /*    text-shadow: -1px 0 #000, 0 2px #000, 2px 0 #000, 0 -1px #000;*/
 /*    color: #fff;*/
     }
@@ -301,7 +311,7 @@ h1 {
     }
 
 h2 {
-    font: 500 2rem/1.1 'mt', sans-serif;
+    font: 400 2rem/1.1 'eh', sans-serif;
     margin: 0;
     max-width: 22em;
 /*    text-transform: uppercase;*/
@@ -315,7 +325,7 @@ h2 + ul {
 
 
 h3 {
-    font: 500 1rem/1.5 'mt', sans-serif;
+    font: 700 1rem/1.5 'mt', sans-serif;
     /*    margin-bottom: 1rem;*/
     max-width: 37em;
 /*    text-transform: uppercase;*/
