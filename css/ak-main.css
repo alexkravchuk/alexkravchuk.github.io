@@ -283,6 +283,7 @@ h1,
 h2 {
     -webkit-font-smoothing: antialiased; 
     -moz-osx-font-smoothing: grayscale;
+    letter-spacing:  normal;
     }
 
 
@@ -295,7 +296,6 @@ h1 {
 /*    max-width: 21em;*/
 /*    text-transform: uppercase;*/
 /*    letter-spacing: .1em;*/
-    letter-spacing:  normal;
 /*    text-shadow: -1px 0 #000, 0 2px #000, 2px 0 #000, 0 -1px #000;*/
 /*    color: #fff;*/
     }
