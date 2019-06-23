@@ -911,6 +911,12 @@ a.segmented_item {
     .status_n:before {
         content: "\0020";
         color: #FF4C30; 
+        }    
+
+    .status_v:before {
+        content: "\0020";
+/*        color: #FA7268;*/
+        color: #000;
         }
 
     .status_ny:before {
