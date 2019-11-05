@@ -1,51 +1,53 @@
 * {
-/*-webkit-font-smoothing: subpixel-antialiased;*/
+-webkit-font-smoothing: subpixel-antialiased;
     
 /*
 -webkit-font-smoothing: antialiased; 
 -moz-osx-font-smoothing: grayscale;
 */
     
--moz-font-feature-settings: "ss06";
--webkit-font-feature-settings: "ss06";
-font-feature-settings: "ss06";
+-moz-font-feature-settings: "ss03";
+-webkit-font-feature-settings: "ss03";
+font-feature-settings: "ss03";
     }
 
 
-/* eu */
+/* m */
 
 @font-face {
-    font-family: 'eu';
-    src: url('../fonts/eu/eut.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    }
-
-@font-face {
-    font-family: 'eu';
-    src: url('../fonts/eu/euul.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-    }
-
-@font-face {
-    font-family: 'eu';
-    src: url('../fonts/eu/eul.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    }
-
-@font-face {
-    font-family: 'eu';
-    src: url('../fonts/eu/eur.woff') format('woff');
+    font-family: 'mt';
+    src: url('../fonts/m/mr.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     }
 
 @font-face {
-    font-family: 'eu';
-    src: url('../fonts/eu/eub.woff') format('woff');
+    font-family: 'mt';
+    src: url('../fonts/m/mm.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'mt';
+    src: url('../fonts/m/mb.woff') format('woff');
     font-weight: 700;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'ms';
+    src: url('../fonts/m/ms.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    }
+
+/* e */
+
+@font-face {
+    font-family: 'eh';
+    src: url('../fonts/e/eh.woff') format('woff');
+    font-weight: 400;
     font-style: normal;
     }
 
@@ -79,8 +81,6 @@ font-feature-settings: "ss06";
     font-style: normal;
     }
 
-/* selection */
-
 ::selection {
 /*    background: #FDF623 !important;   */
 /*    background: #112e51 !important;   */
@@ -100,8 +100,8 @@ font-feature-settings: "ss06";
 
 html,
 body {
-    font: 300 16px/1.7 'eu', sans-serif;
-    letter-spacing: .013em;
+    font: 400 18px/1.5 'mt', sans-serif;
+    letter-spacing: .017em;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -266,6 +266,8 @@ ol {
     background: #eee;
     }
 
+
+
 h1,
 h2,
 h3,
@@ -281,16 +283,13 @@ h1,
 h2 {
     -webkit-font-smoothing: antialiased; 
     -moz-osx-font-smoothing: grayscale;
-/*    letter-spacing:  normal;*/
-    -moz-font-feature-settings: "ss03";
-    -webkit-font-feature-settings: "ss03";
-    font-feature-settings: "ss03";
+    letter-spacing:  normal;
     }
 
 
 h1 {
 /*    font: 500 3rem/1.1 'mt', sans-serif;*/
-    font: 700 3rem/1.1 'eu', sans-serif;
+    font: 400 3rem/1 'eh', sans-serif;
     margin: 0;
     padding: 0;
     max-width: 12em;
@@ -302,8 +301,7 @@ h1 {
     }
 
     h1 + p {
-/*        margin-top: .8rem;*/
-        margin-top: 1rem;
+        margin-top: .8rem;
         }
 
 /*
@@ -314,13 +312,13 @@ h1 {
 
 .lead {
 /*    font-size: 1.3rem;*/
-    font: 300 1.3rem/1.6 'eu', sans-serif;
-    max-width: 40em;
+    font: 400 1.3rem/1.5 'mt', sans-serif;
+    max-width: 31em;
 /*    font-style: italic;*/
     }
 
 h2 {
-    font: 700 2rem/1.1 'eu', sans-serif;
+    font: 400 2rem/1.1 'eh', sans-serif;
     margin: 0;
     max-width: 22em;
 /*    text-transform: uppercase;*/
@@ -334,8 +332,11 @@ h2 + ul {
 
 
 h3 {
-    font: 700 1rem/1.6 'eu', sans-serif;
+    font: 700 1rem/1.5 'mt', sans-serif;
+    /*    margin-bottom: 1rem;*/
     max-width: 37em;
+/*    text-transform: uppercase;*/
+/*    letter-spacing: .1em;*/
     }
 
     h3 a {
@@ -691,7 +692,7 @@ a:hover[target="_blank"]:after {
     }
 
 .button_50 {
-    font: 500 1rem/2.8rem 'eu', sans-serif;
+    font: 500 1rem/2.8rem 'mt', sans-serif;
 /*    text-transform: uppercase;*/
 /*    letter-spacing: .1em;*/
     height: 3rem;
