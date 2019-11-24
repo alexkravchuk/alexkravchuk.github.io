@@ -262,8 +262,10 @@ ol {
     }
 
 .ak_tag {
-    padding: .2rem;
+    padding: .1rem .4rem .2rem;
     background: #eee;
+    border-radius: 100px;
+    white-space: nowrap;
     }
 
 h1,
