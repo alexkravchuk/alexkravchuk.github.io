@@ -279,8 +279,7 @@ h4 {
     /*    letter-spacing: .01em;*/
     }
 
-h1,
-h2 {
+h1 {
     -webkit-font-smoothing: antialiased; 
     -moz-osx-font-smoothing: grayscale;
 /*    letter-spacing:  normal;*/
@@ -305,7 +304,7 @@ h1 {
 
     h1 + p {
 /*        margin-top: .8rem;*/
-        margin-top: 1rem;
+        margin-top: 1.4rem;
         }
 
 /*
@@ -372,6 +371,28 @@ ul li:before {
     /*        content: '\2022\0020';*/
     /*        color: #333;*/
     }
+
+
+
+ul.ak_accord {
+    max-width: 100%;
+    }
+
+    ul.ak_medium li {
+        font: 600 2rem/1.2 'eu', sans-serif;
+        }
+
+    ul.ak_accord li {
+        padding: 1.5rem 0;
+        margin: 0;
+        border-bottom: 2px solid #000;
+        }
+
+    ul.ak_accord li:first-child {
+/*        padding-top: 0;*/
+        border-top: 2px solid #000;
+        }
+
 
 ol {
     padding: 0;
@@ -591,6 +612,7 @@ a:hover[target="_blank"]:after {
 /* CLEAR ----------------------------- */
 
 .clear_x,
+.clear_xv,
 .clear_xx,
 .clear_xxx,
 .clear_xxxx {
@@ -605,6 +627,10 @@ a:hover[target="_blank"]:after {
     height: 1rem;
     }
 
+.clear_xv {
+    height: 1.5rem;
+    }
+
 .clear_xx {
     height: 2rem;
     }
@@ -614,11 +640,11 @@ a:hover[target="_blank"]:after {
     }
 
 .clear_xxxx {
-    height: 7rem;
+    height: 6rem;
     }
 
 .back_xxxx {
-    margin-top: -7rem;
+    margin-top: -6rem;
     }
 
 .clear_x_border {

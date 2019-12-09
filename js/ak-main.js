@@ -35,6 +35,7 @@ $("pre").each(function(){ // показвать в виде кода
     $("body").html($("body").html().replace(/\sз\s/g,' з&nbsp;')); 
     $("body").html($("body").html().replace(/\sзі\s/g,' зі&nbsp;')); 
     $("body").html($("body").html().replace(/\sі\s/g,' і&nbsp;'));
+    $("body").html($("body").html().replace(/\sй\s/g,' й&nbsp;'));
     $("body").html($("body").html().replace(/\sта\s/g,' та&nbsp;'));
     $("body").html($("body").html().replace(/\sу\s/g,' у&nbsp;'));
     $("body").html($("body").html().replace(/\sщо\s/g,' що&nbsp;'));
