@@ -976,6 +976,10 @@ nobr {
     margin: 0 auto;
     }
 
+.img_radius img {
+    border-radius: 7px;
+    }
+
 p.short {
     max-width: 940px;
     margin: 0;
