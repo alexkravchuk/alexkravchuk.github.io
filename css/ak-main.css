@@ -375,12 +375,17 @@ ul li:before {
 ol {
     padding: 0;
     margin: 0;
+    list-style-position: outside;
+    
+    -moz-font-variant-numeric: tabular-nums;
+    -webkit-font-variant-numeric: tabular-nums;
+    font-variant-numeric: tabular-nums;
     }
 
 ol li {
     list-style: decimal;
     padding: 0;
-    margin: 0 0 0 1.1em;
+    margin: 0 0 0 0;
     text-indent: 0;
     }
 
