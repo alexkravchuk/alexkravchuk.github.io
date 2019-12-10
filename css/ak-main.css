@@ -302,9 +302,9 @@ h1 {
 /*    color: #fff;*/
     }
 
-    h1 + p {
+    h1 + .lead {
 /*        margin-top: .8rem;*/
-/*        margin-top: 1rem;*/
+        margin-top: 1.4rem;
         }
 
 /*
@@ -361,7 +361,6 @@ ul {
 ul li {
     list-style: none outside;
     padding: 0;
-/*        text-indent: -.7em;*/
     text-indent: 0;
     }
 
@@ -373,35 +372,6 @@ ul li:before {
     }
 
 
-
-ul.ak_accord {
-    max-width: 100%;
-    }
-
-    ul.ak_medium li {
-        font: 600 2rem/1.2 'eu', sans-serif;
-        }
-
-    ul.ak_accord li {
-        padding: 2rem 0 0;
-        margin: 0;
-/*        border-bottom: 2px solid #000;*/
-        text-indent: -2.4rem;
-        }
-
-    ul.ak_accord li:before {
-        content: '\2014\0020';
-        font-weight: 100;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        }
-
-    ul.ak_accord li:first-child {
-        padding-top: 0;
-/*        border-top: 2px solid #000;*/
-        }
-
-
 ol {
     padding: 0;
     margin: 0;
@@ -411,7 +381,7 @@ ol li {
     list-style: decimal;
     padding: 0;
     margin: 0 0 0 1.1em;
-    text-indent: 0em;
+    text-indent: 0;
     }
 
 [class*="caption"] {
