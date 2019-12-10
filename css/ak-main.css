@@ -263,7 +263,7 @@ ol {
 
 .ak_tag {
     padding: .1rem .4rem .2rem;
-    background: #eee;
+    background: #ececec;
     border-radius: 100px;
     white-space: nowrap;
     }
@@ -304,7 +304,7 @@ h1 {
 
     h1 + .lead {
 /*        margin-top: .8rem;*/
-        margin-top: 1.4rem;
+        margin-top: 1.3rem;
         }
 
 /*
