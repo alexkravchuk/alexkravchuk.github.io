@@ -299,6 +299,10 @@ h1 {
     padding: 0;
     max-width: 12em;
 /*    text-transform: uppercase;*/
+    
+    -moz-font-feature-settings: "ss03";
+    -webkit-font-feature-settings: "ss03";
+    font-feature-settings: "ss03";
     }
 
     h1 + .lead {
