@@ -1,0 +1,109 @@
+* {
+
+-webkit-font-smoothing: antialiased !important; 
+-moz-osx-font-smoothing: grayscale;
+    }
+
+
+/* selection */
+
+::selection {
+    background: #03d !important;
+    color: #fff;
+    }
+
+::-moz-selection {
+    background: #03d !important;
+    color: #fff;
+    }
+
+/* MAIN ----------------------------- */
+
+html,
+body {
+    background: #202122;
+    color: #f7f7f7;
+    letter-spacing: .015em;
+    }
+
+
+/* TYPOGRAPHY ----------------------------- */
+
+
+h1, h2, h3, h3, p, ul, ol {
+    color: #f7f7f7;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+    }
+
+    ul.ak_tags li {
+        background: #303132;
+        }
+
+/* links --- */
+
+
+a {
+    color: #f7f7f7;
+    text-decoration: none;
+    border-bottom: 1px solid #777;
+    }
+
+
+a:hover,
+a.hover {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    }
+
+    a[target="_blank"]:after {
+        color: #ddd;
+        }
+
+        a:hover[target="_blank"]:after {
+            color: #fff;
+            letter-spacing: .15em;
+            }
+
+
+/* BUTTONS ----------------------------- */
+
+a.button_50 {
+    color: #f7f7f7;
+    border: 2px solid #f7f7f7;
+    background: none;
+    }
+
+.button_50:hover,
+.button_50.hover {
+    color: #000;
+    border: 2px solid #fff;
+    background: #fff;
+    }
+
+/* social --- */
+
+.buttons_social {
+    background: #202122;
+    }
+
+a.button_social,
+a.button_social:visited {
+    color: #f7f7f7;
+    border: none;
+    }
+
+a.button_social.current {
+    color: #f7f7f7;
+    border: none;
+    background: #303132;
+    }
+
+a.button_social:hover,
+a.button_social:active {
+    color: #fff;
+    border: none;
+    background: #303132;
+    }
+
