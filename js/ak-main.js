@@ -125,7 +125,17 @@ $("#projects_a").click(function(){
     return false; 
     });
     
+    
+// Cover Random   
+//var classCycle=['cover_01','cover_02','cover_03'];
+//    var randomNumber = Math.floor(Math.random() * classCycle.length);
+//    var classToAdd = classCycle[randomNumber];
+//    $('.cover').addClass(classToAdd);
+    
+    
 }); // End Ready
+
+
 
 
 

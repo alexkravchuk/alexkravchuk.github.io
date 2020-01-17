@@ -38,10 +38,30 @@ h1, h2, h3, h3, p, ul, ol {
 
     ul.ak_tags li {
         background: #303132;
+/*        background: none;*/
+        position: relative;
         }
 
-/* links --- */
+/*
+         ul.ak_tags li:before {
+            content: "";
+            background: #000;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            -moz-opacity: 0.3;
+            -khtml-opacity: 0.3;
+            opacity: 0.3;
+            z-index: -1;
+            border-radius: 1000px;
+            }
+*/
 
+
+
+/* links --- */
 
 a {
     color: #f7f7f7;
@@ -85,7 +105,7 @@ a.button_50 {
 /* social --- */
 
 .buttons_social {
-    background: #202122;
+    background: none;
     }
 
 a.button_social,
@@ -95,6 +115,7 @@ a.button_social:visited {
     }
 
 a.button_social.current {
+    position: relative;
     color: #f7f7f7;
     border: none;
     background: #303132;
@@ -107,3 +128,30 @@ a.button_social:active {
     background: #303132;
     }
 
+/*
+       a.button_social.current:before {
+            content: "";
+            background: #000;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            -moz-opacity: 0.3;
+            -khtml-opacity: 0.3;
+            opacity: 0.3;
+            z-index: -1;
+            border-radius: 1000px;
+            }
+*/
+
+
+
+
+/* MOBILE ----------------------------- */
+
+@media (max-width: 767px) {
+    .buttons_social { 
+        background: #202122;
+        }
+}

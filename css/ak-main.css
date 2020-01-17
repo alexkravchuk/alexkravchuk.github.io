@@ -256,6 +256,54 @@ a img {
     }
 
 
+/* COVER ----------------------------- */
+
+/*
+[class*="cover_"] {
+    
+    background: 50% 0 fixed no-repeat url(../img/cover_04.png);
+    }
+*/
+
+/*
+.cover {
+    background: 0 90% fixed no-repeat url(../img/cover_08.jpg);
+    background-size: cover;
+    position: relative;
+    }
+*/
+
+/*
+.cover_01 {
+    background: 50% 0 fixed no-repeat url(../img/cover_01.png);
+    }
+
+.cover_02 {
+    background: 50% 0 fixed no-repeat url(../img/cover_02.png);
+    }
+
+.cover_03 {
+    background: 50% 0 fixed no-repeat url(../img/cover_03.png);
+    }
+*/
+
+/*
+    .cover:before {
+        content: "";
+        background: #101112;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        -moz-opacity: 0.2;
+        -khtml-opacity: 0.2;
+        opacity: 0.2;
+        z-index: -1;
+        }
+*/
+
+
 /* TYPOGRAPHY ----------------------------- */
 
 body {
