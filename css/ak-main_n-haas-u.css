@@ -17,50 +17,29 @@ font-feature-settings: "ss06";
 /* nhu */
 
 @font-face {
-    font-family: 'algr';
-    src: url('../fonts/algr/ar.woff') format('woff');
+    font-family: 'nhu';
+    src: url('../fonts/nhu/nhaasu-l.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'nhu';
+    src: url('../fonts/nhu/nhaasu-r.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     }
 
 @font-face {
-    font-family: 'algr';
-    src: url('../fonts/algr/ai.woff') format('woff');
-    font-weight: 400;
-    font-style: italic;
-    }
-
-@font-face {
-    font-family: 'algr';
-    src: url('../fonts/algr/am.woff') format('woff');
+    font-family: 'nhu';
+    src: url('../fonts/nhu/nhaasu-m.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     }
 
 @font-face {
-    font-family: 'algr';
-    src: url('../fonts/algr/ab.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-    }
-
-@font-face {
-    font-family: 'algr-s';
-    src: url('../fonts/algr/asr.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-    }
-
-@font-face {
-    font-family: 'algr-s';
-    src: url('../fonts/algr/asm.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    }
-
-@font-face {
-    font-family: 'algr-s';
-    src: url('../fonts/algr/asb.woff') format('woff');
+    font-family: 'nhu';
+    src: url('../fonts/nhu/nhaasu-b.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     }
@@ -117,8 +96,8 @@ font-feature-settings: "ss06";
 
 html,
 body {
-    font: 400 20px/1.4 'algr', sans-serif;
-    letter-spacing: .012em;
+    font: 400 19px/1.7 'nhu', sans-serif;
+    letter-spacing: .013em;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -344,12 +323,13 @@ h1 {
 
 
 h1 {
-    font: 400 2.5rem/1.1 'algr', sans-serif;
+    font: 700 2.75rem/1.15 'nhu', sans-serif;
+/*    font: 700 3rem/1 'kab3', sans-serif;*/
     margin: 0;
     padding: 0;
     max-width: 12em;
 /*    text-transform: uppercase;*/
-    letter-spacing: .01rem;
+/*    letter-spacing: .06rem;*/
     
     -moz-font-feature-settings: "ss03";
     -webkit-font-feature-settings: "ss03";
@@ -358,7 +338,7 @@ h1 {
 
     h1 + .lead {
 /*        margin-top: .8rem;*/
-        margin-top: 1rem;
+        margin-top: 1.2rem;
         }
 
 /*
@@ -368,17 +348,17 @@ h1 {
 */
 
 .lead {
-    font: italic 400 1.5rem/1.4 'algr', sans-serif;
-    max-width: 27em;
+    font: 400 1.3rem/1.6 'nhu', sans-serif;
+    max-width: 33em;
 /*    font-style: italic;*/
     }
 
 h2 {
-    font:  400 1.75rem/1.1 'algr', sans-serif;
+    font: 700 2rem/1.1 'nhu', sans-serif;
     margin: 0;
     max-width: 22em;
 /*    text-transform: uppercase;*/
-    letter-spacing: .01rem;
+/*    letter-spacing: .1em;*/
     }
 
 h2 + p,
@@ -388,9 +368,8 @@ h2 + ul {
 
 
 h3 {
-    font: 700 1rem/1.4 'algr-s', sans-serif;
+    font: 700 1.1rem/1.6 'nhu', sans-serif;
     max-width: 37em;
-    letter-spacing: .017rem;
     }
 
     h3 a {
@@ -523,10 +502,6 @@ ul + h3,
 ol + h3,
 p + h3 {
     margin-top: 1.5rem;
-    }
-
-.ak_tx_sans {
-    font-family: 'algr-s', sans-serif;
     }
 
 
