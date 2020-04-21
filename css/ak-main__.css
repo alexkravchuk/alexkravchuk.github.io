@@ -6,39 +6,62 @@
 -moz-osx-font-smoothing: grayscale;
 */
     
--moz-font-feature-settings: "ss03";
--webkit-font-feature-settings: "ss03";
-font-feature-settings: "ss03";
+/*
+-moz-font-feature-settings: "ss06";
+-webkit-font-feature-settings: "ss06";
+font-feature-settings: "ss06";
+*/
     }
 
 
 /* nhu */
 
 @font-face {
-    font-family: 'sans';
-    src: url('../fonts/m/mr.woff') format('woff');
+    font-family: 'algr';
+    src: url('../fonts/algr/ar.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     }
 
 @font-face {
-    font-family: 'sans';
-    src: url('../fonts/m/mm.woff') format('woff');
+    font-family: 'algr';
+    src: url('../fonts/algr/ai.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    }
+
+@font-face {
+    font-family: 'algr';
+    src: url('../fonts/algr/am.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     }
 
 @font-face {
-    font-family: 'sans';
-    src: url('../fonts/m/mb.woff') format('woff');
+    font-family: 'algr';
+    src: url('../fonts/algr/ab.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     }
 
 @font-face {
-    font-family: 'symb';
-    src: url('../fonts/m/ms.woff') format('woff');
+    font-family: 'algr-s';
+    src: url('../fonts/algr/asr.woff') format('woff');
     font-weight: 400;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'algr-s';
+    src: url('../fonts/algr/asm.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'algr-s';
+    src: url('../fonts/algr/asb.woff') format('woff');
+    font-weight: 700;
     font-style: normal;
     }
 
@@ -94,8 +117,8 @@ font-feature-settings: "ss03";
 
 html,
 body {
-    font: 400 20px/1.7 'sans', sans-serif;
-    letter-spacing: .02rem;
+    font: 400 20px/1.4 'algr', sans-serif;
+    letter-spacing: .012em;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -321,15 +344,16 @@ h1 {
 
 
 h1 {
-    font: 700 .8rem/1.1 'sans', sans-serif;
+    font: 400 2.5rem/1.1 'algr', sans-serif;
     margin: 0;
     padding: 0;
-    max-width: 33em;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    -moz-font-feature-settings: "ss01";
-    -webkit-font-feature-settings: "ss01";
-    font-feature-settings: "ss01";
+    max-width: 12em;
+/*    text-transform: uppercase;*/
+    letter-spacing: .01rem;
+    
+    -moz-font-feature-settings: "ss03";
+    -webkit-font-feature-settings: "ss03";
+    font-feature-settings: "ss03";
     }
 
     h1 + .lead {
@@ -337,22 +361,24 @@ h1 {
         margin-top: 1rem;
         }
 
+/*
+    h1:first-letter {
+       font-feature-settings: "swsh";
+        }
+*/
+
 .lead {
-    font: 400 2rem/1.4 'sans', sans-serif;
-    max-width: 20em;
+    font: italic 400 1.5rem/1.4 'algr', sans-serif;
+    max-width: 27em;
 /*    font-style: italic;*/
     }
 
 h2 {
-    font:  500 1.7rem/1.1 'sans', sans-serif;
+    font:  400 1.75rem/1.1 'algr', sans-serif;
     margin: 0;
     max-width: 22em;
 /*    text-transform: uppercase;*/
-    letter-spacing: .02rem;
-    
-    -moz-font-feature-settings: "ss02";
-    -webkit-font-feature-settings: "ss02";
-    font-feature-settings: "ss02";
+    letter-spacing: .01rem;
     }
 
 h2 + p,
@@ -362,7 +388,7 @@ h2 + ul {
 
 
 h3 {
-    font: 700 1rem/1.2 'sans', sans-serif;
+    font: 700 1rem/1.4 'algr-s', sans-serif;
     max-width: 37em;
     letter-spacing: .017rem;
     }
@@ -499,6 +525,10 @@ p + h3 {
     margin-top: 1.5rem;
     }
 
+.ak_tx_sans {
+    font-family: 'algr-s', sans-serif;
+    }
+
 
 /* links --- */
 
@@ -520,9 +550,9 @@ a {
 a:hover,
 a.hover {
     /*color: #105287;*/
-    color: #234ab7;
+    color: #03d;
     text-decoration: none;
-    border-bottom: 2px solid #234ab7;
+    border-bottom: 2px solid #03d;
     }
 
 a[target="_blank"] {
@@ -554,7 +584,7 @@ a[target="_blank"]:after:hover {
     }
 
 a:hover[target="_blank"]:after {
-    color: #234ab7;
+    color: #03d;
     letter-spacing: .15em;
     }
 
@@ -733,15 +763,15 @@ a:hover[target="_blank"]:after {
     }
 
 .button_50 {
-    font: 500 .85rem/2.8rem 'sans', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: .05rem;
+    font: 500 1rem/2.8rem 'nhu', sans-serif;
+/*    text-transform: uppercase;*/
+/*    letter-spacing: .1em;*/
     height: 3rem;
     padding: 0px 30px;
     background: #fff;
     color: #000;
     border: 2px solid #000;
-    border-radius: 0;
+    border-radius: 3rem;
     box-shadow: none;
     -webkit-transition: all ease .25s;
     -moz-transition: all ease .25s;
@@ -856,9 +886,9 @@ a.button_social.current {
 
 a.button_social:hover,
 a.button_social:active {
-    background: #234ab7;
+    background: #03d;
     color: #fff;
-    border-color: #234ab7 !important;
+    border-color: #03d !important;
 
     border-radius: 1.5rem;
     }
