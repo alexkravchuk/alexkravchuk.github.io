@@ -94,7 +94,7 @@ font-feature-settings: "ss03";
 
 html,
 body {
-    font: 400 20px/1.7 'sans', sans-serif;
+    font: 400 21px/1.7 'sans', sans-serif;
     letter-spacing: .02rem;
     margin: 0;
     padding: 0;
@@ -338,13 +338,13 @@ h1 {
         }
 
 .lead {
-    font: 400 2rem/1.4 'sans', sans-serif;
+    font: 400 1.6rem/1.4 'sans', sans-serif;
     max-width: 20em;
 /*    font-style: italic;*/
     }
 
 h2 {
-    font:  500 1.7rem/1.1 'sans', sans-serif;
+    font:  500 1.6rem/1.1 'sans', sans-serif;
     margin: 0;
     max-width: 22em;
 /*    text-transform: uppercase;*/
@@ -733,15 +733,15 @@ a:hover[target="_blank"]:after {
     }
 
 .button_50 {
-    font: 500 .85rem/2.8rem 'sans', sans-serif;
+    font: 500 .75rem/2.25rem 'sans', sans-serif;
     text-transform: uppercase;
-    letter-spacing: .05rem;
-    height: 3rem;
-    padding: 0px 30px;
+    letter-spacing: .08rem;
+    height: 2.5rem;
+    padding: 0px 1.5rem;
     background: #fff;
     color: #000;
     border: 2px solid #000;
-    border-radius: 0;
+    border-radius: 100px;
     box-shadow: none;
     -webkit-transition: all ease .25s;
     -moz-transition: all ease .25s;
@@ -821,10 +821,10 @@ a.button_social,
 a.button_social:visited {
     display: block;
     /*    float: left;*/
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 1.125rem;
-    line-height: 2.5rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    font-size: 1rem;
+    line-height: 2.4rem;
     text-align: center;
     margin: 0 .2rem 0 0;
     padding: 0;
@@ -856,9 +856,9 @@ a.button_social.current {
 
 a.button_social:hover,
 a.button_social:active {
-    background: #234ab7;
+    background: #000;
     color: #fff;
-    border-color: #234ab7 !important;
+    border-color: #000 !important;
 
     border-radius: 1.5rem;
     }
