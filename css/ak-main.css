@@ -11,6 +11,18 @@
 font-feature-settings: "ss03";
     }
 
+/* selection */
+
+::selection {
+    background: rgba(0, 0, 207, .99);
+    color: #fff;
+    }
+
+::-moz-selection {
+    background: #0000cc;
+    color: #fff;
+    }
+
 
 /* nhu */
 
@@ -73,22 +85,6 @@ font-feature-settings: "ss03";
     font-style: normal;
     }
 
-/* selection */
-
-::selection {
-/*    background: #FDF623 !important;   */
-/*    background: #112e51 !important;   */
-    background: #03d !important;
-    color: #fff;
-    }
-
-::-moz-selection {
-/*    background: #FDF623 !important;  */
-/*    background: #112e51 !important;  */
-    background: #03d !important;
-    color: #fff;
-    }
-
 
 /* MAIN ----------------------------- */
 
@@ -100,6 +96,8 @@ body {
     padding: 0;
     height: 100%;
     background: #fff;
+    
+    caret-color:#00e;
     }
 
 .header {
@@ -520,7 +518,7 @@ a {
 a:hover,
 a.hover {
     /*color: #105287;*/
-    color: #234ab7;
+    color: #00c;
     text-decoration: none;
     border-bottom: 2px solid #234ab7;
     }
@@ -554,7 +552,7 @@ a[target="_blank"]:after:hover {
     }
 
 a:hover[target="_blank"]:after {
-    color: #234ab7;
+    color: #00c;
     letter-spacing: .15em;
     }
 
