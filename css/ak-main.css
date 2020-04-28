@@ -337,7 +337,7 @@ h1 {
         }
 
 .lead {
-    font: 500 2rem/1.2 'sans', sans-serif;
+    font: 500 2.25rem/1.2 'sans', sans-serif;
     max-width: 20em;
 /*    font-style: italic;*/
 /*
@@ -348,7 +348,7 @@ h1 {
     }
 
 h2 {
-    font:  500 1.6rem/1.1 'sans', sans-serif;
+    font:  500 1.5rem/1.2 'sans', sans-serif;
     margin: 0;
     max-width: 22em;
 /*    text-transform: uppercase;*/
@@ -369,7 +369,7 @@ h2 + ul {
 h3 {
     font: 700 1rem/1.2 'sans', sans-serif;
     max-width: 37em;
-    letter-spacing: .02rem;
+    letter-spacing: .015rem;
 /*
     -moz-font-feature-settings: normal;
     -webkit-font-feature-settings: normal;
