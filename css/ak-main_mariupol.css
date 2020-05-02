@@ -6,9 +6,9 @@
 -moz-osx-font-smoothing: grayscale;
 */
     
--moz-font-feature-settings: "ss08";
--webkit-font-feature-settings: "ss08";
-font-feature-settings: "ss08";
+-moz-font-feature-settings: "ss03";
+-webkit-font-feature-settings: "ss03";
+font-feature-settings: "ss03";
     }
 
 /* selection */
@@ -28,15 +28,22 @@ font-feature-settings: "ss08";
 
 @font-face {
     font-family: 'sans';
-    src: url('../fonts/p22u/p22u_book.woff') format('woff');
+    src: url('../fonts/m/mr.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     }
 
 @font-face {
     font-family: 'sans';
-    src: url('../fonts/p22u/p22u_demi.woff') format('woff');
-    font-weight: 600;
+    src: url('../fonts/m/mm.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'sans';
+    src: url('../fonts/m/mb.woff') format('woff');
+    font-weight: 700;
     font-style: normal;
     }
 
@@ -83,8 +90,8 @@ font-feature-settings: "ss08";
 
 html,
 body {
-    font: 400 20px/1.6 'sans', sans-serif;
-    letter-spacing: .01rem;
+    font: 400 20px/1.7 'sans', sans-serif;
+    letter-spacing: .02rem;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -224,6 +231,54 @@ a img {
     }
 
 
+/* COVER ----------------------------- */
+
+/*
+[class*="cover_"] {
+    
+    background: 50% 0 fixed no-repeat url(../img/cover_04.png);
+    }
+*/
+
+/*
+.cover {
+    background: 0 90% fixed no-repeat url(../img/cover_08.jpg);
+    background-size: cover;
+    position: relative;
+    }
+*/
+
+/*
+.cover_01 {
+    background: 50% 0 fixed no-repeat url(../img/cover_01.png);
+    }
+
+.cover_02 {
+    background: 50% 0 fixed no-repeat url(../img/cover_02.png);
+    }
+
+.cover_03 {
+    background: 50% 0 fixed no-repeat url(../img/cover_03.png);
+    }
+*/
+
+/*
+    .cover:before {
+        content: "";
+        background: #101112;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        -moz-opacity: 0.2;
+        -khtml-opacity: 0.2;
+        opacity: 0.2;
+        z-index: -1;
+        }
+*/
+
+
 /* TYPOGRAPHY ----------------------------- */
 
 body {
@@ -268,7 +323,7 @@ h1 {
 
 
 h1 {
-    font: 600 .8rem/1.1 'sans', sans-serif;
+    font: 700 .8rem/1.1 'sans', sans-serif;
     margin: 0;
     padding: 0;
     max-width: 33em;
@@ -282,7 +337,7 @@ h1 {
         }
 
 .lead {
-    font: 600 2.25rem/1.1 'sans', sans-serif;
+    font: 500 2rem/1.2 'sans', sans-serif;
     max-width: 20em;
 /*    font-style: italic;*/
 /*
@@ -293,7 +348,7 @@ h1 {
     }
 
 h2 {
-    font:  600 1.4rem/1.2 'sans', sans-serif;
+    font:  500 1.5rem/1.2 'sans', sans-serif;
     margin: 0;
     max-width: 22em;
 /*    text-transform: uppercase;*/
@@ -312,9 +367,9 @@ h2 + ul {
 
 
 h3 {
-    font: 600 1rem/1.2 'sans', sans-serif;
+    font: 700 1rem/1.2 'sans', sans-serif;
     max-width: 37em;
-    letter-spacing: .02rem;
+    letter-spacing: .015rem;
 /*
     -moz-font-feature-settings: normal;
     -webkit-font-feature-settings: normal;
@@ -688,7 +743,7 @@ a:hover[target="_blank"]:after {
     }
 
 .button_50 {
-    font: 600 .8rem/2.3rem 'sans', sans-serif;
+    font: 500 .75rem/2.3rem 'sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: .07rem;
     height: 2.5rem;
