@@ -6,9 +6,9 @@
 -moz-osx-font-smoothing: grayscale;
 */
     
--moz-font-feature-settings: "ss08";
--webkit-font-feature-settings: "ss08";
-font-feature-settings: "ss08";
+-moz-font-feature-settings: "ss06";
+-webkit-font-feature-settings: "ss06";
+font-feature-settings: "ss06";
     }
 
 /* selection */
@@ -268,12 +268,15 @@ h1 {
 
 
 h1 {
-    font: 600 .8rem/1.1 'sans', sans-serif;
+    font: 600 1rem/1.1 'sans', sans-serif;
     margin: 0;
     padding: 0;
     max-width: 33em;
+    letter-spacing: .02rem;
+/*
     text-transform: uppercase;
     letter-spacing: .1rem;
+*/
     }
 
     h1 + .lead {
@@ -282,9 +285,10 @@ h1 {
         }
 
 .lead {
-    font: 600 2.25rem/1.1 'sans', sans-serif;
-    max-width: 20em;
-/*    font-style: italic;*/
+    font: 600 2rem/1.1 'sans', sans-serif;
+    max-width: 24em;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
 /*
     -moz-font-feature-settings: normal;
     -webkit-font-feature-settings: normal;
@@ -296,8 +300,8 @@ h2 {
     font:  600 1.4rem/1.2 'sans', sans-serif;
     margin: 0;
     max-width: 22em;
-/*    text-transform: uppercase;*/
-    letter-spacing: .02rem;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
 /*
     -moz-font-feature-settings: normal;
     -webkit-font-feature-settings: normal;
@@ -312,8 +316,10 @@ h2 + ul {
 
 
 h3 {
+/*    font: 600 .8rem/1.2 'sans', sans-serif;*/
     font: 600 1rem/1.2 'sans', sans-serif;
     max-width: 37em;
+/*    text-transform: uppercase;*/
     letter-spacing: .02rem;
 /*
     -moz-font-feature-settings: normal;
