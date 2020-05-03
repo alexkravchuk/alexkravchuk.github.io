@@ -268,7 +268,7 @@ h1 {
 
 
 h1 {
-    font: 600 1rem/1.1 'sans', sans-serif;
+    font: 600 1.1rem/1.1 'sans', sans-serif;
     margin: 0;
     padding: 0;
     max-width: 33em;
@@ -281,12 +281,12 @@ h1 {
 
     h1 + .lead {
 /*        margin-top: .8rem;*/
-        margin-top: 1rem;
+        margin-top: 1.5rem;
         }
 
 .lead {
-    font: 600 2rem/1.1 'sans', sans-serif;
-    max-width: 24em;
+    font: 600 2rem/1.2 'sans', sans-serif;
+    max-width: 21em;
     text-transform: uppercase;
     letter-spacing: .05rem;
 /*
@@ -317,7 +317,7 @@ h2 + ul {
 
 h3 {
 /*    font: 600 .8rem/1.2 'sans', sans-serif;*/
-    font: 600 1rem/1.2 'sans', sans-serif;
+    font: 600 1.1rem/1.2 'sans', sans-serif;
     max-width: 37em;
 /*    text-transform: uppercase;*/
     letter-spacing: .02rem;
