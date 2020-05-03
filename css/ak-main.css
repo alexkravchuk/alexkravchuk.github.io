@@ -281,14 +281,14 @@ h1 {
 
     h1 + .lead {
 /*        margin-top: .8rem;*/
-        margin-top: 1.5rem;
+        margin-top: 1.4rem;
         }
 
 .lead {
     font: 600 2rem/1.2 'sans', sans-serif;
-    max-width: 21em;
+    max-width: 22em;
     text-transform: uppercase;
-    letter-spacing: .05rem;
+    letter-spacing: .04rem;
 /*
     -moz-font-feature-settings: normal;
     -webkit-font-feature-settings: normal;
