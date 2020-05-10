@@ -1,5 +1,6 @@
 * {
-/*-webkit-font-smoothing: subpixel-antialiased;*/
+-webkit-font-smoothing: subpixel-antialiased !important;
+font-smooth: always !important;
     
 /*
 -webkit-font-smoothing: antialiased; 
@@ -288,7 +289,7 @@ h1 {
 
 .lead {
     font: 600 2.3rem/1.1 'sans', sans-serif;
-    max-width: 18em;
+    max-width: 19em;
 /*
     text-transform: uppercase;
     letter-spacing: .04rem;
