@@ -61,6 +61,13 @@ font-feature-settings: "ss06";
     font-style: italic;
     }
 
+@font-face {
+    font-family: 'serif2';
+    src: url('../fonts/ebg/ebg_r.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    }
+
 /* fa */
 
 @font-face {
@@ -241,6 +248,11 @@ a img {
 
 body {
     color: #000;
+    }
+
+.serif2 {
+    font-family: 'serif2';
+    font-size: 1.15rem;
     }
 
 p {
