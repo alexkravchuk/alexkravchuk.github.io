@@ -46,7 +46,10 @@ font-feature-settings: "ss06";
 
 @font-face {
     font-family: 'serif';
-    src: url('../fonts/kbt/kbt_r.woff') format('woff');
+    src: url('../fonts/kbt/kbt_r.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/kbt/kbt_r.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/kbt/kbt_r.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/kbt/kbt_r.svg') format('svg'); /* Legacy iOS */
     font-weight: 400;
     font-style: normal;
     }
