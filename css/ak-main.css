@@ -45,7 +45,7 @@ font-feature-settings: "ss06";
 /* serif */
 
 @font-face {
-    font-family: 'serif';
+    font-family: 'serif__3';
     src: url('../fonts/kbt/kbt_r.eot'); /* IE9 Compat Modes */
     src: url('../fonts/kbt/kbt_r.woff') format('woff'), /* Pretty Modern Browsers */
          url('../fonts/kbt/kbt_r.ttf')  format('truetype'), /* Safari, Android, iOS */
@@ -55,17 +55,25 @@ font-feature-settings: "ss06";
     }
 
 @font-face {
-    font-family: 'serif';
+    font-family: 'serif__3';
     src: url('../fonts/kbt/kbt_i.woff') format('woff');
     font-weight: 400;
     font-style: italic;
     }
 
 @font-face {
-    font-family: 'serif2';
-    src: url('../fonts/ebg/ebg_r.woff') format('woff');
+    font-family: 'serif';
+    src: url('../fonts/kbt/ebg_r.svg') format('svg'),
+         url('../fonts/ebg/ebg_r.woff') format('woff');
     font-weight: 400;
     font-style: normal;
+    }
+
+@font-face {
+    font-family: 'serif';
+    src: url('../fonts/ebg/ebg_i.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
     }
 
 /* fa */
@@ -103,7 +111,7 @@ font-feature-settings: "ss06";
 
 html,
 body {
-    font: 400 19px/1.5 'serif', sans-serif;
+    font: 400 21px/1.4 'serif', sans-serif;
     letter-spacing: .02rem;
     margin: 0;
     padding: 0;
@@ -250,10 +258,12 @@ body {
     color: #000;
     }
 
+/*
 .serif2 {
     font-family: 'serif2';
     font-size: 1.15rem;
     }
+*/
 
 p {
     margin: 0;
@@ -286,7 +296,7 @@ h1 {
 
 
 h1 {
-    font: 600 1.1rem/1.1 'sans', sans-serif;
+    font: 600 1rem/1.1 'sans', sans-serif;
     margin: 0;
     padding: 0;
     max-width: 33em;
@@ -303,7 +313,7 @@ h1 {
         }
 
 .lead {
-    font: 600 2.3rem/1.1 'sans', sans-serif;
+    font: 600 2.25rem/1.1 'sans', sans-serif;
     max-width: 19em;
 /*
     text-transform: uppercase;
@@ -316,8 +326,14 @@ h1 {
 */
     }
 
+.ak_notabene {
+    font-size: 1rem;
+    font-style: italic;
+    letter-spacing: .01rem;
+    }
+
 h2 {
-    font:  600 1.6rem/1.2 'sans', sans-serif;
+    font:  600 1.5rem/1.2 'sans', sans-serif;
     margin: 0;
     max-width: 22em;
 /*
@@ -339,7 +355,7 @@ h2 + ul {
 
 h3 {
 /*    font: 600 .8rem/1.2 'sans', sans-serif;*/
-    font: 600 1.1rem/1.4 'sans', sans-serif;
+    font: 600 1rem/1.4 'sans', sans-serif;
     max-width: 37em;
 /*    text-transform: uppercase;*/
 /*    letter-spacing: .02rem;*/
@@ -415,11 +431,7 @@ ol li {
     margin-right: auto;
     }
 
-.ak_notabene {
-    font-size: 1.08rem;
-    font-style: italic;
-    letter-spacing: .03rem;
-    }
+
 
 .ak_copy {
     font-family: 'sans';
