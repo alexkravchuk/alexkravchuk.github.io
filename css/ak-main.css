@@ -56,6 +56,22 @@ font-feature-settings: "ss06";
     font-style: normal;
     }
 
+/* sans 2 */
+
+@font-face {
+    font-family: 'sans_2';
+    src: url('../fonts/fpt/fpt_book.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'sans_2';
+    src: url('../fonts/fpt/fpt_demi.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    }
+
 
 /* serif */
 
@@ -96,7 +112,7 @@ font-feature-settings: "ss06";
 
 html,
 body {
-    font: 400 19px/1.5 'sans', sans-serif;
+    font: 400 18px/1.5 'sans', sans-serif;
     letter-spacing: .01rem;
     margin: 0;
     padding: 0;
@@ -240,7 +256,7 @@ a img {
 /* TYPOGRAPHY ----------------------------- */
 
 body {
-    color: #000;
+    color: #333;
     }
 
 /*
@@ -249,6 +265,12 @@ body {
     font-size: 1.15rem;
     }
 */
+
+.sans_2 {
+    font-family: 'sans_2';
+    font-size: 1.2rem;
+    line-height: 1.3;
+    }
 
 p {
     margin: 0;
@@ -267,11 +289,13 @@ ol {
 h1,
 h2,
 h3,
-h4 {
+h4,
+.lead {
     font-weight: normal;
     font-weight: normal;
     margin: 0;
-    color: #000;
+    color: #111111;
+/*    color: #000;*/
     /*    letter-spacing: .01em;*/
     }
 
@@ -288,7 +312,7 @@ h1 {
     max-width: 33em;
 /*    letter-spacing: .02rem;*/
     text-transform: uppercase;
-    letter-spacing: .05rem;
+    letter-spacing: .06em;
     }
 
     h1 + .lead {
@@ -299,6 +323,7 @@ h1 {
 .lead {
     font: 600 2.3rem/1.2 'sans', sans-serif;
     max-width: 20em;
+    
 /*
     text-transform: uppercase;
     letter-spacing: .04rem;
@@ -320,6 +345,7 @@ h2 {
     font:  600 1.6rem/1.2 'sans', sans-serif;
     margin: 0;
     max-width: 22em;
+    letter-spacing: .02em;
 /*
     text-transform: uppercase;
     letter-spacing: .05rem;
@@ -344,7 +370,7 @@ h3 {
 /*
     text-transform: uppercase;
 */
-    letter-spacing: .015rem;
+    letter-spacing: .02em;
 
 /*
     -moz-font-feature-settings: normal;
