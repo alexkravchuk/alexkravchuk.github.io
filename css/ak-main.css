@@ -1,11 +1,11 @@
 * {
+/*
 -webkit-font-smoothing: subpixel-antialiased !important;
 font-smooth: always !important;
+*/
     
-/*
 -webkit-font-smoothing: antialiased; 
 -moz-osx-font-smoothing: grayscale;
-*/
     
 /*
 -moz-font-feature-settings: "ss06";
@@ -30,51 +30,36 @@ font-feature-settings: "ss06";
 
 @font-face {
     font-family: 'sans';
-    src: url('../fonts/fpt/fpt_book.woff') format('woff');
+    src: url('../fonts/gt/gt_reg.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     }
 
 @font-face {
     font-family: 'sans';
-    src: url('../fonts/fpt/fpt_demi.woff') format('woff');
+    src: url('../fonts/gt/gt_med.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'sans';
+    src: url('../fonts/gt/gt_demi.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     }
 
+@font-face {
+    font-family: 'sans';
+    src: url('../fonts/gt/gt_bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    }
+
+
 /* serif */
 
-@font-face {
-    font-family: 'serif__3';
-    src: url('../fonts/kbt/kbt_r.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/kbt/kbt_r.woff') format('woff'), /* Pretty Modern Browsers */
-         url('../fonts/kbt/kbt_r.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/kbt/kbt_r.svg') format('svg'); /* Legacy iOS */
-    font-weight: 400;
-    font-style: normal;
-    }
 
-@font-face {
-    font-family: 'serif__3';
-    src: url('../fonts/kbt/kbt_i.woff') format('woff');
-    font-weight: 400;
-    font-style: italic;
-    }
-
-@font-face {
-    font-family: 'serif';
-    src: url('../fonts/kbt/ebg_r.svg') format('svg'),
-         url('../fonts/ebg/ebg_r.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-    }
-
-@font-face {
-    font-family: 'serif';
-    src: url('../fonts/ebg/ebg_i.woff') format('woff');
-    font-weight: 400;
-    font-style: italic;
-    }
 
 /* fa */
 
@@ -111,8 +96,8 @@ font-feature-settings: "ss06";
 
 html,
 body {
-    font: 400 21px/1.4 'serif', sans-serif;
-    letter-spacing: .02rem;
+    font: 400 19px/1.5 'sans', sans-serif;
+    letter-spacing: .01rem;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -296,15 +281,14 @@ h1 {
 
 
 h1 {
-    font: 600 1rem/1.1 'sans', sans-serif;
+/*    font: 600 1rem/1.1 'sans', sans-serif;*/
+    font: 500 .85rem/1.2 'sans', sans-serif;
     margin: 0;
     padding: 0;
     max-width: 33em;
 /*    letter-spacing: .02rem;*/
-/*
     text-transform: uppercase;
-    letter-spacing: .1rem;
-*/
+    letter-spacing: .05rem;
     }
 
     h1 + .lead {
@@ -313,8 +297,8 @@ h1 {
         }
 
 .lead {
-    font: 600 2.25rem/1.1 'sans', sans-serif;
-    max-width: 19em;
+    font: 600 2.3rem/1.1 'sans', sans-serif;
+    max-width: 20em;
 /*
     text-transform: uppercase;
     letter-spacing: .04rem;
@@ -327,13 +311,13 @@ h1 {
     }
 
 .ak_notabene {
-    font-size: 1rem;
-    font-style: italic;
+/*    font-size: 1rem;*/
+/*    font-style: italic;*/
     letter-spacing: .01rem;
     }
 
 h2 {
-    font:  600 1.5rem/1.2 'sans', sans-serif;
+    font:  600 1.6rem/1.2 'sans', sans-serif;
     margin: 0;
     max-width: 22em;
 /*
@@ -354,11 +338,14 @@ h2 + ul {
 
 
 h3 {
-/*    font: 600 .8rem/1.2 'sans', sans-serif;*/
-    font: 600 1rem/1.4 'sans', sans-serif;
+    font: 600 1rem/1.2 'sans', sans-serif;
+/*    font: 600 1rem/1.5 'sans', sans-serif;*/
     max-width: 37em;
-/*    text-transform: uppercase;*/
-/*    letter-spacing: .02rem;*/
+/*
+    text-transform: uppercase;
+*/
+    letter-spacing: .015rem;
+
 /*
     -moz-font-feature-settings: normal;
     -webkit-font-feature-settings: normal;
@@ -739,7 +726,7 @@ a:hover[target="_blank"]:after {
     }
 
 .button_50 {
-    font: 600 .8rem/2.3rem 'sans', sans-serif;
+    font: 500 .8rem/2.3rem 'sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: .07rem;
     height: 2.5rem;

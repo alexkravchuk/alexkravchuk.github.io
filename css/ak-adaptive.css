@@ -5,7 +5,7 @@
 @media (max-width: 767px) {
     
     html, body {
-        font-size: 19px;
+        font-size: 16px;
         } 
     
     .grid {
@@ -76,7 +76,7 @@
     
     h1 {
 /*        font-size: 2rem;*/
-        font-size: 1rem;
+        font-size: .85rem;
         }
 
         h1 + h3 {
@@ -84,11 +84,11 @@
             }
     
     .lead {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         }
 
     h2 {
-        font-size: 1.35rem;
+        font-size: 1.3rem;
 /*        padding-bottom: 2rem;*/
         } 
     
