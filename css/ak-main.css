@@ -256,7 +256,7 @@ a img {
 /* TYPOGRAPHY ----------------------------- */
 
 body {
-    color: #333;
+    color: #222;
     }
 
 /*
@@ -294,7 +294,7 @@ h4,
     font-weight: normal;
     font-weight: normal;
     margin: 0;
-    color: #111111;
+    color: #111;
 /*    color: #000;*/
     /*    letter-spacing: .01em;*/
     }
@@ -306,13 +306,13 @@ h1 {
 
 h1 {
 /*    font: 600 1rem/1.1 'sans', sans-serif;*/
-    font: 500 .85rem/1.2 'sans', sans-serif;
+    font: 500 .85rem/1 'sans', sans-serif;
     margin: 0;
     padding: 0;
     max-width: 33em;
 /*    letter-spacing: .02rem;*/
     text-transform: uppercase;
-    letter-spacing: .06em;
+    letter-spacing: .1em;
     }
 
     h1 + .lead {
@@ -524,7 +524,7 @@ p + h3 {
 
 a {
     /*    color: #215493;*/
-    color: #000;
+    color: #222;
     text-decoration: none;
     border-bottom: 1px dotted #222;
     /*    border-bottom-style: dotted;*/
