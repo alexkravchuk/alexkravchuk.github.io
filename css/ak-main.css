@@ -724,7 +724,7 @@ a:hover[target="_blank"]:after {
     }
 
 .button_50 {
-    font: 400 .8rem/2.3rem 'sans-2', sans-serif;
+    font: 400 .8rem/2.4rem 'sans-2', sans-serif;
     text-transform: uppercase;
     letter-spacing: .07em;
     height: 2.5rem;
@@ -738,11 +738,16 @@ a:hover[target="_blank"]:after {
     -moz-transition: all ease .25s;
     -o-transition: all ease .25s;
     transition: all ease .25s;
+    
+/*
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    font-smooth: always !important;
+*/
     }
 
 a.button_50 {
     color: #000;
-    border: 2px solid #000;
+    border: 1px solid #000;
     position: relative;
     }
 
@@ -750,7 +755,7 @@ a.button_50 {
 .button_50.hover {
     text-decoration: none;
     outline: 0;
-    border: 2px solid #000;
+    border: 3px solid #000;
     color: #fff;
     background: #000;
     /*	background: none;*/
