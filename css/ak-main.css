@@ -70,6 +70,9 @@ font-feature-settings: "ss06";
     src: url('../fonts/fa/fal.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    font-smooth: always !important;
     }
 
 @font-face {
@@ -738,11 +741,9 @@ a:hover[target="_blank"]:after {
     -moz-transition: all ease .25s;
     -o-transition: all ease .25s;
     transition: all ease .25s;
-    
-/*
+
     -webkit-font-smoothing: subpixel-antialiased !important;
     font-smooth: always !important;
-*/
     }
 
 a.button_50 {
@@ -755,7 +756,7 @@ a.button_50 {
 .button_50.hover {
     text-decoration: none;
     outline: 0;
-    border: 3px solid #000;
+    border: 1px solid #000;
     color: #fff;
     background: #000;
     /*	background: none;*/
