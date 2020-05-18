@@ -729,28 +729,25 @@ a:hover[target="_blank"]:after {
     }
 
 .button_50 {
-    font: 400 .8rem/2.4rem 'sans-2', sans-serif;
+    font: 700 .9rem/2.7rem 'sans-2', sans-serif;
     text-transform: uppercase;
     letter-spacing: .07em;
-    height: 2.5rem;
-    padding: 0px 1.5rem;
-    background: #fff;
+    height: 3rem;
+    padding: 0px 2rem;
+    background: #ececec;
     color: #000;
-    border: 1px solid #000;
-    border-radius: 100px;
+    border: 1px solid #fff;
+/*    border-radius: 100px;*/
     box-shadow: none;
     -webkit-transition: all ease .25s;
     -moz-transition: all ease .25s;
     -o-transition: all ease .25s;
     transition: all ease .25s;
-
-    -webkit-font-smoothing: subpixel-antialiased !important;
-    font-smooth: always !important;
     }
 
 a.button_50 {
     color: #000;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     position: relative;
     }
 
@@ -762,7 +759,7 @@ a.button_50 {
     color: #fff;
     background: #000;
     /*	background: none;*/
-    padding: 0px 35px;
+    padding: 0px 2.1rem;
     }
 
 /*
