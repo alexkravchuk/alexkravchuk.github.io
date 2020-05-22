@@ -297,7 +297,7 @@ h1 {
     }
 
     h1 + .lead {
-        margin-top: 1.8rem;
+        margin-top: 2rem;
         }
 
 .lead {
@@ -313,7 +313,7 @@ h1 {
     }
 
     .lead + p {
-        margin-top: 1.5rem;
+        margin-top: 1.7rem;
         }
 
 .ak_notabene {
@@ -729,7 +729,7 @@ a:hover[target="_blank"]:after {
     }
 
 .button_50 {
-    font: 700 .9rem/2.7rem 'sans-2', sans-serif;
+    font: 700 .9rem/2.8rem 'sans-2', sans-serif;
     text-transform: uppercase;
     letter-spacing: .07em;
     height: 3rem;
