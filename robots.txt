@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: 
-Disallow: /edu
-Disallow: /tools
-Disallow: /audit1
-Disallow: /audit2
