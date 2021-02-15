@@ -681,7 +681,7 @@ a:hover[target="_blank"]:after {
     background: #ececec;
     color: #000;
     border: 1px solid #fff;
-/*    border-radius: 100px;*/
+    border-radius: 777px;
     box-shadow: none;
     -webkit-transition: all ease .25s;
     -moz-transition: all ease .25s;
@@ -953,7 +953,7 @@ nobr {
     }
 
 .img_radius img {
-    border-radius: 7px;
+    border-radius: 1rem;
     }
 
 p.short {
