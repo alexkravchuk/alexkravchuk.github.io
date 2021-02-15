@@ -254,7 +254,7 @@ h4,
     font-weight: normal;
     font-weight: normal;
     margin: 0;
-    color: #111;
+    color: #000;
 /*    color: #000;*/
     /*    letter-spacing: .01em;*/
     }
@@ -276,8 +276,6 @@ h1 {
 .lead {
     font: 400 3rem/1.1 'book', sans-serif;
     max-width: 19em;
-/*    text-transform: uppercase;*/
-/*    letter-spacing: .01em;*/
     }
 
     .lead + p {
@@ -295,14 +293,6 @@ h2 {
     font:  400 2rem/1.2 'book', sans-serif;
     margin: 0;
     max-width: 22em;
-/*    letter-spacing: .02em;*/
-/*    text-transform: uppercase;*/
-/*    letter-spacing: .05rem;*/
-/*
-    -moz-font-feature-settings: normal;
-    -webkit-font-feature-settings: normal;
-    font-feature-settings: normal;
-*/
     }
 
 h2 + p,
