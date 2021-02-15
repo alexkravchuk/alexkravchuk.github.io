@@ -26,27 +26,44 @@ font-feature-settings: "ss06";
     color: #fff;
     }
 
-
 /* sans */
 
-
 @font-face {
-    font-family: 'text';
-    src: url('../fonts/si/si-text.woff') format('woff');
+    font-family: 'sans';
+    src: url('../fonts/hc/hc.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     }
 
 @font-face {
-    font-family: 'book';
-    src: url('../fonts/si/si-book.woff') format('woff');
+    font-family: 'sans';
+    src: url('../fonts/hc/hc_bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    }
+
+/* sans 2 */
+
+@font-face {
+    font-family: 'sans-2';
+    src: url('../fonts/hc/hec.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     }
+
+@font-face {
+    font-family: 'sans-2';
+    src: url('../fonts/hc/hec_bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    }
+
+
+/* serif */
+
 
 
 /* fa */
-
 
 @font-face {
     font-family: 'fal';
@@ -84,8 +101,8 @@ font-feature-settings: "ss06";
 
 html,
 body {
-    font: 400 20px/1.5 'text', sans-serif;
-    letter-spacing: .025em;
+    font: 400 18px/1.5 'sans-2', sans-serif;
+    letter-spacing: .02em;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -231,6 +248,11 @@ body {
     color: #000;
     }
 
+.sans_2 {
+    font-family: 'sans_2';
+    font-size: 1.2rem;
+    line-height: 1.3;
+    }
 
 p {
     margin: 0;
@@ -259,30 +281,39 @@ h4,
     /*    letter-spacing: .01em;*/
     }
 
+h1 {
+/*    -webkit-font-smoothing: subpixel-antialiased;*/
+    }
+
 
 h1 {
-    font: 400 1rem/1.3 'book', sans-serif;
+    font: 600 .9rem/1.3 'sans-2', sans-serif;
     margin: 0;
     padding: 0;
     max-width: 33em;
 /*    letter-spacing: .02rem;*/
     text-transform: uppercase;
-    letter-spacing: .1em;
+    letter-spacing: .07em;
     }
 
     h1 + .lead {
-        margin-top: 1rem;
+        margin-top: 2rem;
         }
 
 .lead {
-    font: 400 3rem/1.1 'book', sans-serif;
-    max-width: 19em;
-/*    text-transform: uppercase;*/
-/*    letter-spacing: .01em;*/
+    font: 700 2rem/1.3 'sans-2', sans-serif;
+    max-width: 25em;
+    text-transform: uppercase;
+    letter-spacing: .01em;
+/*
+    -moz-font-feature-settings: normal;
+    -webkit-font-feature-settings: normal;
+    font-feature-settings: normal;
+*/
     }
 
     .lead + p {
-        margin-top: 1.5rem;
+        margin-top: 1.8rem;
         }
 
 .ak_notabene {
@@ -293,11 +324,11 @@ h1 {
     }
 
 h2 {
-    font:  400 2rem/1.2 'book', sans-serif;
+    font:  700 1.4rem/1.2 'sans-2', sans-serif;
     margin: 0;
     max-width: 22em;
-/*    letter-spacing: .02em;*/
-/*    text-transform: uppercase;*/
+    letter-spacing: .02em;
+    text-transform: uppercase;
 /*    letter-spacing: .05rem;*/
 /*
     -moz-font-feature-settings: normal;
@@ -313,10 +344,12 @@ h2 + ul {
 
 
 h3 {
-    font: 400 1rem/1.5 'book', sans-serif;
+    font: 700 1rem/1.5 'sans-2', sans-serif;
     max-width: 37em;
+/*
     text-transform: uppercase;
-    letter-spacing: .1em;
+    letter-spacing: .03em;
+*/
 
 /*
     -moz-font-feature-settings: normal;
@@ -391,7 +424,7 @@ ol li {
     }
 
 .ak_copy {
-    font-family: 'text';
+    font-family: 'sans-2';
     font-size: .9rem;
     }
 
@@ -696,9 +729,9 @@ a:hover[target="_blank"]:after {
     }
 
 .button_50 {
-    font: 400 1rem/2.8rem 'book', sans-serif;
+    font: 700 .9rem/2.8rem 'sans-2', sans-serif;
     text-transform: uppercase;
-    letter-spacing: .1em;
+    letter-spacing: .07em;
     height: 3rem;
     padding: 0px 2rem;
     background: #ececec;
