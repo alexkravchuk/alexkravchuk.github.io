@@ -469,22 +469,25 @@ a[target="_blank"] {
     }
 
 a[target="_blank"]:after {
-    content: '\00a0\00a0';
-    position: relative;
-    bottom: .07rem;
+/*    content: '\00a0\00a0';*/
+    content: '\00a0↗';
+/*    position: relative;*/
+/*    bottom: .07rem;*/
     white-space: nowrap;
-    font-family: 'fas';
-    font-size: .5em;
-    vertical-align: middle;
-    color: #111;
+/*    font-family: 'fas';*/
+    font-size: 1rem;
+    vertical-align: top;
+/*    color: #111;*/
     font-weight: normal;
     font-style: normal;
     -webkit-transition: all ease .2s;
     -moz-transition: all ease .2s;
     -o-transition: all ease .2s;
     transition: all .2s ease;
+/*
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+*/
     }
 
 a[target="_blank"]:after:hover {
