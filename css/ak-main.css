@@ -265,7 +265,7 @@ h1 {
     padding: 0;
     max-width: 33em;
     text-transform: uppercase;
-    letter-spacing: .1em;
+    letter-spacing: .08em;
     }
 
     h1 + .lead {
@@ -299,7 +299,7 @@ h3 {
     font: 400 1rem/1.5 'book', sans-serif;
     max-width: 37em;
     text-transform: uppercase;
-    letter-spacing: .1em;
+    letter-spacing: .08em;
     }
 
     h3 a {
