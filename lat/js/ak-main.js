@@ -99,7 +99,8 @@ $("pre").each(function(){ // показвать в виде кода
     $("body").html($("body").html().replace(/\sthe\s/g,' the&nbsp;'));
     $("body").html($("body").html().replace(/\sto\s/g,' to&nbsp;'));
 //ukr latin
-$("body").html($("body").html().replace(/Йо/g,'Ö'));
+// $("body").html($("body").html().replace(/Йо/g,'Ö'));
+$("body").html($("body").html().replace(/Йо/g,'Jo'));
 
 $("body").html($("body").html().replace(/А/g,'A'));
 $("body").html($("body").html().replace(/Б/g,'B'));
@@ -107,7 +108,8 @@ $("body").html($("body").html().replace(/В/g,'V'));
 $("body").html($("body").html().replace(/Г/g,'G'));
 $("body").html($("body").html().replace(/Д/g,'D'));
 $("body").html($("body").html().replace(/Е/g,'E'));
-$("body").html($("body").html().replace(/Є/g,'Ë'));
+// $("body").html($("body").html().replace(/Є/g,'Ë'));
+$("body").html($("body").html().replace(/Є/g,'Je'));
 $("body").html($("body").html().replace(/Ж/g,'Ž'));
 $("body").html($("body").html().replace(/З/g,'Z'));
 $("body").html($("body").html().replace(/И/g,'Y'));
@@ -133,18 +135,23 @@ $("body").html($("body").html().replace(/Ч/g,'Č'));
 $("body").html($("body").html().replace(/Ш/g,'Š'));
 // $("body").html($("body").html().replace(/Щ/g,'Şç'));
 $("body").html($("body").html().replace(/Щ/g,'Ş'));
-$("body").html($("body").html().replace(/Ю/g,'Ü'));
-$("body").html($("body").html().replace(/Я/g,'Ä'));
+// $("body").html($("body").html().replace(/Ю/g,'Ü'));
+$("body").html($("body").html().replace(/Ю/g,'Ju'));
+// $("body").html($("body").html().replace(/Я/g,'Ä'));
+$("body").html($("body").html().replace(/Я/g,'Ja'));
 
-$("body").html($("body").html().replace(/йо/g,'ö'));
-$("body").html($("body").html().replace(/ьо/g,'ö'));
+// $("body").html($("body").html().replace(/йо/g,'ö'));
+// $("body").html($("body").html().replace(/ьо/g,'ö'));
+$("body").html($("body").html().replace(/йо/g,'jo'));
+$("body").html($("body").html().replace(/ьо/g,'jo'));
 
 $("body").html($("body").html().replace(/б/g,'b'));
 $("body").html($("body").html().replace(/в/g,'v'));
 $("body").html($("body").html().replace(/г/g,'g'));
 $("body").html($("body").html().replace(/д/g,'d'));
 $("body").html($("body").html().replace(/e/g,'e'));
-$("body").html($("body").html().replace(/є/g,'ë'));
+// $("body").html($("body").html().replace(/є/g,'ë'));
+$("body").html($("body").html().replace(/є/g,'je'));
 $("body").html($("body").html().replace(/ж/g,'ž'));
 $("body").html($("body").html().replace(/з/g,'z'));
 $("body").html($("body").html().replace(/и/g,'y'));
@@ -170,11 +177,11 @@ $("body").html($("body").html().replace(/ч/g,'č'));
 $("body").html($("body").html().replace(/ш/g,'š'));
 // $("body").html($("body").html().replace(/щ/g,'şç'));
 $("body").html($("body").html().replace(/щ/g,'ş'));
-$("body").html($("body").html().replace(/ю/g,'ü'));
-$("body").html($("body").html().replace(/я/g,'ä'));
+// $("body").html($("body").html().replace(/ю/g,'ü'));
+$("body").html($("body").html().replace(/ю/g,'ju'));
+// $("body").html($("body").html().replace(/я/g,'ä'));
 // $("body").html($("body").html().replace(/я/g,'ĵa'));
-
-
+$("body").html($("body").html().replace(/я/g,'ja'));
 
 $("body").html($("body").html().replace(/ь/g,'’'));
 // $("body").html($("body").html().replace(/ь/g,'ĵ'));
