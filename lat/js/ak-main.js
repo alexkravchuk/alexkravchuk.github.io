@@ -98,6 +98,87 @@ $("pre").each(function(){ // показвать в виде кода
     $("body").html($("body").html().replace(/\sso\s/g,' so&nbsp;'));
     $("body").html($("body").html().replace(/\sthe\s/g,' the&nbsp;'));
     $("body").html($("body").html().replace(/\sto\s/g,' to&nbsp;'));
+//ukr latin
+$("body").html($("body").html().replace(/Йо/g,'Ö'));
+
+$("body").html($("body").html().replace(/А/g,'A'));
+$("body").html($("body").html().replace(/Б/g,'B'));
+$("body").html($("body").html().replace(/В/g,'V'));
+$("body").html($("body").html().replace(/Г/g,'G'));
+$("body").html($("body").html().replace(/Д/g,'D'));
+$("body").html($("body").html().replace(/Е/g,'E'));
+$("body").html($("body").html().replace(/Є/g,'Ë'));
+$("body").html($("body").html().replace(/Ж/g,'Ž'));
+$("body").html($("body").html().replace(/З/g,'Z'));
+$("body").html($("body").html().replace(/И/g,'Y'));
+$("body").html($("body").html().replace(/І/g,'I'));
+$("body").html($("body").html().replace(/Ї/g,'Ï'));
+$("body").html($("body").html().replace(/Й/g,'J'));
+$("body").html($("body").html().replace(/К/g,'K'));
+$("body").html($("body").html().replace(/Л/g,'L'));
+$("body").html($("body").html().replace(/М/g,'M'));
+$("body").html($("body").html().replace(/Н/g,'N'));
+$("body").html($("body").html().replace(/О/g,'O'));
+$("body").html($("body").html().replace(/П/g,'P'));
+$("body").html($("body").html().replace(/Р/g,'R'));
+$("body").html($("body").html().replace(/С/g,'S'));
+$("body").html($("body").html().replace(/Т/g,'T'));
+$("body").html($("body").html().replace(/У/g,'U'));
+$("body").html($("body").html().replace(/Ф/g,'F'));
+$("body").html($("body").html().replace(/Х/g,'H'));
+$("body").html($("body").html().replace(/Ц/g,'C'));
+// $("body").html($("body").html().replace(/Ч/g,'Ç'));
+$("body").html($("body").html().replace(/Ч/g,'Č'));
+// $("body").html($("body").html().replace(/Ш/g,'Ş'));
+$("body").html($("body").html().replace(/Ш/g,'Š'));
+// $("body").html($("body").html().replace(/Щ/g,'Şç'));
+$("body").html($("body").html().replace(/Щ/g,'Ş'));
+$("body").html($("body").html().replace(/Ю/g,'Ü'));
+$("body").html($("body").html().replace(/Я/g,'Ä'));
+
+$("body").html($("body").html().replace(/йо/g,'ö'));
+$("body").html($("body").html().replace(/ьо/g,'ö'));
+
+$("body").html($("body").html().replace(/б/g,'b'));
+$("body").html($("body").html().replace(/в/g,'v'));
+$("body").html($("body").html().replace(/г/g,'g'));
+$("body").html($("body").html().replace(/д/g,'d'));
+$("body").html($("body").html().replace(/e/g,'e'));
+$("body").html($("body").html().replace(/є/g,'ë'));
+$("body").html($("body").html().replace(/ж/g,'ž'));
+$("body").html($("body").html().replace(/з/g,'z'));
+$("body").html($("body").html().replace(/и/g,'y'));
+$("body").html($("body").html().replace(/і/g,'i'));
+$("body").html($("body").html().replace(/ї/g,'ï'));
+$("body").html($("body").html().replace(/й/g,'j'));
+$("body").html($("body").html().replace(/к/g,'k'));
+$("body").html($("body").html().replace(/л/g,'l'));
+$("body").html($("body").html().replace(/м/g,'m'));
+$("body").html($("body").html().replace(/н/g,'n'));
+$("body").html($("body").html().replace(/о/g,'o'));
+$("body").html($("body").html().replace(/п/g,'p'));
+$("body").html($("body").html().replace(/р/g,'r'));
+$("body").html($("body").html().replace(/с/g,'s'));
+$("body").html($("body").html().replace(/т/g,'t'));
+$("body").html($("body").html().replace(/у/g,'u'));
+$("body").html($("body").html().replace(/ф/g,'f'));
+$("body").html($("body").html().replace(/х/g,'h'));
+$("body").html($("body").html().replace(/ц/g,'c'));
+// $("body").html($("body").html().replace(/ч/g,'ç'));
+$("body").html($("body").html().replace(/ч/g,'č'));
+// $("body").html($("body").html().replace(/ш/g,'ş'));
+$("body").html($("body").html().replace(/ш/g,'š'));
+// $("body").html($("body").html().replace(/щ/g,'şç'));
+$("body").html($("body").html().replace(/щ/g,'ş'));
+$("body").html($("body").html().replace(/ю/g,'ü'));
+$("body").html($("body").html().replace(/я/g,'ä'));
+// $("body").html($("body").html().replace(/я/g,'ĵa'));
+
+
+
+$("body").html($("body").html().replace(/ь/g,'’'));
+// $("body").html($("body").html().replace(/ь/g,'ĵ'));
+
 
     
 // Highlight Same Links
