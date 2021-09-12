@@ -146,8 +146,8 @@ $("body").html($("body").html().replace(/Я/g,'Ja'));
 // $("body").html($("body").html().replace(/ьо/g,'ö'));
 $("body").html($("body").html().replace(/йо/g,'jo'));
 $("body").html($("body").html().replace(/ьо/g,'jo'));
-
 $("body").html($("body").html().replace(/її/g,'jii'));
+$("body").html($("body").html().replace(/ий/g,'yi'));
 
 $("body").html($("body").html().replace(/б/g,'b'));
 $("body").html($("body").html().replace(/в/g,'v'));
