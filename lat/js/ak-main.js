@@ -190,8 +190,8 @@ $("body").html($("body").html().replace(/ю/g,'ju'));
 // $("body").html($("body").html().replace(/я/g,'ĵa'));
 $("body").html($("body").html().replace(/я/g,'ja'));
 
+$("body").html($("body").html().replace(/’/g,''));
 $("body").html($("body").html().replace(/ь/g,'’'));
-// $("body").html($("body").html().replace(/ь/g,'ĵ'));
 
 
     
