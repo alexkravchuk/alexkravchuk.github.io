@@ -110,8 +110,9 @@
         }
 
  ul.ak_tags_inline li {
-        font-size: 1rem;
-        margin: 0 0.1rem 0.5rem;
+        /* font-size: 1rem; */
+        /* margin: 0 0.1rem 0.5rem; */
+        height: 1.85rem;
         }
     
     ol {
