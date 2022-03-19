@@ -1089,6 +1089,10 @@ a.button_small {
     nobr {
         white-space: nowrap;
         }
+
+    .tx_space {
+            padding-right: .5rem;
+            }
     
     .overx_h {
         overflow-x: hidden;
