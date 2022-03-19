@@ -841,7 +841,28 @@ a.color {
             color: #fff;
             background: #000;
             }
-    
+
+
+a.button_small {
+    color: #0255B5;
+    text-decoration: none;
+    border-bottom: none;
+    background: #E7F2FF;
+    height: 1.5rem;
+    display: inline-block;
+    line-height: 1.45rem;
+    padding: 0 1rem;
+    border-radius: 500px;
+    }
+
+    a.button_small:hover {
+        background: #0255B5;
+        color: #fff;
+        }
+
+    a.button_small:hover:after {
+        color: #fff;
+        }
     
     /*
     
