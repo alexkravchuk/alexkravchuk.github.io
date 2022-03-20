@@ -1090,6 +1090,18 @@ a.button_small {
         white-space: nowrap;
         }
 
+    .tx_accent {
+            color: #111;
+            text-decoration: none;
+            border-bottom: none;
+            background: #FFE41F;
+            height: 1.5rem;
+            display: inline-block;
+            line-height: 1.45rem;
+            padding: 0 1rem;
+            border-radius: 500px;
+            }
+
     .tx_space {
             padding-right: .3rem;
             }
