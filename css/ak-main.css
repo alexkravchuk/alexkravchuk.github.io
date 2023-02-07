@@ -307,7 +307,7 @@
             }
     
     h1 {
-        font: 500 3.25rem/1 'mariupol', sans-serif;
+        font: 600 3.5rem/1 'mariupol', sans-serif;
         max-width: 19em;
         letter-spacing: -0.005em;
         }
@@ -322,11 +322,11 @@
     
     
     .lead {
-        font:  500 1.6rem/1.25 'mariupol', sans-serif;
+        font:  500 1.5rem/1.25 'mariupol', sans-serif;
         /* margin: 0; */
         max-width: 32em;
         letter-spacing: -0.005em;
-        color: #555;
+        color: #777;
         }
 
         .lead a {
@@ -342,7 +342,7 @@
     
     
     h2 {
-        font:  500 2.25rem/1.2 'mariupol', sans-serif;
+        font:  600 2.5rem/1.2 'mariupol', sans-serif;
         margin: 0;
         max-width: 22em;
         letter-spacing: -0.005em;
@@ -791,7 +791,8 @@ a.color {
         letter-spacing: .1rem;
         height: 3rem;
         padding: 0px 2rem;
-        background: #ececec;
+/*        background: #ececec;*/
+        background: #FFE41F;
         color: #000;
         border: 1px solid #fff;
         border-radius: 777px;
@@ -817,9 +818,9 @@ a.color {
     .button_50.hover {
         text-decoration: none;
         outline: 0;
-        border: 1px solid #000;
+        border: 1px solid transparent;
         color: #fff;
-        background: #000;
+        background: #0255B5;
         /*	background: none;*/
         padding: 0px 2.1rem;
         letter-spacing: .15rem;
@@ -844,10 +845,12 @@ a.color {
 
 
 a.button_small {
-    color: #0255B5;
+/*    color: #0255B5;*/
+    color: #000;
     text-decoration: none;
     border-bottom: none;
-    background: #E7F2FF;
+/*    background: #E7F2FF;*/
+    background: #FFE41F;
     height: 1.5rem;
     display: inline-block;
     line-height: 1.45rem;
