@@ -5,7 +5,7 @@
 @media (max-width: 767px) {
     
     html, body {
-        font-size: 17px;
+        font-size: 18px;
         } 
     
     .grid {
@@ -75,7 +75,7 @@
         padding-bottom: 2rem;
         } 
     
-    .decs {
+    .desc {
 /*        font-size: 2rem;*/
         font-size: 1rem;
         }
@@ -89,11 +89,11 @@
         }
 
     .lead {
-            font-size: 1.3rem;
+            font-size: 1.25rem;
             }
 
     h2 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
 /*        padding-bottom: 2rem;*/
         } 
     
@@ -107,7 +107,7 @@
         }
     
     h4 {
-        font-size: 1.15rem;
+        font-size: 1rem;
         }
 
  ul.ak_tags_inline li {
@@ -141,14 +141,14 @@
     .button_50.hover {
 /*        font-size: .7rem;*/
 /*        line-height: 36px;*/
-        padding: 0px 20px;
+        padding: 0px 1.5rem;
 /*        height: 40px;*/
         color: #222;
 /*        background: #fff;*/
         }
     
         .button_50:active {
-            padding: 0px 25px;
+            padding: 0px 1.75rem;
             color: #fff;
             background: #222;
             }
