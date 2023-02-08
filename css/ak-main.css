@@ -820,10 +820,10 @@ a.color {
         outline: 0;
         border: 1px solid transparent;
         color: #fff;
-        background: #0255B5;
+        background: #000;
         /*	background: none;*/
         padding: 0px 2.1rem;
-        letter-spacing: .15rem;
+        letter-spacing: .125rem;
         }
     
     
