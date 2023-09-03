@@ -386,14 +386,16 @@
     ul li {
         list-style: none outside;
         padding: 0;
-        text-indent: 0;
+        text-indent: -.85rem;
+/*        margin-left: -.85rem;*/
         }
     
     ul li:before {
-        /*        content: '\2014\0020';*/
+                content: '\2014\0020';
+/*                content: '\25CA\0020';*/
         /*        content: '+\0020';*/
         /*        content: '\2022\0020';*/
-        /*        color: #333;*/
+                color: #ccc;
         }
     
     
