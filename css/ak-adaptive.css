@@ -26,6 +26,12 @@
         grid-gap: 1rem 1rem;
         }
     
+    .grid_2_x {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem 1rem;
+        }
+    
     .grid_xx_odd {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
