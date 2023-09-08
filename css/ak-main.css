@@ -238,11 +238,21 @@
         }
     
     .ins_r p,
-    .ins_r ul {
+    .ins_r ul{
         margin-left: 50%;
         padding-left: 1rem;
     /*    border-left:  1rem solid red;*/
     /*    background: pink;*/
+        }
+
+
+    .ins_r .ak_button_norm{
+        margin-left: 50%;
+/*        padding-left: 1rem;*/
+    /*    border-left:  1rem solid red;*/
+    /*    background: pink;*/
+        position: relative;
+        left: 1rem;
         }
     
     .ins_xx {

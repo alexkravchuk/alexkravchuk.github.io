@@ -252,6 +252,13 @@
         padding-left: 0;
         }
     
+    .ins_r .ak_button_norm{
+        margin-left: 0;
+        position: static;
+        left: 0;
+        }
+    
+    
     .ins_o {
         padding: 0;
         overflow-x: auto;
