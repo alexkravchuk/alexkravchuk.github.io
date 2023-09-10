@@ -426,6 +426,11 @@
         /*        content: '\2022\0020';*/
                 color: #ccc;
         }
+
+    ul.arrow li:before {
+                content: '\→\0020';
+                color: #ccc;
+        }
     
     
     ol {
