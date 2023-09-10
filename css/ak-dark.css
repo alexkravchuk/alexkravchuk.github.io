@@ -21,19 +21,23 @@
 
 html,
 body {
-    background: #202122;
-    color: #f7f7f7;
-    letter-spacing: .015em;
+/*    background: #202122;*/
+    background: #1D1F21;
+    background: #1C1B22;
+/*    color: #f7f7f7;*/
+    color: #fff;
+/*    letter-spacing: .015em;*/
     }
 
 
 /* TYPOGRAPHY ----------------------------- */
 
 
-h1, h2, h3, h3, p, ul, ol {
-    color: #f7f7f7;
+h1, h2, h3, h3, p, ul, ol, .desc, .lead {
+    color: #fff;
     -webkit-font-smoothing: antialiased; 
     -moz-osx-font-smoothing: grayscale;
+    opacity: .9;
     }
 
     ul.ak_tags li {
@@ -59,14 +63,30 @@ h1, h2, h3, h3, p, ul, ol {
             }
 */
 
+ul li:before {
+        color: #7E7E84;
+        }
 
+.lead {
+    color: #888;
+    color: #7E7E84;
+    color: #8B8B91;
+    color: #909091;
+    }
+
+.lead_accent {
+    color: #fff;
+    }
 
 /* links --- */
 
 a {
-    color: #f7f7f7;
+/*    color: #f7f7f7;*/
+    color: #fff;
     text-decoration: none;
     border-bottom: 1px solid #777;
+    border-bottom: 1px solid #7E7E84;
+    border-bottom: 1px solid #656566;
     }
 
 
@@ -75,6 +95,7 @@ a.hover {
     color: #fff;
     text-decoration: none;
     border-bottom: 1px solid #ccc;
+    opacity: 1;
     }
 
     a[target="_blank"]:after {
@@ -90,9 +111,10 @@ a.hover {
 /* BUTTONS ----------------------------- */
 
 a.button_50 {
-    color: #f7f7f7;
-    border: 2px solid #f7f7f7;
+    color: #eee;
+    border: 2px solid #fff;
     background: none;
+    opacity: .9;
     }
 
 .button_50:hover,
@@ -110,22 +132,24 @@ a.button_50 {
 
 a.button_social,
 a.button_social:visited {
-    color: #f7f7f7;
+    color: #fff;
     border: none;
+    opacity: .9;
     }
 
 a.button_social.current {
     position: relative;
-    color: #f7f7f7;
+    color: #fff;
     border: none;
-    background: #303132;
+    background: #2C2C2E;
     }
 
 a.button_social:hover,
 a.button_social:active {
     color: #fff;
     border: none;
-    background: #303132;
+    background: #2C2C2E;
+    opacity: 1;
     }
 
 /*
@@ -152,6 +176,7 @@ a.button_social:active {
 
 @media (max-width: 767px) {
     .buttons_social { 
-        background: #202122;
+/*        background: #202122;*/
+        background: #25242A;
         }
 }

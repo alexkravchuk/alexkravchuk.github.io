@@ -314,6 +314,9 @@
     /*    color: #000;*/
         /*    letter-spacing: .01em;*/
         }
+
+     
+
     
     
     .desc {
@@ -362,7 +365,11 @@
                 border-bottom: 2px #0255B5 solid;
                 /* border: none; */
             }
-    
+
+    .lead_accent {
+                color: #000;
+            }
+
     
     h2 {
         font:  600 2.5rem/1.2 'mariupol', sans-serif;
@@ -1142,6 +1149,7 @@ a.button_small {
             border-radius: 500px;
             }
 
+   
     .tx_dark {
         color: #111;
         }
