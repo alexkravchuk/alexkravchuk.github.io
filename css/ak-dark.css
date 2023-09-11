@@ -22,8 +22,9 @@
 html,
 body {
 /*    background: #202122;*/
-    background: #1D1F21;
-    background: #1C1B22;
+/*    background: #1D1F21;*/
+/*    background: #1C1B22;*/
+    background: #121212;
 /*    color: #f7f7f7;*/
     color: #fff;
 /*    letter-spacing: .015em;*/
@@ -84,9 +85,12 @@ a {
 /*    color: #f7f7f7;*/
     color: #fff;
     text-decoration: none;
+/*
     border-bottom: 1px solid #777;
     border-bottom: 1px solid #7E7E84;
-    border-bottom: 1px solid #656566;
+*/
+/*    border-bottom: 1px solid #656566;*/
+    border-bottom-color: #ccc;
     }
 
 
@@ -94,7 +98,8 @@ a:hover,
 a.hover {
     color: #fff;
     text-decoration: none;
-    border-bottom: 1px solid #ccc;
+/*    border-bottom: 1px solid #ccc;*/
+    border-bottom-color: #fff;
     opacity: 1;
     }
 
