@@ -71,7 +71,9 @@
 /*        background: red;*/
 /*        background: cyan;*/
         }
-  
+    
+    
+
     .footer p, 
     .footer h3 {
 /*        font-size: 15px;*/
@@ -274,6 +276,11 @@
             box-sizing: border-box;
             }
     
+    .ins_max_h img {
+/*        display: block;*/
+        max-height: 305px;
+        }
+  
     
     .full_o {
         padding: 0;
