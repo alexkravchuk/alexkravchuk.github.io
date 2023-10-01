@@ -460,8 +460,8 @@
         }    
 
     ul.bull li:before {
-                content: '\•\0020';
-                color:  inherit;
+        content: '\•\0020';
+        color:  inherit;
         font-size: 2rem;
         position: relative;
         top: .42rem;
@@ -1450,4 +1450,15 @@ a.button_small {
     }
 
 
+
+   /* -- AK COLORS 2023 -- */
+
+.ak_tx_red {color: #F74964;}
+.ak_tx_yellow {color: #E8BA22;}
+.ak_tx_green {color: #24B737;}
+.ak_tx_blue {color: #3E87F6;}
+.ak_tx_aqua {color: #06ABCB;}
+.ak_tx_darkblue {color: #167CE3;}
+.ak_tx_brown {color: #C88737;}
+.ak_tx_violet {color: #915CF5;}
     
