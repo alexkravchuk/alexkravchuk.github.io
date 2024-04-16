@@ -297,7 +297,7 @@
     /* TYPOGRAPHY ----------------------------- */
     
     body {
-        color: #222;
+        color: #000;
         }
 
     .ak_symbol {
@@ -1178,7 +1178,7 @@ a.button_small {
         }
 
     .tx_accent_bg {
-            color: #111;
+            color: #000;
             text-decoration: none;
             border-bottom: none;
             background: #FFE41F;
@@ -1191,7 +1191,7 @@ a.button_small {
 
    
     .tx_dark {
-        color: #111;
+        color: #000;
         }
 
     .tx_space {
