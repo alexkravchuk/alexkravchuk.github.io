@@ -300,6 +300,16 @@
         color: #000;
         }
 
+    .cover_bg { 
+        background: linear-gradient(to right, rgb(159, 225, 255), rgb(233, 255, 162));
+        background: linear-gradient(to right, rgb(178, 251, 255), rgb(255, 203, 178));
+        background: linear-gradient(to right, rgb(175, 166, 255), rgb(159, 255, 192));
+
+        padding-bottom: 3rem;
+        background-position: 0% 0%;
+        background-attachment: fixed;
+        }
+
     .ak_symbol {
         font-family: 'mariupol-s';
         src: url('../fonts/mariupol/mariupol-symbols.woff') format('woff');
