@@ -1,7 +1,6 @@
 * {
-
 -webkit-font-smoothing: antialiased !important; 
--moz-osx-font-smoothing: grayscale;
+-moz-osx-font-smoothing: grayscale !important;
     }
 
 
@@ -39,6 +38,11 @@ h1, h2, h3, h3, p, ul, ol, .desc, .lead {
     -webkit-font-smoothing: antialiased; 
     -moz-osx-font-smoothing: grayscale;
     opacity: .9;
+    }
+
+
+h1, h2 {
+    letter-spacing: 0.02em;
     }
 
     ul.ak_tags li {
