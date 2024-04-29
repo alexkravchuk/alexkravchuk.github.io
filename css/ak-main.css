@@ -301,13 +301,16 @@
         }
 
     .cover_bg { 
-        background: linear-gradient(120deg, rgb(159, 225, 255,.5), rgb(233, 255, 162,.5));
+/*        background: linear-gradient(120deg, rgb(159, 225, 255,.5), rgb(233, 255, 162,.5));*/
 /*        background: linear-gradient(to right, rgb(178, 251, 255,.5), rgb(255, 203, 178,.5));*/
 /*        background: linear-gradient(-90deg,rgba(255,220,230,.5),rgba(199,230,255,.5)) no-repeat;*/
 
         padding-bottom: 3rem;
+/*        background: #00a6d2;*/
+/*        background: #f5f5ee ;*/
         background-position: 0% 0%;
         background-attachment: fixed;
+        background-size: cover;
         }
 
     .ak_symbol {
@@ -372,7 +375,7 @@
             }
     
     h1 {
-        font: 600 3rem/1 'com', sans-serif;
+        font: 700 3rem/1 'com', sans-serif;
         max-width: 17em;
         letter-spacing: 0.01em;
         }
@@ -411,7 +414,7 @@
 
     
     h2 {
-        font:  600 2rem/1.2 'com', sans-serif;
+        font:  700 2rem/1.2 'com', sans-serif;
         margin: 0;
         max-width: 22em;
         letter-spacing: 0.01em;
