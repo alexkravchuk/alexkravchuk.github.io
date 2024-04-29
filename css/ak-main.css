@@ -1046,7 +1046,8 @@ a.button_small {
         }
     
     a.button_social.current {
-        background: #ececec;
+/*        background: #ececec;*/
+        background: #2222;
         }
     
     a.button_social:hover,
