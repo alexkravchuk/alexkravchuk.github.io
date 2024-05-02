@@ -111,7 +111,7 @@
     
 html,
 body {
-    font: 400 18px/1.4 'com', sans-serif;
+    font: 400 20px/1.5 'com', sans-serif;
     letter-spacing: .02em;
     margin: 0;
     padding: 0;
@@ -377,7 +377,7 @@ h4,
         }
 
 h1 {
-    font: 700 3rem/1.2 'com', sans-serif;
+    font: 500 3rem/1 'com', sans-serif;
     max-width: 17em;
     letter-spacing: 0.01em;
     }
@@ -390,23 +390,27 @@ h1 {
             margin-top: 1rem;
             }
 
+/*
     h1  .bg_accent {
+        line-height: 1;
         box-sizing: border-box;
         background: #ffee33;
         box-shadow: .5rem 0 0px 0px #ffee33, -0.5rem 0 0px 0px #ffee33;
-/*        padding: 0 .7rem;*/
         -webkit-box-decoration-break: clone;
         -moz-box-decoration-break: clone;
         box-decoration-break: clone;
         position: relative;
         left: .5rem;
             }
+*/
+
+
 
 
 .lead {
-    font:  500 1.5rem/1.25 'com', sans-serif;
+    font:  400 1.5rem/1.875rem 'com', sans-serif;
     /* margin: 0; */
-    max-width: 28em;
+    max-width: 27em;
 /*        letter-spacing: -0.005em;*/
     color: #777;
     }
@@ -423,12 +427,13 @@ h1 {
         }
 
 .lead_accent {
-            color: #000;
-        }
+            font-weight:  500;
+            color: #333;
+            }
 
 
 h2 {
-    font:  700 2rem/1.2 'com', sans-serif;
+    font:  500 2.1rem/2.25rem 'com', sans-serif;
     margin: 0;
     max-width: 22em;
     letter-spacing: 0.01em;
@@ -445,7 +450,7 @@ h2 + ul {
 
 
 h3 {
-    font: 600 1rem/1.4 'com', sans-serif;
+    font: 500 1rem/1.25 'com', sans-serif;
     max-width: 37em;
     text-transform: uppercase;
     letter-spacing: .1em;
@@ -459,11 +464,11 @@ h3 {
         }
 
 h3 + p {
-    margin-top: 1rem;
+    margin-top: .75rem;
     }
 
 h3 + ul {
-    margin-top: 1rem;
+    margin-top: .75rem;
     }
 
 
@@ -605,25 +610,25 @@ ul.ak_tags_inline li {
 
 
 p + p {
-    margin: 1rem 0 0;
+    margin: .75rem 0 0;
     }
 
 p + ul {
-    margin: 1rem 0 0 0;
+    margin: .75rem 0 0 0;
     }
 
 p + ol {
-    margin: 1rem 0 0;
+    margin: .75rem 0 0;
     }
 
 ul + p,
 ol + p {
-    margin: 1rem 0 0;
+    margin: .75rem 0 0;
     }
 
 
 li + li {
-    margin-top: .5rem;
+    margin-top: .375rem;
     }
 
 ul + h3,
@@ -864,12 +869,21 @@ border-bottom-color: #0255B5;
     border-top: 1px #ebebeb solid;
     }
 
+html.typical {
+    background: transparent;
+}
 
-.typical [class*="clear_x"] {
-    background: 50% 0 repeat-y url('../img/bg_16.svg');
+/*
+html.typical body.typical {
+    background: transparent 0 -0.03rem repeat url('../img/bg_15_red.svg');
     background-size: auto;
     }
-    
+*/
+
+.typical [class*="clear_x"] {
+    background: 50% 0 repeat url('../img/bg_40.svg');
+    background-size: auto;
+    }   
     
     /* BUTTONS ----------------------------- */
     
@@ -1215,7 +1229,8 @@ a.button_small {
             line-height: 1.45rem;
             padding: 0 .75rem;
             border-radius: 500px;
-            }
+        position: relative;
+}
 
    
     .tx_dark {
