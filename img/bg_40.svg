@@ -3,10 +3,14 @@
     <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
     <title>bg_40</title>
     <desc>Created with Sketch.</desc>
-    <g id="bg_40" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" fill="#FF8AB6" opacity="0.400000006" x="0" y="0" width="10" height="10"></rect>
-        <rect id="Rectangle-Copy-3" fill="#D8D8D8" opacity="0.600000024" x="20" y="20" width="10" height="10"></rect>
-        <rect id="Rectangle-Copy-4" fill="#D8D8D8" opacity="0.400000006" x="30" y="30" width="10" height="10"></rect>
-        <rect id="Rectangle-Copy-2" fill="#D8D8D8" opacity="0.800000012" x="10" y="10" width="10" height="10"></rect>
+    <g id="bg_40" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.300000012">
+        <rect id="Rectangle" fill="#FF8AB6" x="0" y="0" width="10" height="10"></rect>
+        <rect id="Rectangle-Copy-3" fill="#FFADCB" x="20" y="20" width="10" height="10"></rect>
+        <rect id="Rectangle-Copy-4" fill="#FFADCB" x="30" y="30" width="10" height="10"></rect>
+        <rect id="Rectangle-Copy-2" fill="#FFADCB" x="10" y="10" width="10" height="10"></rect>
+        <rect id="Rectangle-Copy-2" fill="#FFADCB" x="0" y="20" width="10" height="10"></rect>
+        <rect id="Rectangle-Copy-2" fill="#FFADCB" x="10" y="30" width="10" height="10"></rect>
+        <rect id="Rectangle-Copy-2" fill="#FF8AB6" x="20" y="0" width="10" height="10"></rect>
+        <rect id="Rectangle-Copy-2" fill="#FFADCB" x="30" y="10" width="10" height="10"></rect>
     </g>
 </svg>

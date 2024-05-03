@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>bg_15_red</title>
+    <desc>Created with Sketch.</desc>
+    <g id="bg_15_red" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#F0EFF8" x="0" y="0" width="1" height="40"></rect>
+        <rect id="Rectangle" fill="#F0EFF8" transform="translate(20.000000, 0.500000) rotate(90.000000) translate(-20.000000, -0.500000) " x="19.5" y="-19.5" width="1" height="40"></rect>
+        <rect id="Rectangle" fill="#F0EFF8" transform="translate(20.000000, 10.500000) rotate(90.000000) translate(-20.000000, -10.500000) " x="19.5" y="-9.5" width="1" height="40"></rect>
+        <rect id="Rectangle" fill="#F9DBED" transform="translate(20.000000, 20.500000) rotate(90.000000) translate(-20.000000, -20.500000) " x="19.5" y="0.5" width="1" height="40"></rect>
+        <rect id="Rectangle" fill="#F0EFF8" transform="translate(20.000000, 30.500000) rotate(90.000000) translate(-20.000000, -30.500000) " x="19.5" y="10.5" width="1" height="40"></rect>
+        <rect id="Rectangle" fill="#F0EFF8" x="10" y="0" width="1" height="40"></rect>
+        <rect id="Rectangle" fill="#F9DBED" x="20" y="0" width="1" height="40"></rect>
+        <rect id="Rectangle" fill="#F0EFF8" x="30" y="0" width="1" height="40"></rect>
+    </g>
+</svg>
