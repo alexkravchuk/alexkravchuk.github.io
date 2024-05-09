@@ -362,16 +362,13 @@ h4,
 
 
 
-h1,
-h2,
-h3,
-h4,
-p,
-li,
+h1, h2, h3, h4,
+p, li,
 .lead,
-.desc{
-   margin-top: -.5lh !important; 
-}
+.desc,
+.caption_b {
+    margin-top: -.5lh !important; 
+    }
 
 
    /*  ----------------------------- */
@@ -386,6 +383,10 @@ li,
     letter-spacing: .1em;
     }
 
+    .accent_ua, .accent_ua a  {
+        color: #ab9b27;
+        }
+
     .desc + h1 {
 /*        margin-top: -.5lh;*/
         padding-top: 2.5rem;
@@ -393,7 +394,7 @@ li,
         }
 
 h1 {
-    font: 500 3rem/1 'com', sans-serif;
+    font: 600 2.5rem/1.125 'com', sans-serif;
     max-width: 17em;
     letter-spacing: 0.01em;
     }
@@ -412,7 +413,7 @@ h1 {
 
 
 .lead {
-    font:  400 1.5rem/2rem 'com', sans-serif;
+    font: 400 1.5rem/2rem 'com', sans-serif;
     /* margin: 0; */
     max-width: 27em;
 /*        letter-spacing: -0.005em;*/
@@ -432,12 +433,12 @@ h1 {
 
 .lead_accent {
             font-weight: 500;
-            color: #333;
+            color: #222;
             }
 
 
 h2 {
-    font:  500 2rem/2.5rem 'com', sans-serif;
+    font: 600 2rem/2.5rem 'com', sans-serif;
     margin: 0;
     max-width: 22em;
     letter-spacing: 0.01em;
@@ -455,7 +456,8 @@ h2 + ul {
 
     h2 + h3 {
 /*        margin-top: -1ex;*/
-        margin-top: 1rem;
+/*        margin-top: 1rem;*/
+        padding-top: 1.5rem;
         }
 
 
@@ -635,12 +637,14 @@ p + ul {
     }
 
 p + ol {
-    margin: 1rem 0 0 0;
+/*    margin: 1rem 0 0 0;*/
+    padding-top: 1.5rem;
     }
 
 ul + p,
 ol + p {
-    margin: 1rem 0 0 0;
+/*    margin: 1rem 0 0 0;*/
+    padding-top: 1.5rem;
     }
 
 
