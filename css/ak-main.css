@@ -366,7 +366,9 @@ h1, h2, h3, h4,
 p, li,
 .lead,
 .desc,
-.caption_b {
+.caption_b,
+.caption_c,
+.caption {
     margin-top: -.5lh !important; 
     }
 
@@ -476,11 +478,11 @@ h3 {
         }
 
 h3 + p {
-    margin-top: 1rem;
+    padding-top: 1.5rem;
     }
 
 h3 + ul {
-    margin-top: 1rem;
+    padding-top: 1.5rem;
     }
 
 
@@ -633,7 +635,7 @@ p + p {
 p + ul {
 /*    margin: -1ex 0 0 0;*/
     margin: 0;
-    padding-top: 1rem; 
+    padding-top: 1.5rem; 
     }
 
 p + ol {
