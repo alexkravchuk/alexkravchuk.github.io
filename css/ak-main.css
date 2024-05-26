@@ -396,7 +396,7 @@ p, li,
         }
 
 h1 {
-    font: 600 2.75rem/1.125 'com', sans-serif;
+    font: 600 2.75rem/1 'com', sans-serif;
     max-width: 17em;
     letter-spacing: 0.01em;
     }
