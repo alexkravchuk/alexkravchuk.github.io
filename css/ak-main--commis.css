@@ -30,46 +30,44 @@
     
     
 @font-face {
-    font-family: 'alg';
-    src: url('../fonts/alg/alg.woff') format('woff');
+    font-family: 'com';
+    src: url('../fonts/comLoud/comLoud-reg.woff2') format('woff');
     font-weight: 400;
     font-style: normal;
     }
 
 @font-face {
-    font-family: 'alg';
-    src: url('../fonts/alg/alg_medium.woff') format('woff');
+    font-family: 'com';
+    src: url('../fonts/comLoud/comLoud-med.woff2') format('woff');
     font-weight: 500;
     font-style: normal;
     }
 
 @font-face {
-    font-family: 'alg_i';
-    src: url('../fonts/alg/alg_italic.woff') format('woff');
-    font-weight: 400;
+    font-family: 'com';
+    src: url('../fonts/comLoud/comLoud-sBold.woff2') format('woff');
+    font-weight: 600;
     font-style: normal;
     }
 
-
-
 @font-face {
-    font-family: 'algs';
-    src: url('../fonts/alg/algs.woff') format('woff');
-    font-weight: 400;
+    font-family: 'com';
+    src: url('../fonts/comLoud/comLoud-bold.woff2') format('woff');
+    font-weight: 700;
     font-style: normal;
     }
 
  @font-face {
-    font-family: 'algs';
-    src: url('../fonts/alg/algs_medium.woff') format('woff');
-    font-weight: 500;
+    font-family: 'mariupol-s';
+    src: url('../fonts/mariupol/mariupol-symbols.woff') format('woff');
+    font-weight: 400;
     font-style: normal;
     }
 
 @font-face {
-    font-family: 'algs';
-    src: url('../fonts/alg/algs_bold.woff') format('woff');
-    font-weight: 600;
+    font-family: 'si';
+    src: url('../fonts/si/si-text.woff') format('woff');
+    font-weight: 400;
     font-style: normal;
     }
 
@@ -113,7 +111,7 @@
 
 
 html {
-    font-size: 21px;
+    font-size: 20px;
     line-height: 1.5;
     margin: 0;
     padding: 0;
@@ -300,7 +298,7 @@ a img {
     
 body {
     color: #000;
-    font: 400 1rem/1.5rem 'alg', sans-serif;
+    font: 400 1rem/1.5rem 'com', sans-serif;
     margin: 0;
     padding: 0;
     min-height: 100%;
@@ -374,18 +372,12 @@ p, li,
     margin-top: -.5lh !important; 
     }
 
-.caption_b,
-.caption_c,
-.caption {
-    font-family: 'alg_i';
-    }
-
 
    /*  ----------------------------- */
 
 
 .desc {
-    font: 500 1rem/1.5 'algs', sans-serif;
+    font: 500 1rem/1.5 'com', sans-serif;
     margin: 0;
     padding: 0;
     max-width: 33em;
@@ -404,9 +396,9 @@ p, li,
         }
 
 h1 {
-    font: 500 2.75rem/1 'alg', sans-serif;
-    max-width: 15em;
-/*    letter-spacing: 0.01em;*/
+    font: 600 2.75rem/1 'com', sans-serif;
+    max-width: 17em;
+    letter-spacing: 0.01em;
     }
 
     h1 + p {
@@ -423,7 +415,7 @@ h1 {
 
 
 .lead {
-    font: 400 1.5rem/2rem 'alg_i', sans-serif;
+    font: 400 1.5rem/2rem 'com', sans-serif;
     /* margin: 0; */
     max-width: 27em;
 /*        letter-spacing: -0.005em;*/
@@ -442,17 +434,16 @@ h1 {
         }
 
 .lead_accent {
-            font-family: 'algs';
-            font-weight: 400;
+            font-weight: 500;
             color: #222;
             }
 
 
 h2 {
-    font: 500 2rem/2.5rem 'alg', sans-serif;
+    font: 600 2rem/2.5rem 'com', sans-serif;
     margin: 0;
     max-width: 22em;
-/*    letter-spacing: 0.01em;*/
+    letter-spacing: 0.01em;
     }
 
 h2 + p,
@@ -473,7 +464,7 @@ h2 + ul {
 
 
 h3 {
-    font: 500 1rem/1.5 'alg', sans-serif;
+    font: 500 1rem/1.5 'com', sans-serif;
     max-width: 37em;
     text-transform: uppercase;
     letter-spacing: .1em;
@@ -526,10 +517,10 @@ ul.arrow li:before {
 ul.bull li:before {
     content: '\•\0020';
     color:  inherit;
-    font-size: 1rem;
+    font-size: 2rem;
     position: relative;
-/*    top: .31rem;*/
-/*    left: .2rem;*/
+    top: .31rem;
+    left: .2rem;
     line-height: 0px;
     }
 
@@ -567,8 +558,8 @@ ol li {
     }
 
 .ak_copy {
-    font-family: 'algs';
-/*    font-size: .9rem;*/
+    font-family: 'com';
+    font-size: .9rem;
     }
 
 ul.ak_tags {
@@ -705,9 +696,9 @@ a[target="_blank"]:after {
 /*    position: relative;*/
 /*    bottom: .07rem;*/
     white-space: nowrap;
-/*    font-family: 'si';*/
+    font-family: 'si';
     /* font-size: 1rem; */
-/*    font-size: 90%;*/
+    font-size: 90%;
     vertical-align: baseline;
     /* color: #333; */
     font-weight: normal;
@@ -972,7 +963,7 @@ body.typical {
         }
     
     .button_50 {
-        font: 500 1rem/2.8rem 'algs', sans-serif;
+        font: 500 1rem/2.8rem 'com', sans-serif;
         text-transform: uppercase;
         letter-spacing: .1rem;
         height: 3rem;
@@ -1031,10 +1022,8 @@ body.typical {
 
 
 a.button_small {
-    font-family: 'algs';
-    letter-spacing: .01em;
 /*    color: #0255B5;*/
-    font-weight: 400;
+    font-weight: 500;
     color: #000;
     text-decoration: none;
     border-bottom: none;
@@ -1042,7 +1031,7 @@ a.button_small {
     background: #FFE41F;
     height: 1.5rem;
     display: inline-block;
-    line-height: 1.4rem;
+    line-height: 1.33rem;
     padding: 0.25rem 1.3rem;
     border-radius: 500px;
     }
