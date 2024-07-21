@@ -402,6 +402,11 @@
         background-size: auto;
         }
     
+    .rule_mob_n {
+        border: none;
+        padding-top: 0;
+        }
+    
 /* -- emoji -- */
     
     .emoji_main,
