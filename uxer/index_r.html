@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="">
+    
+<!-- NO INDEX -->  
+<meta name = “robots” content = “noindex” />
+
+<!-- OG -->  
+<meta property="og:url" content="http://oleksakravchuk.com/uxer" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="UX/ER метод" />
+<meta property="og:description" content="Проектирование интерфейсов на базе взаимосвязанных сущностей." />
+<meta property="og:image" content="http://oleksakravchuk.com/uxer/img/cover.png" />
+
+<!-- Title -->   
+<title>UX/ER метод</title>
+<meta name="description" content="Проектирование интерфейсов на базе взаимосвязанных сущностей.">
+<link rel="icon" type="image/png" href="../favicon.png" />
+
+<script src="../js/jquery-1.11.0.min.js"></script>
+<script src="../js/ak-main.js"></script>
+    
+<!-- AK Styles -->
+<link rel="stylesheet" href="../css/ak-normalize.css" type="text/css">
+<link rel="stylesheet" href="../css/ak-uxer.css" type="text/css">
+<link rel="stylesheet" href="../css/ak-quick.css" type="text/css">
+
+<link rel="stylesheet" href="../css/ak-clear.css" type="text/css">
+<link rel="stylesheet" href="../css/ak-visibility.css" type="text/css">
+<link rel="stylesheet" href="../css/ak-adaptive-uxer.css" type="text/css">
+
+<!--  -->
+<!-- <script src="../js/.min.js" type="text/javascript"></script> -->
+</head>
+
+<body>  
+    
+    <div class="ins">
+    <div class="top_box"></div>
+    
+    
+    
+    <div class="clear_xx"></div>
+    <div class="tag tag_accent">Инструментарий</div>
+    <div class="clear_x"></div>
+    <h1>UX/ER</h1>
+    <div class="clear_x"></div>
+    </div><!-- // ins -->
+ 
+    
+    <div class="ins">
+        <div class="lead_c">Метод <span class="lead_accent">проектирования интерфейсов,</span> основанный на взаимосвязанных информационных сущностях.</div>
+    </div><!-- // ins -->
+    
+    
+    
+    <div class="clear_xx"></div>
+    
+
+    
+    <div class="ins">
+    <div class="box_dark">
+        <div class="quote_symb">“</div>
+        <div class="lead_c">Этот метод сочетает принципы UX (пользовательского опыта) и ERM (моделирования данных).</div>
+        
+        <div class="clear_x"></div>
+        
+        <div class="lead_c">Он помогает организовать информацию так, чтобы пользователи могли легко находить, изучать и взаимодействовать с ней.</div>
+    </div>
+    </div><!-- // ins -->
+    
+
+    
+ <!-- Entity 
++++++++++++++++++++++++ -->   
+    
+    <div class="clear_xxxx"></div>
+    
+    
+    
+    <h2>Что такое сущности?</h2>
+    <div class="clear_x"></div>
+    
+    <div class="ins">
+        <div class="lead_c"><span class="lead_accent_c">Сущности —</span> <span class="lead_accent">ключевое понятие метода.</span> Как строительные блоки, они разделяют информацию на логичные, понятные пользователю части.</div>
+    </div><!-- // ins -->
+    
+    
+    <div class="clear_xx"></div>
+
+<div class="ins">
+<div class="box_light">
+        
+        
+<div class="grid grid_x"> 
+<div class="col">
+    <p><span class="box_light_accent">Свойства сущности</span> определяют её уникальные характеристики.</p>
+</div><!-- // col -->
+    
+<div class="col">
+<p><span class="box_light_accent">Функции</span> позволяют пользователям взаимодействовать с сущностью.</p>
+</div><!-- // col --> 
+</div>
+<!-- // ak_grid -->
+        
+        
+<div class="clear_x"></div>
+<p><span class="features_accent">Связи между сущностями</span> возникают через общие свойства и функции, а также, когда одна сущность включает в себя другую.</p>
+ <div class="clear_x"></div>
+    
+<div class="grid grid_x">
+<div class="col">
+<p><span class="box_light_accent">Простые сущности (элементы)</span> обычно не содержат вложений или их число минимально.</p>
+</div><!-- // col -->
+    
+<div class="col">
+<p><span class="box_light_accent">Сложные сущности (контейнеры)</span> включают множество однотипных элементов, как списки.</p>
+</div><!-- // col -->  
+</div>
+<!-- // ak_grid -->   
+
+</div>  
+    
+    
+<div class="clear_xx"></div> 
+    
+<div class="tx_c"><img src="img/entities.png" alt="entities" width="540"></div>
+<div class="clear_x"></div> 
+<p class="caption_c">Сущности: элемент и контейнер, связанные через свойства и функции.</p>
+
+</div><!-- // ins -->
+    
+    
+    
+    
+     
+    
+    
+    
+    
+<div class="clear_xxxx"></div>
+    
+    
+    
+    
+    
+    
+  <!-- DO IT 
++++++++++++++++++++++++ -->  
+    
+<div class="ins">
+<h2>С чего начать?</h2>
+    
+<div class="clear_x"></div>
+    
+<div class="lead_c"><span class="lead_accent_c">Первый шаг —</span> определить <span class="lead_accent">возможности системы</span> для <span class="lead_accent">пользователей</span>. В этом помогут <span class="">сценарии взаимодействия</span>.       
+</div>
+</div> 
+    
+<div class="clear_xx"></div>
+    
+<div class="ins">
+<div class="box_light">
+           
+<div class="grid grid_x"> 
+<div class="col">
+<p><span class="box_light_accent">Концептуальный этап</span> выявляет ключевые сущности, отвечающие целям системы.</p>
+    <p>Обычно выделяются объекты реального мира: Книга, Автор, Пользователь.</p>
+</div><!-- // col -->
+    
+<div class="col">
+    <p><span class="box_light_accent">Логический этап</span> определяет свойства, функции сущностей и их взаимосвязи.</p>
+    <p>Это, например: Название или Цена товара, а также Добавление его в корзину.</p>
+</div><!-- // col --> 
+</div><!-- // ak_grid -->
+</div>
+    
+    
+<div class="clear_xx"></div> 
+    
+<div class="tx_c"><img src="img/scenario.png" alt="scenario" width="540"></div>
+<div class="clear_x"></div> 
+<p class="caption_c">Описание сущности «Книга» с помощью сценария.</p>
+    
+</div><!-- // ins -->
+    
+  
+    
+    
+    
+<div class="clear_xxxx"></div>
+    
+    
+  <!-- DIAGRAM
++++++++++++++++++++++++ -->
+    
+    
+<div class="ins">
+<h2>Как это изобразить?</h2>  
+<div class="clear_x"></div>
+
+    
+    <div class="lead_c"><span class="lead_accent_c">Диаграмма —</span> <span class="lead_accent">мощный инструмент,</span> который дает <span class="lead_accent">ясное видение</span> системы, <span class="lead_accent">улучшает коммуникацию</span> и помогает <span class="lead_accent">исправить ошибки</span> на ранних стадиях проекта.
+</div> 
+    
+</div><!-- // ins --> 
+    
+    
+<div class="clear_xx"></div>
+    
+<div class="ins">
+<div class="box_light">
+           
+<div class="grid grid_x"> 
+<div class="col">
+    <p><span class="box_light_accent">Наброски на бумаге</span> или <span class="box_light_accent">ментальная карта</span> помогают быстро зафиксировать идеи.</p>
+    <p><span class="">Инструменты:</span> бумага, ручка, флипчарт, Miro, Draw.io, xMind.</p>
+</div><!-- // col -->
+    
+<div class="col">
+    <p><span class="box_light_accent">Чистовая версия</span> подходит для презентации проекта команде или клиенту.</p>
+    <p><span class="">Инструменты:</span> Sketch, Figma, Adobe Illustrator etc.</p>
+</div><!-- // col --> 
+</div><!-- // ak_grid -->
+</div>
+    
+    
+<div class="clear_xx"></div>
+    
+<div class="tx_c"><img src="img/diagram.png" alt="diagram" width="540"></div>
+<div class="clear_x"></div> 
+<p class="caption_c">Примеры разных подходов к представлению элементов.</p>
+
+</div><!-- // ins -->
+  
+<div class="clear_xxxx"></div> 
+    
+    
+    
+ 
+    
+    
+<div class="ins">
+<div class="bottom_box"></div>
+</div>
+
+
+</body>
+</html>
+ 
