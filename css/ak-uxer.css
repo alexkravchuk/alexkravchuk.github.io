@@ -252,7 +252,7 @@ h2,
 h3,
 h4,
 .lead,
-.tag {
+.title {
     font-weight: normal;
     font-weight: normal;
     margin: 0;
@@ -260,20 +260,8 @@ h4,
     }
 
 
-/*
-h1, h2, h3, h4,
-p, ul,
-.lead_c, .lead_l,
-.tag,
-.caption_b,
-.caption_c,
-.caption {
-    margin-top: -.5lh !important; 
-    }
-*/
 
-
-.tag {
+.title {
     font: 600 1rem/1 'algs', sans-serif;
     text-align: center;
     margin: 0;
@@ -284,16 +272,10 @@ p, ul,
     }
 
 
-    .tag_accent {
+    .title_accent {
         color: #03e;
         }
 
-/*
-    .tag + h1 {
-        padding-top: 2rem;
-
-        }
-*/
 
 
 h1 {
@@ -323,27 +305,16 @@ h3 {
 p {
     margin: 0;
     padding: 0;
-    max-width: 19em;
+/*    max-width: 19em;*/
     }
 
 p,
 ul,
 ol {
-    max-width: 27em;
+    max-width: 29em;
     /*    letter-spacing: .02em;*/
     /*    color: #333;*/
     }
-
-
-
-/*
-.lead {
-    font: 400 1.5rem/2rem 'alg_i', sans-serif;
-    max-width: 27em;
-    color: #777;
-    }
-*/
-
 
 
 
@@ -363,12 +334,20 @@ ol {
     .lead_l {text-align: left;}
 
     .lead_accent {
-    color: #111;
-    }
+        color: #111;
+        }
 
     .lead_accent_c {
-    color: #03e;
-    }
+        color: #03e;
+        }
+
+    .lead_c a,
+    .lead_l a,
+    .lead_c a:hover,
+    .lead_l a:hover {
+        border-bottom: .2rem solid;
+        }
+
 
 
 .box_dark {
@@ -410,15 +389,17 @@ ol {
         color: #666;
         }
 
+    .box_light_accent {
+        color: #111;
+        font-weight: 600;
+        }
+
 .features_accent {
     color: #111;
     font-weight: 600;
     }
 
-.box_light_accent {
-    color: #111;
-    font-weight: 600;
-    }
+
 
 
     
@@ -428,10 +409,7 @@ ol {
 
 
 
-
-
-
-
+/* UL -------------------- */
 
 
 
@@ -443,7 +421,7 @@ ul {
 ul li {
     list-style: none outside;
     padding: 0;
-    text-indent: -.85rem;
+/*    text-indent: -.85rem;*/
 /*        text-indent: 0;*/
     margin-left: .85rem;
     }
@@ -473,6 +451,50 @@ ol li {
 
 
 
+
+/* Tags -------------------- */
+
+
+ul.tags {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 760px
+    }
+
+ul.tags li {
+    display: inline-block;
+    list-style: none outside;
+    text-indent: 0;
+   
+    font-size: 1rem;
+    line-height: 1.075rem;
+    font-weight: 500;
+    
+    width: auto;
+    height: 2rem;
+    
+    margin-left: 0;
+    margin: 1rem .5rem 0;
+    padding: .25rem 1rem;
+   
+    border: 4px #03e solid;
+    border-radius: 100px;
+    box-sizing: border-box;
+    }
+    
+
+ul li:before {
+    display: none;
+    }    
+
+
+
+
+
+/* Caption -------------------- */
+
+
 [class*="caption"] {
     max-width: 19em;
     }
@@ -484,6 +506,11 @@ ol li {
 /*        font-size: .8rem;*/
     }
 
+
+
+
+
+
 .ak_copy {
     font-family: 'algs';
 /*    font-size: .9rem;*/
@@ -493,28 +520,6 @@ ol li {
 
 
 
-/*
-.caption_b,
-.caption_c,
-.caption {
-    font-family: '';
-    }
-*/
-
-/*
-
-* + .caption_t {
-        text-align: left;
-        margin-top: .5rem;
-            }
-
-* + .caption_tc {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: .5rem;
-            }
-*/
 
 
 /* Pair -------------------- */
@@ -601,21 +606,21 @@ a[target="_blank"]:after:hover {
     }
 
 a:hover[target="_blank"]:after {
-    color: #0255B5;
+    color: #03e;
     letter-spacing: .05rem;
     }
 
 a:hover,
 a.hover {
 /*color: #105287;*/
-color: #0255B5;
+color: #03e;
 text-decoration: none;
 border-bottom: 1px solid #0255B5;
 }
 
 a.color {
 /* font-family: 'book'; */
-color: #0255B5;
+color: #03e;
 border-bottom-color: #0255B5;
 }
 

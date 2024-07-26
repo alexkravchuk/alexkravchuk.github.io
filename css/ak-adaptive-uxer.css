@@ -5,7 +5,7 @@
 @media (max-width: 767px) {
     
 html, body {
-    font-size: 16px;
+    font-size: 18px;
     } 
 
 .grid {
@@ -57,7 +57,7 @@ html, body {
 
 
 
-.tag {
+.title {
     font-size: 1rem;
     }
 
