@@ -19,6 +19,12 @@ html, body {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 1rem 1rem;
     }
+    
+.grid_3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: .5rem .5rem;
+    }
 
 .grid_x_mob {
     display: grid;
@@ -74,7 +80,7 @@ h2 {
 
 
 h3 {
-   font-size: 1rem;
+   font-size: 1.4rem;
     }
 
 

@@ -31,6 +31,7 @@ $("pre").each(function(){ // показвать в виде кода
     $("body").html($("body").html().replace(/\sУ\s/g,' У&nbsp;'));
     $("body").html($("body").html().replace(/\sЩо\s/g,' Що&nbsp;'));
     $("body").html($("body").html().replace(/\sЯк\s/g,' Як&nbsp;'));
+    $("body").html($("body").html().replace(/\sЄ\s/g,' Є&nbsp;'));
     
     $("body").html($("body").html().replace(/\sз\s/g,' з&nbsp;')); 
     $("body").html($("body").html().replace(/\sзі\s/g,' зі&nbsp;')); 
@@ -40,6 +41,7 @@ $("pre").each(function(){ // показвать в виде кода
     $("body").html($("body").html().replace(/\sу\s/g,' у&nbsp;'));
     $("body").html($("body").html().replace(/\sщо\s/g,' що&nbsp;'));
     $("body").html($("body").html().replace(/\sяк\s/g,' як&nbsp;'));
+    $("body").html($("body").html().replace(/\sє\s/g,' є&nbsp;'));
 //ru
 	$("body").html($("body").html().replace(/\sВ\s/g,' В&nbsp;'));
 	$("body").html($("body").html().replace(/\sА\s/g,' А&nbsp;'));
@@ -63,6 +65,7 @@ $("pre").each(function(){ // показвать в виде кода
     $("body").html($("body").html().replace(/\sне\s/g,' не&nbsp;'));
     $("body").html($("body").html().replace(/\sот\s/g,' от&nbsp;'));
     $("body").html($("body").html().replace(/\sпо\s/g,' по&nbsp;'));
+    $("body").html($("body").html().replace(/\sза\s/g,' за&nbsp;'));
 //en  
     $("body").html($("body").html().replace(/\sA\s/g,' A&nbsp;'));
     $("body").html($("body").html().replace(/\sAn\s/g,' An&nbsp;'));
