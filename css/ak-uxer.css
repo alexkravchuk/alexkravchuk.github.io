@@ -394,7 +394,13 @@ ol {
 */
 
 
-.lead_c { text-align: center; }
+.lead_c { 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
 .lead_l { text-align: left; }
 
 /*
