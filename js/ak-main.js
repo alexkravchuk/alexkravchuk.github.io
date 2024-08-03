@@ -1,3 +1,14 @@
+
+//
+//
+//$(document).ready(function(){
+//    var classes = ["one", "two", "three"];
+//
+//    $("#container li").each(function(){
+//        $(this).addClass(classes[~~(Math.random()*classes.length)]);
+//    });
+//});
+
 // Ready start
 
 var date = new Date(); // Current date time 
@@ -5,6 +16,14 @@ var h = date.getHours(); // Current time
 //document.write(h);
 
 $(document).ready(function(){
+    
+ 
+// Random Elements Corol
+    var classes = ["red", "blue", "green", "pink"];
+    $("body").each(function(){
+        $(this).addClass(classes[~~(Math.random()*classes.length)]);
+    });
+    
 
 // Time status
 //if (h > 22 || h < 9) {

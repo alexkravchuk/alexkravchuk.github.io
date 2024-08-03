@@ -165,7 +165,7 @@ a img {
 
 
 .box_color_red{
-    background: #f25;
+    background: #E40072;
     }
 
 .box_color_green{
@@ -311,7 +311,7 @@ h4,
         }
 
     .title_accent_red {
-        color: #f25;
+        color: #E40072;
         }
 
 sup.beta {
@@ -450,7 +450,7 @@ b {
 */
 
 b.red {
-color: #f25;
+color: #E40072;
 font-weight: 600;
 } 
 
@@ -564,8 +564,8 @@ p, ul,
 
 
     .box_dark_red {
-        background: #f25;
-        border-color: #f25;
+        background: #E40072;
+        border-color: #E40072;
         }
 
     .box_dark_green {
@@ -944,7 +944,7 @@ text-decoration: underline;
 
 a.red {
 /* font-family: 'book'; */
-color: #f25;
+color: #E40072;
 text-decoration: underline;
 }
 
@@ -1265,7 +1265,183 @@ a.button_small {
 
 
 
-/* box colors ----------------------------- */
+/* Accent Global Colors ----------------------------- */
+
+
+/*
+
+body.red .accent_global_bg {
+    background: #D9005A !important; 
+    border-color: #D9005A !important;
+    }
+body.red .accent_global_tx {
+    color: #D9005A !important; 
+    }
+
+
+body.blue .accent_global_bg {
+    background: #1636D9 !important; 
+    border-color: #1636D9 !important;
+    }
+body.blue .accent_global_tx {
+    color: #1636D9 !important; 
+    }
+
+
+body.aqua .accent_global_bg {
+    background: #008096 !important; 
+    border-color: #008096 !important;
+    }
+body.aqua .accent_global_tx {
+    color: #008096 !important; 
+    }
+
+
+body.green .accent_global_bg {
+    background: #1A8030 !important; 
+    border-color: #1A8030 !important;
+    }
+body.green .accent_global_tx {
+    color: #1A8030 !important;
+    }
+
+
+body.pink .accent_global_bg {
+    background: #A1289F !important; 
+    border-color: #A1289F !important; 
+    }
+body.pink .accent_global_tx {
+    color: #A1289F !important; 
+    }
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+body.red .accent_global_bg {
+    background: #E40072 !important; 
+    border-color: #E40072 !important;
+    }
+body.red .accent_global_tx {
+    color: #E40072 !important; 
+    }
+
+
+body.blue .accent_global_bg {
+    background: #1B3EE7 !important; 
+    background: #0D34E6 !important; 
+    border-color: #1B3EE7 !important;
+    border-color: #0D34E6 !important;
+    }
+body.blue .accent_global_tx {
+    color: #1B3EE7 !important; 
+    color: #0D34E6 !important;
+    }
+
+
+body.aqua .accent_global_bg {
+    background: #00A0B1 !important; 
+    border-color: #00A0B1 !important;
+    }
+body.aqua .accent_global_tx {
+    color: #00A0B1 !important; 
+    }
+
+
+body.green .accent_global_bg {
+    background: #1EA138 !important; 
+    border-color: #1EA138 !important;
+    }
+body.green .accent_global_tx {
+    color: #1EA138 !important;
+    }
+
+
+body.pink .accent_global_bg {
+    background: #B92BB9 !important; 
+    border-color: #B92BB9 !important; 
+    }
+body.pink .accent_global_tx {
+    color: #B92BB9 !important; 
+    }
+
+
+    body a.accent_global_tx:hover{
+        color: #111 !important; 
+        }
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+body.red .accent_global_bg {
+    background: #F01771 !important; 
+    border-color: #F01771 !important;
+    }
+body.red .accent_global_tx {
+    color: #F01771 !important; 
+    }
+
+
+body.blue .accent_global_bg {
+    background: #174EF2 !important; 
+    border-color: #174EF2 !important;
+    }
+body.blue .accent_global_tx {
+    color: #174EF2 !important; 
+    }
+
+
+body.aqua .accent_global_bg {
+    background: #00A0B1 !important; 
+    border-color: #00A0B1 !important;
+    }
+body.aqua .accent_global_tx {
+    color: #00A0B1 !important; 
+    }
+
+
+body.green .accent_global_bg {
+    background: #319747 !important; 
+    border-color: #319747 !important;
+    }
+body.green .accent_global_tx {
+    color: #319747 !important;
+    }
+
+
+body.pink .accent_global_bg {
+    background: #BF33BC !important; 
+    border-color: #BF33BC !important; 
+    }
+body.pink .accent_global_tx {
+    color: #BF33BC !important; 
+    }
+
+
+    body a.accent_global_tx:hover{
+        color: #111 !important; 
+        }
+
+*/
 
 
     
