@@ -1,20 +1,32 @@
 
-//
-//
-//$(document).ready(function(){
-//    var classes = ["one", "two", "three"];
-//
-//    $("#container li").each(function(){
-//        $(this).addClass(classes[~~(Math.random()*classes.length)]);
-//    });
-//});
 
-// Ready start
 
+// Copy Email Addrsss
+function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("mailCopy");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+
+  // Alert the copied text
+//  alert("Ел. пошту скопійовано: " + copyText.value);
+alert("Чудово! Ел. пошту скопійовано: olks.krvchk@gmail.com");
+} 
+
+
+// Date Auto
 var date = new Date(); // Current date time 
 var h = date.getHours(); // Current time
 //document.write(h);
 
+
+
+// Ready start
 $(document).ready(function(){
     
  
@@ -23,6 +35,9 @@ $(document).ready(function(){
     $("body").each(function(){
         $(this).addClass(classes[~~(Math.random()*classes.length)]);
     });
+    
+
+
     
 
 // Time status
