@@ -3,15 +3,13 @@
 
 // Copy Email Addrsss
 function myFunction() {
-  // Get the text field
-  var copyText = document.getElementById("mailCopy");
+// Get the text field
+var copyText = document.getElementById("mailCopy");
 
-// Select the text field
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); // For mobile devices
+copyText.select();
+copyText.setSelectionRange(0, 99999); // For mobile devices
 
-// Copy the text inside the text field
-  navigator.clipboard.writeText(copyText.value);
+navigator.clipboard.writeText(copyText.value);
 
 // Alert the copied text
 //  alert("Ел. пошту скопійовано: " + copyText.value);
@@ -26,31 +24,31 @@ var h = date.getHours(); // Current time
 
 
 
-// - - - - - - - - - Ready start
+// - - - - Ready start
 $(document).ready(function(){
     
  
-// Random Elements Corol
+// Random Corols - v1
 //    var classes = ["red", "blue", "green", "pink"];
 //    $("body").each(function(){
 //        $(this).addClass(classes[~~(Math.random()*classes.length)]);
-//    });
-//    
+//    });   
 
-// Random Elements Corol whithout Same Worlds - v2
+// Random Corols whithout Repeat - v2
     const words = ['red', 'blue', 'green', 'pink', 'aqua'];
     const lastWord = localStorage.getItem('lastWord');
     const newWord = words.sort(() => Math.random() - 0.5).find(word => word !== lastWord) || words[0];
 
-    // Додавання нового слова до класу body
     const body = document.getElementById('accent_global_color');
     body.className = newWord;
 
     // Виведення нового слова
 //    body.innerHTML = 'Random Word: ' + newWord;
 
-    // Зберігання нового слова
     localStorage.setItem('lastWord', newWord);
+    
+
+    
     
 
 // Time status
@@ -59,6 +57,9 @@ $(document).ready(function(){
 //    $(".status").addClass("status_s");
 //    $(".status").remove();
 //}
+
+    
+    
 
 // Show as html
 $("pre").each(function(){ // показвать в виде кода
