@@ -676,8 +676,8 @@ ul.tags li {
     display: inline-block;
     list-style: none outside;
     text-indent: 0;
-   
-    font: 600 1rem/2rem 'algs', sans-serif;
+    font: 500 1rem/1.9rem 'algs', sans-serif;
+    color: #6E6E77;
     
     width: auto;
     height: 2rem;
@@ -688,7 +688,7 @@ ul.tags li {
     border-radius: 777px;
 /*    box-sizing: border-box;*/
     background: #F1F3F7;
-    background: #EDF0F5 ;
+/*    background: #EDF0F5 ;*/
     
     
     
