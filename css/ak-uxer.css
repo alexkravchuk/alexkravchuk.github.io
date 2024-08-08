@@ -677,20 +677,36 @@ ul.tags li {
     list-style: none outside;
     text-indent: 0;
    
-    font-size: 1rem;
-    line-height: 1.075rem;
-    font-weight: 500;
+    font: 600 1rem/2rem 'algs', sans-serif;
     
     width: auto;
     height: 2rem;
     
-    margin-left: 0;
     margin: 1rem .5rem 0;
-    padding: .25rem 1rem;
+    padding: 0 1rem;
    
-    border: 4px #03e solid;
-    border-radius: 100px;
+/*    border: 4px #03e solid;*/
+    border-radius: 777px;
+/*    box-sizing: border-box;*/
+    background: #F1F3F7;
+    background: #EDF0F5 ;
+    
+    
+    
+    
+    
+/*
+    font: 600 1rem/3rem 'algs', sans-serif;
+    height: 3rem;
+    padding: .5rem 1rem;
+    border: 3px solid #111;
+    border-radius: 777px;
     box-sizing: border-box;
+    text-decoration: none !important;
+    text-align: center;
+    -webkit-appearance: none;
+    outline: 0;
+*/
     }
     
 
@@ -832,7 +848,7 @@ h4 + h4 {
 
 
     
-    /* CLEAR ----------------------------- */
+/* CLEAR ----------------------------- */
     
 .clear_x,
 .clear_xv,
@@ -948,10 +964,13 @@ body.typical {
     background-size: auto;
     }   
     
-    /* BUTTONS ----------------------------- */
+
+
+/* Buttons ----------------------------- */
     
     
 .ak_button_norm {
+/*
     -webkit-appearance: none;
     letter-spacing: normal;
     overflow: visible;
@@ -970,51 +989,54 @@ body.typical {
     white-space: nowrap;
     cursor: pointer;
     text-align: center;
+*/
     }
 
-.button_50 {
-    font: 500 1rem/2.8rem 'algs', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    height: 3rem;
-    padding: 0px 2rem;
-/*        background: #ececec;*/
-    background: #FFE41F;
-    color: #000;
-    border: 1px solid #fff;
-    border-radius: 777px;
-    box-shadow: none;
 /*
+.button {
     -webkit-transition: all ease .25s;
     -moz-transition: all ease .25s;
     -o-transition: all ease .25s;
     transition: all ease .25s;
-*/
     }
+*/
 
+/*
 .button_50__full {
     display: block;
     }
+*/
 
-.button_50,
-a.button_50 {
-    color: #000;
-    border: 1px solid #fff;
-    position: relative;
-    }
-
-.button_50:hover,
-.button_50.hover {
-    text-decoration: none;
+a.button {
+    display: inline-block;
+    font: 600 1rem/1.94rem 'algs', sans-serif;
+    height: 2rem;
+    padding: 0 1rem;
+    border: 3px solid #111;
+    border-radius: 777px;
+/*    box-sizing: border-box;*/
+    text-decoration: none !important;
+    text-align: center;
+    -webkit-appearance: none;
     outline: 0;
-    border: 1px solid transparent;
-    color: #fff;
-    background: #000;
-    /*	background: none;*/
-    padding: 0px 2.1rem;
-    letter-spacing: .125rem;
     }
 
+a.button:hover,
+a.button.hover {
+    display: inline-block;
+    font: 600 1rem/1.94rem 'algs', sans-serif;
+    height: 2rem;
+    padding: 0 1rem;
+    border: 3px solid #111;
+    border-radius: 777px;
+/*    box-sizing: border-box;*/
+    text-decoration: none !important;
+    text-align: center;
+    -webkit-appearance: none;
+    outline: 0;
+    }
+
+/*
 
 .button_50__orange,
 a.button_50__orange {
@@ -1036,12 +1058,10 @@ a.button_50__orange {
 a.button_small {
     font-family: 'algs';
     letter-spacing: .01em;
-/*    color: #0255B5;*/
     font-weight: 400;
     color: #000;
     text-decoration: none;
     border-bottom: none;
-/*    background: #E7F2FF;*/
     background: #FFE41F;
     height: 1.5rem;
     display: inline-block;
@@ -1064,6 +1084,7 @@ a.button_small {
         }
 
    
+*/
 
 
    /* -- AK COLORS 2023 -- */
@@ -1146,12 +1167,17 @@ body.red .accent_global_bg {
     border-color: #E40072;
     }
 
-
 body.red .accent_global_tx,
 body.red a.color.accent_global_tx,
 body.red a.accent_global_tx:hover {
     color: #E40072; 
     }
+
+body.red .accent_global_out:hover {
+    border: 3px #E40072 solid;
+    }
+
+
 
 
 body.blue .accent_global_bg {
@@ -1165,6 +1191,12 @@ body.blue a.accent_global_tx:hover {
     color: #0D34E6;
     }
 
+body.blue .accent_global_out:hover {
+    border: 3px #0D34E6 solid;
+    }
+
+
+
 
 body.aqua .accent_global_bg {
     background: #0993AB; 
@@ -1176,6 +1208,12 @@ body.aqua a.color.accent_global_tx,
 body.aqua a.accent_global_tx:hover {
     color: #0993AB; 
     }
+
+body.aqua .accent_global_out:hover {
+    border: 3px #0993AB solid;
+    }
+
+
 
 
 body.green .accent_global_bg {
@@ -1189,6 +1227,12 @@ body.green a.accent_global_tx:hover {
     color: #1EA138;
     }
 
+body.green .accent_global_out:hover {
+    border: 3px #1EA138 solid;
+    }
+
+
+
 
 body.pink .accent_global_bg {
     background: #B92BB9; 
@@ -1201,7 +1245,9 @@ body.pink a.accent_global_tx:hover {
     color: #B92BB9; 
     }
 
-
+body.pink .accent_global_out:hover {
+    border: 3px #B92BB9 solid;
+    }
 
 
 
@@ -1218,16 +1264,16 @@ a .icon_r:after {
     text-decoration: none !important;
     border: none;
     position: relative;
-    left: .325rem;
+    left: .3rem;
     }
 
 a .icon_l:before {
-    content: '←';
+    content: '‹';
     display: inline-block;
     text-decoration: none !important;
     border: none;
     position: relative;
-    left: -.2rem;
+    left: -.3rem;
 /*    color: red;*/
     }
 
