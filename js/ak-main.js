@@ -42,9 +42,6 @@ $(document).ready(function(){
     const body = document.getElementById('accent_global_color');
     body.className = newWord;
 
-    // Виведення нового слова
-//    body.innerHTML = 'Random Word: ' + newWord;
-
     localStorage.setItem('lastWord', newWord);
     
 
