@@ -653,13 +653,28 @@ ol {
     font-variant-numeric: tabular-nums;
     }
 
-ol li {
-    list-style: decimal;
+    ol li {
+        list-style: decimal;
+        padding: 0;
+        margin: 0 0 0 0;
+        text-indent: 0;
+        }
+
+ol.accent li {
+    font-weight: bold;
+    list-style: decimal outside;
     padding: 0;
-    margin: 0 0 0 0;
+    margin: 0 0 0 .85rem;
     text-indent: 0;
     }
 
+    ol.accent li + li {
+        margin-top: .5rem;
+        }
+
+    ol.accent li span.no_accent {
+        font-weight: normal;
+        }
 
 
 /* Tags -------------------- */
@@ -779,7 +794,7 @@ ol + p {
 
 li + li {
 /*        margin-top: -.5lh;*/
-        padding-top: 1rem;
+        padding-top: .5rem;
 /*        background: #f5f5ee;*/
 /*    margin-top: -.5lh !important; */
     }
