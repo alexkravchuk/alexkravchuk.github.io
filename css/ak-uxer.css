@@ -73,6 +73,17 @@
     font-style: normal;
     }
 
+
+    
+    /* MANU */
+    
+    
+@font-face {
+    font-family: 'namu';
+    src: url('../fonts/namu/namu1850.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    }
     
     /* fa */
     
@@ -113,7 +124,7 @@
 
 
 html {
-    font-size: 23px;
+    font-size: 19px;
     line-height: 1.5;
     margin: 0;
     padding: 0;
@@ -288,7 +299,7 @@ a img {
     
 body {
     color: #000;
-    font: 400 1rem/1.2 'algs', sans-serif;
+    font: 400 1rem/1.2 'namu', sans-serif;
     margin: 0;
     padding: 0;
     min-height: 100%;
@@ -311,7 +322,7 @@ h4,
 
 
 .title {
-    font: 600 1rem/1 'algs', sans-serif;
+    font: 400 1rem/1 'namu', sans-serif;
 /*    text-align: center;*/
     margin: 0;
     padding: 0;
@@ -322,7 +333,7 @@ h4,
 
 
 .title_small {
-    font: 500 1.2rem/1 'algs', sans-serif;
+    font: 400 1.2rem/1 'namu', sans-serif;
     margin: 0;
     padding: 0;
     max-width: 100%;
@@ -339,7 +350,7 @@ h4,
         }
 
 sup.beta {
-    font: 500 1.2rem/1 'algs', sans-serif;
+    font: 400 1.2rem/1 'namu', sans-serif;
     color: #6E6E77;
     margin-left: -1.15rem;
     position: relative;
@@ -348,30 +359,41 @@ sup.beta {
     }
 
 h1 {
-    font: 500 2.75rem/1 'alg', serif;
+    font: 400 2.75rem/1 'namu', serif;
 /*    text-align: center;*/
     max-width: 980px;
 /*    letter-spacing: 0.01em;*/
+    -moz-font-feature-settings: "ss01" !important;
+    -webkit-font-feature-settings: "ss01" !important;
+    font-feature-settings: "ss01" !important;
     }
 
 
 h2 {
-    font: 500 1.95rem/1 'alg', serif;
+    font: 400 1.95rem/1 'namu', serif;
     margin: 0;
 /*    text-align: center;*/
 /*    max-width: 22em;*/
 /*    letter-spacing: 0.01em;*/
+    
+    -moz-font-feature-settings: "ss01" !important;
+    -webkit-font-feature-settings: "ss01" !important;
+    font-feature-settings: "ss01" !important;
     }
 
 
 h3 {
-    font: 600 1.4rem/1 'algs', serif;
+    font: 400 1.4rem/1 'namu', serif;
     max-width: 620px;
     margin: 0;
+    
+    -moz-font-feature-settings: "ss01" !important;
+    -webkit-font-feature-settings: "ss01" !important;
+    font-feature-settings: "ss01" !important;
     }
 
 h4 {  
-    font: 600 1rem/1.1 'algs', serif;
+    font: 400 1rem/1.1 'namu', serif;
     color: #111;
     max-width: 620px;
     margin: 0;
@@ -384,7 +406,7 @@ p {
     }
 
     p.more {
-        font-weight: 600;
+        font-weight: 400;
         }
 
 p,
@@ -398,7 +420,7 @@ ol {
     /* Lead ----------------------------- */
 
 .lead    {
-    font: 600 1.4rem/1.1 'algs', sans-serif;
+    font: 400 1.4rem/1.1 'namu', sans-serif;
     color: #6E6E77;
     max-width: 740px;
     }
@@ -416,7 +438,7 @@ ol {
 
 b {
     color: #111;
-    font-weight: 600;
+    font-weight: 400;
     }
 
 
@@ -445,13 +467,13 @@ b {
         }
 
 .box_dark p {
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.1;
     }
 
 
      .box_dark .quote_symb {
-        font: 400 5em/1px 'alg', sans-serif;
+        font: 400 5em/1px 'namu', sans-serif;
         text-align: center;
 /*        color: #fff;*/
         position: relative;
@@ -479,7 +501,7 @@ b {
 
     .box_light p {
         line-height: 1.1;
-        font-weight: 500;
+        font-weight: 400;
 /*        color: #6E6E77;*/
         color: #6E6E77;
         
@@ -488,13 +510,13 @@ b {
     .box_light b,
     .box_light_accent{
         color: #111;
-        font-weight: 600;
+        font-weight: 400;
         }
 
     .box_light h4 {
-        font: 600 1rem/1.1 'algs', sans-serif;
+        font: 400 1rem/1.1 'namu', sans-serif;
         color: #111;
-        font-weight: 600;
+        font-weight: 400;
         }
 
     .box_light p + h4 {
@@ -504,7 +526,7 @@ b {
 .features_accent,
 .box_light b {
     color: #111;
-    font-weight: 600;
+    font-weight: 400;
     }
 
 
@@ -518,13 +540,13 @@ b {
 
 
     .box_crop h4 {
-        font: 600 1rem/1.1 'algs', sans-serif;
+        font: 400 1rem/1.1 'namu', sans-serif;
         color: #111;
-        font-weight: 600;
+        font-weight: 400;
         }
 
     .box_crop p {
-        font: 500 1rem/1.1 'algs', sans-serif;
+        font: 400 1rem/1.1 'namu', sans-serif;
 /*        color: #6E6E77;*/
         color: #63636B;
         
@@ -535,7 +557,7 @@ b {
         }
 
      .box_crop .quote_symb {
-        font: 400 5rem/1px 'alg', sans-serif;
+        font: 400 5rem/1px 'namu', sans-serif;
         text-align: center;
         color: #111;
         position: relative;
@@ -565,7 +587,7 @@ b {
 
 
      .box_trans .quote_symb {
-        font: 400 5rem/1px 'alg', sans-serif;
+        font: 400 5rem/1px 'namu', sans-serif;
         text-align: center;
         color: #111;
         position: relative;
@@ -691,7 +713,7 @@ ul.tags li {
     display: inline-block;
     list-style: none outside;
     text-indent: 0;
-    font: 500 1rem/1.9rem 'algs', sans-serif;
+    font: 400 1rem/1.9rem 'namu', sans-serif;
     color: #6E6E77;
     
     width: auto;
@@ -1023,7 +1045,7 @@ body.typical {
 
 a.button {
     display: inline-block;
-    font: 600 1rem/1.94rem 'algs', sans-serif;
+    font: 400 1rem/1.7rem 'namu', sans-serif;
     height: 2rem;
     padding: 0 1rem;
     border: 3px solid #111;
@@ -1038,7 +1060,7 @@ a.button {
 a.button:hover,
 a.button.hover {
     display: inline-block;
-    font: 600 1rem/1.94rem 'algs', sans-serif;
+    font: 400 1rem/1.7rem 'namu', sans-serif;
     height: 2rem;
     padding: 0 1rem;
     border: 3px solid #111;
@@ -1162,6 +1184,13 @@ body a.color:hover {
 /* ---- accent global ---- */
 
 
+body a.accent_global_tx{
+    color: #111;
+    text-decoration: underline;
+    }
+
+
+/*
 
 body.red a.accent_global_tx,
 body.blue a.accent_global_tx,
@@ -1171,10 +1200,30 @@ body.pink a.accent_global_tx {
     color: #111;
     text-decoration: underline;
     }
+*/
 
 
 
 /* ---- accent ---- */
+
+
+body .accent_global_bg {
+    background: #00c; 
+    border-color: #00c;
+    }
+
+body .accent_global_tx,
+body a.color.accent_global_tx,
+body a.accent_global_tx:hover {
+    color: #00c; 
+    }
+
+body .accent_global_out:hover {
+    border: 3px #00c solid;
+    }
+
+
+/*
 
 body.red .accent_global_bg {
     background: #E40072; 
@@ -1190,6 +1239,7 @@ body.red a.accent_global_tx:hover {
 body.red .accent_global_out:hover {
     border: 3px #E40072 solid;
     }
+
 
 
 
@@ -1262,6 +1312,7 @@ body.pink a.accent_global_tx:hover {
 body.pink .accent_global_out:hover {
     border: 3px #B92BB9 solid;
     }
+*/
 
 
 
@@ -1311,7 +1362,7 @@ a .icon_l:before {
         color: #fff;
         border: none;
         text-decoration: underline;
-        font-weight: 600;
+        font-weight: 400;
         }
 
     
@@ -1324,7 +1375,7 @@ a .icon_l:before {
         color: #000;
         border: none;
         text-decoration: underline;
-        font-weight: 600;
+        font-weight: 400;
         }
 
 

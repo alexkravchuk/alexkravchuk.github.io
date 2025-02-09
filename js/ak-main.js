@@ -28,21 +28,16 @@ var h = date.getHours(); // Current time
 $(document).ready(function(){
     
  
-// Random Corols - v1
-//    var classes = ["red", "blue", "green", "pink"];
-//    $("body").each(function(){
-//        $(this).addClass(classes[~~(Math.random()*classes.length)]);
-//    });   
-
-// Random Corols whithout Repeat - v2
-    const words = ['red', 'blue', 'green', 'pink', 'aqua'];
-    const lastWord = localStorage.getItem('lastWord');
-    const newWord = words.sort(() => Math.random() - 0.5).find(word => word !== lastWord) || words[0];
-
-    const body = document.getElementById('accent_global_color');
-    body.className = newWord;
-
-    localStorage.setItem('lastWord', newWord);
+// Random Corols whithout Repeat - OK!
+    
+//    const words = ['red', 'blue', 'green', 'pink', 'aqua'];
+//    const lastWord = localStorage.getItem('lastWord');
+//    const newWord = words.sort(() => Math.random() - 0.5).find(word => word !== lastWord) || words[0];
+//
+//    const body = document.getElementById('accent_global_color');
+//    body.className = newWord;
+//
+//    localStorage.setItem('lastWord', newWord);
     
 
     
