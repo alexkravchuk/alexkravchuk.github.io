@@ -1048,7 +1048,7 @@ a.button {
     font: 400 1rem/1.7rem 'namu', sans-serif;
     height: 2rem;
     padding: 0 1rem;
-    border: 3px solid #111;
+    border: 2px solid #111;
     border-radius: 777px;
 /*    box-sizing: border-box;*/
     text-decoration: none !important;
@@ -1063,7 +1063,7 @@ a.button.hover {
     font: 400 1rem/1.7rem 'namu', sans-serif;
     height: 2rem;
     padding: 0 1rem;
-    border: 3px solid #111;
+    border: 2px solid #111;
     border-radius: 777px;
 /*    box-sizing: border-box;*/
     text-decoration: none !important;
@@ -1219,7 +1219,7 @@ body a.accent_global_tx:hover {
     }
 
 body .accent_global_out:hover {
-    border: 3px #00c solid;
+    border: 2px #00c solid;
     }
 
 
