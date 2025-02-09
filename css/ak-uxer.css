@@ -1329,7 +1329,8 @@ a .icon_r:after {
     text-decoration: none !important;
     border: none;
     position: relative;
-    left: .3rem;
+    left: .25rem;
+/*    top: -.05rem;*/
     }
 
 a .icon_l:before {
@@ -1338,8 +1339,8 @@ a .icon_l:before {
     text-decoration: none !important;
     border: none;
     position: relative;
-    left: -.3rem;
-/*    color: red;*/
+    left: -.25rem;
+/*    top: -.05rem;*/
     }
 
 
