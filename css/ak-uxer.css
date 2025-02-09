@@ -771,8 +771,8 @@ ul li:before {
 
 
 .ak_copy {
-    font-family: 'algs';
-/*    font-size: .9rem;*/
+    font-family: 'namu';
+/*    font-size: .75rem;*/
     }
 
 
@@ -1156,7 +1156,7 @@ a {
     a:hover,
     a.hover {
     /*color: #105287;*/
-    color: #E40072;
+    color: #000;
     text-decoration: underline;
     /*border-bottom: 1px solid #0255B5;*/
     } 
@@ -1172,7 +1172,7 @@ a.u_none {
 
 
 a.b {
-    font-weight: 600;
+    font-weight: 400;
     }
 
 
@@ -1379,5 +1379,15 @@ a .icon_l:before {
         }
 
 
+    .title a {
+        text-decoration: none;
+        border: none;
+        }
+
+    .title a:hover {
+        color: #00c;
+        text-decoration: underline;
+        border: none;
+        }
 
     
