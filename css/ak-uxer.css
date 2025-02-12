@@ -340,6 +340,18 @@ h4,
     letter-spacing: .01em;
     }
 
+.title_small:before {
+    content: '\2014\0020';
+    color: #00c;
+    }
+
+.title_small:after {
+    content: '\0020\2014';
+    color: #00c;
+    }
+
+
+
 
     .title_accent {
         color: #03e;
