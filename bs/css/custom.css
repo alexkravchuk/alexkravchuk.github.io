@@ -1,0 +1,244 @@
+* {
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+        }
+    
+    /* selection */
+    
+::selection {
+    background: #F8FF2D;
+    color: #111;
+    }
+
+::-moz-selection {
+    background: #F8FF2D;
+    color: #111;
+    }
+    
+    /* sans */
+    
+    
+@font-face {
+    font-family: 'com';
+    src: url('../fonts/comLoud/comLoud-reg.woff2') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'com';
+    src: url('../fonts/comLoud/comLoud-med.woff2') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'com';
+    src: url('../fonts/comLoud/comLoud-sBold.woff2') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'com';
+    src: url('../fonts/comLoud/comLoud-bold.woff2') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    }
+
+
+    
+    /* fa */
+    
+    
+@font-face {
+    font-family: 'fal';
+    src: url('../fonts/fa/fal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    font-smooth: always !important;
+    }
+
+@font-face {
+    font-family: 'far';
+    src: url('../fonts/fa/far.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'fas';
+    src: url('../fonts/fa/fas.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'fab';
+    src: url('../fonts/fa/fab.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    
+    
+    /* MAIN ----------------------------- */
+
+
+html {
+    font-size: 20px;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+/*    height: 100%;*/
+/*    background: #fff;*/
+    }
+
+body {
+/*   font-family: 'alg' !important;*/
+   font-family: 'com' !important;
+    line-height: 1.4;
+    position: relative;
+}
+
+
+.container {
+    max-width: 980px !important;
+}
+
+.col {
+/*    border: 1px #fff solid;*/
+/*    background: #f5f5ee;*/
+}
+
+/*
+b {
+    display: block;
+    background: #f5f5ee;
+    font-weight: 500;
+}
+*/
+
+
+.clearfix {
+/*    background: #f5f5dd;*/
+}
+
+
+
+h1, h2, h3, h4 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    font-weight: 600;
+    line-height: 1;
+/*
+    margin-left: auto;
+    margin-right: auto;
+*/
+}
+
+
+h1, .h1 { 
+    max-width: 22ch; 
+/*    font-size: 3rem;*/
+}
+
+h2, .h2 { 
+    max-width: 37ch;
+/*    font-size: 2rem;*/
+}
+
+h4, .h4 { 
+    max-width: 37ch;
+/*    font-size: 2rem;*/
+}
+
+
+
+p { max-width: 47ch;
+    margin-bottom: 0 !important;
+/*
+    margin-left: auto;
+    margin-right: auto;
+*/
+}
+
+
+p + p {
+    margin-top: 1rem !important;
+}
+
+/*
+.clearfix.h-05 { height: .5rem; }
+.clearfix.h-1 { height: 1rem; }
+.clearfix.h-15 { height: 1.5rem; }
+.clearfix.h-2 { height: 2rem; }
+.clearfix.h-3 { height: 3rem; }
+.clearfix.h-4 { height: 4rem; }
+.clearfix.h-5 { height: 5rem; }
+*/
+
+
+/*
+.clearfix.h-1 { height: .25rem; }
+.clearfix.h-2 { height: .5rem; }
+.clearfix.h-3 { height: 1rem; }
+.clearfix.h-4 { height: 1.5rem; }
+.clearfix.h-5 { height: 3rem; }
+.clearfix.h-6 { height: 4rem; }
+*/
+
+[class*="display-"] {
+    font-weight: 600;
+    line-height: 1;
+    }
+
+.breadcrumb-item {
+    font-size: .875rem;
+}
+
+.small {
+    font-size: .75rem;
+}
+
+
+.figure-caption {
+    font-size: .85rem;
+    line-height: 1.2;
+}
+
+@media (max-width: 767px) {
+    .gt-mob-0 {margin-top: 0;}
+    .gt-mob-1 {margin-top: .25rem;}
+    .gt-mob-2 {margin-top: .5rem;}
+    .gt-mob-3 {margin-top: 1rem;}
+    .gt-mob-4 {margin-top: 1.5rem;}
+    .gt-mob-5 {margin-top: 3rem;}
+}
+
+.grid {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+    opacity: .3;
+/*    max-width: 960px !important;*/
+/*    padding: 0 !important;*/
+}
+
+
+.grid [class*="col-"]{ 
+    background: red;
+    opacity: .2;
+    padding-left: 0;
+    padding-right: 0;
+    height: 100vh;
+    border-left: .75rem solid #fff;
+    border-right: .75rem solid #fff;
+    box-sizing: border-box;
+    z-index: 111;
+}
+
