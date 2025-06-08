@@ -1,0 +1,373 @@
+* {
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+        }
+    
+    /* selection */
+    
+::selection {
+    background: #F8FF2D;
+    color: #111;
+    }
+
+::-moz-selection {
+    background: #F8FF2D;
+    color: #111;
+    }
+    
+
+    /* mariupol */
+    
+
+@font-face {
+    font-family: 'm';
+    src: url('../fonts/mariupol/mariupol-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'm';
+    src: url('../fonts/mariupol/mariupol-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'm';
+    src: url('../fonts/mariupol/mariupol-bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    }
+
+
+    /* kyiv */ 
+
+@font-face {
+    font-family: 'k';
+    src: url('../fonts/kyiv/KyivTypeSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    }
+
+
+@font-face {
+    font-family: 'k';
+    src: url('../fonts/kyiv/KyivTypeSans-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    }
+
+
+@font-face {
+    font-family: 'k';
+    src: url('../fonts/kyiv/KyivTypeSans-Bold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'k';
+    src: url('../fonts/kyiv/KyivTypeSans-Heavy.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    }
+
+
+    
+    
+/* MAIN ----------------------------- */
+
+
+html {
+/*    font-size: 20px;*/
+    font-size: calc(15px + 0.416666vw);
+/*    font-size: calc(16px + 0.25vw);*/
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    font-family: 'm' !important;
+    line-height: 1.3;
+    font-weight: 400;
+    position: relative;
+    }
+
+
+
+
+.container {
+    max-width: 990px !important;
+    }
+
+.col {
+/*    border: 1px #f00 solid;*/
+/*    background: #f5f5ee;*/
+    }
+
+.clearfix {
+/*    background: #f5f5dd;*/
+    }
+
+
+
+/* TYPO ----------------------------- */
+
+
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+    font-family: 'k' !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -.03rem;
+    -moz-font-feature-settings: "ss01", "ss01", "ss01" !important;
+    -webkit-font-feature-settings: "ss01", "ss01", "ss01" !important;
+    font-feature-settings: "ss01", "ss01", "ss01" !important;
+    }
+
+
+p, .small, .lead, label, ul, ol, .btn {
+    -moz-font-feature-settings: "ss03", "ss04", "ss05" !important;
+    -webkit-font-feature-settings: "ss03", "ss04", "ss05" !important;
+    font-feature-settings: "ss03", "ss04", "ss05" !important;
+    }
+
+
+.title {
+    font-size: .8rem;
+/*    font-size: calc(0.75rem + 0.4166vw);*/
+  /*  font-size: calc(0.6rem + 0.3333vw);  16px при 1200px */
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    }
+
+
+h1, .h1 {
+    font-size: 2.25rem;
+/*    font-size: calc(1.875rem + 1.05vw);*/
+/*    font-size: calc(1.875rem + 1.42vw);*/
+    /*font-size: calc(1.875rem + 1.0416vw);  50px при 1200px */
+/*    font-size: calc(1.5rem + 1.5vw);*/
+    line-height: 1;
+    max-width: 33ch; 
+/*    font-size: 3rem;*/
+    }
+
+
+.lead {
+    font-size: 1.3rem;
+/*    font-size: 1rem;*/
+    /* font-size: calc(1.05rem + 0.5833vw);  28px при 1200px */
+    line-height: 1.2;
+/*    font-weight: 500;*/
+/*    color: #707070;*/
+    max-width: 47ch;
+    }
+
+
+h2, .h2 { 
+    font-size: 1.75rem;
+    /* font-size: calc(1.35rem + 0.75vw);  36px при 1200px */
+    line-height: 1;
+    max-width: 37ch;
+    }
+
+
+h3, .h3 { 
+    font-size: 1.25rem;
+    /* font-size: calc(0.9rem + 0.5vw); 24px при 1200px */
+    line-height: 1;
+    max-width: 37ch;
+    }
+
+
+h4, .h4 { 
+    font-size: 1rem;
+    line-height: 1;
+    max-width: 37ch;
+/*    font-size: 2rem;*/
+    }
+
+
+p { 
+    font-size: 1rem;
+    /* font-size: calc(0.75rem + 0.4166vw);  20px при 1200px */
+    max-width: 47ch;
+    margin-bottom: 0;
+    letter-spacing: .005rem;
+    }
+
+
+.small {
+    font-size: .9rem;
+    /* font-size: calc(0.6rem + 0.3333vw);  16px при 1200px */
+    /* font-size: calc(0.75rem + 0.1666vw);  18px при 1200px */
+    line-height: 1.3;
+    max-width: 37ch;
+/*    color: #333;*/
+    }
+
+
+p + p {
+    margin-top: 1rem !important;
+    }
+
+
+a {
+    text-decoration: none;
+    }
+
+
+b {
+    font-weight: 600 !important;
+    color: #000;
+    }
+
+
+
+
+.btn {
+    font-size: .9rem;
+    }
+
+
+.btn-hero-primary {
+    display: block;
+    height: 3rem;
+    padding: 0 1rem;
+    
+    font-family: 'k';
+    font-size: 1.75rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    text-align: center;
+
+    color: #fffe;
+    background: #0d6efd;
+    border-radius: 999px;
+    }
+
+
+    .btn-hero-primary:hover {
+        color: #ffff;
+        background: #0b5ed7
+        }
+
+
+/*
+h3.mdash:after {
+    content: '\0020\2014';
+    color: #0d6efd;
+    }
+*/
+
+
+.tag-small {
+    display: inline-block;
+    font-size: .8rem;
+    font-weight: 500;
+    height: 1.3rem;
+    line-height: 1.25rem;
+    padding: 0 .5rem;
+/*    background: #F1F3F7;*/
+    border: 1px #000 solid;
+/*    border: 1px #C9D1E1 solid;*/
+/*    margin-right: 1ch;*/
+    border-radius: 999px;
+    }
+
+
+.flag-ua {}
+
+    .flag-ua .blue {
+        background: #1D85F6; 
+        height: 1rem;
+        }
+
+    .flag-ua .yellow {
+        background: #F0C441; 
+        height: 1rem;
+        }
+
+
+.bg-fog {
+    background: #F1F3F7;
+    }
+
+
+
+.grid {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+    opacity: .2;
+/*    max-width: 960px !important;*/
+/*    padding: 0 !important;*/
+    }
+
+
+.grid [class*="col-"]{ 
+    background: red;
+    opacity: .2;
+    padding-left: 0;
+    padding-right: 0;
+    height: 100vh;
+    border-left: .75rem solid #fff;
+    border-right: .75rem solid #fff;
+    box-sizing: border-box;
+    z-index: 111;   
+    }
+
+
+
+
+@media (min-width: 768px) {
+/*    body { background: yellow !important; }*/
+    .icon-up{
+        position: relative;
+        top: -1.7rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .gt-mob-0 {margin-top: 0;}
+    .gt-mob-1 {margin-top: .25rem;}
+    .gt-mob-2 {margin-top: .5rem;}
+    .gt-mob-3 {margin-top: 1rem;}
+    .gt-mob-4 {margin-top: 1.5rem;}
+    .gt-mob-5 {margin-top: 3rem;}
+    
+    
+     
+    .small-- { font-size: 0.6rem;   /* 12px */ }
+    p--, .title--     { font-size: 0.75rem;  /* 15px */ }
+    h3--, .h3--    { font-size: 0.9rem;   /* 18px */ }
+    .lead-- { font-size: 1.05rem;  /* 21px */ }
+    h2--, .h2--    { font-size: 1.35rem;  /* 27px */ }
+    h1--, .h1--    { font-size: 1.875rem; /* 37.5px */ }
+    
+    
+    html {
+/*        font-size: 16px;*/
+/*        font-size: calc(16px + 0.2vw);*/
+    }
+    
+    
+    .btn-hero-primary {
+        font-size: 1.25rem;
+        line-height: 2.2rem;
+        height: 2.5rem;
+    }
+
+
+}
+
