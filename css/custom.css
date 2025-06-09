@@ -285,13 +285,17 @@ h3.mdash:after {
 .flag-ua {}
 
     .flag-ua .blue {
+        display: none;
         background: #1D85F6; 
         height: .5rem;
         }
 
     .flag-ua .yellow {
-        background: #F0C441; 
-        height: .5rem;
+/*        background: #F0C441; */
+        height: 1rem;
+        background: -webkit-linear-gradient(45deg, #007AFF 0%, #F3D500 100%);
+        background: -moz-linear-gradient(45deg, #007AFF 0%, #F3D500 100%);
+        background: linear-gradient(45deg, #007AFF 0%, #F3D500 100%);
         }
 
 
