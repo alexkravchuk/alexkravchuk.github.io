@@ -231,22 +231,109 @@ b {
 
 
 
+
+
+
+
+
+
 .btn {
     font-size: .9rem;
     }
+
+
+.btn-small-2 {
+    position: relative;
+    display: inline-block;
+    height: 2rem;
+    padding: 0 1rem;
+    font-size: .9rem;
+    line-height: 1.95rem;
+    letter-spacing: .01rem;
+    text-align: center;
+    border-radius: 999px;
+    overflow: hidden;
+    }
+
+
+    .btn-small-2:before,
+    .btn-hero:before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 0; right: 0; bottom: 0; left: 0;
+        border-radius: 999px;
+        opacity: .8;
+        box-shadow: 0 0 .3rem 0 #fff inset;
+        -webkit-box-shadow: 0 0 .3rem 0px #fff inset;
+        -moz-box-shadow: 0 0 .3rem 0px #fff inset;
+        z-index: 222;
+        }
+
+
+    .btn-small-2:after,
+    .btn-hero:after {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 0; right: 0; bottom: 0; left: 0;
+        border-radius: 999px;
+        opacity: 0.1;
+        border: 1px #333 solid;
+        z-index: 333;
+        }
+
+
+    .btn-small-2:hover {
+        color: #fff !important;
+        background: #000 !important;
+        }
+
+
+.btn-hero {
+    position: relative;
+    display: block;
+    height: 3rem;
+    padding: 0 1rem;
+    font-family: 'k';
+    font-size: 1.75rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 999px;
+    }
+
+
+.btn-flag {
+/*
+    background: -webkit-linear-gradient(45deg, #007AFF 0%, #F3D500 100%);
+    background: -moz-linear-gradient(45deg, #007AFF 0%, #F3D500 100%);
+    background: linear-gradient(45deg, #007AFF 0%, #F3D500 100%); 
+*/
+    
+    background: -webkit-linear-gradient(120deg, #0587EB 0%, #FFD815 100%); 
+    background: -moz-llinear-gradient(120deg, #0587EB 0%, #FFD815 100%); 
+    background: linear-gradient(120deg, #0587EB 0%, #FFD815 100%); 
+    color: #fff;
+    }
+
+    .btn-flag:hover {
+        color: #fff;
+        background: #000;
+        }
+
+
 
 
 .btn-hero-primary {
     display: block;
     height: 3rem;
     padding: 0 1rem;
-    
     font-family: 'k';
     font-size: 1.75rem;
     line-height: 2.6rem;
     font-weight: 700;
     text-align: center;
-
     color: #fffe;
     background: #0d6efd;
     border-radius: 999px;
@@ -255,8 +342,18 @@ b {
 
     .btn-hero-primary:hover {
         color: #ffff;
-        background: #0b5ed7
+        background: #0b5ed7;
         }
+
+
+
+
+
+
+
+
+
+
 
 
 /*
@@ -282,7 +379,18 @@ h3.mdash:after {
     }
 
 
-.flag-ua {}
+.flag-ua {
+    height: 1rem;
+/*
+    background: -webkit-linear-gradient(45deg, #007AFF 0%, #F3D500 100%);
+    background: -moz-linear-gradient(45deg, #007AFF 0%, #F3D500 100%);
+    background: linear-gradient(45deg, #007AFF 0%, #F3D500 100%);
+*/
+    
+    background: -webkit-linear-gradient(120deg, #0587EB 0%, #FFD815 100%);
+    background: -moz-linear-gradient(120deg, #0587EB 0%, #FFD815 100%);
+    background: linear-gradient(120deg, #0587EB 0%, #FFD815 100%);
+    }
 
     .flag-ua .blue {
         display: none;
@@ -291,11 +399,11 @@ h3.mdash:after {
         }
 
     .flag-ua .yellow {
-/*        background: #F0C441; */
         height: 1rem;
         background: -webkit-linear-gradient(45deg, #007AFF 0%, #F3D500 100%);
         background: -moz-linear-gradient(45deg, #007AFF 0%, #F3D500 100%);
         background: linear-gradient(45deg, #007AFF 0%, #F3D500 100%);
+        
         }
 
 
@@ -366,7 +474,7 @@ h3.mdash:after {
     }
     
     
-    .btn-hero-primary {
+    .btn-hero {
         font-size: 1.25rem;
         line-height: 2.2rem;
         height: 2.5rem;
