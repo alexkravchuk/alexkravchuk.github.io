@@ -522,22 +522,16 @@ h3.mdash:after {
     will-change: opacity, transform;
     backface-visibility: hidden;  
     
-/*
-  -webkit-transform: translateY(1rem);
-     -moz-transform: translateY(1rem);
-      -ms-transform: translateY(1rem);
+  -webkit-transform: translateY(2rem);
+     -moz-transform: translateY(2rem);
+      -ms-transform: translateY(2rem);
 
-  -webkit-transition: opacity 0.7s cubic-bezier(0.25, 1, 0.5, 1), -webkit-transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
-     -moz-transition: opacity 0.7s cubic-bezier(0.25, 1, 0.5, 1), -moz-transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
-       -o-transition: opacity 0.7s cubic-bezier(0.25, 1, 0.5, 1), -o-transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
-*/
+  -webkit-transition: opacity 0.7s cubic-bezier(0.25, 1, 0.5, 1), -webkit-transform 0.7s cubic-bezier(0.25, 1, 0.5, 1);
+     -moz-transition: opacity 0.7s cubic-bezier(0.25, 1, 0.5, 1), -moz-transform 0.7s cubic-bezier(0.25, 1, 0.5, 1);
+       -o-transition: opacity 0.7s cubic-bezier(0.25, 1, 0.5, 1), -o-transform 0.7s cubic-bezier(0.25, 1, 0.5, 1);
     }
 
-/*
-.animate-b {    
-    transform: translateY(2rem) translateX(0rem);
-    }
-*/
+
 
 .animate.visible {
 /*    background: #ff00ff;*/
