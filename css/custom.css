@@ -95,7 +95,11 @@ body {
     position: relative;
     }
 
-
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
 
 
 .container {
@@ -488,29 +492,46 @@ h3.mdash:after {
     .gt-mob-5 {margin-top: 3rem;}
     
     
-     
-    .small-- { font-size: 0.6rem;   /* 12px */ }
-    p--, .title--     { font-size: 0.75rem;  /* 15px */ }
-    h3--, .h3--    { font-size: 0.9rem;   /* 18px */ }
-    .lead-- { font-size: 1.05rem;  /* 21px */ }
-    h2--, .h2--    { font-size: 1.35rem;  /* 27px */ }
-    h1--, .h1--    { font-size: 1.875rem; /* 37.5px */ }
-    
-    
     html {
 /*        font-size: 16px;*/
 /*        font-size: calc(16px + 0.2vw);*/
-    }
+        }
     
     
     .btn-hero {
         font-size: 1.25rem;
         line-height: 2.2rem;
         height: 2.5rem;
-    }
+        }
 
 
-}
+/* SCROLL H IMG */
+
+    .scroll-h {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+        }
+
+        .scroll-h img {
+            display: block;
+/*            max-height: 300px;*/
+/*            max-height: 70vw;*/
+            height: 100%;
+            width: auto;
+            max-width: none !important;
+            } 
+    
+    .mh-100-mob {max-height: 100px}
+    .mh-200-mob {max-height: 200px}
+    .mh-300-mob {max-height: 300px}
+    .mh-400-mob {max-height: 400px}
+    .mh-500-mob {max-height: 500px}
+    .mh-600-mob {max-height: 600px}
+    
+    
+}   
+/* End Media */
 
 
 /* Page Load Animation */
@@ -532,7 +553,6 @@ h3.mdash:after {
     }
 
 
-
 .animate.visible {
 /*    background: #ff00ff;*/
 /*    border: 1px #000 solid;*/
@@ -544,3 +564,7 @@ h3.mdash:after {
           transform: translateY(0);
     }
 
+
+
+
+ 
