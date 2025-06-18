@@ -1,15 +1,15 @@
 /**
- * Возвращает промис, который резолвится через заданное время (fallback).
+ * Возвращает промис, который разрешается через заданное время.
  */
 function timeoutPromise(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 /**
- * Ожидает загрузки всех изображений внутри блока.
- * Если изображение не загрузится за maxTimeout мс, промис разрешается всё равно.
+ * Ожидает загрузки всех изображений внутри элемента.
+ * Используется maxTimeout (например, 300 мс), чтобы не держать блок скрытым слишком долго.
  */
-function waitImages(element, maxTimeout = 1000) {
+function waitImages(element, maxTimeout = 300) {
   const imgs = element.querySelectorAll("img");
   const promises = Array.from(imgs).map(img => {
     return new Promise(resolve => {
@@ -33,11 +33,12 @@ function waitImages(element, maxTimeout = 1000) {
 }
 
 /**
- * Ожидает, пока DOM внутри элемента «устоит» (нет изменений) в течение delay мс.
- * При этом fallbackTimeout обеспечивает, что ожидание не продлится дольше maxTimeout.
+ * Ожидает, пока DOM внутри элемента стабилизируется
+ * (то есть за delay мс не происходит мутаций).
+ * Дополнительно fallback через maxTimeout.
  */
-function waitForContentSettle(element, delay = 300, maxTimeout = 500) {
-  return new Promise((resolve) => {
+function waitForContentSettle(element, delay = 100, maxTimeout = 300) {
+  return new Promise(resolve => {
     let timer;
     const observer = new MutationObserver(() => {
       clearTimeout(timer);
@@ -47,6 +48,7 @@ function waitForContentSettle(element, delay = 300, maxTimeout = 500) {
       }, delay);
     });
     observer.observe(element, { childList: true, subtree: true, characterData: true });
+    // Фоллбэк: если изменений нет, через maxTimeout всё равно разрешаем
     timer = setTimeout(() => {
       observer.disconnect();
       resolve();
@@ -56,19 +58,21 @@ function waitForContentSettle(element, delay = 300, maxTimeout = 500) {
 
 /**
  * Обрабатывает отдельный блок.
- * Сначала ждём загрузки изображений, затем стабилизации DOM,
- * но при этом через Promise.race с таймаутами гарантируем показ контента.
+ * Сначала ждёт загрузки изображений, затем стабилизации содержимого,
+ * при этом используем Promise.race с таймаутами, чтобы не задерживать показ слишком долго.
  */
 function processBlock(el) {
-  Promise.race([ waitImages(el), timeoutPromise(1000) ])
-    .then(() => Promise.race([ waitForContentSettle(el), timeoutPromise(500) ]))
+  // Непосредственный fallback: если вся обработка не успевает сработать, через 300 мс делаем элемент видимым.
+  setTimeout(() => el.classList.add("visible"), 300);
+
+  Promise.race([ waitImages(el, 300), timeoutPromise(300) ])
+    .then(() => Promise.race([ waitForContentSettle(el, 100, 300), timeoutPromise(300) ]))
     .then(() => {
       el.classList.add("visible");
     });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Обрабатываем все блоки с классом "animate"
   const blocks = document.querySelectorAll(".animate");
   blocks.forEach(el => processBlock(el));
 });
