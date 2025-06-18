@@ -1,13 +1,11 @@
-/**
- * Возвращает промис, который разрешается через заданное время.
- */
+// Функция для создания fallback-промиса через ms миллисекунд.
 function timeoutPromise(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 /**
- * Ожидает загрузки всех изображений внутри элемента.
- * Используется maxTimeout (например, 300 мс), чтобы не держать блок скрытым слишком долго.
+ * Функция ожидает загрузки всех изображений внутри элемента.
+ * Даже если какое-то изображение задерживается, через maxTimeout мс промис разрешится.
  */
 function waitImages(element, maxTimeout = 300) {
   const imgs = element.querySelectorAll("img");
@@ -33,46 +31,26 @@ function waitImages(element, maxTimeout = 300) {
 }
 
 /**
- * Ожидает, пока DOM внутри элемента стабилизируется
- * (то есть за delay мс не происходит мутаций).
- * Дополнительно fallback через maxTimeout.
- */
-function waitForContentSettle(element, delay = 100, maxTimeout = 300) {
-  return new Promise(resolve => {
-    let timer;
-    const observer = new MutationObserver(() => {
-      clearTimeout(timer);
-      timer = setTimeout(() => {
-        observer.disconnect();
-        resolve();
-      }, delay);
-    });
-    observer.observe(element, { childList: true, subtree: true, characterData: true });
-    // Фоллбэк: если изменений нет, через maxTimeout всё равно разрешаем
-    timer = setTimeout(() => {
-      observer.disconnect();
-      resolve();
-    }, maxTimeout);
-  });
-}
-
-/**
- * Обрабатывает отдельный блок.
- * Сначала ждёт загрузки изображений, затем стабилизации содержимого,
- * при этом используем Promise.race с таймаутами, чтобы не задерживать показ слишком долго.
+ * Обрабатывает отдельный блок: ждём загрузки изображений,
+ * но через fallback-таймаут (maxTimeout) показываем контент.
  */
 function processBlock(el) {
-  // Непосредственный fallback: если вся обработка не успевает сработать, через 300 мс делаем элемент видимым.
-  setTimeout(() => el.classList.add("visible"), 300);
+  // Если JS включён, сразу добавляем класс animate-hidden,
+  // чтобы запустить анимацию только если блок еще не готов.
+  el.classList.add("animate-hidden");
 
-  Promise.race([ waitImages(el, 300), timeoutPromise(300) ])
-    .then(() => Promise.race([ waitForContentSettle(el, 100, 300), timeoutPromise(300) ]))
+  // Ждем загрузки изображений внутри блока с fallback 100 мс.
+  Promise.race([ waitImages(el), timeoutPromise(300) ])
     .then(() => {
-      el.classList.add("visible");
+      // После ожидания, независимо от результата, показываем блок.
+      // Снимаем animate-hidden и добавляем animate-visible для анимации.
+      el.classList.remove("animate-hidden");
+      el.classList.add("animate-visible");
     });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  // Обрабатываем все элементы с классом "animate"
   const blocks = document.querySelectorAll(".animate");
   blocks.forEach(el => processBlock(el));
 });
