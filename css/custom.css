@@ -276,6 +276,7 @@ b {
         }    
 */
 
+/*
 .btn-small-2:before,
     .btn-hero:before {
         content: '';
@@ -287,6 +288,7 @@ b {
         border-top: .1rem #fff solid;
         border-left: .1rem #fff solid;
         }
+*/
 
 
 /*
@@ -304,6 +306,7 @@ b {
         }
 */
 
+/*
     .btn-small-2:after,
     .btn-hero:after {
         content: '';
@@ -315,6 +318,7 @@ b {
         border-right: .1rem #000 solid;
         border-bottom: .1rem #000 solid; 
         }
+*/
 
 
     .btn-small-2:hover {
