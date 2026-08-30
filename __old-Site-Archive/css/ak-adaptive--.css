@@ -1,0 +1,41 @@
+/* xs - phones portrait */
+/*@media (max-width: 480px) {*/
+
+/* xs - mob */
+@media (max-width: 767px) {
+    
+    html, body {
+        font-size: 16px;
+        } 
+    
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }  
+    
+} /* -- end mob -- */
+
+/* sm - phones landscape */
+/* 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    
+}
+*/
+
+/* md - tablets portrait */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    a.button_social {
+        float: left;
+        }
+}
+
+/* lg - desktops & tablets landscape */
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+     a.button_social {
+        float: left;
+        }   
+}
+
+/* xl - large desktops */
+@media screen and (min-width: 1200px) {
+}
